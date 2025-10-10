@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Rove Classes Gallery</title>
+    <link rel="stylesheet" href="./style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header class="app-header">
+      <h1>Rove Classes Gallery</h1>
+      <p>Browse the classes imagery using the original folder structure.</p>
+    </header>
+
+    <main class="app">
+      <nav id="breadcrumbs" class="breadcrumbs" aria-label="Breadcrumb"></nav>
+      <section class="content">
+        <div class="panel" id="folder-panel" aria-live="polite"></div>
+        <div class="panel" id="card-panel" aria-live="polite"></div>
+      </section>
+    </main>
+
+    <template id="folder-card-template">
+      <a class="folder-card" href="#">
+        <span class="folder-name"></span>
+        <span class="folder-meta"></span>
+      </a>
+    </template>
+
+    <template id="image-card-template">
+      <figure class="image-card">
+        <img loading="lazy" alt="" />
+        <figcaption></figcaption>
+      </figure>
+    </template>
+
+    <script type="module" src="./script.js"></script>
+  </body>
+</html>
