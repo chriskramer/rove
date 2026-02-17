@@ -1,4 +1,5 @@
-const dataUrl = '../data/classes.js';
+const classesDataUrl = '../data/classes.js';
+const classMetadataUrl = '../data/class-card-metadata.json';
 
 const EVOLUTION_CHAINS = [
   {
@@ -44,11 +45,7 @@ const EVOLUTION_CHAINS = [
 ];
 
 const TIERS = ['base', 'prime', 'apex'];
-const TIER_LEVEL = {
-  base: 'lvl 1',
-  prime: 'lvl 4',
-  apex: 'lvl 7',
-};
+const TIER_LEVEL = { base: 'lvl 1', prime: 'lvl 4', apex: 'lvl 7' };
 
 const classList = document.getElementById('class-list');
 const classCount = document.getElementById('class-count');
@@ -68,14 +65,6 @@ let classes = [];
 let classesBySlug = new Map();
 let activeClassSlug = null;
 
-async function loadClassData() {
-  const response = await fetch(dataUrl);
-  if (!response.ok) {
-    throw new Error(`Unable to load class data: ${response.status}`);
-  }
-  return response.json();
-}
-
 function formatCardName(fileName) {
   return fileName
     .replace(/^rv-/, '')
@@ -85,21 +74,74 @@ function formatCardName(fileName) {
     .join(' ');
 }
 
-function buildCardIndex(entries) {
+function parseAssetNumber(assetno) {
+  if (typeof assetno !== 'string') return null;
+  const match = assetno.match(/^([a-z])-([0-9]+)$/i);
+  if (!match) return null;
+  return { prefix: match[1].toLowerCase(), value: Number(match[2]) };
+}
+
+function fallbackPairKey(card) {
+  if (!card.asset) return `${card.tier}:${card.slug}:${card.imagePath}`;
+  if (card.asset.prefix === 'a') return `${card.tier}:${card.slug}:a-${card.asset.value}`;
+  if (card.asset.prefix === 's') {
+    const pairStart = card.asset.value % 2 === 0 ? card.asset.value - 1 : card.asset.value;
+    return `${card.tier}:${card.slug}:s-${pairStart}`;
+  }
+  return `${card.tier}:${card.slug}:${card.asset.prefix}-${card.asset.value}`;
+}
+
+async function loadJson(url) {
+  const response = await fetch(url);
+  if (!response.ok) {
+    throw new Error(`Unable to load ${url}: ${response.status}`);
+  }
+  return response.json();
+}
+
+function buildCardIndex(entries, metadata) {
   const index = new Map();
+  const seen = new Set();
+  const metadataCards = metadata?.cards || {};
 
   entries.forEach((entry) => {
     if (!entry || typeof entry.image !== 'string') return;
     const match = entry.image.match(/^classes\/rove\/(base|prime|apex)\/core\/([^/]+)\/.+$/);
     if (!match) return;
+    if (seen.has(entry.image)) return;
+    seen.add(entry.image);
 
     const [, tier, slug] = match;
     const key = `${tier}:${slug}`;
-    if (!index.has(key)) {
-      index.set(key, new Set());
-    }
-    index.get(key).add(entry.image);
+    if (!index.has(key)) index.set(key, []);
+
+    const fileName = entry.image.split('/').pop() || entry.image;
+    const asset = parseAssetNumber(entry.assetno);
+    const metadataRow = metadataCards[entry.image] || {};
+
+    const card = {
+      tier,
+      slug,
+      imagePath: entry.image,
+      fileName,
+      name: entry.name,
+      assetno: entry.assetno,
+      asset,
+      isSummons:
+        typeof metadataRow.isSummons === 'boolean'
+          ? metadataRow.isSummons
+          : fileName.includes('-front') || fileName.includes('-back'),
+      isLevelUp: Boolean(metadataRow.isLevelUp),
+      pairKey: metadataRow.pairKey || '',
+    };
+
+    if (!card.pairKey) card.pairKey = fallbackPairKey(card);
+    index.get(key).push(card);
   });
+
+  for (const cards of index.values()) {
+    cards.sort((a, b) => a.imagePath.localeCompare(b.imagePath));
+  }
 
   return index;
 }
@@ -110,7 +152,7 @@ function buildClassDefinitions(cardIndex) {
       const slug = chain[`${tier}Slug`];
       const name = chain[`${tier}Name`];
       const key = `${tier}:${slug}`;
-      const cards = Array.from(cardIndex.get(key) || []).sort((a, b) => a.localeCompare(b));
+      const cards = [...(cardIndex.get(key) || [])];
       return {
         tier,
         slug,
@@ -155,16 +197,13 @@ function renderClassLinks(activeSlug) {
 
 function renderEvolutionControl(classInfo, stage) {
   const [base, prime, apex] = classInfo.tiers;
-
   evolutionSlider.value = String(stage);
   evolutionStepBase.textContent = `Base: ${base.name}`;
   evolutionStepPrime.textContent = `Prime: ${prime.name}`;
   evolutionStepApex.textContent = `Apex: ${apex.name}`;
-
   [evolutionStepBase, evolutionStepPrime, evolutionStepApex].forEach((element, index) => {
     element.classList.toggle('is-active', index <= stage);
   });
-
   const visibleTierNames = classInfo.tiers
     .slice(0, stage + 1)
     .map((tier) => tier.name)
@@ -172,47 +211,80 @@ function renderEvolutionControl(classInfo, stage) {
   evolutionMeta.textContent = `Showing: ${visibleTierNames}`;
 }
 
-function createCardsGrid(cards) {
-  const grid = document.createElement('div');
-  grid.className = 'cards-grid';
+function createCardFigure(card) {
+  const node = cardTemplate.content.firstElementChild.cloneNode(true);
+  const img = node.querySelector('img');
+  img.src = `../images/${card.imagePath}`;
+  img.alt = formatCardName(card.fileName);
+  node.querySelector('figcaption').textContent = formatCardName(card.fileName);
+  return node;
+}
 
-  cards.forEach((imagePath) => {
-    const fileName = imagePath.split('/').pop() || imagePath;
-    const card = cardTemplate.content.firstElementChild.cloneNode(true);
-    const img = card.querySelector('img');
-    img.src = `../images/${imagePath}`;
-    img.alt = formatCardName(fileName);
-    card.querySelector('figcaption').textContent = formatCardName(fileName);
-    grid.append(card);
+function createPairGrid(cards) {
+  const pairMap = new Map();
+  cards.forEach((card) => {
+    if (!pairMap.has(card.pairKey)) pairMap.set(card.pairKey, []);
+    pairMap.get(card.pairKey).push(card);
+  });
+
+  const grid = document.createElement('div');
+  grid.className = 'pair-grid';
+  const pairs = Array.from(pairMap.values()).sort((a, b) => {
+    const aAsset = a[0]?.asset?.value ?? Number.MAX_SAFE_INTEGER;
+    const bAsset = b[0]?.asset?.value ?? Number.MAX_SAFE_INTEGER;
+    return aAsset - bAsset || a[0].fileName.localeCompare(b[0].fileName);
+  });
+
+  pairs.forEach((pairCards) => {
+    pairCards.sort((a, b) => a.fileName.localeCompare(b.fileName));
+    const pair = document.createElement('div');
+    pair.className = 'card-pair';
+    pairCards.forEach((card) => pair.append(createCardFigure(card)));
+    grid.append(pair);
   });
 
   return grid;
 }
 
-function renderCardSections(classInfo, stage) {
-  cardsSections.innerHTML = '';
-  const visibleTiers = classInfo.tiers.slice(0, stage + 1);
+function createGroupSection(title, cards) {
+  const section = document.createElement('section');
+  section.className = 'group-section';
 
-  visibleTiers.forEach((tierInfo) => {
-    const section = document.createElement('section');
-    section.className = 'card-section';
+  const heading = document.createElement('h4');
+  heading.className = 'group-title';
+  heading.textContent = `${title} (${cards.length})`;
+  section.append(heading);
 
-    const heading = document.createElement('h3');
-    heading.className = 'card-section-title';
-    heading.textContent = `${tierInfo.label} (${tierInfo.cards.length})`;
-    section.append(heading);
+  if (!cards.length) {
+    const empty = document.createElement('p');
+    empty.className = 'empty-state';
+    empty.textContent = 'No cards in this group.';
+    section.append(empty);
+    return section;
+  }
 
-    if (tierInfo.cards.length) {
-      section.append(createCardsGrid(tierInfo.cards));
-    } else {
-      const empty = document.createElement('p');
-      empty.className = 'empty-state';
-      empty.textContent = 'No cards found for this tier.';
-      section.append(empty);
-    }
+  section.append(createPairGrid(cards));
+  return section;
+}
 
-    cardsSections.append(section);
-  });
+function renderTierSection(tierInfo) {
+  const section = document.createElement('section');
+  section.className = 'card-section';
+
+  const heading = document.createElement('h3');
+  heading.className = 'card-section-title';
+  heading.textContent = `${tierInfo.label} (${tierInfo.cards.length})`;
+  section.append(heading);
+
+  const summons = tierInfo.cards.filter((card) => card.isSummons);
+  const levelUp = tierInfo.cards.filter((card) => !card.isSummons && card.isLevelUp);
+  const starting = tierInfo.cards.filter((card) => !card.isSummons && !card.isLevelUp);
+
+  section.append(createGroupSection('Starting', starting));
+  section.append(createGroupSection('Level Up', levelUp));
+  if (summons.length) section.append(createGroupSection('Summons', summons));
+
+  return section;
 }
 
 function renderActiveClass() {
@@ -220,21 +292,21 @@ function renderActiveClass() {
 
   const classInfo = classesBySlug.get(activeClassSlug);
   const stage = getEvolutionStage(classInfo.slug);
-  const visibleCount = classInfo.tiers
-    .slice(0, stage + 1)
-    .reduce((total, tier) => total + tier.cards.length, 0);
+  const visibleTiers = classInfo.tiers.slice(0, stage + 1);
+  const visibleCount = visibleTiers.reduce((total, tier) => total + tier.cards.length, 0);
 
   classTitle.textContent = classInfo.name;
   classMeta.textContent = `${visibleCount} visible cards`;
   renderClassLinks(classInfo.slug);
   renderEvolutionControl(classInfo, stage);
-  renderCardSections(classInfo, stage);
+  cardsSections.innerHTML = '';
+  visibleTiers.forEach((tierInfo) => cardsSections.append(renderTierSection(tierInfo)));
 }
 
 function renderError(message) {
   classTitle.textContent = 'Unable to load classes';
   classMeta.textContent = '';
-  cardsSections.innerHTML = `<p class="empty-state">${message}</p>`;
+  cardsSections.innerHTML = `<p class=\"empty-state\">${message}</p>`;
   classList.innerHTML = '';
   classCount.textContent = '';
 }
@@ -243,7 +315,6 @@ function resolveActiveSlug() {
   const requestedSlug = window.location.hash.slice(1).trim().toLowerCase();
   const defaultSlug = classes[0]?.slug;
   const safeSlug = classesBySlug.has(requestedSlug) ? requestedSlug : defaultSlug;
-
   if (!safeSlug) return null;
   if (requestedSlug !== safeSlug) {
     window.location.hash = `#${safeSlug}`;
@@ -253,14 +324,14 @@ function resolveActiveSlug() {
 }
 
 async function init() {
-  const data = await loadClassData();
-  const cardIndex = buildCardIndex(data);
+  const [classEntries, metadata] = await Promise.all([
+    loadJson(classesDataUrl),
+    loadJson(classMetadataUrl).catch(() => ({})),
+  ]);
+
+  const cardIndex = buildCardIndex(classEntries, metadata);
   classes = buildClassDefinitions(cardIndex);
-
-  if (!classes.length) {
-    throw new Error('No class evolution data found.');
-  }
-
+  if (!classes.length) throw new Error('No class evolution data found.');
   classesBySlug = new Map(classes.map((classInfo) => [classInfo.slug, classInfo]));
 
   const renderFromLocation = () => {

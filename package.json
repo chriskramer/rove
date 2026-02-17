@@ -1,0 +1,26 @@
+{
+  "name": "rove",
+  "version": "1.0.0",
+  "description": "An easy-to-use collection of data and images from [Rove](http://www.addaxgames.com/rove) by [Addax Games](http://www.addaxgames.com/) - Developer: **Motti Eisenbach, Tyvan Grossi, et. al.**.",
+  "main": "index.js",
+  "scripts": {
+    "build:class-metadata": "node scripts/build-class-card-metadata.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chriskramer/rove.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/chriskramer/rove/issues"
+  },
+  "homepage": "https://github.com/chriskramer/rove#readme",
+  "dependencies": {
+    "jimp": "^1.6.0",
+    "tesseract.js": "^7.0.0"
+  }
+}

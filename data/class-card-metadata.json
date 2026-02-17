@@ -1,0 +1,5648 @@
+{
+  "generatedAt": "2026-02-17T18:16:22.596Z",
+  "source": "scripts/build-class-card-metadata.js",
+  "cards": {
+    "classes/rove/apex/core/aster/rv-bulk-interactions.png": {
+      "tier": "apex",
+      "slug": "aster",
+      "classKey": "apex:aster",
+      "name": "bulk interactions",
+      "assetno": "s-092",
+      "isSummons": false,
+      "isLevelUp": false,
+      "pairKey": "apex:aster:ocr:bulk interactions::warm bodies",
+      "ocr": {
+        "text": "2 Cll —r      | ©",
+        "canonical": "2 cll r",
+        "confidence": 41
+      },
+      "levelUpScore": 0.8483379501385042
+    },
+    "classes/rove/apex/core/aster/rv-coronal-loop.png": {
+      "tier": "apex",
+      "slug": "aster",
+      "classKey": "apex:aster",
+      "name": "coronal loop",
+      "assetno": "s-097",
+      "isSummons": false,
+      "isLevelUp": false,
+      "pairKey": "apex:aster:ocr:coronal loop::heat transfer",
+      "ocr": {
+        "text": "AN e | \"Heat Transfer  ©",
+        "canonical": "an e heat transfer",
+        "confidence": 56
+      },
+      "levelUpScore": 0.8081717451523546
+    },
+    "classes/rove/apex/core/aster/rv-coronal-mass-ejection.png": {
+      "tier": "apex",
+      "slug": "aster",
+      "classKey": "apex:aster",
+      "name": "coronal mass ejection",
+      "assetno": "s-094",
+      "isSummons": false,
+      "isLevelUp": false,
+      "pairKey": "apex:aster:ocr:coronal mass ejection::solar flare",
+      "ocr": {
+        "text": "Nay",
+        "canonical": "nay",
+        "confidence": 44
+      },
+      "levelUpScore": 0.8760387811634349
+    },
+    "classes/rove/apex/core/aster/rv-heat-transfer.png": {
+      "tier": "apex",
+      "slug": "aster",
+      "classKey": "apex:aster",
+      "name": "heat transfer",
+      "assetno": "s-098",
+      "isSummons": false,
+      "isLevelUp": false,
+      "pairKey": "apex:aster:ocr:coronal loop::heat transfer",
+      "ocr": {
+        "text": "AN A © .   Coro IooD!   | T",
+        "canonical": "an a coro iood t",
+        "confidence": 43
+      },
+      "levelUpScore": 0.8192520775623269
+    },
+    "classes/rove/apex/core/aster/rv-heliosphere.png": {
+      "tier": "apex",
+      "slug": "aster",
+      "classKey": "apex:aster",
+      "name": "heliosphere",
+      "assetno": "s-095",
+      "isSummons": false,
+      "isLevelUp": false,
+      "pairKey": "apex:aster:s-95",
+      "ocr": {
+        "text": "JEN 3 \\  T  \"       Tonization    \"yg",
+        "canonical": "jen 3 t tonization yg",
+        "confidence": 34
+      },
+      "levelUpScore": 0.9238227146814404
+    },
+    "classes/rove/apex/core/aster/rv-ionization.png": {
+      "tier": "apex",
+      "slug": "aster",
+      "classKey": "apex:aster",
+      "name": "ionization",
+      "assetno": "s-096",
+      "isSummons": false,
+      "isLevelUp": false,
+      "pairKey": "apex:aster:s-95",
+      "ocr": {
+        "text": "SEN  \\ T    Heliosphere   di v",
+        "canonical": "sen t heliosphere di v",
+        "confidence": 25
+      },
+      "levelUpScore": 0.895775623268698
+    },
+    "classes/rove/apex/core/aster/rv-meteor-shower.png": {
+      "tier": "apex",
+      "slug": "aster",
+      "classKey": "apex:aster",
+      "name": "meteor shower",
+      "assetno": "s-102",
+      "isSummons": false,
+      "isLevelUp": false,
+      "pairKey": "apex:aster:s-101",
+      "ocr": {
+        "text": "AN TT  ©",
+        "canonical": "an tt",
+        "confidence": 45
+      },
+      "levelUpScore": 0.8369113573407203
+    },
+    "classes/rove/apex/core/aster/rv-scorching-ray.png": {
+      "tier": "apex",
+      "slug": "aster",
+      "classKey": "apex:aster",
+      "name": "scorching ray",
+      "assetno": "s-100",
+      "isSummons": false,
+      "isLevelUp": false,
+      "pairKey": "apex:aster:s-99",
+      "ocr": {
+        "text": "Nay",
+        "canonical": "nay",
+        "confidence": 43
+      },
+      "levelUpScore": 0.8659972299168974
+    },
+    "classes/rove/apex/core/aster/rv-solar-flare.png": {
+      "tier": "apex",
+      "slug": "aster",
+      "classKey": "apex:aster",
+      "name": "solar flare",
+      "assetno": "s-093",
+      "isSummons": false,
+      "isLevelUp": false,
+      "pairKey": "apex:aster:ocr:coronal mass ejection::solar flare",
+      "ocr": {
+        "text": "AN \\ Ot   Coronal Mass Ejection  | cx",
+        "canonical": "an ot coronal mass ejection cx",
+        "confidence": 69
+      },
+      "levelUpScore": 0.9020083102493075
+    },
+    "classes/rove/apex/core/aster/rv-sun-spots.png": {
+      "tier": "apex",
+      "slug": "aster",
+      "classKey": "apex:aster",
+      "name": "sun spots",
+      "assetno": "s-099",
+      "isSummons": false,
+      "isLevelUp": false,
+      "pairKey": "apex:aster:s-99",
+      "ocr": {
+        "text": "AN \\ © |   SCOTTO RAY.   4 cy",
+        "canonical": "an scotto ray 4 cy",
+        "confidence": 44
+      },
+      "levelUpScore": 0.8414127423822715
+    },
+    "classes/rove/apex/core/aster/rv-thermal-conduit.png": {
+      "tier": "apex",
+      "slug": "aster",
+      "classKey": "apex:aster",
+      "name": "thermal conduit",
+      "assetno": "s-103",
+      "isSummons": false,
+      "isLevelUp": false,
+      "pairKey": "apex:aster:ocr:thermal conduit::thermal dynamism",
+      "ocr": {
+        "text": "AN   T   ” TROTTED TCT   | .",
+        "canonical": "an t trotted tct",
+        "confidence": 25
+      },
+      "levelUpScore": 0.8756925207756233
+    },
+    "classes/rove/apex/core/aster/rv-thermal-dynamism.png": {
+      "tier": "apex",
+      "slug": "aster",
+      "classKey": "apex:aster",
+      "name": "thermal dynamism",
+      "assetno": "s-104",
+      "isSummons": false,
+      "isLevelUp": false,
+      "pairKey": "apex:aster:ocr:thermal conduit::thermal dynamism",
+      "ocr": {
+        "text": "SEN \\   Thermal Conduit  ©",
+        "canonical": "sen thermal conduit",
+        "confidence": 51
+      },
+      "levelUpScore": 0.8698060941828255
+    },
+    "classes/rove/apex/core/aster/rv-warm-bodies.png": {
+      "tier": "apex",
+      "slug": "aster",
+      "classKey": "apex:aster",
+      "name": "warm bodies",
+      "assetno": "s-091",
+      "isSummons": false,
+      "isLevelUp": false,
+      "pairKey": "apex:aster:ocr:bulk interactions::warm bodies",
+      "ocr": {
+        "text": "AN 3  & | Bulk Interactions   | T",
+        "canonical": "an 3 bulk interactions t",
+        "confidence": 40
+      },
+      "levelUpScore": 0.8926592797783933
+    },
+    "classes/rove/apex/core/aster/rv-warm-front.png": {
+      "tier": "apex",
+      "slug": "aster",
+      "classKey": "apex:aster",
+      "name": "warm front",
+      "assetno": "s-101",
+      "isSummons": true,
+      "isLevelUp": false,
+      "pairKey": "apex:aster:s-101",
+      "ocr": {
+        "text": "3E\\      Gi       Meteor Shower     di) ry :",
+        "canonical": "3e gi meteor shower di ry",
+        "confidence": 40
+      },
+      "levelUpScore": 0.8895429362880887
+    },
+    "classes/rove/apex/core/canyon-temper/rv-beak-and-claw-and-sword.png": {
+      "tier": "apex",
+      "slug": "canyon-temper",
+      "classKey": "apex:canyon-temper",
+      "name": "beak and claw and sword",
+      "assetno": "s-046",
+      "isSummons": false,
+      "isLevelUp": false,
+      "pairKey": "apex:canyon-temper:ocr:beak and claw and sword::sand plume",
+      "ocr": {
+        "text": "",
+        "canonical": "",
+        "confidence": 0
+      },
+      "levelUpScore": 0.9729916897506925
+    },
+    "classes/rove/apex/core/canyon-temper/rv-boulder-clad.png": {
+      "tier": "apex",
+      "slug": "canyon-temper",
+      "classKey": "apex:canyon-temper",
+      "name": "boulder clad",
+      "assetno": "s-051",
+      "isSummons": false,
+      "isLevelUp": false,
+      "pairKey": "apex:canyon-temper:ocr:boulder clad::wrought from clay",
+      "ocr": {
+        "text": "¢ Tw          ‘Wrought From| Clay”  ali El",
+        "canonical": "tw wrought from clay ali el",
+        "confidence": 41
+      },
+      "levelUpScore": 0.9719529085872576
+    },
+    "classes/rove/apex/core/canyon-temper/rv-frost-depth.png": {
+      "tier": "apex",
+      "slug": "canyon-temper",
+      "classKey": "apex:canyon-temper",
+      "name": "frost depth",
+      "assetno": "s-044",
+      "isSummons": false,
+      "isLevelUp": true,
+      "pairKey": "apex:canyon-temper:s-43",
+      "ocr": {
+        "text": "¢ TIT Te",
+        "canonical": "tit te",
+        "confidence": 22
+      },
+      "levelUpScore": 1
+    },
+    "classes/rove/apex/core/canyon-temper/rv-mighty-gust.png": {
+      "tier": "apex",
+      "slug": "canyon-temper",
+      "classKey": "apex:canyon-temper",
+      "name": "mighty gust",
+      "assetno": "s-040",
+      "isSummons": false,
+      "isLevelUp": true,
+      "pairKey": "apex:canyon-temper:ocr:mighty gust::oasis sanctuary",
+      "ocr": {
+        "text": "AC   rm Te",
+        "canonical": "ac rm te",
+        "confidence": 47
+      },
+      "levelUpScore": 1
+    },
+    "classes/rove/apex/core/canyon-temper/rv-oasis-sanctuary.png": {
+      "tier": "apex",
+      "slug": "canyon-temper",
+      "classKey": "apex:canyon-temper",
+      "name": "oasis sanctuary",
+      "assetno": "s-039",
+      "isSummons": false,
+      "isLevelUp": true,
+      "pairKey": "apex:canyon-temper:ocr:mighty gust::oasis sanctuary",
+      "ocr": {
+        "text": "¢ \\ kd -   Mighty Gust   Te",
+        "canonical": "kd mighty gust te",
+        "confidence": 56
+      },
+      "levelUpScore": 1
+    },
+    "classes/rove/apex/core/canyon-temper/rv-quake-zone.png": {
+      "tier": "apex",
+      "slug": "canyon-temper",
+      "classKey": "apex:canyon-temper",
+      "name": "quake zone",
+      "assetno": "s-049",
+      "isSummons": false,
+      "isLevelUp": false,
+      "pairKey": "apex:canyon-temper:s-49",
+      "ocr": {
+        "text": "",
+        "canonical": "",
+        "confidence": 0
+      },
+      "levelUpScore": 0.9729916897506925
+    },
+    "classes/rove/apex/core/canyon-temper/rv-ravenous-drako-back.png": {
+      "tier": "apex",
+      "slug": "canyon-temper",
+      "classKey": "apex:canyon-temper",
+      "name": "ravenous drako",
+      "assetno": "a-004",
+      "isSummons": true,
+      "isLevelUp": false,
+      "pairKey": "apex:canyon-temper:a-4",
+      "ocr": {
+        "text": "RV",
+        "canonical": "rv",
+        "confidence": 39
+      },
+      "levelUpScore": 0.9259002770083102
+    },
+    "classes/rove/apex/core/canyon-temper/rv-ravenous-drako-front.png": {
+      "tier": "apex",
+      "slug": "canyon-temper",
+      "classKey": "apex:canyon-temper",
+      "name": "ravenous drako",
+      "assetno": "a-004",
+      "isSummons": true,
+      "isLevelUp": false,
+      "pairKey": "apex:canyon-temper:a-4",
+      "ocr": {
+        "text": "",
+        "canonical": "",
+        "confidence": 0
+      },
+      "levelUpScore": 0.9082409972299169
+    },
+    "classes/rove/apex/core/canyon-temper/rv-razor-pinion.png": {
+      "tier": "apex",
+      "slug": "canyon-temper",
+      "classKey": "apex:canyon-temper",
+      "name": "razor pinion",
+      "assetno": "s-047",
+      "isSummons": false,
+      "isLevelUp": false,
+      "pairKey": "apex:canyon-temper:s-47",
+      "ocr": {
+        "text": "¢ ETE Ts",
+        "canonical": "ete ts",
+        "confidence": 16
+      },
+      "levelUpScore": 0.9729916897506925
+    },
+    "classes/rove/apex/core/canyon-temper/rv-red-blitz.png": {
+      "tier": "apex",
+      "slug": "canyon-temper",
+      "classKey": "apex:canyon-temper",
+      "name": "red blitz",
+      "assetno": "s-050",
+      "isSummons": false,
+      "isLevelUp": false,
+      "pairKey": "apex:canyon-temper:s-49",
+      "ocr": {
+        "text": "¢ TE — -— ©",
+        "canonical": "te",
+        "confidence": 20
+      },
+      "levelUpScore": 0.9729916897506925
+    },
+    "classes/rove/apex/core/canyon-temper/rv-sand-plume.png": {
+      "tier": "apex",
+      "slug": "canyon-temper",
+      "classKey": "apex:canyon-temper",
+      "name": "sand plume",
+      "assetno": "s-045",
+      "isSummons": false,
+      "isLevelUp": false,
+      "pairKey": "apex:canyon-temper:ocr:beak and claw and sword::sand plume",
+      "ocr": {
+        "text": "¢ TE      Beak and Claw and Sword. To",
+        "canonical": "te beak and claw and sword to",
+        "confidence": 64
+      },
+      "levelUpScore": 0.9722991689750693
+    },
+    "classes/rove/apex/core/canyon-temper/rv-scorching-maws.png": {
+      "tier": "apex",
+      "slug": "canyon-temper",
+      "classKey": "apex:canyon-temper",
+      "name": "scorching maws",
+      "assetno": "s-042",
+      "isSummons": false,
+      "isLevelUp": true,
+      "pairKey": "apex:canyon-temper:s-41",
+      "ocr": {
+        "text": "© ToT Tem Te ©",
+        "canonical": "tot tem te",
+        "confidence": 35
+      },
+      "levelUpScore": 1
+    },
+    "classes/rove/apex/core/canyon-temper/rv-silicate-shield.png": {
+      "tier": "apex",
+      "slug": "canyon-temper",
+      "classKey": "apex:canyon-temper",
+      "name": "silicate shield",
+      "assetno": "s-048",
+      "isSummons": false,
+      "isLevelUp": false,
+      "pairKey": "apex:canyon-temper:s-47",
+      "ocr": {
+        "text": "",
+        "canonical": "",
+        "confidence": 0
+      },
+      "levelUpScore": 0.9726454293628809
+    },
+    "classes/rove/apex/core/canyon-temper/rv-take-flight.png": {
+      "tier": "apex",
+      "slug": "canyon-temper",
+      "classKey": "apex:canyon-temper",
+      "name": "take flight",
+      "assetno": "s-041",
+      "isSummons": false,
+      "isLevelUp": true,
+      "pairKey": "apex:canyon-temper:s-41",
+      "ocr": {
+        "text": "¢ TE         Scorching Mas  To",
+        "canonical": "te scorching mas to",
+        "confidence": 30
+      },
+      "levelUpScore": 1
+    },
+    "classes/rove/apex/core/canyon-temper/rv-uplifting-aid.png": {
+      "tier": "apex",
+      "slug": "canyon-temper",
+      "classKey": "apex:canyon-temper",
+      "name": "uplifting aid",
+      "assetno": "s-043",
+      "isSummons": false,
+      "isLevelUp": true,
+      "pairKey": "apex:canyon-temper:s-43",
+      "ocr": {
+        "text": "’ \\ TT  sy  SE's |",
+        "canonical": "tt sy se s",
+        "confidence": 36
+      },
+      "levelUpScore": 1
+    },
+    "classes/rove/apex/core/canyon-temper/rv-wrought-from-clay.png": {
+      "tier": "apex",
+      "slug": "canyon-temper",
+      "classKey": "apex:canyon-temper",
+      "name": "wrought from clay",
+      "assetno": "s-052",
+      "isSummons": false,
+      "isLevelUp": false,
+      "pairKey": "apex:canyon-temper:ocr:boulder clad::wrought from clay",
+      "ocr": {
+        "text": "",
+        "canonical": "",
+        "confidence": 0
+      },
+      "levelUpScore": 0.9722991689750693
+    },
+    "classes/rove/apex/core/invisible-hand/rv-blunt-the-strike.png": {
+      "tier": "apex",
+      "slug": "invisible-hand",
+      "classKey": "apex:invisible-hand",
+      "name": "blunt the strike",
+      "assetno": "s-254",
+      "isSummons": false,
+      "isLevelUp": false,
+      "pairKey": "apex:invisible-hand:s-253",
+      "ocr": {
+        "text": "V3  \\  hd         Flip the iti         | w",
+        "canonical": "v3 hd flip the iti w",
+        "confidence": 44
+      },
+      "levelUpScore": 0.9702216066481995
+    },
+    "classes/rove/apex/core/invisible-hand/rv-burning-pocket.png": {
+      "tier": "apex",
+      "slug": "invisible-hand",
+      "classKey": "apex:invisible-hand",
+      "name": "burning pocket",
+      "assetno": "s-256",
+      "isSummons": false,
+      "isLevelUp": false,
+      "pairKey": "apex:invisible-hand:ocr:burning pocket::signal noise",
+      "ocr": {
+        "text": "V3   N iC »            Signal Noise         Te",
+        "canonical": "v3 n ic signal noise te",
+        "confidence": 53
+      },
+      "levelUpScore": 0.9705678670360111
+    },
+    "classes/rove/apex/core/invisible-hand/rv-direct-control.png": {
+      "tier": "apex",
+      "slug": "invisible-hand",
+      "classKey": "apex:invisible-hand",
+      "name": "direct control",
+      "assetno": "s-260",
+      "isSummons": false,
+      "isLevelUp": false,
+      "pairKey": "apex:invisible-hand:ocr:direct control::resource management",
+      "ocr": {
+        "text": "V3 Ter  Resource Management  | \"",
+        "canonical": "v3 ter resource management",
+        "confidence": 64
+      },
+      "levelUpScore": 0.9698753462603877
+    },
+    "classes/rove/apex/core/invisible-hand/rv-flip-the-script.png": {
+      "tier": "apex",
+      "slug": "invisible-hand",
+      "classKey": "apex:invisible-hand",
+      "name": "flip the script",
+      "assetno": "s-253",
+      "isSummons": false,
+      "isLevelUp": false,
+      "pairKey": "apex:invisible-hand:s-253",
+      "ocr": {
+        "text": "V3  N hg 1 —T     Te",
+        "canonical": "v3 n hg 1 t te",
+        "confidence": 47
+      },
+      "levelUpScore": 0.9702216066481995
+    },
+    "classes/rove/apex/core/invisible-hand/rv-foes-falling.png": {
+      "tier": "apex",
+      "slug": "invisible-hand",
+      "classKey": "apex:invisible-hand",
+      "name": "foe's falling",
+      "assetno": "s-249",
+      "isSummons": false,
+      "isLevelUp": true,
+      "pairKey": "apex:invisible-hand:s-249",
+      "ocr": {
+        "text": "V3 Te —_   | v",
+        "canonical": "v3 te v",
+        "confidence": 51
+      },
+      "levelUpScore": 1
+    },
+    "classes/rove/apex/core/invisible-hand/rv-grasped-chances.png": {
+      "tier": "apex",
+      "slug": "invisible-hand",
+      "classKey": "apex:invisible-hand",
+      "name": "grasped chances",
+      "assetno": "s-250",
+      "isSummons": false,
+      "isLevelUp": true,
+      "pairKey": "apex:invisible-hand:s-249",
+      "ocr": {
+        "text": "V3 \\ |     Foe'sFalling  Te",
+        "canonical": "v3 foe sfalling te",
+        "confidence": 28
+      },
+      "levelUpScore": 1
+    },
+    "classes/rove/apex/core/invisible-hand/rv-resource-management.png": {
+      "tier": "apex",
+      "slug": "invisible-hand",
+      "classKey": "apex:invisible-hand",
+      "name": "resource management",
+      "assetno": "s-259",
+      "isSummons": false,
+      "isLevelUp": false,
+      "pairKey": "apex:invisible-hand:ocr:direct control::resource management",
+      "ocr": {
+        "text": "V3   \\ . kd »          Direct Control       Te",
+        "canonical": "v3 kd direct control te",
+        "confidence": 57
+      },
+      "levelUpScore": 0.9691828254847645
+    },
+    "classes/rove/apex/core/invisible-hand/rv-risk-aversion.png": {
+      "tier": "apex",
+      "slug": "invisible-hand",
+      "classKey": "apex:invisible-hand",
+      "name": "risk aversion",
+      "assetno": "s-248",
+      "isSummons": false,
+      "isLevelUp": true,
+      "pairKey": "apex:invisible-hand:ocr:risk aversion::spread wealth",
+      "ocr": {
+        "text": "oY  N Cll - —     Tw",
+        "canonical": "oy n cll tw",
+        "confidence": 46
+      },
+      "levelUpScore": 1
+    },
+    "classes/rove/apex/core/invisible-hand/rv-signal-noise.png": {
+      "tier": "apex",
+      "slug": "invisible-hand",
+      "classKey": "apex:invisible-hand",
+      "name": "signal noise",
+      "assetno": "s-255",
+      "isSummons": false,
+      "isLevelUp": false,
+      "pairKey": "apex:invisible-hand:ocr:burning pocket::signal noise",
+      "ocr": {
+        "text": "V3  Ter      Burning Pocket      |  vi",
+        "canonical": "v3 ter burning pocket vi",
+        "confidence": 73
+      },
+      "levelUpScore": 0.9705678670360111
+    },
+    "classes/rove/apex/core/invisible-hand/rv-spread-wealth.png": {
+      "tier": "apex",
+      "slug": "invisible-hand",
+      "classKey": "apex:invisible-hand",
+      "name": "spread wealth",
+      "assetno": "s-247",
+      "isSummons": false,
+      "isLevelUp": true,
+      "pairKey": "apex:invisible-hand:ocr:risk aversion::spread wealth",
+      "ocr": {
+        "text": "V3 N er     Risk Aversion    Te",
+        "canonical": "v3 n er risk aversion te",
+        "confidence": 59
+      },
+      "levelUpScore": 1
+    },
+    "classes/rove/apex/core/invisible-hand/rv-strike-negotiations.png": {
+      "tier": "apex",
+      "slug": "invisible-hand",
+      "classKey": "apex:invisible-hand",
+      "name": "strike negotiations",
+      "assetno": "s-258",
+      "isSummons": false,
+      "isLevelUp": false,
+      "pairKey": "apex:invisible-hand:s-257",
+      "ocr": {
+        "text": "oy N ol —    | vi",
+        "canonical": "oy n ol vi",
+        "confidence": 43
+      },
+      "levelUpScore": 0.9695290858725761
+    },
+    "classes/rove/apex/core/invisible-hand/rv-vein-extraction.png": {
+      "tier": "apex",
+      "slug": "invisible-hand",
+      "classKey": "apex:invisible-hand",
+      "name": "vein extraction",
+      "assetno": "s-257",
+      "isSummons": false,
+      "isLevelUp": false,
+      "pairKey": "apex:invisible-hand:s-257",
+      "ocr": {
+        "text": "V3 Te | —  Tu",
+        "canonical": "v3 te tu",
+        "confidence": 47
+      },
+      "levelUpScore": 0.9681440443213296
+    },
+    "classes/rove/apex/core/invisible-hand/rv-we-the-arbiters.png": {
+      "tier": "apex",
+      "slug": "invisible-hand",
+      "classKey": "apex:invisible-hand",
+      "name": "we, the arbiters",
+      "assetno": "s-251",
+      "isSummons": false,
+      "isLevelUp": true,
+      "pairKey": "apex:invisible-hand:ocr:we the arbiters::we the beholders",
+      "ocr": {
+        "text": "st | oT We, the Beholders   Tw",
+        "canonical": "st ot we the beholders tw",
+        "confidence": 54
+      },
+      "levelUpScore": 1
+    },
+    "classes/rove/apex/core/invisible-hand/rv-we-the-beholders.png": {
+      "tier": "apex",
+      "slug": "invisible-hand",
+      "classKey": "apex:invisible-hand",
+      "name": "we, the beholders",
+      "assetno": "s-252",
+      "isSummons": false,
+      "isLevelUp": true,
+      "pairKey": "apex:invisible-hand:ocr:we the arbiters::we the beholders",
+      "ocr": {
+        "text": "V3 \\ Ral    We, the Arbiters    Ci",
+        "canonical": "v3 ral we the arbiters ci",
+        "confidence": 65
+      },
+      "levelUpScore": 1
+    },
+    "classes/rove/apex/core/maximist/rv-ad-hominem.png": {
+      "tier": "apex",
+      "slug": "maximist",
+      "classKey": "apex:maximist",
+      "name": "ad hominem",
+      "assetno": "s-203",
+      "isSummons": false,
+      "isLevelUp": false,
+      "pairKey": "apex:maximist:s-203",
+      "ocr": {
+        "text": "PAN        3        Vox Popul       i  | v",
+        "canonical": "pan 3 vox popul i v",
+        "confidence": 62
+      },
+      "levelUpScore": 0.9504847645429363
+    },
+    "classes/rove/apex/core/maximist/rv-alluring-thureoll-back.png": {
+      "tier": "apex",
+      "slug": "maximist",
+      "classKey": "apex:maximist",
+      "name": "alluring thureoll",
+      "assetno": "a-011",
+      "isSummons": true,
+      "isLevelUp": false,
+      "pairKey": "apex:maximist:a-11",
+      "ocr": {
+        "text": "374",
+        "canonical": "374",
+        "confidence": 57
+      },
+      "levelUpScore": 1
+    },
+    "classes/rove/apex/core/maximist/rv-alluring-thureoll-front.png": {
+      "tier": "apex",
+      "slug": "maximist",
+      "classKey": "apex:maximist",
+      "name": "alluring thureoll",
+      "assetno": "a-011",
+      "isSummons": true,
+      "isLevelUp": false,
+      "pairKey": "apex:maximist:a-11",
+      "ocr": {
+        "text": "Quy A033 91  i",
+        "canonical": "quy a033 91 i",
+        "confidence": 28
+      },
+      "levelUpScore": 0.8099030470914128
+    },
+    "classes/rove/apex/core/maximist/rv-best-fit.png": {
+      "tier": "apex",
+      "slug": "maximist",
+      "classKey": "apex:maximist",
+      "name": "best fit",
+      "assetno": "s-197",
+      "isSummons": false,
+      "isLevelUp": true,
+      "pairKey": "apex:maximist:s-197",
+      "ocr": {
+        "text": "",
+        "canonical": "",
+        "confidence": 0
+      },
+      "levelUpScore": 0.9993074792243768
+    },
+    "classes/rove/apex/core/maximist/rv-convincing-argument.png": {
+      "tier": "apex",
+      "slug": "maximist",
+      "classKey": "apex:maximist",
+      "name": "convincing argument",
+      "assetno": "s-201",
+      "isSummons": false,
+      "isLevelUp": false,
+      "pairKey": "apex:maximist:ocr:convincing argument::foundational pillars",
+      "ocr": {
+        "text": "7 \\ Kd    Foundational Pillars    | v",
+        "canonical": "7 kd foundational pillars v",
+        "confidence": 66
+      },
+      "levelUpScore": 0.9615650969529086
+    },
+    "classes/rove/apex/core/maximist/rv-escape-psychology.png": {
+      "tier": "apex",
+      "slug": "maximist",
+      "classKey": "apex:maximist",
+      "name": "escape psychology",
+      "assetno": "s-208",
+      "isSummons": false,
+      "isLevelUp": false,
+      "pairKey": "apex:maximist:ocr:escape psychology::substitute reality",
+      "ocr": {
+        "text": "Z\\ kl   Substitute Reality   di ol",
+        "canonical": "z kl substitute reality di ol",
+        "confidence": 49
+      },
+      "levelUpScore": 0.9560249307479225
+    },
+    "classes/rove/apex/core/maximist/rv-exponential-formula.png": {
+      "tier": "apex",
+      "slug": "maximist",
+      "classKey": "apex:maximist",
+      "name": "exponential formula",
+      "assetno": "s-199",
+      "isSummons": false,
+      "isLevelUp": true,
+      "pairKey": "apex:maximist:s-199",
+      "ocr": {
+        "text": "7 AN &  —    | cl",
+        "canonical": "7 an cl",
+        "confidence": 53
+      },
+      "levelUpScore": 0.9882271468144044
+    },
+    "classes/rove/apex/core/maximist/rv-foundational-pillars.png": {
+      "tier": "apex",
+      "slug": "maximist",
+      "classKey": "apex:maximist",
+      "name": "foundational pillars",
+      "assetno": "s-202",
+      "isSummons": false,
+      "isLevelUp": false,
+      "pairKey": "apex:maximist:ocr:convincing argument::foundational pillars",
+      "ocr": {
+        "text": "PAY Cl  Convincing Argument  Me",
+        "canonical": "pay cl convincing argument me",
+        "confidence": 77
+      },
+      "levelUpScore": 0.9646814404432134
+    },
+    "classes/rove/apex/core/maximist/rv-impenetrable-position.png": {
+      "tier": "apex",
+      "slug": "maximist",
+      "classKey": "apex:maximist",
+      "name": "impenetrable position",
+      "assetno": "s-196",
+      "isSummons": false,
+      "isLevelUp": true,
+      "pairKey": "apex:maximist:ocr:impenetrable position::spread the word",
+      "ocr": {
+        "text": "7  % \\ Cl       Spread the Word       | cl",
+        "canonical": "7 cl spread the word cl",
+        "confidence": 66
+      },
+      "levelUpScore": 0.9968836565096952
+    },
+    "classes/rove/apex/core/maximist/rv-luminescent-quartic-back.png": {
+      "tier": "apex",
+      "slug": "maximist",
+      "classKey": "apex:maximist",
+      "name": "luminescent quartic",
+      "assetno": "a-010",
+      "isSummons": true,
+      "isLevelUp": false,
+      "pairKey": "apex:maximist:a-10",
+      "ocr": {
+        "text": "374",
+        "canonical": "374",
+        "confidence": 58
+      },
+      "levelUpScore": 1
+    },
+    "classes/rove/apex/core/maximist/rv-luminescent-quartic-front.png": {
+      "tier": "apex",
+      "slug": "maximist",
+      "classKey": "apex:maximist",
+      "name": "luminescent quartic",
+      "assetno": "a-010",
+      "isSummons": true,
+      "isLevelUp": false,
+      "pairKey": "apex:maximist:a-10",
+      "ocr": {
+        "text": "< 7 2 i  A-01(",
+        "canonical": "7 2 i a 01",
+        "confidence": 36
+      },
+      "levelUpScore": 0.9795706371191135
+    },
+    "classes/rove/apex/core/maximist/rv-parabolic-formula.png": {
+      "tier": "apex",
+      "slug": "maximist",
+      "classKey": "apex:maximist",
+      "name": "parabolic formula",
+      "assetno": "s-200",
+      "isSummons": false,
+      "isLevelUp": true,
+      "pairKey": "apex:maximist:s-199",
+      "ocr": {
+        "text": "7 \\ & —  rv",
+        "canonical": "7 rv",
+        "confidence": 56
+      },
+      "levelUpScore": 0.9979224376731302
+    },
+    "classes/rove/apex/core/maximist/rv-self-assurance.png": {
+      "tier": "apex",
+      "slug": "maximist",
+      "classKey": "apex:maximist",
+      "name": "self assurance",
+      "assetno": "s-206",
+      "isSummons": false,
+      "isLevelUp": false,
+      "pairKey": "apex:maximist:ocr:self assurance::sheer confidence",
+      "ocr": {
+        "text": "p, % \\ Cl    Sheer Confidence    | ]",
+        "canonical": "p cl sheer confidence",
+        "confidence": 57
+      },
+      "levelUpScore": 0.9591412742382271
+    },
+    "classes/rove/apex/core/maximist/rv-sheer-confidence.png": {
+      "tier": "apex",
+      "slug": "maximist",
+      "classKey": "apex:maximist",
+      "name": "sheer confidence",
+      "assetno": "s-205",
+      "isSummons": false,
+      "isLevelUp": false,
+      "pairKey": "apex:maximist:ocr:self assurance::sheer confidence",
+      "ocr": {
+        "text": "Z\\ Cl  \"self Assurance    rv",
+        "canonical": "z cl self assurance rv",
+        "confidence": 54
+      },
+      "levelUpScore": 0.960180055401662
+    },
+    "classes/rove/apex/core/maximist/rv-spread-the-word.png": {
+      "tier": "apex",
+      "slug": "maximist",
+      "classKey": "apex:maximist",
+      "name": "spread the word",
+      "assetno": "s-195",
+      "isSummons": false,
+      "isLevelUp": true,
+      "pairKey": "apex:maximist:ocr:impenetrable position::spread the word",
+      "ocr": {
+        "text": "Zz \\ Cl   ————   | co",
+        "canonical": "zz cl co",
+        "confidence": 38
+      },
+      "levelUpScore": 0.9979224376731302
+    },
+    "classes/rove/apex/core/maximist/rv-substitute-reality.png": {
+      "tier": "apex",
+      "slug": "maximist",
+      "classKey": "apex:maximist",
+      "name": "substitute reality",
+      "assetno": "s-207",
+      "isSummons": false,
+      "isLevelUp": false,
+      "pairKey": "apex:maximist:ocr:escape psychology::substitute reality",
+      "ocr": {
+        "text": "Z\\   ad  : Eocap TPR thology   | cl",
+        "canonical": "z ad eocap tpr thology cl",
+        "confidence": 28
+      },
+      "levelUpScore": 0.9473684210526316
+    },
+    "classes/rove/apex/core/maximist/rv-via-proxy.png": {
+      "tier": "apex",
+      "slug": "maximist",
+      "classKey": "apex:maximist",
+      "name": "via proxy",
+      "assetno": "s-198",
+      "isSummons": false,
+      "isLevelUp": true,
+      "pairKey": "apex:maximist:s-197",
+      "ocr": {
+        "text": "7 A ©    BestFit Tw",
+        "canonical": "7 a bestfit tw",
+        "confidence": 63
+      },
+      "levelUpScore": 0.9979224376731302
+    },
+    "classes/rove/apex/core/maximist/rv-vox-populi.png": {
+      "tier": "apex",
+      "slug": "maximist",
+      "classKey": "apex:maximist",
+      "name": "vox populi",
+      "assetno": "s-204",
+      "isSummons": false,
+      "isLevelUp": false,
+      "pairKey": "apex:maximist:s-203",
+      "ocr": {
+        "text": "",
+        "canonical": "",
+        "confidence": 0
+      },
+      "levelUpScore": 0.9570637119113574
+    },
+    "classes/rove/apex/core/nocturne-hoarfrost/rv-apex-predator.png": {
+      "tier": "apex",
+      "slug": "nocturne-hoarfrost",
+      "classKey": "apex:nocturne-hoarfrost",
+      "name": "apex predator",
+      "assetno": "s-146",
+      "isSummons": false,
+      "isLevelUp": true,
+      "pairKey": "apex:nocturne-hoarfrost:s-145",
+      "ocr": {
+        "text": "TT Ts",
+        "canonical": "tt ts",
+        "confidence": 21
+      },
+      "levelUpScore": 0.9882271468144044
+    },
+    "classes/rove/apex/core/nocturne-hoarfrost/rv-blood-boil.png": {
+      "tier": "apex",
+      "slug": "nocturne-hoarfrost",
+      "classKey": "apex:nocturne-hoarfrost",
+      "name": "blood boil",
+      "assetno": "s-155",
+      "isSummons": false,
+      "isLevelUp": false,
+      "pairKey": "apex:nocturne-hoarfrost:ocr:blood boil::growing tempo",
+      "ocr": {
+        "text": "a\\  ad      Growing Tempo      |  7",
+        "canonical": "a ad growing tempo 7",
+        "confidence": 63
+      },
+      "levelUpScore": 0.939404432132964
+    },
+    "classes/rove/apex/core/nocturne-hoarfrost/rv-blood-echo.png": {
+      "tier": "apex",
+      "slug": "nocturne-hoarfrost",
+      "classKey": "apex:nocturne-hoarfrost",
+      "name": "blood echo",
+      "assetno": "s-150",
+      "isSummons": false,
+      "isLevelUp": false,
+      "pairKey": "apex:nocturne-hoarfrost:ocr:blood echo::chilling cadence",
+      "ocr": {
+        "text": "TTT Tr",
+        "canonical": "ttt tr",
+        "confidence": 20
+      },
+      "levelUpScore": 0.9435595567867037
+    },
+    "classes/rove/apex/core/nocturne-hoarfrost/rv-chilling-cadence.png": {
+      "tier": "apex",
+      "slug": "nocturne-hoarfrost",
+      "classKey": "apex:nocturne-hoarfrost",
+      "name": "chilling cadence",
+      "assetno": "s-149",
+      "isSummons": false,
+      "isLevelUp": false,
+      "pairKey": "apex:nocturne-hoarfrost:ocr:blood echo::chilling cadence",
+      "ocr": {
+        "text": "mo) \\   |      — Echo         | +",
+        "canonical": "mo echo",
+        "confidence": 54
+      },
+      "levelUpScore": 0.9515235457063712
+    },
+    "classes/rove/apex/core/nocturne-hoarfrost/rv-cut-time.png": {
+      "tier": "apex",
+      "slug": "nocturne-hoarfrost",
+      "classKey": "apex:nocturne-hoarfrost",
+      "name": "cut time",
+      "assetno": "s-151",
+      "isSummons": false,
+      "isLevelUp": false,
+      "pairKey": "apex:nocturne-hoarfrost:ocr:cut time::pursuit predation",
+      "ocr": {
+        "text": "a \\ OS 1        Pursuit Predation        | co",
+        "canonical": "a os 1 pursuit predation co",
+        "confidence": 47
+      },
+      "levelUpScore": 0.9300554016620499
+    },
+    "classes/rove/apex/core/nocturne-hoarfrost/rv-deeper-wounds.png": {
+      "tier": "apex",
+      "slug": "nocturne-hoarfrost",
+      "classKey": "apex:nocturne-hoarfrost",
+      "name": "deeper wounds",
+      "assetno": "s-147",
+      "isSummons": false,
+      "isLevelUp": true,
+      "pairKey": "apex:nocturne-hoarfrost:ocr:deeper wounds::dirge percussion",
+      "ocr": {
+        "text": "a\\ a        Dirge Percussion       |  +",
+        "canonical": "a a dirge percussion",
+        "confidence": 58
+      },
+      "levelUpScore": 0.9875346260387812
+    },
+    "classes/rove/apex/core/nocturne-hoarfrost/rv-dirge-percussion.png": {
+      "tier": "apex",
+      "slug": "nocturne-hoarfrost",
+      "classKey": "apex:nocturne-hoarfrost",
+      "name": "dirge percussion",
+      "assetno": "s-148",
+      "isSummons": false,
+      "isLevelUp": true,
+      "pairKey": "apex:nocturne-hoarfrost:ocr:deeper wounds::dirge percussion",
+      "ocr": {
+        "text": "a \\ aa      Deeper Wounds      | ce",
+        "canonical": "a aa deeper wounds ce",
+        "confidence": 40
+      },
+      "levelUpScore": 0.9764542936288089
+    },
+    "classes/rove/apex/core/nocturne-hoarfrost/rv-furys-end.png": {
+      "tier": "apex",
+      "slug": "nocturne-hoarfrost",
+      "classKey": "apex:nocturne-hoarfrost",
+      "name": "fury's end",
+      "assetno": "s-154",
+      "isSummons": false,
+      "isLevelUp": false,
+      "pairKey": "apex:nocturne-hoarfrost:ocr:fury s end::scent trail",
+      "ocr": {
+        "text": "a\\ st \\ © T          Scent Trail        | ce",
+        "canonical": "a st t scent trail ce",
+        "confidence": 39
+      },
+      "levelUpScore": 0.9515235457063712
+    },
+    "classes/rove/apex/core/nocturne-hoarfrost/rv-grim-scavenger.png": {
+      "tier": "apex",
+      "slug": "nocturne-hoarfrost",
+      "classKey": "apex:nocturne-hoarfrost",
+      "name": "grim scavenger",
+      "assetno": "s-144",
+      "isSummons": false,
+      "isLevelUp": true,
+      "pairKey": "apex:nocturne-hoarfrost:s-143",
+      "ocr": {
+        "text": "* \\ Cll —   | cd",
+        "canonical": "cll cd",
+        "confidence": 45
+      },
+      "levelUpScore": 0.9830332409972299
+    },
+    "classes/rove/apex/core/nocturne-hoarfrost/rv-growing-tempo.png": {
+      "tier": "apex",
+      "slug": "nocturne-hoarfrost",
+      "classKey": "apex:nocturne-hoarfrost",
+      "name": "growing tempo",
+      "assetno": "s-156",
+      "isSummons": false,
+      "isLevelUp": false,
+      "pairKey": "apex:nocturne-hoarfrost:ocr:blood boil::growing tempo",
+      "ocr": {
+        "text": "a\\ al  Blood Boil rF",
+        "canonical": "a al blood boil rf",
+        "confidence": 20
+      },
+      "levelUpScore": 0.9480609418282548
+    },
+    "classes/rove/apex/core/nocturne-hoarfrost/rv-pursuit-predation.png": {
+      "tier": "apex",
+      "slug": "nocturne-hoarfrost",
+      "classKey": "apex:nocturne-hoarfrost",
+      "name": "pursuit predation",
+      "assetno": "s-152",
+      "isSummons": false,
+      "isLevelUp": false,
+      "pairKey": "apex:nocturne-hoarfrost:ocr:cut time::pursuit predation",
+      "ocr": {
+        "text": "TT Tr",
+        "canonical": "tt tr",
+        "confidence": 17
+      },
+      "levelUpScore": 0.9508310249307479
+    },
+    "classes/rove/apex/core/nocturne-hoarfrost/rv-sanguine-crescendo.png": {
+      "tier": "apex",
+      "slug": "nocturne-hoarfrost",
+      "classKey": "apex:nocturne-hoarfrost",
+      "name": "sanguine crescendo",
+      "assetno": "s-143",
+      "isSummons": false,
+      "isLevelUp": true,
+      "pairKey": "apex:nocturne-hoarfrost:s-143",
+      "ocr": {
+        "text": "FAN e |     —     | +",
+        "canonical": "fan e",
+        "confidence": 60
+      },
+      "levelUpScore": 0.9719529085872576
+    },
+    "classes/rove/apex/core/nocturne-hoarfrost/rv-scent-trail.png": {
+      "tier": "apex",
+      "slug": "nocturne-hoarfrost",
+      "classKey": "apex:nocturne-hoarfrost",
+      "name": "scent trail",
+      "assetno": "s-153",
+      "isSummons": false,
+      "isLevelUp": false,
+      "pairKey": "apex:nocturne-hoarfrost:ocr:fury s end::scent trail",
+      "ocr": {
+        "text": "a\\      Ot L    »       Fury's End oe         | cs",
+        "canonical": "a ot l fury s end oe cs",
+        "confidence": 34
+      },
+      "levelUpScore": 0.9494459833795014
+    },
+    "classes/rove/apex/core/nocturne-hoarfrost/rv-soul-sway.png": {
+      "tier": "apex",
+      "slug": "nocturne-hoarfrost",
+      "classKey": "apex:nocturne-hoarfrost",
+      "name": "soul sway",
+      "assetno": "s-145",
+      "isSummons": false,
+      "isLevelUp": true,
+      "pairKey": "apex:nocturne-hoarfrost:s-145",
+      "ocr": {
+        "text": "ANG rr F",
+        "canonical": "ang rr f",
+        "confidence": 15
+      },
+      "levelUpScore": 0.9809556786703602
+    },
+    "classes/rove/base/core/dune-dancer/rv-calm-rivers.png": {
+      "tier": "base",
+      "slug": "dune-dancer",
+      "classKey": "base:dune-dancer",
+      "name": "calm rivers",
+      "assetno": "s-005",
+      "isSummons": false,
+      "isLevelUp": true,
+      "pairKey": "base:dune-dancer:ocr:calm rivers::suffocating spray",
+      "ocr": {
+        "text": "& =]    Suffocating Spray  i",
+        "canonical": "suffocating spray i",
+        "confidence": 46
+      },
+      "levelUpScore": 1
+    },
+    "classes/rove/base/core/dune-dancer/rv-camaraderie.png": {
+      "tier": "base",
+      "slug": "dune-dancer",
+      "classKey": "base:dune-dancer",
+      "name": "camaraderie",
+      "assetno": "s-023",
+      "isSummons": false,
+      "isLevelUp": false,
+      "pairKey": "base:dune-dancer:ocr:camaraderie::enchant body",
+      "ocr": {
+        "text": "&   N . » )              Enchant Body         SE :",
+        "canonical": "n enchant body se",
+        "confidence": 31
+      },
+      "levelUpScore": 0.9674515235457064
+    },
+    "classes/rove/base/core/dune-dancer/rv-chill-touch.png": {
+      "tier": "base",
+      "slug": "dune-dancer",
+      "classKey": "base:dune-dancer",
+      "name": "chill touch",
+      "assetno": "s-020",
+      "isSummons": false,
+      "isLevelUp": false,
+      "pairKey": "base:dune-dancer:ocr:chill touch::flow of floes",
+      "ocr": {
+        "text": "& \\ |       Flow of Floes    \"7",
+        "canonical": "flow of floes 7",
+        "confidence": 61
+      },
+      "levelUpScore": 0.9667590027700832
+    },
+    "classes/rove/base/core/dune-dancer/rv-clay-grasp.png": {
+      "tier": "base",
+      "slug": "dune-dancer",
+      "classKey": "base:dune-dancer",
+      "name": "clay grasp",
+      "assetno": "s-001",
+      "isSummons": false,
+      "isLevelUp": true,
+      "pairKey": "base:dune-dancer:ocr:clay grasp::desiccating blast",
+      "ocr": {
+        "text": "& N ©]     Desiccating Blast  vy",
+        "canonical": "n desiccating blast vy",
+        "confidence": 57
+      },
+      "levelUpScore": 1
+    },
+    "classes/rove/base/core/dune-dancer/rv-crag-smash.png": {
+      "tier": "base",
+      "slug": "dune-dancer",
+      "classKey": "base:dune-dancer",
+      "name": "crag smash",
+      "assetno": "s-007",
+      "isSummons": false,
+      "isLevelUp": true,
+      "pairKey": "base:dune-dancer:s-7",
+      "ocr": {
+        "text": "ETT Ts",
+        "canonical": "ett ts",
+        "confidence": 31
+      },
+      "levelUpScore": 1
+    },
+    "classes/rove/base/core/dune-dancer/rv-curious-ardorok-back.png": {
+      "tier": "base",
+      "slug": "dune-dancer",
+      "classKey": "base:dune-dancer",
+      "name": "curious ardorok",
+      "assetno": "a-001",
+      "isSummons": true,
+      "isLevelUp": false,
+      "pairKey": "base:dune-dancer:a-1",
+      "ocr": {
+        "text": "A,",
+        "canonical": "a",
+        "confidence": 72
+      },
+      "levelUpScore": 0.46121883656509693
+    },
+    "classes/rove/base/core/dune-dancer/rv-curious-ardorok-front.png": {
+      "tier": "base",
+      "slug": "dune-dancer",
+      "classKey": "base:dune-dancer",
+      "name": "curious ardorok",
+      "assetno": "a-001",
+      "isSummons": true,
+      "isLevelUp": false,
+      "pairKey": "base:dune-dancer:a-1",
+      "ocr": {
+        "text": "",
+        "canonical": "",
+        "confidence": 0
+      },
+      "levelUpScore": 0.48026315789473684
+    },
+    "classes/rove/base/core/dune-dancer/rv-dearest-friend.png": {
+      "tier": "base",
+      "slug": "dune-dancer",
+      "classKey": "base:dune-dancer",
+      "name": "dearest friend",
+      "assetno": "s-004",
+      "isSummons": false,
+      "isLevelUp": true,
+      "pairKey": "base:dune-dancer:ocr:dearest friend::gift of the oasis",
+      "ocr": {
+        "text": "ACH Gift of the Oasis \"7g",
+        "canonical": "ach gift of the oasis 7g",
+        "confidence": 70
+      },
+      "levelUpScore": 1
+    },
+    "classes/rove/base/core/dune-dancer/rv-deep-freeze.png": {
+      "tier": "base",
+      "slug": "dune-dancer",
+      "classKey": "base:dune-dancer",
+      "name": "deep freeze",
+      "assetno": "s-016",
+      "isSummons": false,
+      "isLevelUp": false,
+      "pairKey": "base:dune-dancer:s-15",
+      "ocr": {
+        "text": "(47  \\  Cl        Deserts Gift      To",
+        "canonical": "47 cl deserts gift to",
+        "confidence": 51
+      },
+      "levelUpScore": 0.967797783933518
+    },
+    "classes/rove/base/core/dune-dancer/rv-deserts-gift.png": {
+      "tier": "base",
+      "slug": "dune-dancer",
+      "classKey": "base:dune-dancer",
+      "name": "desert's gift",
+      "assetno": "s-015",
+      "isSummons": false,
+      "isLevelUp": false,
+      "pairKey": "base:dune-dancer:s-15",
+      "ocr": {
+        "text": "© Ue]      DeepFreeze    vy",
+        "canonical": "ue deepfreeze vy",
+        "confidence": 44
+      },
+      "levelUpScore": 0.9674515235457064
+    },
+    "classes/rove/base/core/dune-dancer/rv-desiccating-blast.png": {
+      "tier": "base",
+      "slug": "dune-dancer",
+      "classKey": "base:dune-dancer",
+      "name": "desiccating blast",
+      "assetno": "s-002",
+      "isSummons": false,
+      "isLevelUp": true,
+      "pairKey": "base:dune-dancer:ocr:clay grasp::desiccating blast",
+      "ocr": {
+        "text": "",
+        "canonical": "",
+        "confidence": 0
+      },
+      "levelUpScore": 1
+    },
+    "classes/rove/base/core/dune-dancer/rv-dual-assault.png": {
+      "tier": "base",
+      "slug": "dune-dancer",
+      "classKey": "base:dune-dancer",
+      "name": "dual assault",
+      "assetno": "s-010",
+      "isSummons": false,
+      "isLevelUp": true,
+      "pairKey": "base:dune-dancer:ocr:dual assault::granite phalanx",
+      "ocr": {
+        "text": "& \\ ©   ——  Te",
+        "canonical": "te",
+        "confidence": 39
+      },
+      "levelUpScore": 1
+    },
+    "classes/rove/base/core/dune-dancer/rv-earthen-shield.png": {
+      "tier": "base",
+      "slug": "dune-dancer",
+      "classKey": "base:dune-dancer",
+      "name": "earthen shield",
+      "assetno": "s-013",
+      "isSummons": false,
+      "isLevelUp": true,
+      "pairKey": "base:dune-dancer:ocr:earthen shield::healing surge",
+      "ocr": {
+        "text": "& N ad    Healing Surge    | ’",
+        "canonical": "n ad healing surge",
+        "confidence": 51
+      },
+      "levelUpScore": 1
+    },
+    "classes/rove/base/core/dune-dancer/rv-enchant-body.png": {
+      "tier": "base",
+      "slug": "dune-dancer",
+      "classKey": "base:dune-dancer",
+      "name": "enchant body",
+      "assetno": "s-024",
+      "isSummons": false,
+      "isLevelUp": false,
+      "pairKey": "base:dune-dancer:ocr:camaraderie::enchant body",
+      "ocr": {
+        "text": "& \\ ad    Camaraderie   Te",
+        "canonical": "ad camaraderie te",
+        "confidence": 52
+      },
+      "levelUpScore": 0.9667590027700832
+    },
+    "classes/rove/base/core/dune-dancer/rv-flow-of-floes.png": {
+      "tier": "base",
+      "slug": "dune-dancer",
+      "classKey": "base:dune-dancer",
+      "name": "flow of floes",
+      "assetno": "s-019",
+      "isSummons": false,
+      "isLevelUp": false,
+      "pairKey": "base:dune-dancer:ocr:chill touch::flow of floes",
+      "ocr": {
+        "text": "& \\ Cl —~—    rg",
+        "canonical": "cl rg",
+        "confidence": 37
+      },
+      "levelUpScore": 0.9671052631578947
+    },
+    "classes/rove/base/core/dune-dancer/rv-gift-of-the-oasis.png": {
+      "tier": "base",
+      "slug": "dune-dancer",
+      "classKey": "base:dune-dancer",
+      "name": "gift of the oasis",
+      "assetno": "s-003",
+      "isSummons": false,
+      "isLevelUp": true,
+      "pairKey": "base:dune-dancer:ocr:dearest friend::gift of the oasis",
+      "ocr": {
+        "text": "&  \\ |       Dearest Friend    Te",
+        "canonical": "dearest friend te",
+        "confidence": 56
+      },
+      "levelUpScore": 1
+    },
+    "classes/rove/base/core/dune-dancer/rv-granite-phalanx.png": {
+      "tier": "base",
+      "slug": "dune-dancer",
+      "classKey": "base:dune-dancer",
+      "name": "granite phalanx",
+      "assetno": "s-009",
+      "isSummons": false,
+      "isLevelUp": true,
+      "pairKey": "base:dune-dancer:ocr:dual assault::granite phalanx",
+      "ocr": {
+        "text": "&  Ue 1            Dual Assault        To",
+        "canonical": "ue 1 dual assault to",
+        "confidence": 59
+      },
+      "levelUpScore": 1
+    },
+    "classes/rove/base/core/dune-dancer/rv-healing-surge.png": {
+      "tier": "base",
+      "slug": "dune-dancer",
+      "classKey": "base:dune-dancer",
+      "name": "healing surge",
+      "assetno": "s-014",
+      "isSummons": false,
+      "isLevelUp": true,
+      "pairKey": "base:dune-dancer:ocr:earthen shield::healing surge",
+      "ocr": {
+        "text": "&\\ OT arthenshield   Te",
+        "canonical": "ot arthenshield te",
+        "confidence": 25
+      },
+      "levelUpScore": 1
+    },
+    "classes/rove/base/core/dune-dancer/rv-ice-blast.png": {
+      "tier": "base",
+      "slug": "dune-dancer",
+      "classKey": "base:dune-dancer",
+      "name": "ice blast",
+      "assetno": "s-008",
+      "isSummons": false,
+      "isLevelUp": true,
+      "pairKey": "base:dune-dancer:s-7",
+      "ocr": {
+        "text": "STE Ts",
+        "canonical": "ste ts",
+        "confidence": 23
+      },
+      "levelUpScore": 1
+    },
+    "classes/rove/base/core/dune-dancer/rv-oasis-reprieve.png": {
+      "tier": "base",
+      "slug": "dune-dancer",
+      "classKey": "base:dune-dancer",
+      "name": "oasis reprieve",
+      "assetno": "s-017",
+      "isSummons": false,
+      "isLevelUp": false,
+      "pairKey": "base:dune-dancer:ocr:oasis reprieve::sand wedge",
+      "ocr": {
+        "text": "ACES Te",
+        "canonical": "aces te",
+        "confidence": 52
+      },
+      "levelUpScore": 0.9674515235457064
+    },
+    "classes/rove/base/core/dune-dancer/rv-pouncing-borejaw-back.png": {
+      "tier": "base",
+      "slug": "dune-dancer",
+      "classKey": "base:dune-dancer",
+      "name": "pouncing borejaw",
+      "assetno": "a-002",
+      "isSummons": true,
+      "isLevelUp": false,
+      "pairKey": "base:dune-dancer:a-2",
+      "ocr": {
+        "text": "A,",
+        "canonical": "a",
+        "confidence": 65
+      },
+      "levelUpScore": 0.15270083102493076
+    },
+    "classes/rove/base/core/dune-dancer/rv-pouncing-borejaw-front.png": {
+      "tier": "base",
+      "slug": "dune-dancer",
+      "classKey": "base:dune-dancer",
+      "name": "pouncing borejaw",
+      "assetno": "a-002",
+      "isSummons": true,
+      "isLevelUp": false,
+      "pairKey": "base:dune-dancer:a-2",
+      "ocr": {
+        "text": "| C@, cain 135.  FS",
+        "canonical": "c cain 135 fs",
+        "confidence": 14
+      },
+      "levelUpScore": 0.48545706371191133
+    },
+    "classes/rove/base/core/dune-dancer/rv-quickening-sand.png": {
+      "tier": "base",
+      "slug": "dune-dancer",
+      "classKey": "base:dune-dancer",
+      "name": "quickening sand",
+      "assetno": "s-012",
+      "isSummons": false,
+      "isLevelUp": true,
+      "pairKey": "base:dune-dancer:ocr:quickening sand::rallying cry",
+      "ocr": {
+        "text": "&  N ha        Rallying Cry      To",
+        "canonical": "n ha rallying cry to",
+        "confidence": 60
+      },
+      "levelUpScore": 1
+    },
+    "classes/rove/base/core/dune-dancer/rv-rallying-cry.png": {
+      "tier": "base",
+      "slug": "dune-dancer",
+      "classKey": "base:dune-dancer",
+      "name": "rallying cry",
+      "assetno": "s-011",
+      "isSummons": false,
+      "isLevelUp": true,
+      "pairKey": "base:dune-dancer:ocr:quickening sand::rallying cry",
+      "ocr": {
+        "text": "47 N ad    Quickening Sand    | ‘",
+        "canonical": "47 n ad quickening sand",
+        "confidence": 59
+      },
+      "levelUpScore": 1
+    },
+    "classes/rove/base/core/dune-dancer/rv-revitalizing-clay.png": {
+      "tier": "base",
+      "slug": "dune-dancer",
+      "classKey": "base:dune-dancer",
+      "name": "revitalizing clay",
+      "assetno": "s-022",
+      "isSummons": false,
+      "isLevelUp": false,
+      "pairKey": "base:dune-dancer:ocr:revitalizing clay::war beast",
+      "ocr": {
+        "text": "&  \\ |         War Beast      Te",
+        "canonical": "war beast te",
+        "confidence": 53
+      },
+      "levelUpScore": 0.9674515235457064
+    },
+    "classes/rove/base/core/dune-dancer/rv-sand-wedge.png": {
+      "tier": "base",
+      "slug": "dune-dancer",
+      "classKey": "base:dune-dancer",
+      "name": "sand wedge",
+      "assetno": "s-018",
+      "isSummons": false,
+      "isLevelUp": false,
+      "pairKey": "base:dune-dancer:ocr:oasis reprieve::sand wedge",
+      "ocr": {
+        "text": "&  \\ Cl       Oasis Reprieve    SE)",
+        "canonical": "cl oasis reprieve se",
+        "confidence": 64
+      },
+      "levelUpScore": 0.9681440443213296
+    },
+    "classes/rove/base/core/dune-dancer/rv-suffocating-spray.png": {
+      "tier": "base",
+      "slug": "dune-dancer",
+      "classKey": "base:dune-dancer",
+      "name": "suffocating spray",
+      "assetno": "s-006",
+      "isSummons": false,
+      "isLevelUp": true,
+      "pairKey": "base:dune-dancer:ocr:calm rivers::suffocating spray",
+      "ocr": {
+        "text": "&  N ©]          Calm Rivers       \"y",
+        "canonical": "n calm rivers y",
+        "confidence": 43
+      },
+      "levelUpScore": 1
+    },
+    "classes/rove/base/core/dune-dancer/rv-war-beast.png": {
+      "tier": "base",
+      "slug": "dune-dancer",
+      "classKey": "base:dune-dancer",
+      "name": "war beast",
+      "assetno": "s-021",
+      "isSummons": false,
+      "isLevelUp": false,
+      "pairKey": "base:dune-dancer:ocr:revitalizing clay::war beast",
+      "ocr": {
+        "text": "& \\ ©] _  To",
+        "canonical": "to",
+        "confidence": 52
+      },
+      "levelUpScore": 0.967797783933518
+    },
+    "classes/rove/base/core/flash/rv-alar.png": {
+      "tier": "base",
+      "slug": "flash",
+      "classKey": "base:flash",
+      "name": "alar",
+      "assetno": "s-055",
+      "isSummons": false,
+      "isLevelUp": false,
+      "pairKey": "base:flash:s-55",
+      "ocr": {
+        "text": "",
+        "canonical": "",
+        "confidence": 0
+      },
+      "levelUpScore": 0.8843490304709141
+    },
+    "classes/rove/base/core/flash/rv-attract.png": {
+      "tier": "base",
+      "slug": "flash",
+      "classKey": "base:flash",
+      "name": "attract",
+      "assetno": "s-065",
+      "isSummons": false,
+      "isLevelUp": false,
+      "pairKey": "base:flash:s-65",
+      "ocr": {
+        "text": "PAN al :  Stoke vy",
+        "canonical": "pan al stoke vy",
+        "confidence": 40
+      },
+      "levelUpScore": 0.8680747922437673
+    },
+    "classes/rove/base/core/flash/rv-blast.png": {
+      "tier": "base",
+      "slug": "flash",
+      "classKey": "base:flash",
+      "name": "blast",
+      "assetno": "s-058",
+      "isSummons": false,
+      "isLevelUp": false,
+      "pairKey": "base:flash:ocr:blast::transcend",
+      "ocr": {
+        "text": "PAN \\ ©       Transcend     | ©",
+        "canonical": "pan transcend",
+        "confidence": 69
+      },
+      "levelUpScore": 0.9137811634349031
+    },
+    "classes/rove/base/core/flash/rv-bolt.png": {
+      "tier": "base",
+      "slug": "flash",
+      "classKey": "base:flash",
+      "name": "bolt",
+      "assetno": "s-056",
+      "isSummons": false,
+      "isLevelUp": false,
+      "pairKey": "base:flash:s-55",
+      "ocr": {
+        "text": "",
+        "canonical": "",
+        "confidence": 0
+      },
+      "levelUpScore": 0.8878116343490305
+    },
+    "classes/rove/base/core/flash/rv-buffet.png": {
+      "tier": "base",
+      "slug": "flash",
+      "classKey": "base:flash",
+      "name": "buffet",
+      "assetno": "s-069",
+      "isSummons": false,
+      "isLevelUp": false,
+      "pairKey": "base:flash:s-69",
+      "ocr": {
+        "text": "",
+        "canonical": "",
+        "confidence": 0
+      },
+      "levelUpScore": 0.8306786703601108
+    },
+    "classes/rove/base/core/flash/rv-charge.png": {
+      "tier": "base",
+      "slug": "flash",
+      "classKey": "base:flash",
+      "name": "charge",
+      "assetno": "s-061",
+      "isSummons": false,
+      "isLevelUp": false,
+      "pairKey": "base:flash:s-61",
+      "ocr": {
+        "text": "",
+        "canonical": "",
+        "confidence": 0
+      },
+      "levelUpScore": 0.8670360110803325
+    },
+    "classes/rove/base/core/flash/rv-eruption.png": {
+      "tier": "base",
+      "slug": "flash",
+      "classKey": "base:flash",
+      "name": "eruption",
+      "assetno": "s-060",
+      "isSummons": false,
+      "isLevelUp": false,
+      "pairKey": "base:flash:s-59",
+      "ocr": {
+        "text": "NCA ry",
+        "canonical": "nca ry",
+        "confidence": 29
+      },
+      "levelUpScore": 0.8483379501385042
+    },
+    "classes/rove/base/core/flash/rv-flare.png": {
+      "tier": "base",
+      "slug": "flash",
+      "classKey": "base:flash",
+      "name": "flare",
+      "assetno": "s-070",
+      "isSummons": false,
+      "isLevelUp": false,
+      "pairKey": "base:flash:s-69",
+      "ocr": {
+        "text": "PAY  Q] \"   Buffet  To",
+        "canonical": "pay q buffet to",
+        "confidence": 49
+      },
+      "levelUpScore": 0.85803324099723
+    },
+    "classes/rove/base/core/flash/rv-galvanize.png": {
+      "tier": "base",
+      "slug": "flash",
+      "classKey": "base:flash",
+      "name": "galvanize",
+      "assetno": "s-076",
+      "isSummons": false,
+      "isLevelUp": false,
+      "pairKey": "base:flash:s-75",
+      "ocr": {
+        "text": "TTI Te",
+        "canonical": "tti te",
+        "confidence": 59
+      },
+      "levelUpScore": 0.8614958448753463
+    },
+    "classes/rove/base/core/flash/rv-helion.png": {
+      "tier": "base",
+      "slug": "flash",
+      "classKey": "base:flash",
+      "name": "helion",
+      "assetno": "s-074",
+      "isSummons": false,
+      "isLevelUp": false,
+      "pairKey": "base:flash:s-73",
+      "ocr": {
+        "text": "NCI",
+        "canonical": "nci",
+        "confidence": 3
+      },
+      "levelUpScore": 0.8320637119113574
+    },
+    "classes/rove/base/core/flash/rv-kindle.png": {
+      "tier": "base",
+      "slug": "flash",
+      "classKey": "base:flash",
+      "name": "kindle",
+      "assetno": "s-062",
+      "isSummons": false,
+      "isLevelUp": false,
+      "pairKey": "base:flash:s-61",
+      "ocr": {
+        "text": "ETE Te",
+        "canonical": "ete te",
+        "confidence": 54
+      },
+      "levelUpScore": 0.8355263157894737
+    },
+    "classes/rove/base/core/flash/rv-link.png": {
+      "tier": "base",
+      "slug": "flash",
+      "classKey": "base:flash",
+      "name": "link",
+      "assetno": "s-075",
+      "isSummons": false,
+      "isLevelUp": false,
+      "pairKey": "base:flash:s-75",
+      "ocr": {
+        "text": "AY ‘ or a    vy",
+        "canonical": "ay or a vy",
+        "confidence": 42
+      },
+      "levelUpScore": 0.8292936288088644
+    },
+    "classes/rove/base/core/flash/rv-mistral.png": {
+      "tier": "base",
+      "slug": "flash",
+      "classKey": "base:flash",
+      "name": "mistral",
+      "assetno": "s-071",
+      "isSummons": false,
+      "isLevelUp": false,
+      "pairKey": "base:flash:s-71",
+      "ocr": {
+        "text": "",
+        "canonical": "",
+        "confidence": 0
+      },
+      "levelUpScore": 0.8469529085872576
+    },
+    "classes/rove/base/core/flash/rv-pulse.png": {
+      "tier": "base",
+      "slug": "flash",
+      "classKey": "base:flash",
+      "name": "pulse",
+      "assetno": "s-063",
+      "isSummons": false,
+      "isLevelUp": false,
+      "pairKey": "base:flash:s-63",
+      "ocr": {
+        "text": "",
+        "canonical": "",
+        "confidence": 0
+      },
+      "levelUpScore": 0.8954293628808865
+    },
+    "classes/rove/base/core/flash/rv-scorch.png": {
+      "tier": "base",
+      "slug": "flash",
+      "classKey": "base:flash",
+      "name": "scorch",
+      "assetno": "s-073",
+      "isSummons": false,
+      "isLevelUp": false,
+      "pairKey": "base:flash:s-73",
+      "ocr": {
+        "text": "",
+        "canonical": "",
+        "confidence": 0
+      },
+      "levelUpScore": 0.8310249307479225
+    },
+    "classes/rove/base/core/flash/rv-singe.png": {
+      "tier": "base",
+      "slug": "flash",
+      "classKey": "base:flash",
+      "name": "singe",
+      "assetno": "s-067",
+      "isSummons": false,
+      "isLevelUp": false,
+      "pairKey": "base:flash:s-67",
+      "ocr": {
+        "text": "NO To",
+        "canonical": "no to",
+        "confidence": 60
+      },
+      "levelUpScore": 0.8528393351800554
+    },
+    "classes/rove/base/core/flash/rv-smolder.png": {
+      "tier": "base",
+      "slug": "flash",
+      "classKey": "base:flash",
+      "name": "smolder",
+      "assetno": "s-064",
+      "isSummons": false,
+      "isLevelUp": false,
+      "pairKey": "base:flash:s-63",
+      "ocr": {
+        "text": "",
+        "canonical": "",
+        "confidence": 0
+      },
+      "levelUpScore": 0.8909279778393352
+    },
+    "classes/rove/base/core/flash/rv-stoke.png": {
+      "tier": "base",
+      "slug": "flash",
+      "classKey": "base:flash",
+      "name": "stoke",
+      "assetno": "s-066",
+      "isSummons": false,
+      "isLevelUp": false,
+      "pairKey": "base:flash:s-65",
+      "ocr": {
+        "text": "",
+        "canonical": "",
+        "confidence": 0
+      },
+      "levelUpScore": 0.8642659279778393
+    },
+    "classes/rove/base/core/flash/rv-suffuse.png": {
+      "tier": "base",
+      "slug": "flash",
+      "classKey": "base:flash",
+      "name": "suffuse",
+      "assetno": "s-053",
+      "isSummons": false,
+      "isLevelUp": false,
+      "pairKey": "base:flash:s-53",
+      "ocr": {
+        "text": "",
+        "canonical": "",
+        "confidence": 0
+      },
+      "levelUpScore": 0.9151662049861495
+    },
+    "classes/rove/base/core/flash/rv-swell.png": {
+      "tier": "base",
+      "slug": "flash",
+      "classKey": "base:flash",
+      "name": "swell",
+      "assetno": "s-054",
+      "isSummons": false,
+      "isLevelUp": false,
+      "pairKey": "base:flash:s-53",
+      "ocr": {
+        "text": "PAN ou £3",
+        "canonical": "pan ou 3",
+        "confidence": 33
+      },
+      "levelUpScore": 0.8846952908587258
+    },
+    "classes/rove/base/core/flash/rv-tempest.png": {
+      "tier": "base",
+      "slug": "flash",
+      "classKey": "base:flash",
+      "name": "tempest",
+      "assetno": "s-059",
+      "isSummons": false,
+      "isLevelUp": false,
+      "pairKey": "base:flash:s-59",
+      "ocr": {
+        "text": "NTT Ts",
+        "canonical": "ntt ts",
+        "confidence": 32
+      },
+      "levelUpScore": 0.8417590027700831
+    },
+    "classes/rove/base/core/flash/rv-transcend.png": {
+      "tier": "base",
+      "slug": "flash",
+      "classKey": "base:flash",
+      "name": "transcend",
+      "assetno": "s-057",
+      "isSummons": false,
+      "isLevelUp": false,
+      "pairKey": "base:flash:ocr:blast::transcend",
+      "ocr": {
+        "text": "",
+        "canonical": "",
+        "confidence": 0
+      },
+      "levelUpScore": 0.8961218836565097
+    },
+    "classes/rove/base/core/flash/rv-vacuum.png": {
+      "tier": "base",
+      "slug": "flash",
+      "classKey": "base:flash",
+      "name": "vacuum",
+      "assetno": "s-068",
+      "isSummons": false,
+      "isLevelUp": false,
+      "pairKey": "base:flash:s-67",
+      "ocr": {
+        "text": "NCA ry",
+        "canonical": "nca ry",
+        "confidence": 42
+      },
+      "levelUpScore": 0.8708448753462603
+    },
+    "classes/rove/base/core/flash/rv-zephyr.png": {
+      "tier": "base",
+      "slug": "flash",
+      "classKey": "base:flash",
+      "name": "zephyr",
+      "assetno": "s-072",
+      "isSummons": false,
+      "isLevelUp": false,
+      "pairKey": "base:flash:s-71",
+      "ocr": {
+        "text": "TT Te",
+        "canonical": "tt te",
+        "confidence": 48
+      },
+      "levelUpScore": 0.8009002770083102
+    },
+    "classes/rove/base/core/shadow-piercer/rv-bell-tolls.png": {
+      "tier": "base",
+      "slug": "shadow-piercer",
+      "classKey": "base:shadow-piercer",
+      "name": "bell tolls",
+      "assetno": "s-106",
+      "isSummons": false,
+      "isLevelUp": true,
+      "pairKey": "base:shadow-piercer:s-105",
+      "ocr": {
+        "text": "Wr  Ne Lifeblood        \"TF",
+        "canonical": "wr ne lifeblood tf",
+        "confidence": 24
+      },
+      "levelUpScore": 1
+    },
+    "classes/rove/base/core/shadow-piercer/rv-careful-aim.png": {
+      "tier": "base",
+      "slug": "shadow-piercer",
+      "classKey": "base:shadow-piercer",
+      "name": "careful aim",
+      "assetno": "s-109",
+      "isSummons": false,
+      "isLevelUp": true,
+      "pairKey": "base:shadow-piercer:ocr:careful aim::devour prey",
+      "ocr": {
+        "text": "TT",
+        "canonical": "tt",
+        "confidence": 36
+      },
+      "levelUpScore": 1
+    },
+    "classes/rove/base/core/shadow-piercer/rv-consume-vitality.png": {
+      "tier": "base",
+      "slug": "shadow-piercer",
+      "classKey": "base:shadow-piercer",
+      "name": "consume vitality",
+      "assetno": "s-116",
+      "isSummons": false,
+      "isLevelUp": true,
+      "pairKey": "base:shadow-piercer:ocr:consume vitality::draw from blood",
+      "ocr": {
+        "text": "Wr N ka i  Draw from Blood   rF",
+        "canonical": "wr n ka i draw from blood rf",
+        "confidence": 49
+      },
+      "levelUpScore": 1
+    },
+    "classes/rove/base/core/shadow-piercer/rv-crimson-curse.png": {
+      "tier": "base",
+      "slug": "shadow-piercer",
+      "classKey": "base:shadow-piercer",
+      "name": "crimson curse",
+      "assetno": "s-121",
+      "isSummons": false,
+      "isLevelUp": false,
+      "pairKey": "base:shadow-piercer:ocr:crimson curse::ebony blessing",
+      "ocr": {
+        "text": "ANC i Ebony Blessing  rF",
+        "canonical": "anc i ebony blessing rf",
+        "confidence": 61
+      },
+      "levelUpScore": 0.9726454293628809
+    },
+    "classes/rove/base/core/shadow-piercer/rv-devour-prey.png": {
+      "tier": "base",
+      "slug": "shadow-piercer",
+      "classKey": "base:shadow-piercer",
+      "name": "devour prey",
+      "assetno": "s-110",
+      "isSummons": false,
+      "isLevelUp": true,
+      "pairKey": "base:shadow-piercer:ocr:careful aim::devour prey",
+      "ocr": {
+        "text": "Wr wr \"Careful Aim  \"TF",
+        "canonical": "wr wr careful aim tf",
+        "confidence": 34
+      },
+      "levelUpScore": 1
+    },
+    "classes/rove/base/core/shadow-piercer/rv-disengage.png": {
+      "tier": "base",
+      "slug": "shadow-piercer",
+      "classKey": "base:shadow-piercer",
+      "name": "disengage",
+      "assetno": "s-117",
+      "isSummons": false,
+      "isLevelUp": true,
+      "pairKey": "base:shadow-piercer:s-117",
+      "ocr": {
+        "text": "TT",
+        "canonical": "tt",
+        "confidence": 34
+      },
+      "levelUpScore": 1
+    },
+    "classes/rove/base/core/shadow-piercer/rv-drag-away.png": {
+      "tier": "base",
+      "slug": "shadow-piercer",
+      "classKey": "base:shadow-piercer",
+      "name": "drag away",
+      "assetno": "s-112",
+      "isSummons": false,
+      "isLevelUp": true,
+      "pairKey": "base:shadow-piercer:s-111",
+      "ocr": {
+        "text": "Th a rd",
+        "canonical": "th a rd",
+        "confidence": 45
+      },
+      "levelUpScore": 1
+    },
+    "classes/rove/base/core/shadow-piercer/rv-drain-essence.png": {
+      "tier": "base",
+      "slug": "shadow-piercer",
+      "classKey": "base:shadow-piercer",
+      "name": "drain essence",
+      "assetno": "s-123",
+      "isSummons": false,
+      "isLevelUp": false,
+      "pairKey": "base:shadow-piercer:ocr:drain essence::keen bolter",
+      "ocr": {
+        "text": "Wt \\ ™ fh   Keen Bolter   ry",
+        "canonical": "wt fh keen bolter ry",
+        "confidence": 46
+      },
+      "levelUpScore": 0.9705678670360111
+    },
+    "classes/rove/base/core/shadow-piercer/rv-draw-from-blood.png": {
+      "tier": "base",
+      "slug": "shadow-piercer",
+      "classKey": "base:shadow-piercer",
+      "name": "draw from blood",
+      "assetno": "s-115",
+      "isSummons": false,
+      "isLevelUp": true,
+      "pairKey": "base:shadow-piercer:ocr:consume vitality::draw from blood",
+      "ocr": {
+        "text": "st N ka -  Consume Vitality   Ski",
+        "canonical": "st n ka consume vitality ski",
+        "confidence": 47
+      },
+      "levelUpScore": 1
+    },
+    "classes/rove/base/core/shadow-piercer/rv-ebony-blessing.png": {
+      "tier": "base",
+      "slug": "shadow-piercer",
+      "classKey": "base:shadow-piercer",
+      "name": "ebony blessing",
+      "assetno": "s-122",
+      "isSummons": false,
+      "isLevelUp": false,
+      "pairKey": "base:shadow-piercer:ocr:crimson curse::ebony blessing",
+      "ocr": {
+        "text": "TT",
+        "canonical": "tt",
+        "confidence": 29
+      },
+      "levelUpScore": 0.9705678670360111
+    },
+    "classes/rove/base/core/shadow-piercer/rv-eviscerate.png": {
+      "tier": "base",
+      "slug": "shadow-piercer",
+      "classKey": "base:shadow-piercer",
+      "name": "eviscerate",
+      "assetno": "s-108",
+      "isSummons": false,
+      "isLevelUp": true,
+      "pairKey": "base:shadow-piercer:ocr:eviscerate::passing knell",
+      "ocr": {
+        "text": "AC) | -    Passing Knell    ry",
+        "canonical": "ac passing knell ry",
+        "confidence": 56
+      },
+      "levelUpScore": 1
+    },
+    "classes/rove/base/core/shadow-piercer/rv-feral-swipe.png": {
+      "tier": "base",
+      "slug": "shadow-piercer",
+      "classKey": "base:shadow-piercer",
+      "name": "feral swipe",
+      "assetno": "s-118",
+      "isSummons": false,
+      "isLevelUp": true,
+      "pairKey": "base:shadow-piercer:s-117",
+      "ocr": {
+        "text": "st          <b |  \"                 Disengage             ry",
+        "canonical": "st b disengage ry",
+        "confidence": 40
+      },
+      "levelUpScore": 1
+    },
+    "classes/rove/base/core/shadow-piercer/rv-forte.png": {
+      "tier": "base",
+      "slug": "shadow-piercer",
+      "classKey": "base:shadow-piercer",
+      "name": "forte",
+      "assetno": "s-128",
+      "isSummons": false,
+      "isLevelUp": false,
+      "pairKey": "base:shadow-piercer:s-127",
+      "ocr": {
+        "text": "WRT Ren rF",
+        "canonical": "wrt ren rf",
+        "confidence": 29
+      },
+      "levelUpScore": 0.9729916897506925
+    },
+    "classes/rove/base/core/shadow-piercer/rv-grace-note.png": {
+      "tier": "base",
+      "slug": "shadow-piercer",
+      "classKey": "base:shadow-piercer",
+      "name": "grace note",
+      "assetno": "s-125",
+      "isSummons": false,
+      "isLevelUp": false,
+      "pairKey": "base:shadow-piercer:ocr:grace note::umbral howl",
+      "ocr": {
+        "text": "Wt \\ | -   Umbral Howl    ac |",
+        "canonical": "wt umbral howl ac",
+        "confidence": 43
+      },
+      "levelUpScore": 0.9705678670360111
+    },
+    "classes/rove/base/core/shadow-piercer/rv-incant.png": {
+      "tier": "base",
+      "slug": "shadow-piercer",
+      "classKey": "base:shadow-piercer",
+      "name": "incant",
+      "assetno": "s-111",
+      "isSummons": false,
+      "isLevelUp": true,
+      "pairKey": "base:shadow-piercer:s-111",
+      "ocr": {
+        "text": "Th a re",
+        "canonical": "th a re",
+        "confidence": 27
+      },
+      "levelUpScore": 1
+    },
+    "classes/rove/base/core/shadow-piercer/rv-invigorate.png": {
+      "tier": "base",
+      "slug": "shadow-piercer",
+      "classKey": "base:shadow-piercer",
+      "name": "invigorate",
+      "assetno": "s-114",
+      "isSummons": false,
+      "isLevelUp": true,
+      "pairKey": "base:shadow-piercer:ocr:invigorate::miasmic arrow",
+      "ocr": {
+        "text": "eT  Miasmic Arrow  rE",
+        "canonical": "et miasmic arrow re",
+        "confidence": 47
+      },
+      "levelUpScore": 1
+    },
+    "classes/rove/base/core/shadow-piercer/rv-keen-bolter.png": {
+      "tier": "base",
+      "slug": "shadow-piercer",
+      "classKey": "base:shadow-piercer",
+      "name": "keen bolter",
+      "assetno": "s-124",
+      "isSummons": false,
+      "isLevelUp": false,
+      "pairKey": "base:shadow-piercer:ocr:drain essence::keen bolter",
+      "ocr": {
+        "text": "Wt \\ Cl Drain Essence Te",
+        "canonical": "wt cl drain essence te",
+        "confidence": 71
+      },
+      "levelUpScore": 0.9705678670360111
+    },
+    "classes/rove/base/core/shadow-piercer/rv-lifeblood.png": {
+      "tier": "base",
+      "slug": "shadow-piercer",
+      "classKey": "base:shadow-piercer",
+      "name": "lifeblood",
+      "assetno": "s-105",
+      "isSummons": false,
+      "isLevelUp": true,
+      "pairKey": "base:shadow-piercer:s-105",
+      "ocr": {
+        "text": "",
+        "canonical": "",
+        "confidence": 0
+      },
+      "levelUpScore": 1
+    },
+    "classes/rove/base/core/shadow-piercer/rv-lithe-form.png": {
+      "tier": "base",
+      "slug": "shadow-piercer",
+      "classKey": "base:shadow-piercer",
+      "name": "lithe form",
+      "assetno": "s-119",
+      "isSummons": false,
+      "isLevelUp": false,
+      "pairKey": "base:shadow-piercer:s-119",
+      "ocr": {
+        "text": "If \\X - —      Pounce      wy",
+        "canonical": "if x pounce wy",
+        "confidence": 30
+      },
+      "levelUpScore": 0.9719529085872576
+    },
+    "classes/rove/base/core/shadow-piercer/rv-miasmic-arrow.png": {
+      "tier": "base",
+      "slug": "shadow-piercer",
+      "classKey": "base:shadow-piercer",
+      "name": "miasmic arrow",
+      "assetno": "s-113",
+      "isSummons": false,
+      "isLevelUp": true,
+      "pairKey": "base:shadow-piercer:ocr:invigorate::miasmic arrow",
+      "ocr": {
+        "text": "mn \\  ©]          tt      ry",
+        "canonical": "mn tt ry",
+        "confidence": 35
+      },
+      "levelUpScore": 1
+    },
+    "classes/rove/base/core/shadow-piercer/rv-passing-knell.png": {
+      "tier": "base",
+      "slug": "shadow-piercer",
+      "classKey": "base:shadow-piercer",
+      "name": "passing knell",
+      "assetno": "s-107",
+      "isSummons": false,
+      "isLevelUp": true,
+      "pairKey": "base:shadow-piercer:ocr:eviscerate::passing knell",
+      "ocr": {
+        "text": "",
+        "canonical": "",
+        "confidence": 0
+      },
+      "levelUpScore": 1
+    },
+    "classes/rove/base/core/shadow-piercer/rv-pounce.png": {
+      "tier": "base",
+      "slug": "shadow-piercer",
+      "classKey": "base:shadow-piercer",
+      "name": "pounce",
+      "assetno": "s-120",
+      "isSummons": false,
+      "isLevelUp": false,
+      "pairKey": "base:shadow-piercer:s-119",
+      "ocr": {
+        "text": "mn N C) i     Tithe Form     ry",
+        "canonical": "mn n c i tithe form ry",
+        "confidence": 30
+      },
+      "levelUpScore": 0.9702216066481995
+    },
+    "classes/rove/base/core/shadow-piercer/rv-refrain.png": {
+      "tier": "base",
+      "slug": "shadow-piercer",
+      "classKey": "base:shadow-piercer",
+      "name": "refrain",
+      "assetno": "s-127",
+      "isSummons": false,
+      "isLevelUp": false,
+      "pairKey": "base:shadow-piercer:s-127",
+      "ocr": {
+        "text": "",
+        "canonical": "",
+        "confidence": 0
+      },
+      "levelUpScore": 0.9702216066481995
+    },
+    "classes/rove/base/core/shadow-piercer/rv-umbral-howl.png": {
+      "tier": "base",
+      "slug": "shadow-piercer",
+      "classKey": "base:shadow-piercer",
+      "name": "umbral howl",
+      "assetno": "s-126",
+      "isSummons": false,
+      "isLevelUp": false,
+      "pairKey": "base:shadow-piercer:ocr:grace note::umbral howl",
+      "ocr": {
+        "text": "ET Te",
+        "canonical": "et te",
+        "confidence": 46
+      },
+      "levelUpScore": 0.9705678670360111
+    },
+    "classes/rove/base/core/sophist/rv-alluring-armoroll-back.png": {
+      "tier": "base",
+      "slug": "sophist",
+      "classKey": "base:sophist",
+      "name": "alluring armoroll",
+      "assetno": "a-006",
+      "isSummons": true,
+      "isLevelUp": false,
+      "pairKey": "base:sophist:a-6",
+      "ocr": {
+        "text": "ne",
+        "canonical": "ne",
+        "confidence": 44
+      },
+      "levelUpScore": 0.9941135734072022
+    },
+    "classes/rove/base/core/sophist/rv-alluring-armoroll-front.png": {
+      "tier": "base",
+      "slug": "sophist",
+      "classKey": "base:sophist",
+      "name": "alluring armoroll",
+      "assetno": "a-006",
+      "isSummons": true,
+      "isLevelUp": false,
+      "pairKey": "base:sophist:a-6",
+      "ocr": {
+        "text": "",
+        "canonical": "",
+        "confidence": 0
+      },
+      "levelUpScore": 0.8909279778393352
+    },
+    "classes/rove/base/core/sophist/rv-bask-in-the-light.png": {
+      "tier": "base",
+      "slug": "sophist",
+      "classKey": "base:sophist",
+      "name": "bask in the light",
+      "assetno": "s-163",
+      "isSummons": false,
+      "isLevelUp": false,
+      "pairKey": "base:sophist:s-163",
+      "ocr": {
+        "text": "NT ry",
+        "canonical": "nt ry",
+        "confidence": 52
+      },
+      "levelUpScore": 0.35041551246537395
+    },
+    "classes/rove/base/core/sophist/rv-bitter-realization.png": {
+      "tier": "base",
+      "slug": "sophist",
+      "classKey": "base:sophist",
+      "name": "bitter realization",
+      "assetno": "s-172",
+      "isSummons": false,
+      "isLevelUp": true,
+      "pairKey": "base:sophist:ocr:bitter realization::ready in mind",
+      "ocr": {
+        "text": "A   Cll    —        | co",
+        "canonical": "a cll co",
+        "confidence": 50
+      },
+      "levelUpScore": 0.45256232686980613
+    },
+    "classes/rove/base/core/sophist/rv-blustery-rebuke.png": {
+      "tier": "base",
+      "slug": "sophist",
+      "classKey": "base:sophist",
+      "name": "blustery rebuke",
+      "assetno": "s-157",
+      "isSummons": false,
+      "isLevelUp": true,
+      "pairKey": "base:sophist:ocr:blustery rebuke::echo chamber",
+      "ocr": {
+        "text": "\\  e |      Echo Chamber     4 v",
+        "canonical": "e echo chamber 4 v",
+        "confidence": 59
+      },
+      "levelUpScore": 0.4359418282548476
+    },
+    "classes/rove/base/core/sophist/rv-conceptualism.png": {
+      "tier": "base",
+      "slug": "sophist",
+      "classKey": "base:sophist",
+      "name": "conceptualism",
+      "assetno": "s-177",
+      "isSummons": false,
+      "isLevelUp": true,
+      "pairKey": "base:sophist:ocr:conceptualism::second wind",
+      "ocr": {
+        "text": "aN  cl        Second Wind        | co",
+        "canonical": "an cl second wind co",
+        "confidence": 52
+      },
+      "levelUpScore": 0.4629501385041551
+    },
+    "classes/rove/base/core/sophist/rv-confound.png": {
+      "tier": "base",
+      "slug": "sophist",
+      "classKey": "base:sophist",
+      "name": "confound",
+      "assetno": "s-169",
+      "isSummons": false,
+      "isLevelUp": false,
+      "pairKey": "base:sophist:ocr:confound::dance of rays",
+      "ocr": {
+        "text": "\\  al      Dance of Rays     1 ]",
+        "canonical": "al dance of rays 1",
+        "confidence": 49
+      },
+      "levelUpScore": 0.37257617728531855
+    },
+    "classes/rove/base/core/sophist/rv-dance-of-fronds.png": {
+      "tier": "base",
+      "slug": "sophist",
+      "classKey": "base:sophist",
+      "name": "dance of fronds",
+      "assetno": "s-164",
+      "isSummons": false,
+      "isLevelUp": false,
+      "pairKey": "base:sophist:s-163",
+      "ocr": {
+        "text": "\\ Cll   Baskin the Light   Ie",
+        "canonical": "cll baskin the light ie",
+        "confidence": 64
+      },
+      "levelUpScore": 0.3760387811634349
+    },
+    "classes/rove/base/core/sophist/rv-dance-of-rays.png": {
+      "tier": "base",
+      "slug": "sophist",
+      "classKey": "base:sophist",
+      "name": "dance of rays",
+      "assetno": "s-170",
+      "isSummons": false,
+      "isLevelUp": true,
+      "pairKey": "base:sophist:ocr:confound::dance of rays",
+      "ocr": {
+        "text": "\\  Tl       i     4 ]",
+        "canonical": "tl i 4",
+        "confidence": 28
+      },
+      "levelUpScore": 0.45221606648199447
+    },
+    "classes/rove/base/core/sophist/rv-dazzling-strike.png": {
+      "tier": "base",
+      "slug": "sophist",
+      "classKey": "base:sophist",
+      "name": "dazzling strike",
+      "assetno": "s-160",
+      "isSummons": false,
+      "isLevelUp": false,
+      "pairKey": "base:sophist:ocr:dazzling strike::moment s respite",
+      "ocr": {
+        "text": "\\ di \\ Ci i OmENTIRespie   4 ]",
+        "canonical": "di ci i omentirespie 4",
+        "confidence": 34
+      },
+      "levelUpScore": 0.381578947368421
+    },
+    "classes/rove/base/core/sophist/rv-echo-chamber.png": {
+      "tier": "base",
+      "slug": "sophist",
+      "classKey": "base:sophist",
+      "name": "echo chamber",
+      "assetno": "s-158",
+      "isSummons": false,
+      "isLevelUp": false,
+      "pairKey": "base:sophist:ocr:blustery rebuke::echo chamber",
+      "ocr": {
+        "text": "\\ Cl    Blustery Rebuke    £3",
+        "canonical": "cl blustery rebuke 3",
+        "confidence": 70
+      },
+      "levelUpScore": 0.3407202216066482
+    },
+    "classes/rove/base/core/sophist/rv-essentialism.png": {
+      "tier": "base",
+      "slug": "sophist",
+      "classKey": "base:sophist",
+      "name": "essentialism",
+      "assetno": "s-176",
+      "isSummons": false,
+      "isLevelUp": false,
+      "pairKey": "base:sophist:ocr:essentialism::pure sophistry",
+      "ocr": {
+        "text": "\\    Tl           Pure Sophistry          di  co)",
+        "canonical": "tl pure sophistry di co",
+        "confidence": 50
+      },
+      "levelUpScore": 0.38850415512465375
+    },
+    "classes/rove/base/core/sophist/rv-intense-curiosity.png": {
+      "tier": "base",
+      "slug": "sophist",
+      "classKey": "base:sophist",
+      "name": "intense curiosity",
+      "assetno": "s-179",
+      "isSummons": false,
+      "isLevelUp": true,
+      "pairKey": "base:sophist:ocr:intense curiosity::isolation agitation",
+      "ocr": {
+        "text": "\\  e |    Isolation ‘Agitation    | v",
+        "canonical": "e isolation agitation v",
+        "confidence": 60
+      },
+      "levelUpScore": 0.47922437673130197
+    },
+    "classes/rove/base/core/sophist/rv-isolation-agitation.png": {
+      "tier": "base",
+      "slug": "sophist",
+      "classKey": "base:sophist",
+      "name": "isolation agitation",
+      "assetno": "s-180",
+      "isSummons": false,
+      "isLevelUp": true,
+      "pairKey": "base:sophist:ocr:intense curiosity::isolation agitation",
+      "ocr": {
+        "text": "\\  e |     J ca ttn    | ]",
+        "canonical": "e j ca ttn",
+        "confidence": 47
+      },
+      "levelUpScore": 0.4359418282548476
+    },
+    "classes/rove/base/core/sophist/rv-luminescent-hyperbola-back.png": {
+      "tier": "base",
+      "slug": "sophist",
+      "classKey": "base:sophist",
+      "name": "luminescent hyperbola",
+      "assetno": "a-005",
+      "isSummons": true,
+      "isLevelUp": false,
+      "pairKey": "base:sophist:a-5",
+      "ocr": {
+        "text": "he",
+        "canonical": "he",
+        "confidence": 36
+      },
+      "levelUpScore": 0.9702216066481995
+    },
+    "classes/rove/base/core/sophist/rv-luminescent-hyperbola-front.png": {
+      "tier": "base",
+      "slug": "sophist",
+      "classKey": "base:sophist",
+      "name": "luminescent hyperbola",
+      "assetno": "a-005",
+      "isSummons": true,
+      "isLevelUp": false,
+      "pairKey": "base:sophist:a-5",
+      "ocr": {
+        "text": "oat",
+        "canonical": "oat",
+        "confidence": 33
+      },
+      "levelUpScore": 0.967797783933518
+    },
+    "classes/rove/base/core/sophist/rv-lustrous-flare.png": {
+      "tier": "base",
+      "slug": "sophist",
+      "classKey": "base:sophist",
+      "name": "lustrous flare",
+      "assetno": "s-166",
+      "isSummons": false,
+      "isLevelUp": false,
+      "pairKey": "base:sophist:ocr:lustrous flare::unnatural defenses",
+      "ocr": {
+        "text": "\\ e |  Unnatural Defenses  3",
+        "canonical": "e unnatural defenses 3",
+        "confidence": 66
+      },
+      "levelUpScore": 0.34418282548476453
+    },
+    "classes/rove/base/core/sophist/rv-moments-respite.png": {
+      "tier": "base",
+      "slug": "sophist",
+      "classKey": "base:sophist",
+      "name": "moment's respite",
+      "assetno": "s-159",
+      "isSummons": false,
+      "isLevelUp": false,
+      "pairKey": "base:sophist:ocr:dazzling strike::moment s respite",
+      "ocr": {
+        "text": "\\  |     Dazzling Strike     di co",
+        "canonical": "dazzling strike di co",
+        "confidence": 65
+      },
+      "levelUpScore": 0.3216759002770083
+    },
+    "classes/rove/base/core/sophist/rv-pure-sophistry.png": {
+      "tier": "base",
+      "slug": "sophist",
+      "classKey": "base:sophist",
+      "name": "pure sophistry",
+      "assetno": "s-175",
+      "isSummons": false,
+      "isLevelUp": false,
+      "pairKey": "base:sophist:ocr:essentialism::pure sophistry",
+      "ocr": {
+        "text": "\\    ad     \"       Essentialism        Tw",
+        "canonical": "ad essentialism tw",
+        "confidence": 44
+      },
+      "levelUpScore": 0.40754847645429365
+    },
+    "classes/rove/base/core/sophist/rv-radiant-aerios-back.png": {
+      "tier": "base",
+      "slug": "sophist",
+      "classKey": "base:sophist",
+      "name": "radiant aerios",
+      "assetno": "a-007",
+      "isSummons": true,
+      "isLevelUp": false,
+      "pairKey": "base:sophist:a-7",
+      "ocr": {
+        "text": "he",
+        "canonical": "he",
+        "confidence": 41
+      },
+      "levelUpScore": 0.997229916897507
+    },
+    "classes/rove/base/core/sophist/rv-radiant-aerios-front.png": {
+      "tier": "base",
+      "slug": "sophist",
+      "classKey": "base:sophist",
+      "name": "radiant aerios",
+      "assetno": "a-007",
+      "isSummons": true,
+      "isLevelUp": false,
+      "pairKey": "base:sophist:a-7",
+      "ocr": {
+        "text": "",
+        "canonical": "",
+        "confidence": 0
+      },
+      "levelUpScore": 0.47195290858725764
+    },
+    "classes/rove/base/core/sophist/rv-ready-in-mind.png": {
+      "tier": "base",
+      "slug": "sophist",
+      "classKey": "base:sophist",
+      "name": "ready in mind",
+      "assetno": "s-171",
+      "isSummons": false,
+      "isLevelUp": false,
+      "pairKey": "base:sophist:ocr:bitter realization::ready in mind",
+      "ocr": {
+        "text": "\\   e |       Bitter Realization      |  w",
+        "canonical": "e bitter realization w",
+        "confidence": 68
+      },
+      "levelUpScore": 0.3334487534626039
+    },
+    "classes/rove/base/core/sophist/rv-scintillating-darts.png": {
+      "tier": "base",
+      "slug": "sophist",
+      "classKey": "base:sophist",
+      "name": "scintillating darts",
+      "assetno": "s-173",
+      "isSummons": false,
+      "isLevelUp": true,
+      "pairKey": "base:sophist:ocr:scintillating darts::sudden debate",
+      "ocr": {
+        "text": "7 e |  \"Sudden Debate    3",
+        "canonical": "7 e sudden debate 3",
+        "confidence": 45
+      },
+      "levelUpScore": 0.48961218836565096
+    },
+    "classes/rove/base/core/sophist/rv-second-wind.png": {
+      "tier": "base",
+      "slug": "sophist",
+      "classKey": "base:sophist",
+      "name": "second wind",
+      "assetno": "s-178",
+      "isSummons": false,
+      "isLevelUp": false,
+      "pairKey": "base:sophist:ocr:conceptualism::second wind",
+      "ocr": {
+        "text": "\\  \\ Cl 2a Connon   4 ca",
+        "canonical": "cl 2a connon 4 ca",
+        "confidence": 46
+      },
+      "levelUpScore": 0.3202908587257618
+    },
+    "classes/rove/base/core/sophist/rv-shifts-in-the-wind.png": {
+      "tier": "base",
+      "slug": "sophist",
+      "classKey": "base:sophist",
+      "name": "shifts in the wind",
+      "assetno": "s-161",
+      "isSummons": false,
+      "isLevelUp": false,
+      "pairKey": "base:sophist:ocr:shifts in the wind::trick of the light",
+      "ocr": {
+        "text": "\\ |  Trick of the Light  I",
+        "canonical": "trick of the light i",
+        "confidence": 68
+      },
+      "levelUpScore": 0.3528393351800554
+    },
+    "classes/rove/base/core/sophist/rv-sound-barrier.png": {
+      "tier": "base",
+      "slug": "sophist",
+      "classKey": "base:sophist",
+      "name": "sound barrier",
+      "assetno": "s-168",
+      "isSummons": false,
+      "isLevelUp": true,
+      "pairKey": "base:sophist:ocr:sound barrier::watch your step",
+      "ocr": {
+        "text": "\\ 1 : Watch Your Step  oe",
+        "canonical": "1 watch your step oe",
+        "confidence": 47
+      },
+      "levelUpScore": 0.4757617728531856
+    },
+    "classes/rove/base/core/sophist/rv-sudden-debate.png": {
+      "tier": "base",
+      "slug": "sophist",
+      "classKey": "base:sophist",
+      "name": "sudden debate",
+      "assetno": "s-174",
+      "isSummons": false,
+      "isLevelUp": true,
+      "pairKey": "base:sophist:ocr:scintillating darts::sudden debate",
+      "ocr": {
+        "text": "\\ i.  Cl   —    | ]",
+        "canonical": "i cl",
+        "confidence": 40
+      },
+      "levelUpScore": 0.4518698060941828
+    },
+    "classes/rove/base/core/sophist/rv-trick-of-the-light.png": {
+      "tier": "base",
+      "slug": "sophist",
+      "classKey": "base:sophist",
+      "name": "trick of the light",
+      "assetno": "s-162",
+      "isSummons": false,
+      "isLevelUp": false,
+      "pairKey": "base:sophist:ocr:shifts in the wind::trick of the light",
+      "ocr": {
+        "text": "\\ Cl — £3",
+        "canonical": "cl 3",
+        "confidence": 35
+      },
+      "levelUpScore": 0.3195983379501385
+    },
+    "classes/rove/base/core/sophist/rv-unnatural-defenses.png": {
+      "tier": "base",
+      "slug": "sophist",
+      "classKey": "base:sophist",
+      "name": "unnatural defenses",
+      "assetno": "s-165",
+      "isSummons": false,
+      "isLevelUp": false,
+      "pairKey": "base:sophist:ocr:lustrous flare::unnatural defenses",
+      "ocr": {
+        "text": "TTT Te",
+        "canonical": "ttt te",
+        "confidence": 48
+      },
+      "levelUpScore": 0.381578947368421
+    },
+    "classes/rove/base/core/sophist/rv-watch-your-step.png": {
+      "tier": "base",
+      "slug": "sophist",
+      "classKey": "base:sophist",
+      "name": "watch your step",
+      "assetno": "s-167",
+      "isSummons": false,
+      "isLevelUp": true,
+      "pairKey": "base:sophist:ocr:sound barrier::watch your step",
+      "ocr": {
+        "text": "\\ ad * Sound Barrier   £3",
+        "canonical": "ad sound barrier 3",
+        "confidence": 34
+      },
+      "levelUpScore": 0.46537396121883656
+    },
+    "classes/rove/base/core/true-scale/rv-against-the-odds.png": {
+      "tier": "base",
+      "slug": "true-scale",
+      "classKey": "base:true-scale",
+      "name": "against the odds",
+      "assetno": "s-221",
+      "isSummons": false,
+      "isLevelUp": false,
+      "pairKey": "base:true-scale:s-221",
+      "ocr": {
+        "text": "OX      ad   Pressthe dirs    |  vi",
+        "canonical": "ox ad pressthe dirs vi",
+        "confidence": 52
+      },
+      "levelUpScore": 0.7115650969529086
+    },
+    "classes/rove/base/core/true-scale/rv-amidst-the-fray.png": {
+      "tier": "base",
+      "slug": "true-scale",
+      "classKey": "base:true-scale",
+      "name": "amidst the fray",
+      "assetno": "s-220",
+      "isSummons": false,
+      "isLevelUp": false,
+      "pairKey": "base:true-scale:s-219",
+      "ocr": {
+        "text": "o\\   oT       Watch the Back       4 w",
+        "canonical": "o ot watch the back 4 w",
+        "confidence": 58
+      },
+      "levelUpScore": 0.6229224376731302
+    },
+    "classes/rove/base/core/true-scale/rv-blast-step.png": {
+      "tier": "base",
+      "slug": "true-scale",
+      "classKey": "base:true-scale",
+      "name": "blast step",
+      "assetno": "s-217",
+      "isSummons": false,
+      "isLevelUp": false,
+      "pairKey": "base:true-scale:ocr:blast step::traitorous thoughts",
+      "ocr": {
+        "text": "OX e | Traitorous Thoughts Tw",
+        "canonical": "ox e traitorous thoughts tw",
+        "confidence": 57
+      },
+      "levelUpScore": 0.5955678670360111
+    },
+    "classes/rove/base/core/true-scale/rv-coordinated-assault.png": {
+      "tier": "base",
+      "slug": "true-scale",
+      "classKey": "base:true-scale",
+      "name": "coordinated assault",
+      "assetno": "s-214",
+      "isSummons": false,
+      "isLevelUp": false,
+      "pairKey": "base:true-scale:ocr:coordinated assault::settling groundwork",
+      "ocr": {
+        "text": "o\\ i. \\ ©   Settling Groundwork   I",
+        "canonical": "o i settling groundwork i",
+        "confidence": 66
+      },
+      "levelUpScore": 0.5765235457063712
+    },
+    "classes/rove/base/core/true-scale/rv-credit.png": {
+      "tier": "base",
+      "slug": "true-scale",
+      "classKey": "base:true-scale",
+      "name": "credit",
+      "assetno": "s-231",
+      "isSummons": false,
+      "isLevelUp": false,
+      "pairKey": "base:true-scale:ocr:credit::toll bearer",
+      "ocr": {
+        "text": "o\\  \\ al    Toll Bearer   rw",
+        "canonical": "o al toll bearer rw",
+        "confidence": 60
+      },
+      "levelUpScore": 0.6918282548476454
+    },
+    "classes/rove/base/core/true-scale/rv-divesting-thoughts.png": {
+      "tier": "base",
+      "slug": "true-scale",
+      "classKey": "base:true-scale",
+      "name": "divesting thoughts",
+      "assetno": "s-228",
+      "isSummons": false,
+      "isLevelUp": false,
+      "pairKey": "base:true-scale:ocr:divesting thoughts::safe cracker",
+      "ocr": {
+        "text": "",
+        "canonical": "",
+        "confidence": 0
+      },
+      "levelUpScore": 0.5827562326869806
+    },
+    "classes/rove/base/core/true-scale/rv-embezzle.png": {
+      "tier": "base",
+      "slug": "true-scale",
+      "classKey": "base:true-scale",
+      "name": "embezzle",
+      "assetno": "s-229",
+      "isSummons": false,
+      "isLevelUp": false,
+      "pairKey": "base:true-scale:ocr:embezzle::fierce ransomer",
+      "ocr": {
+        "text": "OX e | \"Fierce Ransomer  Te",
+        "canonical": "ox e fierce ransomer te",
+        "confidence": 57
+      },
+      "levelUpScore": 0.699792243767313
+    },
+    "classes/rove/base/core/true-scale/rv-fierce-ransomer.png": {
+      "tier": "base",
+      "slug": "true-scale",
+      "classKey": "base:true-scale",
+      "name": "fierce ransomer",
+      "assetno": "s-230",
+      "isSummons": false,
+      "isLevelUp": false,
+      "pairKey": "base:true-scale:ocr:embezzle::fierce ransomer",
+      "ocr": {
+        "text": "NTT Ty",
+        "canonical": "ntt ty",
+        "confidence": 35
+      },
+      "levelUpScore": 0.7032548476454293
+    },
+    "classes/rove/base/core/true-scale/rv-initial-investment.png": {
+      "tier": "base",
+      "slug": "true-scale",
+      "classKey": "base:true-scale",
+      "name": "initial investment",
+      "assetno": "s-226",
+      "isSummons": false,
+      "isLevelUp": false,
+      "pairKey": "base:true-scale:ocr:initial investment::psychic scars",
+      "ocr": {
+        "text": "o\\     Ell  \"    Pavehic aaa      4) w",
+        "canonical": "o ell pavehic aaa 4 w",
+        "confidence": 29
+      },
+      "levelUpScore": 0.6281163434903048
+    },
+    "classes/rove/base/core/true-scale/rv-intrusive-thoughts.png": {
+      "tier": "base",
+      "slug": "true-scale",
+      "classKey": "base:true-scale",
+      "name": "intrusive thoughts",
+      "assetno": "s-215",
+      "isSummons": false,
+      "isLevelUp": false,
+      "pairKey": "base:true-scale:ocr:intrusive thoughts::ruthless assault",
+      "ocr": {
+        "text": "o\\    e |  © Ruthless Assault    | vi",
+        "canonical": "o e ruthless assault vi",
+        "confidence": 65
+      },
+      "levelUpScore": 0.6644736842105263
+    },
+    "classes/rove/base/core/true-scale/rv-knock-senseless.png": {
+      "tier": "base",
+      "slug": "true-scale",
+      "classKey": "base:true-scale",
+      "name": "knock senseless",
+      "assetno": "s-210",
+      "isSummons": false,
+      "isLevelUp": false,
+      "pairKey": "base:true-scale:ocr:knock senseless::shell games",
+      "ocr": {
+        "text": "o\\  \\ or     Shell Games     rw",
+        "canonical": "o or shell games rw",
+        "confidence": 62
+      },
+      "levelUpScore": 0.6745152354570637
+    },
+    "classes/rove/base/core/true-scale/rv-press-the-advantage.png": {
+      "tier": "base",
+      "slug": "true-scale",
+      "classKey": "base:true-scale",
+      "name": "press the advantage",
+      "assetno": "s-222",
+      "isSummons": false,
+      "isLevelUp": false,
+      "pairKey": "base:true-scale:s-221",
+      "ocr": {
+        "text": "OX wl Againstthe Odds rw",
+        "canonical": "ox wl againstthe odds rw",
+        "confidence": 41
+      },
+      "levelUpScore": 0.650623268698061
+    },
+    "classes/rove/base/core/true-scale/rv-psychic-scars.png": {
+      "tier": "base",
+      "slug": "true-scale",
+      "classKey": "base:true-scale",
+      "name": "psychic scars",
+      "assetno": "s-225",
+      "isSummons": false,
+      "isLevelUp": false,
+      "pairKey": "base:true-scale:ocr:initial investment::psychic scars",
+      "ocr": {
+        "text": "oN Q]   Initial Investment   | vi",
+        "canonical": "on q initial investment vi",
+        "confidence": 69
+      },
+      "levelUpScore": 0.6911357340720221
+    },
+    "classes/rove/base/core/true-scale/rv-ruthless-assault.png": {
+      "tier": "base",
+      "slug": "true-scale",
+      "classKey": "base:true-scale",
+      "name": "ruthless assault",
+      "assetno": "s-216",
+      "isSummons": false,
+      "isLevelUp": false,
+      "pairKey": "base:true-scale:ocr:intrusive thoughts::ruthless assault",
+      "ocr": {
+        "text": "o\\ iis Cl      Intrusive Thoughts      | w",
+        "canonical": "o iis cl intrusive thoughts w",
+        "confidence": 68
+      },
+      "levelUpScore": 0.653393351800554
+    },
+    "classes/rove/base/core/true-scale/rv-safe-cracker.png": {
+      "tier": "base",
+      "slug": "true-scale",
+      "classKey": "base:true-scale",
+      "name": "safe cracker",
+      "assetno": "s-227",
+      "isSummons": false,
+      "isLevelUp": false,
+      "pairKey": "base:true-scale:ocr:divesting thoughts::safe cracker",
+      "ocr": {
+        "text": "OX  e |    Divesting Thoughts    di w",
+        "canonical": "ox e divesting thoughts di w",
+        "confidence": 61
+      },
+      "levelUpScore": 0.6990997229916898
+    },
+    "classes/rove/base/core/true-scale/rv-settling-groundwork.png": {
+      "tier": "base",
+      "slug": "true-scale",
+      "classKey": "base:true-scale",
+      "name": "settling groundwork",
+      "assetno": "s-213",
+      "isSummons": false,
+      "isLevelUp": false,
+      "pairKey": "base:true-scale:ocr:coordinated assault::settling groundwork",
+      "ocr": {
+        "text": "o\\ cl Coordinated Assault i 7]",
+        "canonical": "o cl coordinated assault i 7",
+        "confidence": 54
+      },
+      "levelUpScore": 0.6049168975069252
+    },
+    "classes/rove/base/core/true-scale/rv-shell-games.png": {
+      "tier": "base",
+      "slug": "true-scale",
+      "classKey": "base:true-scale",
+      "name": "shell games",
+      "assetno": "s-209",
+      "isSummons": false,
+      "isLevelUp": false,
+      "pairKey": "base:true-scale:ocr:knock senseless::shell games",
+      "ocr": {
+        "text": "o\\ Cli  \"Knock Senseless   Te",
+        "canonical": "o cli knock senseless te",
+        "confidence": 59
+      },
+      "levelUpScore": 0.6866343490304709
+    },
+    "classes/rove/base/core/true-scale/rv-spectrum-support.png": {
+      "tier": "base",
+      "slug": "true-scale",
+      "classKey": "base:true-scale",
+      "name": "spectrum support",
+      "assetno": "s-223",
+      "isSummons": false,
+      "isLevelUp": false,
+      "pairKey": "base:true-scale:s-223",
+      "ocr": {
+        "text": "",
+        "canonical": "",
+        "confidence": 0
+      },
+      "levelUpScore": 0.6156509695290858
+    },
+    "classes/rove/base/core/true-scale/rv-strange-chatter.png": {
+      "tier": "base",
+      "slug": "true-scale",
+      "classKey": "base:true-scale",
+      "name": "strange chatter",
+      "assetno": "s-211",
+      "isSummons": false,
+      "isLevelUp": false,
+      "pairKey": "base:true-scale:s-211",
+      "ocr": {
+        "text": "o\\  \\ al —     | vi",
+        "canonical": "o al vi",
+        "confidence": 61
+      },
+      "levelUpScore": 0.627770083102493
+    },
+    "classes/rove/base/core/true-scale/rv-sweeping-cleave.png": {
+      "tier": "base",
+      "slug": "true-scale",
+      "classKey": "base:true-scale",
+      "name": "sweeping cleave",
+      "assetno": "s-212",
+      "isSummons": false,
+      "isLevelUp": false,
+      "pairKey": "base:true-scale:s-211",
+      "ocr": {
+        "text": "o\\ # | ——   Cl",
+        "canonical": "o cl",
+        "confidence": 36
+      },
+      "levelUpScore": 0.5505540166204986
+    },
+    "classes/rove/base/core/true-scale/rv-toll-bearer.png": {
+      "tier": "base",
+      "slug": "true-scale",
+      "classKey": "base:true-scale",
+      "name": "toll bearer",
+      "assetno": "s-232",
+      "isSummons": false,
+      "isLevelUp": false,
+      "pairKey": "base:true-scale:ocr:credit::toll bearer",
+      "ocr": {
+        "text": "oC  Ge a Te",
+        "canonical": "oc ge a te",
+        "confidence": 40
+      },
+      "levelUpScore": 0.6312326869806094
+    },
+    "classes/rove/base/core/true-scale/rv-traitorous-thoughts.png": {
+      "tier": "base",
+      "slug": "true-scale",
+      "classKey": "base:true-scale",
+      "name": "traitorous thoughts",
+      "assetno": "s-218",
+      "isSummons": false,
+      "isLevelUp": false,
+      "pairKey": "base:true-scale:ocr:blast step::traitorous thoughts",
+      "ocr": {
+        "text": "",
+        "canonical": "",
+        "confidence": 0
+      },
+      "levelUpScore": 0.6443905817174516
+    },
+    "classes/rove/base/core/true-scale/rv-volatile-exchange.png": {
+      "tier": "base",
+      "slug": "true-scale",
+      "classKey": "base:true-scale",
+      "name": "volatile exchange",
+      "assetno": "s-224",
+      "isSummons": false,
+      "isLevelUp": false,
+      "pairKey": "base:true-scale:s-223",
+      "ocr": {
+        "text": "IAN  CAR]",
+        "canonical": "ian car",
+        "confidence": 16
+      },
+      "levelUpScore": 0.702562326869806
+    },
+    "classes/rove/base/core/true-scale/rv-watch-the-back.png": {
+      "tier": "base",
+      "slug": "true-scale",
+      "classKey": "base:true-scale",
+      "name": "watch the back",
+      "assetno": "s-219",
+      "isSummons": true,
+      "isLevelUp": false,
+      "pairKey": "base:true-scale:s-219",
+      "ocr": {
+        "text": "o\\ BT  AmidsttheFray | v",
+        "canonical": "o bt amidstthefray v",
+        "confidence": 58
+      },
+      "levelUpScore": 0.7129501385041551
+    },
+    "classes/rove/prime/core/conceptualist/rv-balance-the-equation.png": {
+      "tier": "prime",
+      "slug": "conceptualist",
+      "classKey": "prime:conceptualist",
+      "name": "balance the equation",
+      "assetno": "s-188",
+      "isSummons": false,
+      "isLevelUp": false,
+      "pairKey": "prime:conceptualist:ocr:balance the equation::simple refraction",
+      "ocr": {
+        "text": "AC i Simple Refraction Tw",
+        "canonical": "ac i simple refraction tw",
+        "confidence": 80
+      },
+      "levelUpScore": 0.9719529085872576
+    },
+    "classes/rove/prime/core/conceptualist/rv-coefficient-value.png": {
+      "tier": "prime",
+      "slug": "conceptualist",
+      "classKey": "prime:conceptualist",
+      "name": "coefficient value",
+      "assetno": "s-192",
+      "isSummons": false,
+      "isLevelUp": false,
+      "pairKey": "prime:conceptualist:ocr:coefficient value::two step method",
+      "ocr": {
+        "text": "2 Cl - Two-Step Method  Tw",
+        "canonical": "2 cl two step method tw",
+        "confidence": 67
+      },
+      "levelUpScore": 0.9709141274238227
+    },
+    "classes/rove/prime/core/conceptualist/rv-guiding-the-discussion.png": {
+      "tier": "prime",
+      "slug": "conceptualist",
+      "classKey": "prime:conceptualist",
+      "name": "guiding the discussion",
+      "assetno": "s-183",
+      "isSummons": false,
+      "isLevelUp": true,
+      "pairKey": "prime:conceptualist:ocr:guiding the discussion::point of pursuit",
+      "ocr": {
+        "text": "2% i —_— ry",
+        "canonical": "2 i ry",
+        "confidence": 56
+      },
+      "levelUpScore": 1
+    },
+    "classes/rove/prime/core/conceptualist/rv-in-the-lines.png": {
+      "tier": "prime",
+      "slug": "conceptualist",
+      "classKey": "prime:conceptualist",
+      "name": "in the lines",
+      "assetno": "s-194",
+      "isSummons": false,
+      "isLevelUp": false,
+      "pairKey": "prime:conceptualist:s-193",
+      "ocr": {
+        "text": "2 kd i   OutoftheBox | cl",
+        "canonical": "2 kd i outofthebox cl",
+        "confidence": 46
+      },
+      "levelUpScore": 0.971606648199446
+    },
+    "classes/rove/prime/core/conceptualist/rv-inner-monologue.png": {
+      "tier": "prime",
+      "slug": "conceptualist",
+      "classKey": "prime:conceptualist",
+      "name": "inner monologue",
+      "assetno": "s-181",
+      "isSummons": false,
+      "isLevelUp": true,
+      "pairKey": "prime:conceptualist:ocr:inner monologue::radiant spinaerios",
+      "ocr": {
+        "text": "27% — Radiant Spinaerios  \"7H",
+        "canonical": "27 radiant spinaerios 7h",
+        "confidence": 53
+      },
+      "levelUpScore": 1
+    },
+    "classes/rove/prime/core/conceptualist/rv-lasting-impression.png": {
+      "tier": "prime",
+      "slug": "conceptualist",
+      "classKey": "prime:conceptualist",
+      "name": "lasting impression",
+      "assetno": "s-185",
+      "isSummons": false,
+      "isLevelUp": true,
+      "pairKey": "prime:conceptualist:s-185",
+      "ocr": {
+        "text": "& TT — Te",
+        "canonical": "tt te",
+        "confidence": 18
+      },
+      "levelUpScore": 1
+    },
+    "classes/rove/prime/core/conceptualist/rv-luminescent-quartic-back.png": {
+      "tier": "prime",
+      "slug": "conceptualist",
+      "classKey": "prime:conceptualist",
+      "name": "luminescent quartic",
+      "assetno": "a-008",
+      "isSummons": true,
+      "isLevelUp": false,
+      "pairKey": "prime:conceptualist:a-8",
+      "ocr": {
+        "text": "Ocd",
+        "canonical": "ocd",
+        "confidence": 24
+      },
+      "levelUpScore": 1
+    },
+    "classes/rove/prime/core/conceptualist/rv-luminescent-quartic-front.png": {
+      "tier": "prime",
+      "slug": "conceptualist",
+      "classKey": "prime:conceptualist",
+      "name": "luminescent quartic",
+      "assetno": "a-008",
+      "isSummons": true,
+      "isLevelUp": false,
+      "pairKey": "prime:conceptualist:a-8",
+      "ocr": {
+        "text": "< i ha K  A-00¢",
+        "canonical": "i ha k a 00",
+        "confidence": 9
+      },
+      "levelUpScore": 0.9816481994459834
+    },
+    "classes/rove/prime/core/conceptualist/rv-motivational-speeches.png": {
+      "tier": "prime",
+      "slug": "conceptualist",
+      "classKey": "prime:conceptualist",
+      "name": "motivational speeches",
+      "assetno": "s-190",
+      "isSummons": false,
+      "isLevelUp": false,
+      "pairKey": "prime:conceptualist:ocr:motivational speeches::the oldest trick",
+      "ocr": {
+        "text": "2 7% i  The Oldest Trick   Tw",
+        "canonical": "2 7 i the oldest trick tw",
+        "confidence": 71
+      },
+      "levelUpScore": 0.9705678670360111
+    },
+    "classes/rove/prime/core/conceptualist/rv-out-of-the-box.png": {
+      "tier": "prime",
+      "slug": "conceptualist",
+      "classKey": "prime:conceptualist",
+      "name": "out of the box",
+      "assetno": "s-193",
+      "isSummons": false,
+      "isLevelUp": false,
+      "pairKey": "prime:conceptualist:s-193",
+      "ocr": {
+        "text": "2  \\  ka -      Tnthe Lines |      ry",
+        "canonical": "2 ka tnthe lines ry",
+        "confidence": 57
+      },
+      "levelUpScore": 0.9705678670360111
+    },
+    "classes/rove/prime/core/conceptualist/rv-parting-gift.png": {
+      "tier": "prime",
+      "slug": "conceptualist",
+      "classKey": "prime:conceptualist",
+      "name": "parting gift",
+      "assetno": "s-186",
+      "isSummons": false,
+      "isLevelUp": true,
+      "pairKey": "prime:conceptualist:s-185",
+      "ocr": {
+        "text": "2 TW |  rE  | cl",
+        "canonical": "2 tw re cl",
+        "confidence": 44
+      },
+      "levelUpScore": 1
+    },
+    "classes/rove/prime/core/conceptualist/rv-point-of-pursuit.png": {
+      "tier": "prime",
+      "slug": "conceptualist",
+      "classKey": "prime:conceptualist",
+      "name": "point of pursuit",
+      "assetno": "s-184",
+      "isSummons": false,
+      "isLevelUp": true,
+      "pairKey": "prime:conceptualist:ocr:guiding the discussion::point of pursuit",
+      "ocr": {
+        "text": "27%  . Guiding the Discussion Tw",
+        "canonical": "27 guiding the discussion tw",
+        "confidence": 68
+      },
+      "levelUpScore": 1
+    },
+    "classes/rove/prime/core/conceptualist/rv-radiant-spinaerios-back.png": {
+      "tier": "prime",
+      "slug": "conceptualist",
+      "classKey": "prime:conceptualist",
+      "name": "radiant spinaerios",
+      "assetno": "a-009",
+      "isSummons": true,
+      "isLevelUp": false,
+      "pairKey": "prime:conceptualist:a-9",
+      "ocr": {
+        "text": "Ocd",
+        "canonical": "ocd",
+        "confidence": 41
+      },
+      "levelUpScore": 0.9605263157894737
+    },
+    "classes/rove/prime/core/conceptualist/rv-radiant-spinaerios-front.png": {
+      "tier": "prime",
+      "slug": "conceptualist",
+      "classKey": "prime:conceptualist",
+      "name": "radiant spinaerios",
+      "assetno": "a-009",
+      "isSummons": true,
+      "isLevelUp": false,
+      "pairKey": "prime:conceptualist:a-9",
+      "ocr": {
+        "text": "©   7 ”   hd       A-00¢",
+        "canonical": "7 hd a 00",
+        "confidence": 22
+      },
+      "levelUpScore": 0.6142659279778393
+    },
+    "classes/rove/prime/core/conceptualist/rv-radiant-spinaerios.png": {
+      "tier": "prime",
+      "slug": "conceptualist",
+      "classKey": "prime:conceptualist",
+      "name": "radiant spinaerios",
+      "assetno": "s-182",
+      "isSummons": false,
+      "isLevelUp": true,
+      "pairKey": "prime:conceptualist:ocr:inner monologue::radiant spinaerios",
+      "ocr": {
+        "text": "2 Cl - Inner Monologue  ry",
+        "canonical": "2 cl inner monologue ry",
+        "confidence": 64
+      },
+      "levelUpScore": 1
+    },
+    "classes/rove/prime/core/conceptualist/rv-simple-refraction.png": {
+      "tier": "prime",
+      "slug": "conceptualist",
+      "classKey": "prime:conceptualist",
+      "name": "simple refraction",
+      "assetno": "s-187",
+      "isSummons": false,
+      "isLevelUp": false,
+      "pairKey": "prime:conceptualist:ocr:balance the equation::simple refraction",
+      "ocr": {
+        "text": "27%    cal Balance the Equation  ig",
+        "canonical": "27 cal balance the equation ig",
+        "confidence": 71
+      },
+      "levelUpScore": 0.9705678670360111
+    },
+    "classes/rove/prime/core/conceptualist/rv-the-oldest-trick.png": {
+      "tier": "prime",
+      "slug": "conceptualist",
+      "classKey": "prime:conceptualist",
+      "name": "the oldest trick",
+      "assetno": "s-189",
+      "isSummons": false,
+      "isLevelUp": false,
+      "pairKey": "prime:conceptualist:ocr:motivational speeches::the oldest trick",
+      "ocr": {
+        "text": "2% Motivational Speeches £3",
+        "canonical": "2 motivational speeches 3",
+        "confidence": 57
+      },
+      "levelUpScore": 0.9705678670360111
+    },
+    "classes/rove/prime/core/conceptualist/rv-two-step-method.png": {
+      "tier": "prime",
+      "slug": "conceptualist",
+      "classKey": "prime:conceptualist",
+      "name": "two-step method",
+      "assetno": "s-191",
+      "isSummons": false,
+      "isLevelUp": false,
+      "pairKey": "prime:conceptualist:ocr:coefficient value::two step method",
+      "ocr": {
+        "text": "2 Ter Coefficient Value  ry",
+        "canonical": "2 ter coefficient value ry",
+        "confidence": 69
+      },
+      "levelUpScore": 0.9698753462603877
+    },
+    "classes/rove/prime/core/helion/rv-blazing-trail.png": {
+      "tier": "prime",
+      "slug": "helion",
+      "classKey": "prime:helion",
+      "name": "blazing trail",
+      "assetno": "s-079",
+      "isSummons": false,
+      "isLevelUp": true,
+      "pairKey": "prime:helion:ocr:blazing trail::fire volley",
+      "ocr": {
+        "text": "YY  \\  kd 1       Fire Volley    \"gy",
+        "canonical": "yy kd 1 fire volley gy",
+        "confidence": 50
+      },
+      "levelUpScore": 1
+    },
+    "classes/rove/prime/core/helion/rv-catalyzing-explosion.png": {
+      "tier": "prime",
+      "slug": "helion",
+      "classKey": "prime:helion",
+      "name": "catalyzing explosion",
+      "assetno": "s-088",
+      "isSummons": false,
+      "isLevelUp": false,
+      "pairKey": "prime:helion:s-87",
+      "ocr": {
+        "text": "AC] —   Te ©",
+        "canonical": "ac te",
+        "confidence": 47
+      },
+      "levelUpScore": 0.9688365650969529
+    },
+    "classes/rove/prime/core/helion/rv-cleansing-flames.png": {
+      "tier": "prime",
+      "slug": "helion",
+      "classKey": "prime:helion",
+      "name": "cleansing flames",
+      "assetno": "s-077",
+      "isSummons": false,
+      "isLevelUp": true,
+      "pairKey": "prime:helion:s-77",
+      "ocr": {
+        "text": "YY  \\ To ai Controlled Backdraft    | T",
+        "canonical": "yy to ai controlled backdraft t",
+        "confidence": 50
+      },
+      "levelUpScore": 1
+    },
+    "classes/rove/prime/core/helion/rv-controlled-backdraft.png": {
+      "tier": "prime",
+      "slug": "helion",
+      "classKey": "prime:helion",
+      "name": "controlled backdraft",
+      "assetno": "s-078",
+      "isSummons": true,
+      "isLevelUp": false,
+      "pairKey": "prime:helion:s-77",
+      "ocr": {
+        "text": "¥ \\ iC rT   | ®",
+        "canonical": "ic rt",
+        "confidence": 36
+      },
+      "levelUpScore": 1
+    },
+    "classes/rove/prime/core/helion/rv-detonate.png": {
+      "tier": "prime",
+      "slug": "helion",
+      "classKey": "prime:helion",
+      "name": "detonate",
+      "assetno": "s-086",
+      "isSummons": false,
+      "isLevelUp": false,
+      "pairKey": "prime:helion:s-85",
+      "ocr": {
+        "text": "ETT Ts",
+        "canonical": "ett ts",
+        "confidence": 25
+      },
+      "levelUpScore": 0.9691828254847645
+    },
+    "classes/rove/prime/core/helion/rv-fire-volley.png": {
+      "tier": "prime",
+      "slug": "helion",
+      "classKey": "prime:helion",
+      "name": "fire volley",
+      "assetno": "s-080",
+      "isSummons": false,
+      "isLevelUp": true,
+      "pairKey": "prime:helion:ocr:blazing trail::fire volley",
+      "ocr": {
+        "text": "AG |  — oo Te",
+        "canonical": "ag oo te",
+        "confidence": 49
+      },
+      "levelUpScore": 1
+    },
+    "classes/rove/prime/core/helion/rv-fueled-fire.png": {
+      "tier": "prime",
+      "slug": "helion",
+      "classKey": "prime:helion",
+      "name": "fueled fire",
+      "assetno": "s-081",
+      "isSummons": false,
+      "isLevelUp": true,
+      "pairKey": "prime:helion:ocr:fueled fire::spontaneous combustion",
+      "ocr": {
+        "text": "YY N ad * Spontaneous Combustion ©",
+        "canonical": "yy n ad spontaneous combustion",
+        "confidence": 51
+      },
+      "levelUpScore": 1
+    },
+    "classes/rove/prime/core/helion/rv-hot-air.png": {
+      "tier": "prime",
+      "slug": "helion",
+      "classKey": "prime:helion",
+      "name": "hot air",
+      "assetno": "s-089",
+      "isSummons": false,
+      "isLevelUp": false,
+      "pairKey": "prime:helion:ocr:hot air::smoldering embers",
+      "ocr": {
+        "text": "YY \\ <P \"  * Smoldering Embers   | v",
+        "canonical": "yy p smoldering embers v",
+        "confidence": 41
+      },
+      "levelUpScore": 0.9702216066481995
+    },
+    "classes/rove/prime/core/helion/rv-shifting-fronts.png": {
+      "tier": "prime",
+      "slug": "helion",
+      "classKey": "prime:helion",
+      "name": "shifting fronts",
+      "assetno": "s-087",
+      "isSummons": true,
+      "isLevelUp": false,
+      "pairKey": "prime:helion:s-87",
+      "ocr": {
+        "text": "AL  cal Catalyzing Explosion    | T",
+        "canonical": "al cal catalyzing explosion t",
+        "confidence": 66
+      },
+      "levelUpScore": 0.9695290858725761
+    },
+    "classes/rove/prime/core/helion/rv-smoldering-embers.png": {
+      "tier": "prime",
+      "slug": "helion",
+      "classKey": "prime:helion",
+      "name": "smoldering embers",
+      "assetno": "s-090",
+      "isSummons": false,
+      "isLevelUp": false,
+      "pairKey": "prime:helion:ocr:hot air::smoldering embers",
+      "ocr": {
+        "text": "A Ta To",
+        "canonical": "a ta to",
+        "confidence": 49
+      },
+      "levelUpScore": 0.9705678670360111
+    },
+    "classes/rove/prime/core/helion/rv-spontaneous-combustion.png": {
+      "tier": "prime",
+      "slug": "helion",
+      "classKey": "prime:helion",
+      "name": "spontaneous combustion",
+      "assetno": "s-082",
+      "isSummons": false,
+      "isLevelUp": true,
+      "pairKey": "prime:helion:ocr:fueled fire::spontaneous combustion",
+      "ocr": {
+        "text": "YY N ha il    Fueled Fire   To",
+        "canonical": "yy n ha il fueled fire to",
+        "confidence": 43
+      },
+      "levelUpScore": 1
+    },
+    "classes/rove/prime/core/helion/rv-sudden-bellows.png": {
+      "tier": "prime",
+      "slug": "helion",
+      "classKey": "prime:helion",
+      "name": "sudden bellows",
+      "assetno": "s-083",
+      "isSummons": false,
+      "isLevelUp": false,
+      "pairKey": "prime:helion:ocr:sudden bellows::wind barrier",
+      "ocr": {
+        "text": "YY N kd | i   Wind Barrier   To",
+        "canonical": "yy n kd i wind barrier to",
+        "confidence": 64
+      },
+      "levelUpScore": 0.9698753462603877
+    },
+    "classes/rove/prime/core/helion/rv-torching-spray.png": {
+      "tier": "prime",
+      "slug": "helion",
+      "classKey": "prime:helion",
+      "name": "torching spray",
+      "assetno": "s-085",
+      "isSummons": false,
+      "isLevelUp": false,
+      "pairKey": "prime:helion:s-85",
+      "ocr": {
+        "text": "YY Ni    Detonate   \"5 |",
+        "canonical": "yy ni detonate 5",
+        "confidence": 37
+      },
+      "levelUpScore": 0.9705678670360111
+    },
+    "classes/rove/prime/core/helion/rv-wind-barrier.png": {
+      "tier": "prime",
+      "slug": "helion",
+      "classKey": "prime:helion",
+      "name": "wind barrier",
+      "assetno": "s-084",
+      "isSummons": false,
+      "isLevelUp": false,
+      "pairKey": "prime:helion:ocr:sudden bellows::wind barrier",
+      "ocr": {
+        "text": "YY N @ -  Sudden Bellows  wy",
+        "canonical": "yy n sudden bellows wy",
+        "confidence": 54
+      },
+      "levelUpScore": 0.9698753462603877
+    },
+    "classes/rove/prime/core/ridge-striker/rv-adamant-ardorok-back.png": {
+      "tier": "prime",
+      "slug": "ridge-striker",
+      "classKey": "prime:ridge-striker",
+      "name": "adamant ardorok",
+      "assetno": "a-003",
+      "isSummons": true,
+      "isLevelUp": false,
+      "pairKey": "prime:ridge-striker:a-3",
+      "ocr": {
+        "text": "4",
+        "canonical": "4",
+        "confidence": 19
+      },
+      "levelUpScore": 0.4549861495844875
+    },
+    "classes/rove/prime/core/ridge-striker/rv-adamant-ardorok-front.png": {
+      "tier": "prime",
+      "slug": "ridge-striker",
+      "classKey": "prime:ridge-striker",
+      "name": "adamant ardorok",
+      "assetno": "a-003",
+      "isSummons": true,
+      "isLevelUp": false,
+      "pairKey": "prime:ridge-striker:a-3",
+      "ocr": {
+        "text": "A-00:",
+        "canonical": "a 00",
+        "confidence": 50
+      },
+      "levelUpScore": 0.4806094182825485
+    },
+    "classes/rove/prime/core/ridge-striker/rv-arid-valley.png": {
+      "tier": "prime",
+      "slug": "ridge-striker",
+      "classKey": "prime:ridge-striker",
+      "name": "arid valley",
+      "assetno": "s-033",
+      "isSummons": false,
+      "isLevelUp": false,
+      "pairKey": "prime:ridge-striker:ocr:arid valley::enduring valley",
+      "ocr": {
+        "text": "4 N ©]     Enduring Valley   Te",
+        "canonical": "4 n enduring valley te",
+        "confidence": 73
+      },
+      "levelUpScore": 0.956371191135734
+    },
+    "classes/rove/prime/core/ridge-striker/rv-clay-cage.png": {
+      "tier": "prime",
+      "slug": "ridge-striker",
+      "classKey": "prime:ridge-striker",
+      "name": "clay cage",
+      "assetno": "s-025",
+      "isSummons": false,
+      "isLevelUp": true,
+      "pairKey": "prime:ridge-striker:ocr:clay cage::tectonic clash",
+      "ocr": {
+        "text": "7 : \\\" OF 1           Tectonic Clash       Te",
+        "canonical": "7 of 1 tectonic clash te",
+        "confidence": 50
+      },
+      "levelUpScore": 0.9958448753462603
+    },
+    "classes/rove/prime/core/ridge-striker/rv-desert-night.png": {
+      "tier": "prime",
+      "slug": "ridge-striker",
+      "classKey": "prime:ridge-striker",
+      "name": "desert night",
+      "assetno": "s-035",
+      "isSummons": false,
+      "isLevelUp": false,
+      "pairKey": "prime:ridge-striker:ocr:desert night::sand storm",
+      "ocr": {
+        "text": "7 \\  e |       Sand Storm     To",
+        "canonical": "7 e sand storm to",
+        "confidence": 65
+      },
+      "levelUpScore": 0.9636426592797784
+    },
+    "classes/rove/prime/core/ridge-striker/rv-dual-talons.png": {
+      "tier": "prime",
+      "slug": "ridge-striker",
+      "classKey": "prime:ridge-striker",
+      "name": "dual talons",
+      "assetno": "s-032",
+      "isSummons": false,
+      "isLevelUp": false,
+      "pairKey": "prime:ridge-striker:ocr:dual talons::oasis clemency",
+      "ocr": {
+        "text": "> N cl     Oasis Clemency   Te",
+        "canonical": "n cl oasis clemency te",
+        "confidence": 67
+      },
+      "levelUpScore": 0.9622576177285318
+    },
+    "classes/rove/prime/core/ridge-striker/rv-earthen-armor.png": {
+      "tier": "prime",
+      "slug": "ridge-striker",
+      "classKey": "prime:ridge-striker",
+      "name": "earthen armor",
+      "assetno": "s-037",
+      "isSummons": false,
+      "isLevelUp": false,
+      "pairKey": "prime:ridge-striker:ocr:earthen armor::shifted sands",
+      "ocr": {
+        "text": "#\\  \\ S| shifeea Sands | ©",
+        "canonical": "s shifeea sands",
+        "confidence": 40
+      },
+      "levelUpScore": 0.9660664819944598
+    },
+    "classes/rove/prime/core/ridge-striker/rv-enduring-valley.png": {
+      "tier": "prime",
+      "slug": "ridge-striker",
+      "classKey": "prime:ridge-striker",
+      "name": "enduring valley",
+      "assetno": "s-034",
+      "isSummons": false,
+      "isLevelUp": false,
+      "pairKey": "prime:ridge-striker:ocr:arid valley::enduring valley",
+      "ocr": {
+        "text": "Ba Cl          Arid Valley       SF)",
+        "canonical": "ba cl arid valley sf",
+        "confidence": 55
+      },
+      "levelUpScore": 0.9643351800554016
+    },
+    "classes/rove/prime/core/ridge-striker/rv-lent-patience.png": {
+      "tier": "prime",
+      "slug": "ridge-striker",
+      "classKey": "prime:ridge-striker",
+      "name": "lent patience",
+      "assetno": "s-030",
+      "isSummons": false,
+      "isLevelUp": true,
+      "pairKey": "prime:ridge-striker:ocr:lent patience::lent strength",
+      "ocr": {
+        "text": "4 N Ra    Lent Strength   Te",
+        "canonical": "4 n ra lent strength te",
+        "confidence": 63
+      },
+      "levelUpScore": 0.9989612188365651
+    },
+    "classes/rove/prime/core/ridge-striker/rv-lent-strength.png": {
+      "tier": "prime",
+      "slug": "ridge-striker",
+      "classKey": "prime:ridge-striker",
+      "name": "lent strength",
+      "assetno": "s-029",
+      "isSummons": false,
+      "isLevelUp": true,
+      "pairKey": "prime:ridge-striker:ocr:lent patience::lent strength",
+      "ocr": {
+        "text": "7 x \\® 1           Lent Patience       SF)",
+        "canonical": "7 x 1 lent patience sf",
+        "confidence": 54
+      },
+      "levelUpScore": 0.9979224376731302
+    },
+    "classes/rove/prime/core/ridge-striker/rv-oasis-clemency.png": {
+      "tier": "prime",
+      "slug": "ridge-striker",
+      "classKey": "prime:ridge-striker",
+      "name": "oasis clemency",
+      "assetno": "s-031",
+      "isSummons": false,
+      "isLevelUp": false,
+      "pairKey": "prime:ridge-striker:ocr:dual talons::oasis clemency",
+      "ocr": {
+        "text": "> AN er       Dual Talons    Te",
+        "canonical": "an er dual talons te",
+        "confidence": 75
+      },
+      "levelUpScore": 0.9643351800554016
+    },
+    "classes/rove/prime/core/ridge-striker/rv-sand-storm.png": {
+      "tier": "prime",
+      "slug": "ridge-striker",
+      "classKey": "prime:ridge-striker",
+      "name": "sand storm",
+      "assetno": "s-036",
+      "isSummons": false,
+      "isLevelUp": false,
+      "pairKey": "prime:ridge-striker:ocr:desert night::sand storm",
+      "ocr": {
+        "text": "4 \\ ©] —  SE)",
+        "canonical": "4 se",
+        "confidence": 53
+      },
+      "levelUpScore": 0.9629501385041551
+    },
+    "classes/rove/prime/core/ridge-striker/rv-searching-sands.png": {
+      "tier": "prime",
+      "slug": "ridge-striker",
+      "classKey": "prime:ridge-striker",
+      "name": "searching sands",
+      "assetno": "s-027",
+      "isSummons": false,
+      "isLevelUp": true,
+      "pairKey": "prime:ridge-striker:ocr:searching sands::venerated friend",
+      "ocr": {
+        "text": "> \\ |    Venerated Friend  Te",
+        "canonical": "venerated friend te",
+        "confidence": 66
+      },
+      "levelUpScore": 0.9989612188365651
+    },
+    "classes/rove/prime/core/ridge-striker/rv-shifted-sands.png": {
+      "tier": "prime",
+      "slug": "ridge-striker",
+      "classKey": "prime:ridge-striker",
+      "name": "shifted sands",
+      "assetno": "s-038",
+      "isSummons": false,
+      "isLevelUp": false,
+      "pairKey": "prime:ridge-striker:ocr:earthen armor::shifted sands",
+      "ocr": {
+        "text": "> \\ Ra      Earthen Armor    Te",
+        "canonical": "ra earthen armor te",
+        "confidence": 68
+      },
+      "levelUpScore": 0.965027700831025
+    },
+    "classes/rove/prime/core/ridge-striker/rv-tectonic-clash.png": {
+      "tier": "prime",
+      "slug": "ridge-striker",
+      "classKey": "prime:ridge-striker",
+      "name": "tectonic clash",
+      "assetno": "s-026",
+      "isSummons": false,
+      "isLevelUp": true,
+      "pairKey": "prime:ridge-striker:ocr:clay cage::tectonic clash",
+      "ocr": {
+        "text": "ET Ts",
+        "canonical": "et ts",
+        "confidence": 44
+      },
+      "levelUpScore": 0.9989612188365651
+    },
+    "classes/rove/prime/core/ridge-striker/rv-venerated-friend.png": {
+      "tier": "prime",
+      "slug": "ridge-striker",
+      "classKey": "prime:ridge-striker",
+      "name": "venerated friend",
+      "assetno": "s-028",
+      "isSummons": false,
+      "isLevelUp": true,
+      "pairKey": "prime:ridge-striker:ocr:searching sands::venerated friend",
+      "ocr": {
+        "text": "7 \\ ©]   —  To",
+        "canonical": "7 to",
+        "confidence": 59
+      },
+      "levelUpScore": 0.9993074792243768
+    },
+    "classes/rove/prime/core/toll-bearer/rv-against-the-stream.png": {
+      "tier": "prime",
+      "slug": "toll-bearer",
+      "classKey": "prime:toll-bearer",
+      "name": "against the stream",
+      "assetno": "s-240",
+      "isSummons": false,
+      "isLevelUp": true,
+      "pairKey": "prime:toll-bearer:s-239",
+      "ocr": {
+        "text": "oN    \\   il        EventheOdds | w",
+        "canonical": "on il eventheodds w",
+        "confidence": 49
+      },
+      "levelUpScore": 0.9168975069252078
+    },
+    "classes/rove/prime/core/toll-bearer/rv-call-the-cavalry.png": {
+      "tier": "prime",
+      "slug": "toll-bearer",
+      "classKey": "prime:toll-bearer",
+      "name": "call the cavalry",
+      "assetno": "s-237",
+      "isSummons": false,
+      "isLevelUp": true,
+      "pairKey": "prime:toll-bearer:ocr:call the cavalry::strain the nerve",
+      "ocr": {
+        "text": "o\\        <P 1         Strain the Nerve         |  w",
+        "canonical": "o p 1 strain the nerve w",
+        "confidence": 59
+      },
+      "levelUpScore": 0.9307479224376731
+    },
+    "classes/rove/prime/core/toll-bearer/rv-collected-dividends.png": {
+      "tier": "prime",
+      "slug": "toll-bearer",
+      "classKey": "prime:toll-bearer",
+      "name": "collected dividends",
+      "assetno": "s-234",
+      "isSummons": false,
+      "isLevelUp": true,
+      "pairKey": "prime:toll-bearer:ocr:collected dividends::siege position",
+      "ocr": {
+        "text": "o\\ cll —    Cl",
+        "canonical": "o cll cl",
+        "confidence": 51
+      },
+      "levelUpScore": 0.9051246537396123
+    },
+    "classes/rove/prime/core/toll-bearer/rv-defensive-formula.png": {
+      "tier": "prime",
+      "slug": "toll-bearer",
+      "classKey": "prime:toll-bearer",
+      "name": "defensive formula",
+      "assetno": "s-241",
+      "isSummons": false,
+      "isLevelUp": false,
+      "pairKey": "prime:toll-bearer:ocr:defensive formula::fire arum grit",
+      "ocr": {
+        "text": "oN ©]  * Fire-Arum Grit   |",
+        "canonical": "on fire arum grit",
+        "confidence": 38
+      },
+      "levelUpScore": 0.8701523545706371
+    },
+    "classes/rove/prime/core/toll-bearer/rv-devastating-charge.png": {
+      "tier": "prime",
+      "slug": "toll-bearer",
+      "classKey": "prime:toll-bearer",
+      "name": "devastating charge",
+      "assetno": "s-246",
+      "isSummons": false,
+      "isLevelUp": false,
+      "pairKey": "prime:toll-bearer:ocr:devastating charge::stolen valor",
+      "ocr": {
+        "text": "o\\  i     Cl   * StolenValor      | w",
+        "canonical": "o i cl stolenvalor w",
+        "confidence": 42
+      },
+      "levelUpScore": 0.8556094182825484
+    },
+    "classes/rove/prime/core/toll-bearer/rv-even-the-odds.png": {
+      "tier": "prime",
+      "slug": "toll-bearer",
+      "classKey": "prime:toll-bearer",
+      "name": "even the odds",
+      "assetno": "s-239",
+      "isSummons": false,
+      "isLevelUp": false,
+      "pairKey": "prime:toll-bearer:s-239",
+      "ocr": {
+        "text": "o\\  3  ad  ; Govt aha   | vi",
+        "canonical": "o 3 ad govt aha vi",
+        "confidence": 41
+      },
+      "levelUpScore": 0.871191135734072
+    },
+    "classes/rove/prime/core/toll-bearer/rv-fire-arum-grit.png": {
+      "tier": "prime",
+      "slug": "toll-bearer",
+      "classKey": "prime:toll-bearer",
+      "name": "fire-arum grit",
+      "assetno": "s-242",
+      "isSummons": false,
+      "isLevelUp": false,
+      "pairKey": "prime:toll-bearer:ocr:defensive formula::fire arum grit",
+      "ocr": {
+        "text": "o\\ \" Cl      Defensive Formula      | \"",
+        "canonical": "o cl defensive formula",
+        "confidence": 60
+      },
+      "levelUpScore": 0.8635734072022161
+    },
+    "classes/rove/prime/core/toll-bearer/rv-psychic-onslaught.png": {
+      "tier": "prime",
+      "slug": "toll-bearer",
+      "classKey": "prime:toll-bearer",
+      "name": "psychic onslaught",
+      "assetno": "s-244",
+      "isSummons": false,
+      "isLevelUp": false,
+      "pairKey": "prime:toll-bearer:s-243",
+      "ocr": {
+        "text": "o\\ | Ee  | vi",
+        "canonical": "o ee vi",
+        "confidence": 44
+      },
+      "levelUpScore": 0.8732686980609419
+    },
+    "classes/rove/prime/core/toll-bearer/rv-punished-mistakes.png": {
+      "tier": "prime",
+      "slug": "toll-bearer",
+      "classKey": "prime:toll-bearer",
+      "name": "punished mistakes",
+      "assetno": "s-243",
+      "isSummons": false,
+      "isLevelUp": false,
+      "pairKey": "prime:toll-bearer:s-243",
+      "ocr": {
+        "text": "I) \\  | _    | w",
+        "canonical": "i w",
+        "confidence": 38
+      },
+      "levelUpScore": 0.864612188365651
+    },
+    "classes/rove/prime/core/toll-bearer/rv-recoup-losses.png": {
+      "tier": "prime",
+      "slug": "toll-bearer",
+      "classKey": "prime:toll-bearer",
+      "name": "recoup losses",
+      "assetno": "s-235",
+      "isSummons": false,
+      "isLevelUp": true,
+      "pairKey": "prime:toll-bearer:ocr:recoup losses::short leash",
+      "ocr": {
+        "text": "o\\  Cl —    | v |",
+        "canonical": "o cl v",
+        "confidence": 71
+      },
+      "levelUpScore": 0.9207063711911357
+    },
+    "classes/rove/prime/core/toll-bearer/rv-short-leash.png": {
+      "tier": "prime",
+      "slug": "toll-bearer",
+      "classKey": "prime:toll-bearer",
+      "name": "short leash",
+      "assetno": "s-236",
+      "isSummons": false,
+      "isLevelUp": true,
+      "pairKey": "prime:toll-bearer:ocr:recoup losses::short leash",
+      "ocr": {
+        "text": "o\\  x  \\ Cl      Recoup Losses     | \"",
+        "canonical": "o x cl recoup losses",
+        "confidence": 62
+      },
+      "levelUpScore": 0.9113573407202216
+    },
+    "classes/rove/prime/core/toll-bearer/rv-siege-position.png": {
+      "tier": "prime",
+      "slug": "toll-bearer",
+      "classKey": "prime:toll-bearer",
+      "name": "siege position",
+      "assetno": "s-233",
+      "isSummons": false,
+      "isLevelUp": true,
+      "pairKey": "prime:toll-bearer:ocr:collected dividends::siege position",
+      "ocr": {
+        "text": "o\\  \\ e |  Collected Dividends  rv",
+        "canonical": "o e collected dividends rv",
+        "confidence": 53
+      },
+      "levelUpScore": 0.9103185595567866
+    },
+    "classes/rove/prime/core/toll-bearer/rv-stolen-valor.png": {
+      "tier": "prime",
+      "slug": "toll-bearer",
+      "classKey": "prime:toll-bearer",
+      "name": "stolen valor",
+      "assetno": "s-245",
+      "isSummons": false,
+      "isLevelUp": false,
+      "pairKey": "prime:toll-bearer:ocr:devastating charge::stolen valor",
+      "ocr": {
+        "text": "o\\           Ot 1       Devastating Charge      |  vi",
+        "canonical": "o ot 1 devastating charge vi",
+        "confidence": 71
+      },
+      "levelUpScore": 0.8545706371191135
+    },
+    "classes/rove/prime/core/toll-bearer/rv-strain-the-nerve.png": {
+      "tier": "prime",
+      "slug": "toll-bearer",
+      "classKey": "prime:toll-bearer",
+      "name": "strain the nerve",
+      "assetno": "s-238",
+      "isSummons": false,
+      "isLevelUp": true,
+      "pairKey": "prime:toll-bearer:ocr:call the cavalry::strain the nerve",
+      "ocr": {
+        "text": "o\\     \\  ad      Callthe Cavalry      |  vi",
+        "canonical": "o ad callthe cavalry vi",
+        "confidence": 64
+      },
+      "levelUpScore": 0.9511772853185596
+    },
+    "classes/rove/prime/core/umbral-howl/rv-claret-dewclaw.png": {
+      "tier": "prime",
+      "slug": "umbral-howl",
+      "classKey": "prime:umbral-howl",
+      "name": "claret dewclaw",
+      "assetno": "s-136",
+      "isSummons": false,
+      "isLevelUp": false,
+      "pairKey": "prime:umbral-howl:s-135",
+      "ocr": {
+        "text": "WoT - mm T: +",
+        "canonical": "wot mm t",
+        "confidence": 34
+      },
+      "levelUpScore": 0.9702216066481995
+    },
+    "classes/rove/prime/core/umbral-howl/rv-gut-wrench.png": {
+      "tier": "prime",
+      "slug": "umbral-howl",
+      "classKey": "prime:umbral-howl",
+      "name": "gut wrench",
+      "assetno": "s-141",
+      "isSummons": false,
+      "isLevelUp": false,
+      "pairKey": "prime:umbral-howl:s-141",
+      "ocr": {
+        "text": "TTT",
+        "canonical": "ttt",
+        "confidence": 22
+      },
+      "levelUpScore": 0.9705678670360111
+    },
+    "classes/rove/prime/core/umbral-howl/rv-measured-beat.png": {
+      "tier": "prime",
+      "slug": "umbral-howl",
+      "classKey": "prime:umbral-howl",
+      "name": "measured beat",
+      "assetno": "s-135",
+      "isSummons": false,
+      "isLevelUp": false,
+      "pairKey": "prime:umbral-howl:s-135",
+      "ocr": {
+        "text": "WT  Ee  \"z",
+        "canonical": "wt ee z",
+        "confidence": 0
+      },
+      "levelUpScore": 0.9705678670360111
+    },
+    "classes/rove/prime/core/umbral-howl/rv-meditative-trance.png": {
+      "tier": "prime",
+      "slug": "umbral-howl",
+      "classKey": "prime:umbral-howl",
+      "name": "meditative trance",
+      "assetno": "s-139",
+      "isSummons": false,
+      "isLevelUp": false,
+      "pairKey": "prime:umbral-howl:ocr:meditative trance::tapered reverb",
+      "ocr": {
+        "text": "W N el Tapered Reverb  rE",
+        "canonical": "w n el tapered reverb re",
+        "confidence": 71
+      },
+      "levelUpScore": 0.9702216066481995
+    },
+    "classes/rove/prime/core/umbral-howl/rv-offbeat-note.png": {
+      "tier": "prime",
+      "slug": "umbral-howl",
+      "classKey": "prime:umbral-howl",
+      "name": "offbeat note",
+      "assetno": "s-137",
+      "isSummons": false,
+      "isLevelUp": false,
+      "pairKey": "prime:umbral-howl:s-137",
+      "ocr": {
+        "text": "W NX wl ——  El",
+        "canonical": "w nx wl el",
+        "confidence": 38
+      },
+      "levelUpScore": 0.9698753462603877
+    },
+    "classes/rove/prime/core/umbral-howl/rv-out-for-blood.png": {
+      "tier": "prime",
+      "slug": "umbral-howl",
+      "classKey": "prime:umbral-howl",
+      "name": "out for blood",
+      "assetno": "s-133",
+      "isSummons": false,
+      "isLevelUp": true,
+      "pairKey": "prime:umbral-howl:ocr:out for blood::renewed vitality",
+      "ocr": {
+        "text": "WwW \\ hal ” Renewed Vitality ry",
+        "canonical": "www hal renewed vitality ry",
+        "confidence": 50
+      },
+      "levelUpScore": 1
+    },
+    "classes/rove/prime/core/umbral-howl/rv-predatory-drive.png": {
+      "tier": "prime",
+      "slug": "umbral-howl",
+      "classKey": "prime:umbral-howl",
+      "name": "predatory drive",
+      "assetno": "s-132",
+      "isSummons": false,
+      "isLevelUp": true,
+      "pairKey": "prime:umbral-howl:s-131",
+      "ocr": {
+        "text": "AG - Em Te",
+        "canonical": "ag em te",
+        "confidence": 59
+      },
+      "levelUpScore": 1
+    },
+    "classes/rove/prime/core/umbral-howl/rv-renewed-vitality.png": {
+      "tier": "prime",
+      "slug": "umbral-howl",
+      "classKey": "prime:umbral-howl",
+      "name": "renewed vitality",
+      "assetno": "s-134",
+      "isSummons": false,
+      "isLevelUp": true,
+      "pairKey": "prime:umbral-howl:ocr:out for blood::renewed vitality",
+      "ocr": {
+        "text": "Ww  \\  ha -    outforBlood    rE",
+        "canonical": "ww ha outforblood re",
+        "confidence": 47
+      },
+      "levelUpScore": 1
+    },
+    "classes/rove/prime/core/umbral-howl/rv-spine-chatter.png": {
+      "tier": "prime",
+      "slug": "umbral-howl",
+      "classKey": "prime:umbral-howl",
+      "name": "spine chatter",
+      "assetno": "s-130",
+      "isSummons": false,
+      "isLevelUp": true,
+      "pairKey": "prime:umbral-howl:s-129",
+      "ocr": {
+        "text": "ETT",
+        "canonical": "ett",
+        "confidence": 42
+      },
+      "levelUpScore": 1
+    },
+    "classes/rove/prime/core/umbral-howl/rv-sprung-rhythm.png": {
+      "tier": "prime",
+      "slug": "umbral-howl",
+      "classKey": "prime:umbral-howl",
+      "name": "sprung rhythm",
+      "assetno": "s-129",
+      "isSummons": false,
+      "isLevelUp": true,
+      "pairKey": "prime:umbral-howl:s-129",
+      "ocr": {
+        "text": "",
+        "canonical": "",
+        "confidence": 0
+      },
+      "levelUpScore": 1
+    },
+    "classes/rove/prime/core/umbral-howl/rv-tapered-reverb.png": {
+      "tier": "prime",
+      "slug": "umbral-howl",
+      "classKey": "prime:umbral-howl",
+      "name": "tapered reverb",
+      "assetno": "s-140",
+      "isSummons": false,
+      "isLevelUp": false,
+      "pairKey": "prime:umbral-howl:ocr:meditative trance::tapered reverb",
+      "ocr": {
+        "text": "We al rr Te",
+        "canonical": "we al rr te",
+        "confidence": 53
+      },
+      "levelUpScore": 0.9702216066481995
+    },
+    "classes/rove/prime/core/umbral-howl/rv-tightened-strings.png": {
+      "tier": "prime",
+      "slug": "umbral-howl",
+      "classKey": "prime:umbral-howl",
+      "name": "tightened strings",
+      "assetno": "s-131",
+      "isSummons": false,
+      "isLevelUp": true,
+      "pairKey": "prime:umbral-howl:s-131",
+      "ocr": {
+        "text": "",
+        "canonical": "",
+        "confidence": 0
+      },
+      "levelUpScore": 1
+    },
+    "classes/rove/prime/core/umbral-howl/rv-unquenchable-thirst.png": {
+      "tier": "prime",
+      "slug": "umbral-howl",
+      "classKey": "prime:umbral-howl",
+      "name": "unquenchable thirst",
+      "assetno": "s-138",
+      "isSummons": false,
+      "isLevelUp": false,
+      "pairKey": "prime:umbral-howl:s-137",
+      "ocr": {
+        "text": "ET Ts",
+        "canonical": "et ts",
+        "confidence": 33
+      },
+      "levelUpScore": 0.971606648199446
+    },
+    "classes/rove/prime/core/umbral-howl/rv-wild-heart.png": {
+      "tier": "prime",
+      "slug": "umbral-howl",
+      "classKey": "prime:umbral-howl",
+      "name": "wild heart",
+      "assetno": "s-142",
+      "isSummons": false,
+      "isLevelUp": false,
+      "pairKey": "prime:umbral-howl:s-141",
+      "ocr": {
+        "text": "Ww NG) oT rn  wz",
+        "canonical": "ww ng ot rn wz",
+        "confidence": 42
+      },
+      "levelUpScore": 0.9702216066481995
+    }
+  },
+  "pairings": {
+    "apex:aster:ocr:bulk interactions::warm bodies": {
+      "cards": [
+        "classes/rove/apex/core/aster/rv-bulk-interactions.png",
+        "classes/rove/apex/core/aster/rv-warm-bodies.png"
+      ],
+      "classKey": "apex:aster",
+      "inferredBy": "ocr"
+    },
+    "apex:aster:ocr:coronal loop::heat transfer": {
+      "cards": [
+        "classes/rove/apex/core/aster/rv-coronal-loop.png",
+        "classes/rove/apex/core/aster/rv-heat-transfer.png"
+      ],
+      "classKey": "apex:aster",
+      "inferredBy": "ocr"
+    },
+    "apex:aster:ocr:coronal mass ejection::solar flare": {
+      "cards": [
+        "classes/rove/apex/core/aster/rv-coronal-mass-ejection.png",
+        "classes/rove/apex/core/aster/rv-solar-flare.png"
+      ],
+      "classKey": "apex:aster",
+      "inferredBy": "ocr"
+    },
+    "apex:aster:s-95": {
+      "cards": [
+        "classes/rove/apex/core/aster/rv-heliosphere.png",
+        "classes/rove/apex/core/aster/rv-ionization.png"
+      ],
+      "classKey": "apex:aster",
+      "inferredBy": "fallback"
+    },
+    "apex:aster:s-101": {
+      "cards": [
+        "classes/rove/apex/core/aster/rv-meteor-shower.png",
+        "classes/rove/apex/core/aster/rv-warm-front.png"
+      ],
+      "classKey": "apex:aster",
+      "inferredBy": "fallback"
+    },
+    "apex:aster:s-99": {
+      "cards": [
+        "classes/rove/apex/core/aster/rv-scorching-ray.png",
+        "classes/rove/apex/core/aster/rv-sun-spots.png"
+      ],
+      "classKey": "apex:aster",
+      "inferredBy": "fallback"
+    },
+    "apex:aster:ocr:thermal conduit::thermal dynamism": {
+      "cards": [
+        "classes/rove/apex/core/aster/rv-thermal-conduit.png",
+        "classes/rove/apex/core/aster/rv-thermal-dynamism.png"
+      ],
+      "classKey": "apex:aster",
+      "inferredBy": "ocr"
+    },
+    "apex:canyon-temper:ocr:beak and claw and sword::sand plume": {
+      "cards": [
+        "classes/rove/apex/core/canyon-temper/rv-beak-and-claw-and-sword.png",
+        "classes/rove/apex/core/canyon-temper/rv-sand-plume.png"
+      ],
+      "classKey": "apex:canyon-temper",
+      "inferredBy": "ocr"
+    },
+    "apex:canyon-temper:ocr:boulder clad::wrought from clay": {
+      "cards": [
+        "classes/rove/apex/core/canyon-temper/rv-boulder-clad.png",
+        "classes/rove/apex/core/canyon-temper/rv-wrought-from-clay.png"
+      ],
+      "classKey": "apex:canyon-temper",
+      "inferredBy": "ocr"
+    },
+    "apex:canyon-temper:s-43": {
+      "cards": [
+        "classes/rove/apex/core/canyon-temper/rv-frost-depth.png",
+        "classes/rove/apex/core/canyon-temper/rv-uplifting-aid.png"
+      ],
+      "classKey": "apex:canyon-temper",
+      "inferredBy": "fallback"
+    },
+    "apex:canyon-temper:ocr:mighty gust::oasis sanctuary": {
+      "cards": [
+        "classes/rove/apex/core/canyon-temper/rv-mighty-gust.png",
+        "classes/rove/apex/core/canyon-temper/rv-oasis-sanctuary.png"
+      ],
+      "classKey": "apex:canyon-temper",
+      "inferredBy": "ocr"
+    },
+    "apex:canyon-temper:s-49": {
+      "cards": [
+        "classes/rove/apex/core/canyon-temper/rv-quake-zone.png",
+        "classes/rove/apex/core/canyon-temper/rv-red-blitz.png"
+      ],
+      "classKey": "apex:canyon-temper",
+      "inferredBy": "fallback"
+    },
+    "apex:canyon-temper:a-4": {
+      "cards": [
+        "classes/rove/apex/core/canyon-temper/rv-ravenous-drako-back.png",
+        "classes/rove/apex/core/canyon-temper/rv-ravenous-drako-front.png"
+      ],
+      "classKey": "apex:canyon-temper",
+      "inferredBy": "fallback"
+    },
+    "apex:canyon-temper:s-47": {
+      "cards": [
+        "classes/rove/apex/core/canyon-temper/rv-razor-pinion.png",
+        "classes/rove/apex/core/canyon-temper/rv-silicate-shield.png"
+      ],
+      "classKey": "apex:canyon-temper",
+      "inferredBy": "fallback"
+    },
+    "apex:canyon-temper:s-41": {
+      "cards": [
+        "classes/rove/apex/core/canyon-temper/rv-scorching-maws.png",
+        "classes/rove/apex/core/canyon-temper/rv-take-flight.png"
+      ],
+      "classKey": "apex:canyon-temper",
+      "inferredBy": "fallback"
+    },
+    "apex:invisible-hand:s-253": {
+      "cards": [
+        "classes/rove/apex/core/invisible-hand/rv-blunt-the-strike.png",
+        "classes/rove/apex/core/invisible-hand/rv-flip-the-script.png"
+      ],
+      "classKey": "apex:invisible-hand",
+      "inferredBy": "fallback"
+    },
+    "apex:invisible-hand:ocr:burning pocket::signal noise": {
+      "cards": [
+        "classes/rove/apex/core/invisible-hand/rv-burning-pocket.png",
+        "classes/rove/apex/core/invisible-hand/rv-signal-noise.png"
+      ],
+      "classKey": "apex:invisible-hand",
+      "inferredBy": "ocr"
+    },
+    "apex:invisible-hand:ocr:direct control::resource management": {
+      "cards": [
+        "classes/rove/apex/core/invisible-hand/rv-direct-control.png",
+        "classes/rove/apex/core/invisible-hand/rv-resource-management.png"
+      ],
+      "classKey": "apex:invisible-hand",
+      "inferredBy": "ocr"
+    },
+    "apex:invisible-hand:s-249": {
+      "cards": [
+        "classes/rove/apex/core/invisible-hand/rv-foes-falling.png",
+        "classes/rove/apex/core/invisible-hand/rv-grasped-chances.png"
+      ],
+      "classKey": "apex:invisible-hand",
+      "inferredBy": "fallback"
+    },
+    "apex:invisible-hand:ocr:risk aversion::spread wealth": {
+      "cards": [
+        "classes/rove/apex/core/invisible-hand/rv-risk-aversion.png",
+        "classes/rove/apex/core/invisible-hand/rv-spread-wealth.png"
+      ],
+      "classKey": "apex:invisible-hand",
+      "inferredBy": "ocr"
+    },
+    "apex:invisible-hand:s-257": {
+      "cards": [
+        "classes/rove/apex/core/invisible-hand/rv-strike-negotiations.png",
+        "classes/rove/apex/core/invisible-hand/rv-vein-extraction.png"
+      ],
+      "classKey": "apex:invisible-hand",
+      "inferredBy": "fallback"
+    },
+    "apex:invisible-hand:ocr:we the arbiters::we the beholders": {
+      "cards": [
+        "classes/rove/apex/core/invisible-hand/rv-we-the-arbiters.png",
+        "classes/rove/apex/core/invisible-hand/rv-we-the-beholders.png"
+      ],
+      "classKey": "apex:invisible-hand",
+      "inferredBy": "ocr"
+    },
+    "apex:maximist:s-203": {
+      "cards": [
+        "classes/rove/apex/core/maximist/rv-ad-hominem.png",
+        "classes/rove/apex/core/maximist/rv-vox-populi.png"
+      ],
+      "classKey": "apex:maximist",
+      "inferredBy": "fallback"
+    },
+    "apex:maximist:a-11": {
+      "cards": [
+        "classes/rove/apex/core/maximist/rv-alluring-thureoll-back.png",
+        "classes/rove/apex/core/maximist/rv-alluring-thureoll-front.png"
+      ],
+      "classKey": "apex:maximist",
+      "inferredBy": "fallback"
+    },
+    "apex:maximist:s-197": {
+      "cards": [
+        "classes/rove/apex/core/maximist/rv-best-fit.png",
+        "classes/rove/apex/core/maximist/rv-via-proxy.png"
+      ],
+      "classKey": "apex:maximist",
+      "inferredBy": "fallback"
+    },
+    "apex:maximist:ocr:convincing argument::foundational pillars": {
+      "cards": [
+        "classes/rove/apex/core/maximist/rv-convincing-argument.png",
+        "classes/rove/apex/core/maximist/rv-foundational-pillars.png"
+      ],
+      "classKey": "apex:maximist",
+      "inferredBy": "ocr"
+    },
+    "apex:maximist:ocr:escape psychology::substitute reality": {
+      "cards": [
+        "classes/rove/apex/core/maximist/rv-escape-psychology.png",
+        "classes/rove/apex/core/maximist/rv-substitute-reality.png"
+      ],
+      "classKey": "apex:maximist",
+      "inferredBy": "ocr"
+    },
+    "apex:maximist:s-199": {
+      "cards": [
+        "classes/rove/apex/core/maximist/rv-exponential-formula.png",
+        "classes/rove/apex/core/maximist/rv-parabolic-formula.png"
+      ],
+      "classKey": "apex:maximist",
+      "inferredBy": "fallback"
+    },
+    "apex:maximist:ocr:impenetrable position::spread the word": {
+      "cards": [
+        "classes/rove/apex/core/maximist/rv-impenetrable-position.png",
+        "classes/rove/apex/core/maximist/rv-spread-the-word.png"
+      ],
+      "classKey": "apex:maximist",
+      "inferredBy": "ocr"
+    },
+    "apex:maximist:a-10": {
+      "cards": [
+        "classes/rove/apex/core/maximist/rv-luminescent-quartic-back.png",
+        "classes/rove/apex/core/maximist/rv-luminescent-quartic-front.png"
+      ],
+      "classKey": "apex:maximist",
+      "inferredBy": "fallback"
+    },
+    "apex:maximist:ocr:self assurance::sheer confidence": {
+      "cards": [
+        "classes/rove/apex/core/maximist/rv-self-assurance.png",
+        "classes/rove/apex/core/maximist/rv-sheer-confidence.png"
+      ],
+      "classKey": "apex:maximist",
+      "inferredBy": "ocr"
+    },
+    "apex:nocturne-hoarfrost:s-145": {
+      "cards": [
+        "classes/rove/apex/core/nocturne-hoarfrost/rv-apex-predator.png",
+        "classes/rove/apex/core/nocturne-hoarfrost/rv-soul-sway.png"
+      ],
+      "classKey": "apex:nocturne-hoarfrost",
+      "inferredBy": "fallback"
+    },
+    "apex:nocturne-hoarfrost:ocr:blood boil::growing tempo": {
+      "cards": [
+        "classes/rove/apex/core/nocturne-hoarfrost/rv-blood-boil.png",
+        "classes/rove/apex/core/nocturne-hoarfrost/rv-growing-tempo.png"
+      ],
+      "classKey": "apex:nocturne-hoarfrost",
+      "inferredBy": "ocr"
+    },
+    "apex:nocturne-hoarfrost:ocr:blood echo::chilling cadence": {
+      "cards": [
+        "classes/rove/apex/core/nocturne-hoarfrost/rv-blood-echo.png",
+        "classes/rove/apex/core/nocturne-hoarfrost/rv-chilling-cadence.png"
+      ],
+      "classKey": "apex:nocturne-hoarfrost",
+      "inferredBy": "ocr"
+    },
+    "apex:nocturne-hoarfrost:ocr:cut time::pursuit predation": {
+      "cards": [
+        "classes/rove/apex/core/nocturne-hoarfrost/rv-cut-time.png",
+        "classes/rove/apex/core/nocturne-hoarfrost/rv-pursuit-predation.png"
+      ],
+      "classKey": "apex:nocturne-hoarfrost",
+      "inferredBy": "ocr"
+    },
+    "apex:nocturne-hoarfrost:ocr:deeper wounds::dirge percussion": {
+      "cards": [
+        "classes/rove/apex/core/nocturne-hoarfrost/rv-deeper-wounds.png",
+        "classes/rove/apex/core/nocturne-hoarfrost/rv-dirge-percussion.png"
+      ],
+      "classKey": "apex:nocturne-hoarfrost",
+      "inferredBy": "ocr"
+    },
+    "apex:nocturne-hoarfrost:ocr:fury s end::scent trail": {
+      "cards": [
+        "classes/rove/apex/core/nocturne-hoarfrost/rv-furys-end.png",
+        "classes/rove/apex/core/nocturne-hoarfrost/rv-scent-trail.png"
+      ],
+      "classKey": "apex:nocturne-hoarfrost",
+      "inferredBy": "ocr"
+    },
+    "apex:nocturne-hoarfrost:s-143": {
+      "cards": [
+        "classes/rove/apex/core/nocturne-hoarfrost/rv-grim-scavenger.png",
+        "classes/rove/apex/core/nocturne-hoarfrost/rv-sanguine-crescendo.png"
+      ],
+      "classKey": "apex:nocturne-hoarfrost",
+      "inferredBy": "fallback"
+    },
+    "base:dune-dancer:ocr:calm rivers::suffocating spray": {
+      "cards": [
+        "classes/rove/base/core/dune-dancer/rv-calm-rivers.png",
+        "classes/rove/base/core/dune-dancer/rv-suffocating-spray.png"
+      ],
+      "classKey": "base:dune-dancer",
+      "inferredBy": "ocr"
+    },
+    "base:dune-dancer:ocr:camaraderie::enchant body": {
+      "cards": [
+        "classes/rove/base/core/dune-dancer/rv-camaraderie.png",
+        "classes/rove/base/core/dune-dancer/rv-enchant-body.png"
+      ],
+      "classKey": "base:dune-dancer",
+      "inferredBy": "ocr"
+    },
+    "base:dune-dancer:ocr:chill touch::flow of floes": {
+      "cards": [
+        "classes/rove/base/core/dune-dancer/rv-chill-touch.png",
+        "classes/rove/base/core/dune-dancer/rv-flow-of-floes.png"
+      ],
+      "classKey": "base:dune-dancer",
+      "inferredBy": "ocr"
+    },
+    "base:dune-dancer:ocr:clay grasp::desiccating blast": {
+      "cards": [
+        "classes/rove/base/core/dune-dancer/rv-clay-grasp.png",
+        "classes/rove/base/core/dune-dancer/rv-desiccating-blast.png"
+      ],
+      "classKey": "base:dune-dancer",
+      "inferredBy": "ocr"
+    },
+    "base:dune-dancer:s-7": {
+      "cards": [
+        "classes/rove/base/core/dune-dancer/rv-crag-smash.png",
+        "classes/rove/base/core/dune-dancer/rv-ice-blast.png"
+      ],
+      "classKey": "base:dune-dancer",
+      "inferredBy": "fallback"
+    },
+    "base:dune-dancer:a-1": {
+      "cards": [
+        "classes/rove/base/core/dune-dancer/rv-curious-ardorok-back.png",
+        "classes/rove/base/core/dune-dancer/rv-curious-ardorok-front.png"
+      ],
+      "classKey": "base:dune-dancer",
+      "inferredBy": "fallback"
+    },
+    "base:dune-dancer:ocr:dearest friend::gift of the oasis": {
+      "cards": [
+        "classes/rove/base/core/dune-dancer/rv-dearest-friend.png",
+        "classes/rove/base/core/dune-dancer/rv-gift-of-the-oasis.png"
+      ],
+      "classKey": "base:dune-dancer",
+      "inferredBy": "ocr"
+    },
+    "base:dune-dancer:s-15": {
+      "cards": [
+        "classes/rove/base/core/dune-dancer/rv-deep-freeze.png",
+        "classes/rove/base/core/dune-dancer/rv-deserts-gift.png"
+      ],
+      "classKey": "base:dune-dancer",
+      "inferredBy": "fallback"
+    },
+    "base:dune-dancer:ocr:dual assault::granite phalanx": {
+      "cards": [
+        "classes/rove/base/core/dune-dancer/rv-dual-assault.png",
+        "classes/rove/base/core/dune-dancer/rv-granite-phalanx.png"
+      ],
+      "classKey": "base:dune-dancer",
+      "inferredBy": "ocr"
+    },
+    "base:dune-dancer:ocr:earthen shield::healing surge": {
+      "cards": [
+        "classes/rove/base/core/dune-dancer/rv-earthen-shield.png",
+        "classes/rove/base/core/dune-dancer/rv-healing-surge.png"
+      ],
+      "classKey": "base:dune-dancer",
+      "inferredBy": "ocr"
+    },
+    "base:dune-dancer:ocr:oasis reprieve::sand wedge": {
+      "cards": [
+        "classes/rove/base/core/dune-dancer/rv-oasis-reprieve.png",
+        "classes/rove/base/core/dune-dancer/rv-sand-wedge.png"
+      ],
+      "classKey": "base:dune-dancer",
+      "inferredBy": "ocr"
+    },
+    "base:dune-dancer:a-2": {
+      "cards": [
+        "classes/rove/base/core/dune-dancer/rv-pouncing-borejaw-back.png",
+        "classes/rove/base/core/dune-dancer/rv-pouncing-borejaw-front.png"
+      ],
+      "classKey": "base:dune-dancer",
+      "inferredBy": "fallback"
+    },
+    "base:dune-dancer:ocr:quickening sand::rallying cry": {
+      "cards": [
+        "classes/rove/base/core/dune-dancer/rv-quickening-sand.png",
+        "classes/rove/base/core/dune-dancer/rv-rallying-cry.png"
+      ],
+      "classKey": "base:dune-dancer",
+      "inferredBy": "ocr"
+    },
+    "base:dune-dancer:ocr:revitalizing clay::war beast": {
+      "cards": [
+        "classes/rove/base/core/dune-dancer/rv-revitalizing-clay.png",
+        "classes/rove/base/core/dune-dancer/rv-war-beast.png"
+      ],
+      "classKey": "base:dune-dancer",
+      "inferredBy": "ocr"
+    },
+    "base:flash:s-55": {
+      "cards": [
+        "classes/rove/base/core/flash/rv-alar.png",
+        "classes/rove/base/core/flash/rv-bolt.png"
+      ],
+      "classKey": "base:flash",
+      "inferredBy": "fallback"
+    },
+    "base:flash:s-65": {
+      "cards": [
+        "classes/rove/base/core/flash/rv-attract.png",
+        "classes/rove/base/core/flash/rv-stoke.png"
+      ],
+      "classKey": "base:flash",
+      "inferredBy": "fallback"
+    },
+    "base:flash:ocr:blast::transcend": {
+      "cards": [
+        "classes/rove/base/core/flash/rv-blast.png",
+        "classes/rove/base/core/flash/rv-transcend.png"
+      ],
+      "classKey": "base:flash",
+      "inferredBy": "ocr"
+    },
+    "base:flash:s-69": {
+      "cards": [
+        "classes/rove/base/core/flash/rv-buffet.png",
+        "classes/rove/base/core/flash/rv-flare.png"
+      ],
+      "classKey": "base:flash",
+      "inferredBy": "fallback"
+    },
+    "base:flash:s-61": {
+      "cards": [
+        "classes/rove/base/core/flash/rv-charge.png",
+        "classes/rove/base/core/flash/rv-kindle.png"
+      ],
+      "classKey": "base:flash",
+      "inferredBy": "fallback"
+    },
+    "base:flash:s-59": {
+      "cards": [
+        "classes/rove/base/core/flash/rv-eruption.png",
+        "classes/rove/base/core/flash/rv-tempest.png"
+      ],
+      "classKey": "base:flash",
+      "inferredBy": "fallback"
+    },
+    "base:flash:s-75": {
+      "cards": [
+        "classes/rove/base/core/flash/rv-galvanize.png",
+        "classes/rove/base/core/flash/rv-link.png"
+      ],
+      "classKey": "base:flash",
+      "inferredBy": "fallback"
+    },
+    "base:flash:s-73": {
+      "cards": [
+        "classes/rove/base/core/flash/rv-helion.png",
+        "classes/rove/base/core/flash/rv-scorch.png"
+      ],
+      "classKey": "base:flash",
+      "inferredBy": "fallback"
+    },
+    "base:flash:s-71": {
+      "cards": [
+        "classes/rove/base/core/flash/rv-mistral.png",
+        "classes/rove/base/core/flash/rv-zephyr.png"
+      ],
+      "classKey": "base:flash",
+      "inferredBy": "fallback"
+    },
+    "base:flash:s-63": {
+      "cards": [
+        "classes/rove/base/core/flash/rv-pulse.png",
+        "classes/rove/base/core/flash/rv-smolder.png"
+      ],
+      "classKey": "base:flash",
+      "inferredBy": "fallback"
+    },
+    "base:flash:s-67": {
+      "cards": [
+        "classes/rove/base/core/flash/rv-singe.png",
+        "classes/rove/base/core/flash/rv-vacuum.png"
+      ],
+      "classKey": "base:flash",
+      "inferredBy": "fallback"
+    },
+    "base:flash:s-53": {
+      "cards": [
+        "classes/rove/base/core/flash/rv-suffuse.png",
+        "classes/rove/base/core/flash/rv-swell.png"
+      ],
+      "classKey": "base:flash",
+      "inferredBy": "fallback"
+    },
+    "base:shadow-piercer:s-105": {
+      "cards": [
+        "classes/rove/base/core/shadow-piercer/rv-bell-tolls.png",
+        "classes/rove/base/core/shadow-piercer/rv-lifeblood.png"
+      ],
+      "classKey": "base:shadow-piercer",
+      "inferredBy": "fallback"
+    },
+    "base:shadow-piercer:ocr:careful aim::devour prey": {
+      "cards": [
+        "classes/rove/base/core/shadow-piercer/rv-careful-aim.png",
+        "classes/rove/base/core/shadow-piercer/rv-devour-prey.png"
+      ],
+      "classKey": "base:shadow-piercer",
+      "inferredBy": "ocr"
+    },
+    "base:shadow-piercer:ocr:consume vitality::draw from blood": {
+      "cards": [
+        "classes/rove/base/core/shadow-piercer/rv-consume-vitality.png",
+        "classes/rove/base/core/shadow-piercer/rv-draw-from-blood.png"
+      ],
+      "classKey": "base:shadow-piercer",
+      "inferredBy": "ocr"
+    },
+    "base:shadow-piercer:ocr:crimson curse::ebony blessing": {
+      "cards": [
+        "classes/rove/base/core/shadow-piercer/rv-crimson-curse.png",
+        "classes/rove/base/core/shadow-piercer/rv-ebony-blessing.png"
+      ],
+      "classKey": "base:shadow-piercer",
+      "inferredBy": "ocr"
+    },
+    "base:shadow-piercer:s-117": {
+      "cards": [
+        "classes/rove/base/core/shadow-piercer/rv-disengage.png",
+        "classes/rove/base/core/shadow-piercer/rv-feral-swipe.png"
+      ],
+      "classKey": "base:shadow-piercer",
+      "inferredBy": "fallback"
+    },
+    "base:shadow-piercer:s-111": {
+      "cards": [
+        "classes/rove/base/core/shadow-piercer/rv-drag-away.png",
+        "classes/rove/base/core/shadow-piercer/rv-incant.png"
+      ],
+      "classKey": "base:shadow-piercer",
+      "inferredBy": "fallback"
+    },
+    "base:shadow-piercer:ocr:drain essence::keen bolter": {
+      "cards": [
+        "classes/rove/base/core/shadow-piercer/rv-drain-essence.png",
+        "classes/rove/base/core/shadow-piercer/rv-keen-bolter.png"
+      ],
+      "classKey": "base:shadow-piercer",
+      "inferredBy": "ocr"
+    },
+    "base:shadow-piercer:ocr:eviscerate::passing knell": {
+      "cards": [
+        "classes/rove/base/core/shadow-piercer/rv-eviscerate.png",
+        "classes/rove/base/core/shadow-piercer/rv-passing-knell.png"
+      ],
+      "classKey": "base:shadow-piercer",
+      "inferredBy": "ocr"
+    },
+    "base:shadow-piercer:s-127": {
+      "cards": [
+        "classes/rove/base/core/shadow-piercer/rv-forte.png",
+        "classes/rove/base/core/shadow-piercer/rv-refrain.png"
+      ],
+      "classKey": "base:shadow-piercer",
+      "inferredBy": "fallback"
+    },
+    "base:shadow-piercer:ocr:grace note::umbral howl": {
+      "cards": [
+        "classes/rove/base/core/shadow-piercer/rv-grace-note.png",
+        "classes/rove/base/core/shadow-piercer/rv-umbral-howl.png"
+      ],
+      "classKey": "base:shadow-piercer",
+      "inferredBy": "ocr"
+    },
+    "base:shadow-piercer:ocr:invigorate::miasmic arrow": {
+      "cards": [
+        "classes/rove/base/core/shadow-piercer/rv-invigorate.png",
+        "classes/rove/base/core/shadow-piercer/rv-miasmic-arrow.png"
+      ],
+      "classKey": "base:shadow-piercer",
+      "inferredBy": "ocr"
+    },
+    "base:shadow-piercer:s-119": {
+      "cards": [
+        "classes/rove/base/core/shadow-piercer/rv-lithe-form.png",
+        "classes/rove/base/core/shadow-piercer/rv-pounce.png"
+      ],
+      "classKey": "base:shadow-piercer",
+      "inferredBy": "fallback"
+    },
+    "base:sophist:a-6": {
+      "cards": [
+        "classes/rove/base/core/sophist/rv-alluring-armoroll-back.png",
+        "classes/rove/base/core/sophist/rv-alluring-armoroll-front.png"
+      ],
+      "classKey": "base:sophist",
+      "inferredBy": "fallback"
+    },
+    "base:sophist:s-163": {
+      "cards": [
+        "classes/rove/base/core/sophist/rv-bask-in-the-light.png",
+        "classes/rove/base/core/sophist/rv-dance-of-fronds.png"
+      ],
+      "classKey": "base:sophist",
+      "inferredBy": "fallback"
+    },
+    "base:sophist:ocr:bitter realization::ready in mind": {
+      "cards": [
+        "classes/rove/base/core/sophist/rv-bitter-realization.png",
+        "classes/rove/base/core/sophist/rv-ready-in-mind.png"
+      ],
+      "classKey": "base:sophist",
+      "inferredBy": "ocr"
+    },
+    "base:sophist:ocr:blustery rebuke::echo chamber": {
+      "cards": [
+        "classes/rove/base/core/sophist/rv-blustery-rebuke.png",
+        "classes/rove/base/core/sophist/rv-echo-chamber.png"
+      ],
+      "classKey": "base:sophist",
+      "inferredBy": "ocr"
+    },
+    "base:sophist:ocr:conceptualism::second wind": {
+      "cards": [
+        "classes/rove/base/core/sophist/rv-conceptualism.png",
+        "classes/rove/base/core/sophist/rv-second-wind.png"
+      ],
+      "classKey": "base:sophist",
+      "inferredBy": "ocr"
+    },
+    "base:sophist:ocr:confound::dance of rays": {
+      "cards": [
+        "classes/rove/base/core/sophist/rv-confound.png",
+        "classes/rove/base/core/sophist/rv-dance-of-rays.png"
+      ],
+      "classKey": "base:sophist",
+      "inferredBy": "ocr"
+    },
+    "base:sophist:ocr:dazzling strike::moment s respite": {
+      "cards": [
+        "classes/rove/base/core/sophist/rv-dazzling-strike.png",
+        "classes/rove/base/core/sophist/rv-moments-respite.png"
+      ],
+      "classKey": "base:sophist",
+      "inferredBy": "ocr"
+    },
+    "base:sophist:ocr:essentialism::pure sophistry": {
+      "cards": [
+        "classes/rove/base/core/sophist/rv-essentialism.png",
+        "classes/rove/base/core/sophist/rv-pure-sophistry.png"
+      ],
+      "classKey": "base:sophist",
+      "inferredBy": "ocr"
+    },
+    "base:sophist:ocr:intense curiosity::isolation agitation": {
+      "cards": [
+        "classes/rove/base/core/sophist/rv-intense-curiosity.png",
+        "classes/rove/base/core/sophist/rv-isolation-agitation.png"
+      ],
+      "classKey": "base:sophist",
+      "inferredBy": "ocr"
+    },
+    "base:sophist:a-5": {
+      "cards": [
+        "classes/rove/base/core/sophist/rv-luminescent-hyperbola-back.png",
+        "classes/rove/base/core/sophist/rv-luminescent-hyperbola-front.png"
+      ],
+      "classKey": "base:sophist",
+      "inferredBy": "fallback"
+    },
+    "base:sophist:ocr:lustrous flare::unnatural defenses": {
+      "cards": [
+        "classes/rove/base/core/sophist/rv-lustrous-flare.png",
+        "classes/rove/base/core/sophist/rv-unnatural-defenses.png"
+      ],
+      "classKey": "base:sophist",
+      "inferredBy": "ocr"
+    },
+    "base:sophist:a-7": {
+      "cards": [
+        "classes/rove/base/core/sophist/rv-radiant-aerios-back.png",
+        "classes/rove/base/core/sophist/rv-radiant-aerios-front.png"
+      ],
+      "classKey": "base:sophist",
+      "inferredBy": "fallback"
+    },
+    "base:sophist:ocr:scintillating darts::sudden debate": {
+      "cards": [
+        "classes/rove/base/core/sophist/rv-scintillating-darts.png",
+        "classes/rove/base/core/sophist/rv-sudden-debate.png"
+      ],
+      "classKey": "base:sophist",
+      "inferredBy": "ocr"
+    },
+    "base:sophist:ocr:shifts in the wind::trick of the light": {
+      "cards": [
+        "classes/rove/base/core/sophist/rv-shifts-in-the-wind.png",
+        "classes/rove/base/core/sophist/rv-trick-of-the-light.png"
+      ],
+      "classKey": "base:sophist",
+      "inferredBy": "ocr"
+    },
+    "base:sophist:ocr:sound barrier::watch your step": {
+      "cards": [
+        "classes/rove/base/core/sophist/rv-sound-barrier.png",
+        "classes/rove/base/core/sophist/rv-watch-your-step.png"
+      ],
+      "classKey": "base:sophist",
+      "inferredBy": "ocr"
+    },
+    "base:true-scale:s-221": {
+      "cards": [
+        "classes/rove/base/core/true-scale/rv-against-the-odds.png",
+        "classes/rove/base/core/true-scale/rv-press-the-advantage.png"
+      ],
+      "classKey": "base:true-scale",
+      "inferredBy": "fallback"
+    },
+    "base:true-scale:s-219": {
+      "cards": [
+        "classes/rove/base/core/true-scale/rv-amidst-the-fray.png",
+        "classes/rove/base/core/true-scale/rv-watch-the-back.png"
+      ],
+      "classKey": "base:true-scale",
+      "inferredBy": "fallback"
+    },
+    "base:true-scale:ocr:blast step::traitorous thoughts": {
+      "cards": [
+        "classes/rove/base/core/true-scale/rv-blast-step.png",
+        "classes/rove/base/core/true-scale/rv-traitorous-thoughts.png"
+      ],
+      "classKey": "base:true-scale",
+      "inferredBy": "ocr"
+    },
+    "base:true-scale:ocr:coordinated assault::settling groundwork": {
+      "cards": [
+        "classes/rove/base/core/true-scale/rv-coordinated-assault.png",
+        "classes/rove/base/core/true-scale/rv-settling-groundwork.png"
+      ],
+      "classKey": "base:true-scale",
+      "inferredBy": "ocr"
+    },
+    "base:true-scale:ocr:credit::toll bearer": {
+      "cards": [
+        "classes/rove/base/core/true-scale/rv-credit.png",
+        "classes/rove/base/core/true-scale/rv-toll-bearer.png"
+      ],
+      "classKey": "base:true-scale",
+      "inferredBy": "ocr"
+    },
+    "base:true-scale:ocr:divesting thoughts::safe cracker": {
+      "cards": [
+        "classes/rove/base/core/true-scale/rv-divesting-thoughts.png",
+        "classes/rove/base/core/true-scale/rv-safe-cracker.png"
+      ],
+      "classKey": "base:true-scale",
+      "inferredBy": "ocr"
+    },
+    "base:true-scale:ocr:embezzle::fierce ransomer": {
+      "cards": [
+        "classes/rove/base/core/true-scale/rv-embezzle.png",
+        "classes/rove/base/core/true-scale/rv-fierce-ransomer.png"
+      ],
+      "classKey": "base:true-scale",
+      "inferredBy": "ocr"
+    },
+    "base:true-scale:ocr:initial investment::psychic scars": {
+      "cards": [
+        "classes/rove/base/core/true-scale/rv-initial-investment.png",
+        "classes/rove/base/core/true-scale/rv-psychic-scars.png"
+      ],
+      "classKey": "base:true-scale",
+      "inferredBy": "ocr"
+    },
+    "base:true-scale:ocr:intrusive thoughts::ruthless assault": {
+      "cards": [
+        "classes/rove/base/core/true-scale/rv-intrusive-thoughts.png",
+        "classes/rove/base/core/true-scale/rv-ruthless-assault.png"
+      ],
+      "classKey": "base:true-scale",
+      "inferredBy": "ocr"
+    },
+    "base:true-scale:ocr:knock senseless::shell games": {
+      "cards": [
+        "classes/rove/base/core/true-scale/rv-knock-senseless.png",
+        "classes/rove/base/core/true-scale/rv-shell-games.png"
+      ],
+      "classKey": "base:true-scale",
+      "inferredBy": "ocr"
+    },
+    "base:true-scale:s-223": {
+      "cards": [
+        "classes/rove/base/core/true-scale/rv-spectrum-support.png",
+        "classes/rove/base/core/true-scale/rv-volatile-exchange.png"
+      ],
+      "classKey": "base:true-scale",
+      "inferredBy": "fallback"
+    },
+    "base:true-scale:s-211": {
+      "cards": [
+        "classes/rove/base/core/true-scale/rv-strange-chatter.png",
+        "classes/rove/base/core/true-scale/rv-sweeping-cleave.png"
+      ],
+      "classKey": "base:true-scale",
+      "inferredBy": "fallback"
+    },
+    "prime:conceptualist:ocr:balance the equation::simple refraction": {
+      "cards": [
+        "classes/rove/prime/core/conceptualist/rv-balance-the-equation.png",
+        "classes/rove/prime/core/conceptualist/rv-simple-refraction.png"
+      ],
+      "classKey": "prime:conceptualist",
+      "inferredBy": "ocr"
+    },
+    "prime:conceptualist:ocr:coefficient value::two step method": {
+      "cards": [
+        "classes/rove/prime/core/conceptualist/rv-coefficient-value.png",
+        "classes/rove/prime/core/conceptualist/rv-two-step-method.png"
+      ],
+      "classKey": "prime:conceptualist",
+      "inferredBy": "ocr"
+    },
+    "prime:conceptualist:ocr:guiding the discussion::point of pursuit": {
+      "cards": [
+        "classes/rove/prime/core/conceptualist/rv-guiding-the-discussion.png",
+        "classes/rove/prime/core/conceptualist/rv-point-of-pursuit.png"
+      ],
+      "classKey": "prime:conceptualist",
+      "inferredBy": "ocr"
+    },
+    "prime:conceptualist:s-193": {
+      "cards": [
+        "classes/rove/prime/core/conceptualist/rv-in-the-lines.png",
+        "classes/rove/prime/core/conceptualist/rv-out-of-the-box.png"
+      ],
+      "classKey": "prime:conceptualist",
+      "inferredBy": "fallback"
+    },
+    "prime:conceptualist:ocr:inner monologue::radiant spinaerios": {
+      "cards": [
+        "classes/rove/prime/core/conceptualist/rv-inner-monologue.png",
+        "classes/rove/prime/core/conceptualist/rv-radiant-spinaerios.png"
+      ],
+      "classKey": "prime:conceptualist",
+      "inferredBy": "ocr"
+    },
+    "prime:conceptualist:s-185": {
+      "cards": [
+        "classes/rove/prime/core/conceptualist/rv-lasting-impression.png",
+        "classes/rove/prime/core/conceptualist/rv-parting-gift.png"
+      ],
+      "classKey": "prime:conceptualist",
+      "inferredBy": "fallback"
+    },
+    "prime:conceptualist:a-8": {
+      "cards": [
+        "classes/rove/prime/core/conceptualist/rv-luminescent-quartic-back.png",
+        "classes/rove/prime/core/conceptualist/rv-luminescent-quartic-front.png"
+      ],
+      "classKey": "prime:conceptualist",
+      "inferredBy": "fallback"
+    },
+    "prime:conceptualist:ocr:motivational speeches::the oldest trick": {
+      "cards": [
+        "classes/rove/prime/core/conceptualist/rv-motivational-speeches.png",
+        "classes/rove/prime/core/conceptualist/rv-the-oldest-trick.png"
+      ],
+      "classKey": "prime:conceptualist",
+      "inferredBy": "ocr"
+    },
+    "prime:conceptualist:a-9": {
+      "cards": [
+        "classes/rove/prime/core/conceptualist/rv-radiant-spinaerios-back.png",
+        "classes/rove/prime/core/conceptualist/rv-radiant-spinaerios-front.png"
+      ],
+      "classKey": "prime:conceptualist",
+      "inferredBy": "fallback"
+    },
+    "prime:helion:ocr:blazing trail::fire volley": {
+      "cards": [
+        "classes/rove/prime/core/helion/rv-blazing-trail.png",
+        "classes/rove/prime/core/helion/rv-fire-volley.png"
+      ],
+      "classKey": "prime:helion",
+      "inferredBy": "ocr"
+    },
+    "prime:helion:s-87": {
+      "cards": [
+        "classes/rove/prime/core/helion/rv-catalyzing-explosion.png",
+        "classes/rove/prime/core/helion/rv-shifting-fronts.png"
+      ],
+      "classKey": "prime:helion",
+      "inferredBy": "fallback"
+    },
+    "prime:helion:s-77": {
+      "cards": [
+        "classes/rove/prime/core/helion/rv-cleansing-flames.png",
+        "classes/rove/prime/core/helion/rv-controlled-backdraft.png"
+      ],
+      "classKey": "prime:helion",
+      "inferredBy": "fallback"
+    },
+    "prime:helion:s-85": {
+      "cards": [
+        "classes/rove/prime/core/helion/rv-detonate.png",
+        "classes/rove/prime/core/helion/rv-torching-spray.png"
+      ],
+      "classKey": "prime:helion",
+      "inferredBy": "fallback"
+    },
+    "prime:helion:ocr:fueled fire::spontaneous combustion": {
+      "cards": [
+        "classes/rove/prime/core/helion/rv-fueled-fire.png",
+        "classes/rove/prime/core/helion/rv-spontaneous-combustion.png"
+      ],
+      "classKey": "prime:helion",
+      "inferredBy": "ocr"
+    },
+    "prime:helion:ocr:hot air::smoldering embers": {
+      "cards": [
+        "classes/rove/prime/core/helion/rv-hot-air.png",
+        "classes/rove/prime/core/helion/rv-smoldering-embers.png"
+      ],
+      "classKey": "prime:helion",
+      "inferredBy": "ocr"
+    },
+    "prime:helion:ocr:sudden bellows::wind barrier": {
+      "cards": [
+        "classes/rove/prime/core/helion/rv-sudden-bellows.png",
+        "classes/rove/prime/core/helion/rv-wind-barrier.png"
+      ],
+      "classKey": "prime:helion",
+      "inferredBy": "ocr"
+    },
+    "prime:ridge-striker:a-3": {
+      "cards": [
+        "classes/rove/prime/core/ridge-striker/rv-adamant-ardorok-back.png",
+        "classes/rove/prime/core/ridge-striker/rv-adamant-ardorok-front.png"
+      ],
+      "classKey": "prime:ridge-striker",
+      "inferredBy": "fallback"
+    },
+    "prime:ridge-striker:ocr:arid valley::enduring valley": {
+      "cards": [
+        "classes/rove/prime/core/ridge-striker/rv-arid-valley.png",
+        "classes/rove/prime/core/ridge-striker/rv-enduring-valley.png"
+      ],
+      "classKey": "prime:ridge-striker",
+      "inferredBy": "ocr"
+    },
+    "prime:ridge-striker:ocr:clay cage::tectonic clash": {
+      "cards": [
+        "classes/rove/prime/core/ridge-striker/rv-clay-cage.png",
+        "classes/rove/prime/core/ridge-striker/rv-tectonic-clash.png"
+      ],
+      "classKey": "prime:ridge-striker",
+      "inferredBy": "ocr"
+    },
+    "prime:ridge-striker:ocr:desert night::sand storm": {
+      "cards": [
+        "classes/rove/prime/core/ridge-striker/rv-desert-night.png",
+        "classes/rove/prime/core/ridge-striker/rv-sand-storm.png"
+      ],
+      "classKey": "prime:ridge-striker",
+      "inferredBy": "ocr"
+    },
+    "prime:ridge-striker:ocr:dual talons::oasis clemency": {
+      "cards": [
+        "classes/rove/prime/core/ridge-striker/rv-dual-talons.png",
+        "classes/rove/prime/core/ridge-striker/rv-oasis-clemency.png"
+      ],
+      "classKey": "prime:ridge-striker",
+      "inferredBy": "ocr"
+    },
+    "prime:ridge-striker:ocr:earthen armor::shifted sands": {
+      "cards": [
+        "classes/rove/prime/core/ridge-striker/rv-earthen-armor.png",
+        "classes/rove/prime/core/ridge-striker/rv-shifted-sands.png"
+      ],
+      "classKey": "prime:ridge-striker",
+      "inferredBy": "ocr"
+    },
+    "prime:ridge-striker:ocr:lent patience::lent strength": {
+      "cards": [
+        "classes/rove/prime/core/ridge-striker/rv-lent-patience.png",
+        "classes/rove/prime/core/ridge-striker/rv-lent-strength.png"
+      ],
+      "classKey": "prime:ridge-striker",
+      "inferredBy": "ocr"
+    },
+    "prime:ridge-striker:ocr:searching sands::venerated friend": {
+      "cards": [
+        "classes/rove/prime/core/ridge-striker/rv-searching-sands.png",
+        "classes/rove/prime/core/ridge-striker/rv-venerated-friend.png"
+      ],
+      "classKey": "prime:ridge-striker",
+      "inferredBy": "ocr"
+    },
+    "prime:toll-bearer:s-239": {
+      "cards": [
+        "classes/rove/prime/core/toll-bearer/rv-against-the-stream.png",
+        "classes/rove/prime/core/toll-bearer/rv-even-the-odds.png"
+      ],
+      "classKey": "prime:toll-bearer",
+      "inferredBy": "fallback"
+    },
+    "prime:toll-bearer:ocr:call the cavalry::strain the nerve": {
+      "cards": [
+        "classes/rove/prime/core/toll-bearer/rv-call-the-cavalry.png",
+        "classes/rove/prime/core/toll-bearer/rv-strain-the-nerve.png"
+      ],
+      "classKey": "prime:toll-bearer",
+      "inferredBy": "ocr"
+    },
+    "prime:toll-bearer:ocr:collected dividends::siege position": {
+      "cards": [
+        "classes/rove/prime/core/toll-bearer/rv-collected-dividends.png",
+        "classes/rove/prime/core/toll-bearer/rv-siege-position.png"
+      ],
+      "classKey": "prime:toll-bearer",
+      "inferredBy": "ocr"
+    },
+    "prime:toll-bearer:ocr:defensive formula::fire arum grit": {
+      "cards": [
+        "classes/rove/prime/core/toll-bearer/rv-defensive-formula.png",
+        "classes/rove/prime/core/toll-bearer/rv-fire-arum-grit.png"
+      ],
+      "classKey": "prime:toll-bearer",
+      "inferredBy": "ocr"
+    },
+    "prime:toll-bearer:ocr:devastating charge::stolen valor": {
+      "cards": [
+        "classes/rove/prime/core/toll-bearer/rv-devastating-charge.png",
+        "classes/rove/prime/core/toll-bearer/rv-stolen-valor.png"
+      ],
+      "classKey": "prime:toll-bearer",
+      "inferredBy": "ocr"
+    },
+    "prime:toll-bearer:s-243": {
+      "cards": [
+        "classes/rove/prime/core/toll-bearer/rv-psychic-onslaught.png",
+        "classes/rove/prime/core/toll-bearer/rv-punished-mistakes.png"
+      ],
+      "classKey": "prime:toll-bearer",
+      "inferredBy": "fallback"
+    },
+    "prime:toll-bearer:ocr:recoup losses::short leash": {
+      "cards": [
+        "classes/rove/prime/core/toll-bearer/rv-recoup-losses.png",
+        "classes/rove/prime/core/toll-bearer/rv-short-leash.png"
+      ],
+      "classKey": "prime:toll-bearer",
+      "inferredBy": "ocr"
+    },
+    "prime:umbral-howl:s-135": {
+      "cards": [
+        "classes/rove/prime/core/umbral-howl/rv-claret-dewclaw.png",
+        "classes/rove/prime/core/umbral-howl/rv-measured-beat.png"
+      ],
+      "classKey": "prime:umbral-howl",
+      "inferredBy": "fallback"
+    },
+    "prime:umbral-howl:s-141": {
+      "cards": [
+        "classes/rove/prime/core/umbral-howl/rv-gut-wrench.png",
+        "classes/rove/prime/core/umbral-howl/rv-wild-heart.png"
+      ],
+      "classKey": "prime:umbral-howl",
+      "inferredBy": "fallback"
+    },
+    "prime:umbral-howl:ocr:meditative trance::tapered reverb": {
+      "cards": [
+        "classes/rove/prime/core/umbral-howl/rv-meditative-trance.png",
+        "classes/rove/prime/core/umbral-howl/rv-tapered-reverb.png"
+      ],
+      "classKey": "prime:umbral-howl",
+      "inferredBy": "ocr"
+    },
+    "prime:umbral-howl:s-137": {
+      "cards": [
+        "classes/rove/prime/core/umbral-howl/rv-offbeat-note.png",
+        "classes/rove/prime/core/umbral-howl/rv-unquenchable-thirst.png"
+      ],
+      "classKey": "prime:umbral-howl",
+      "inferredBy": "fallback"
+    },
+    "prime:umbral-howl:ocr:out for blood::renewed vitality": {
+      "cards": [
+        "classes/rove/prime/core/umbral-howl/rv-out-for-blood.png",
+        "classes/rove/prime/core/umbral-howl/rv-renewed-vitality.png"
+      ],
+      "classKey": "prime:umbral-howl",
+      "inferredBy": "ocr"
+    },
+    "prime:umbral-howl:s-131": {
+      "cards": [
+        "classes/rove/prime/core/umbral-howl/rv-predatory-drive.png",
+        "classes/rove/prime/core/umbral-howl/rv-tightened-strings.png"
+      ],
+      "classKey": "prime:umbral-howl",
+      "inferredBy": "fallback"
+    },
+    "prime:umbral-howl:s-129": {
+      "cards": [
+        "classes/rove/prime/core/umbral-howl/rv-spine-chatter.png",
+        "classes/rove/prime/core/umbral-howl/rv-sprung-rhythm.png"
+      ],
+      "classKey": "prime:umbral-howl",
+      "inferredBy": "fallback"
+    }
+  }
+}
