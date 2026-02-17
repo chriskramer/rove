@@ -1,9 +1,72 @@
 const dataUrl = '../data/classes.js';
-const folderPanel = document.getElementById('folder-panel');
-const cardPanel = document.getElementById('card-panel');
-const breadcrumbs = document.getElementById('breadcrumbs');
-const folderTemplate = document.getElementById('folder-card-template');
-const imageTemplate = document.getElementById('image-card-template');
+
+const EVOLUTION_CHAINS = [
+  {
+    baseSlug: 'dune-dancer',
+    baseName: 'Dune Dancer',
+    primeSlug: 'ridge-striker',
+    primeName: 'Ridge Striker',
+    apexSlug: 'canyon-temper',
+    apexName: 'Canyon Temper',
+  },
+  {
+    baseSlug: 'flash',
+    baseName: 'Flash',
+    primeSlug: 'helion',
+    primeName: 'Hellion',
+    apexSlug: 'aster',
+    apexName: 'Aster',
+  },
+  {
+    baseSlug: 'shadow-piercer',
+    baseName: 'Shadow Piercer',
+    primeSlug: 'umbral-howl',
+    primeName: 'Umbral Howl',
+    apexSlug: 'nocturne-hoarfrost',
+    apexName: 'Nocturne Hoarfrost',
+  },
+  {
+    baseSlug: 'sophist',
+    baseName: 'Sophist',
+    primeSlug: 'conceptualist',
+    primeName: 'Conceptualist',
+    apexSlug: 'maximist',
+    apexName: 'Maximist',
+  },
+  {
+    baseSlug: 'true-scale',
+    baseName: 'True Scale',
+    primeSlug: 'toll-bearer',
+    primeName: 'Toll Bearer',
+    apexSlug: 'invisible-hand',
+    apexName: 'Invisible Hand',
+  },
+];
+
+const TIERS = ['base', 'prime', 'apex'];
+const TIER_LEVEL = {
+  base: 'lvl 1',
+  prime: 'lvl 4',
+  apex: 'lvl 7',
+};
+
+const classList = document.getElementById('class-list');
+const classCount = document.getElementById('class-count');
+const classTitle = document.getElementById('class-title');
+const classMeta = document.getElementById('class-meta');
+const cardsSections = document.getElementById('cards-sections');
+const evolutionSlider = document.getElementById('evolution-slider');
+const evolutionStepBase = document.getElementById('evolution-step-base');
+const evolutionStepPrime = document.getElementById('evolution-step-prime');
+const evolutionStepApex = document.getElementById('evolution-step-apex');
+const evolutionMeta = document.getElementById('evolution-meta');
+const classLinkTemplate = document.getElementById('class-link-template');
+const cardTemplate = document.getElementById('card-template');
+
+const evolutionState = new Map();
+let classes = [];
+let classesBySlug = new Map();
+let activeClassSlug = null;
 
 async function loadClassData() {
   const response = await fetch(dataUrl);
@@ -13,224 +76,211 @@ async function loadClassData() {
   return response.json();
 }
 
-function buildTree(imagePaths) {
-  const root = {
-    key: '',
-    name: 'Classes',
-    children: new Map(),
-    files: [],
-  };
-
-  for (const path of imagePaths) {
-    const segments = path.split('/').slice(1); // remove leading "classes"
-    let node = root;
-
-    segments.forEach((segment, index) => {
-      const isFile = index === segments.length - 1;
-      if (isFile) {
-        node.files.push({
-          fileName: segment,
-          path,
-        });
-        return;
-      }
-
-      if (!node.children.has(segment)) {
-        node.children.set(segment, {
-          key: segment,
-          name: segment,
-          parent: node,
-          children: new Map(),
-          files: [],
-        });
-      }
-      node = node.children.get(segment);
-    });
-  }
-
-  computeTotals(root);
-  return root;
-}
-
-function computeTotals(node) {
-  let total = node.files.length;
-  for (const child of node.children.values()) {
-    total += computeTotals(child);
-  }
-  node.totalFiles = total;
-  return total;
-}
-
-function formatSegment(segment) {
-  if (!segment) return 'Classes';
-  if (/^rv-/i.test(segment)) {
-    return segment.replace(/\.[^.]+$/, '').replace(/^rv-/, '').replace(/-/g, ' ');
-  }
-  if (segment === segment.toUpperCase()) {
-    return segment;
-  }
-  return segment
+function formatCardName(fileName) {
+  return fileName
+    .replace(/^rv-/, '')
+    .replace(/\.[^.]+$/, '')
     .split('-')
     .map((part) => part.charAt(0).toUpperCase() + part.slice(1))
     .join(' ');
 }
 
-function getNodeForPath(root, pathParts) {
-  let node = root;
-  for (const part of pathParts) {
-    if (!node.children.has(part)) {
-      return null;
+function buildCardIndex(entries) {
+  const index = new Map();
+
+  entries.forEach((entry) => {
+    if (!entry || typeof entry.image !== 'string') return;
+    const match = entry.image.match(/^classes\/rove\/(base|prime|apex)\/core\/([^/]+)\/.+$/);
+    if (!match) return;
+
+    const [, tier, slug] = match;
+    const key = `${tier}:${slug}`;
+    if (!index.has(key)) {
+      index.set(key, new Set());
     }
-    node = node.children.get(part);
-  }
-  return node;
+    index.get(key).add(entry.image);
+  });
+
+  return index;
 }
 
-function renderBreadcrumbs(pathParts) {
-  breadcrumbs.innerHTML = '';
+function buildClassDefinitions(cardIndex) {
+  return EVOLUTION_CHAINS.map((chain) => {
+    const tiers = TIERS.map((tier) => {
+      const slug = chain[`${tier}Slug`];
+      const name = chain[`${tier}Name`];
+      const key = `${tier}:${slug}`;
+      const cards = Array.from(cardIndex.get(key) || []).sort((a, b) => a.localeCompare(b));
+      return {
+        tier,
+        slug,
+        name,
+        label: `${tier.charAt(0).toUpperCase() + tier.slice(1)} - ${TIER_LEVEL[tier]} ${name}`,
+        cards,
+      };
+    });
 
-  const createLink = (parts, label, isCurrent) => {
-    if (isCurrent) {
-      const span = document.createElement('span');
-      span.className = 'current';
-      span.textContent = label;
-      breadcrumbs.append(span);
-      return;
-    }
-    const link = document.createElement('a');
-    link.href = `#${parts.filter(Boolean).join('/')}`;
-    link.textContent = label;
-    breadcrumbs.append(link);
-  };
+    const totalCards = tiers.reduce((total, item) => total + item.cards.length, 0);
+    return {
+      slug: chain.baseSlug,
+      name: chain.baseName,
+      tiers,
+      totalCards,
+    };
+  }).sort((a, b) => a.name.localeCompare(b.name));
+}
 
-  createLink([], 'Classes', pathParts.length === 0);
+function getEvolutionStage(classSlug) {
+  return evolutionState.get(classSlug) ?? 0;
+}
 
-  pathParts.forEach((part, index) => {
-    const isCurrent = index === pathParts.length - 1;
-    const currentParts = pathParts.slice(0, index + 1);
-    const label = formatSegment(part);
-    createLink(currentParts, label, isCurrent);
+function setEvolutionStage(classSlug, stage) {
+  const safeStage = Math.max(0, Math.min(2, Number(stage) || 0));
+  evolutionState.set(classSlug, safeStage);
+}
+
+function renderClassLinks(activeSlug) {
+  classList.innerHTML = '';
+  classCount.textContent = `${classes.length} total`;
+
+  classes.forEach((classInfo) => {
+    const link = classLinkTemplate.content.firstElementChild.cloneNode(true);
+    link.href = `#${classInfo.slug}`;
+    link.classList.toggle('is-active', classInfo.slug === activeSlug);
+    link.querySelector('.class-link-name').textContent = classInfo.name;
+    link.querySelector('.class-link-meta').textContent = `${classInfo.totalCards} total cards`;
+    classList.append(link);
   });
 }
 
-function renderFolders(node, pathParts) {
-  folderPanel.innerHTML = '';
-  const folders = Array.from(node.children.values()).sort((a, b) =>
-    a.key.localeCompare(b.key)
-  );
+function renderEvolutionControl(classInfo, stage) {
+  const [base, prime, apex] = classInfo.tiers;
 
-  if (!folders.length) {
-    return;
-  }
+  evolutionSlider.value = String(stage);
+  evolutionStepBase.textContent = `Base: ${base.name}`;
+  evolutionStepPrime.textContent = `Prime: ${prime.name}`;
+  evolutionStepApex.textContent = `Apex: ${apex.name}`;
 
-  const sectionTitle = document.createElement('div');
-  sectionTitle.className = 'section-title';
-  sectionTitle.innerHTML = `<h2>Folders</h2><span>${folders.length} section${
-    folders.length === 1 ? '' : 's'
-  }</span>`;
-  folderPanel.append(sectionTitle);
-
-  const list = document.createElement('div');
-  list.className = 'folder-grid';
-
-  folders.forEach((folder) => {
-    const clone = folderTemplate.content.firstElementChild.cloneNode(true);
-    const parts = [...pathParts, folder.key];
-    clone.href = `#${parts.join('/')}`;
-    clone.querySelector('.folder-name').textContent = formatSegment(folder.key);
-    clone.querySelector(
-      '.folder-meta'
-    ).textContent = `${folder.totalFiles} card${folder.totalFiles === 1 ? '' : 's'}`;
-    list.append(clone);
+  [evolutionStepBase, evolutionStepPrime, evolutionStepApex].forEach((element, index) => {
+    element.classList.toggle('is-active', index <= stage);
   });
 
-  folderPanel.append(list);
+  const visibleTierNames = classInfo.tiers
+    .slice(0, stage + 1)
+    .map((tier) => tier.name)
+    .join(' + ');
+  evolutionMeta.textContent = `Showing: ${visibleTierNames}`;
 }
 
-function renderCards(node) {
-  cardPanel.innerHTML = '';
-  if (!node.files.length) {
-    if (!node.children.size) {
-      const empty = document.createElement('div');
-      empty.className = 'empty-state';
-      empty.textContent = 'No cards found in this folder.';
-      cardPanel.append(empty);
-    }
-    return;
-  }
-
-  const sectionTitle = document.createElement('div');
-  sectionTitle.className = 'section-title';
-  sectionTitle.innerHTML = `<h2>Cards</h2><span>${node.files.length} image${
-    node.files.length === 1 ? '' : 's'
-  }</span>`;
-  cardPanel.append(sectionTitle);
-
+function createCardsGrid(cards) {
   const grid = document.createElement('div');
-  grid.className = 'image-grid';
+  grid.className = 'cards-grid';
 
-  const sortedFiles = [...node.files].sort((a, b) => a.fileName.localeCompare(b.fileName));
-
-  sortedFiles.forEach((file) => {
-    const clone = imageTemplate.content.firstElementChild.cloneNode(true);
-    const img = clone.querySelector('img');
-    img.src = `../images/${file.path}`;
-    img.alt = formatSegment(file.fileName);
-    clone.querySelector('figcaption').textContent = formatSegment(file.fileName);
-    grid.append(clone);
+  cards.forEach((imagePath) => {
+    const fileName = imagePath.split('/').pop() || imagePath;
+    const card = cardTemplate.content.firstElementChild.cloneNode(true);
+    const img = card.querySelector('img');
+    img.src = `../images/${imagePath}`;
+    img.alt = formatCardName(fileName);
+    card.querySelector('figcaption').textContent = formatCardName(fileName);
+    grid.append(card);
   });
 
-  cardPanel.append(grid);
+  return grid;
 }
 
-function sanitizePath(pathParts, root) {
-  const validParts = [];
-  let node = root;
-  for (const part of pathParts) {
-    if (!node.children.has(part)) break;
-    validParts.push(part);
-    node = node.children.get(part);
+function renderCardSections(classInfo, stage) {
+  cardsSections.innerHTML = '';
+  const visibleTiers = classInfo.tiers.slice(0, stage + 1);
+
+  visibleTiers.forEach((tierInfo) => {
+    const section = document.createElement('section');
+    section.className = 'card-section';
+
+    const heading = document.createElement('h3');
+    heading.className = 'card-section-title';
+    heading.textContent = `${tierInfo.label} (${tierInfo.cards.length})`;
+    section.append(heading);
+
+    if (tierInfo.cards.length) {
+      section.append(createCardsGrid(tierInfo.cards));
+    } else {
+      const empty = document.createElement('p');
+      empty.className = 'empty-state';
+      empty.textContent = 'No cards found for this tier.';
+      section.append(empty);
+    }
+
+    cardsSections.append(section);
+  });
+}
+
+function renderActiveClass() {
+  if (!activeClassSlug || !classesBySlug.has(activeClassSlug)) return;
+
+  const classInfo = classesBySlug.get(activeClassSlug);
+  const stage = getEvolutionStage(classInfo.slug);
+  const visibleCount = classInfo.tiers
+    .slice(0, stage + 1)
+    .reduce((total, tier) => total + tier.cards.length, 0);
+
+  classTitle.textContent = classInfo.name;
+  classMeta.textContent = `${visibleCount} visible cards`;
+  renderClassLinks(classInfo.slug);
+  renderEvolutionControl(classInfo, stage);
+  renderCardSections(classInfo, stage);
+}
+
+function renderError(message) {
+  classTitle.textContent = 'Unable to load classes';
+  classMeta.textContent = '';
+  cardsSections.innerHTML = `<p class="empty-state">${message}</p>`;
+  classList.innerHTML = '';
+  classCount.textContent = '';
+}
+
+function resolveActiveSlug() {
+  const requestedSlug = window.location.hash.slice(1).trim().toLowerCase();
+  const defaultSlug = classes[0]?.slug;
+  const safeSlug = classesBySlug.has(requestedSlug) ? requestedSlug : defaultSlug;
+
+  if (!safeSlug) return null;
+  if (requestedSlug !== safeSlug) {
+    window.location.hash = `#${safeSlug}`;
+    return null;
   }
-  return validParts;
+  return safeSlug;
 }
 
 async function init() {
   const data = await loadClassData();
-  const uniqueImages = Array.from(
-    new Set(
-      data
-        .map((entry) => entry.image)
-        .filter((path) => typeof path === 'string' && path.trim().length > 0)
-    )
-  );
+  const cardIndex = buildCardIndex(data);
+  classes = buildClassDefinitions(cardIndex);
 
-  const tree = buildTree(uniqueImages);
+  if (!classes.length) {
+    throw new Error('No class evolution data found.');
+  }
 
-  const render = () => {
-    const rawHash = window.location.hash.slice(1);
-    const parts = rawHash ? rawHash.split('/').filter(Boolean) : [];
-    const safeParts = sanitizePath(parts, tree);
-    if (parts.length !== safeParts.length) {
-      window.location.hash = `#${safeParts.join('/')}`;
-      return;
-    }
+  classesBySlug = new Map(classes.map((classInfo) => [classInfo.slug, classInfo]));
 
-    const node = getNodeForPath(tree, safeParts) ?? tree;
-    renderBreadcrumbs(safeParts);
-    renderFolders(node, safeParts);
-    renderCards(node);
+  const renderFromLocation = () => {
+    const slug = resolveActiveSlug();
+    if (!slug) return;
+    activeClassSlug = slug;
+    renderActiveClass();
   };
 
-  window.addEventListener('hashchange', render);
-  render();
+  evolutionSlider.addEventListener('input', (event) => {
+    if (!activeClassSlug) return;
+    setEvolutionStage(activeClassSlug, event.target.value);
+    renderActiveClass();
+  });
+
+  window.addEventListener('hashchange', renderFromLocation);
+  renderFromLocation();
 }
 
 init().catch((error) => {
-  folderPanel.innerHTML = '';
-  cardPanel.innerHTML = '';
-  const message = document.createElement('div');
-  message.className = 'empty-state';
-  message.textContent = error.message;
-  cardPanel.append(message);
   console.error(error);
+  renderError(error.message);
 });

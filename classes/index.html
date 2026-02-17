@@ -3,38 +3,60 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Rove Classes Gallery</title>
+    <title>Rove Class Browser</title>
     <link rel="stylesheet" href="./style.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Cinzel:wght@500;700&family=Montserrat:wght@400;500;600&display=swap"
       rel="stylesheet"
     />
   </head>
   <body>
     <header class="app-header">
-      <h1>Rove Classes Gallery</h1>
-      <p>Browse the classes imagery using the original folder structure.</p>
+      <h1>Rove Character Classes</h1>
+      <p>Base set classes from <code>base/core</code>.</p>
     </header>
 
     <main class="app">
-      <nav id="breadcrumbs" class="breadcrumbs" aria-label="Breadcrumb"></nav>
-      <section class="content">
-        <div class="panel" id="folder-panel" aria-live="polite"></div>
-        <div class="panel" id="card-panel" aria-live="polite"></div>
+      <section class="browser">
+        <aside class="class-panel" aria-label="Class list">
+          <div class="class-panel-heading">
+            <h2>Classes</h2>
+            <span id="class-count"></span>
+          </div>
+          <nav id="class-list" class="class-list" aria-live="polite"></nav>
+        </aside>
+
+        <section class="cards-panel" aria-live="polite">
+          <div class="cards-header">
+            <h2 id="class-title"></h2>
+            <p id="class-meta"></p>
+          </div>
+          <section class="evolution-control" aria-label="Evolution selector">
+            <label for="evolution-slider" class="evolution-label">Evolution Stage</label>
+            <input id="evolution-slider" type="range" min="0" max="2" step="1" value="0" />
+            <div class="evolution-steps">
+              <span id="evolution-step-base"></span>
+              <span id="evolution-step-prime"></span>
+              <span id="evolution-step-apex"></span>
+            </div>
+            <p id="evolution-meta" class="evolution-meta"></p>
+          </section>
+          <div id="cards-sections" class="cards-sections"></div>
+        </section>
       </section>
     </main>
 
-    <template id="folder-card-template">
-      <a class="folder-card" href="#">
-        <span class="folder-name"></span>
-        <span class="folder-meta"></span>
+    <template id="class-link-template">
+      <a class="class-link" href="#">
+        <span class="class-link-name"></span>
+        <span class="class-link-meta"></span>
       </a>
     </template>
 
-    <template id="image-card-template">
-      <figure class="image-card">
+    <template id="card-template">
+      <figure class="card">
         <img loading="lazy" alt="" />
         <figcaption></figcaption>
       </figure>
