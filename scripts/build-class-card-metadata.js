@@ -9,37 +9,70 @@ const OUTPUT_PATH = path.join(ROOT, 'data', 'class-card-metadata.json');
 
 const EVOLUTION_CHAINS = [
   {
-    baseSlug: 'dune-dancer',
-    primeSlug: 'ridge-striker',
-    apexSlug: 'canyon-temper',
+    base: { tier: 'base', set: 'core', slug: 'dune-dancer' },
+    core: {
+      prime: { tier: 'prime', set: 'core', slug: 'ridge-striker' },
+      apex: { tier: 'apex', set: 'core', slug: 'canyon-temper' },
+    },
+    xulc: {
+      prime: { tier: 'apex', set: 'xulc', slug: 'wellspring-ewer' },
+      apex: { tier: 'prime', set: 'xulc', slug: 'fountain-caller' },
+    },
   },
   {
-    baseSlug: 'flash',
-    primeSlug: 'helion',
-    apexSlug: 'aster',
+    base: { tier: 'base', set: 'core', slug: 'flash' },
+    core: {
+      prime: { tier: 'prime', set: 'core', slug: 'helion' },
+      apex: { tier: 'apex', set: 'core', slug: 'aster' },
+    },
+    xulc: {
+      prime: { tier: 'apex', set: 'xulc', slug: 'tempest' },
+      apex: { tier: 'prime', set: 'xulc', slug: 'mistral' },
+    },
   },
   {
-    baseSlug: 'shadow-piercer',
-    primeSlug: 'umbral-howl',
-    apexSlug: 'nocturne-hoarfrost',
+    base: { tier: 'base', set: 'core', slug: 'shadow-piercer' },
+    core: {
+      prime: { tier: 'prime', set: 'core', slug: 'umbral-howl' },
+      apex: { tier: 'apex', set: 'core', slug: 'nocturne-hoarfrost' },
+    },
+    xulc: {
+      prime: { tier: 'apex', set: 'xulc', slug: 'vesper-sharpshot' },
+      apex: { tier: 'prime', set: 'xulc', slug: 'keening-bolt' },
+    },
   },
   {
-    baseSlug: 'sophist',
-    primeSlug: 'conceptualist',
-    apexSlug: 'maximist',
+    base: { tier: 'base', set: 'core', slug: 'sophist' },
+    core: {
+      prime: { tier: 'prime', set: 'core', slug: 'conceptualist' },
+      apex: { tier: 'apex', set: 'core', slug: 'maximist' },
+    },
+    xulc: {
+      prime: { tier: 'apex', set: 'xulc', slug: 'kataphatist' },
+      apex: { tier: 'prime', set: 'xulc', slug: 'essentialist' },
+    },
   },
   {
-    baseSlug: 'true-scale',
-    primeSlug: 'toll-bearer',
-    apexSlug: 'invisible-hand',
+    base: { tier: 'base', set: 'core', slug: 'true-scale' },
+    core: {
+      prime: { tier: 'prime', set: 'core', slug: 'toll-bearer' },
+      apex: { tier: 'apex', set: 'core', slug: 'invisible-hand' },
+    },
+    xulc: {
+      prime: { tier: 'apex', set: 'xulc', slug: 'zero-sum' },
+      apex: { tier: 'prime', set: 'xulc', slug: 'fierce-ransomer' },
+    },
   },
 ];
 
-const TIER_KEYS = ['base', 'prime', 'apex'];
 const TARGET_CLASS_KEYS = new Set(
-  EVOLUTION_CHAINS.flatMap((chain) =>
-    TIER_KEYS.map((tier) => `${tier}:${chain[`${tier}Slug`]}`)
-  )
+  EVOLUTION_CHAINS.flatMap((chain) => [
+    `${chain.base.tier}:${chain.base.set}:${chain.base.slug}`,
+    `${chain.core.prime.tier}:${chain.core.prime.set}:${chain.core.prime.slug}`,
+    `${chain.core.apex.tier}:${chain.core.apex.set}:${chain.core.apex.slug}`,
+    `${chain.xulc.prime.tier}:${chain.xulc.prime.set}:${chain.xulc.prime.slug}`,
+    `${chain.xulc.apex.tier}:${chain.xulc.apex.set}:${chain.xulc.apex.slug}`,
+  ])
 );
 
 function canonicalName(value) {
@@ -71,15 +104,15 @@ function scoreSimilarity(a, b) {
 }
 
 function fallbackPairKey(card) {
-  if (!card.asset) return `${card.tier}:${card.slug}:${card.imagePath}`;
+  if (!card.asset) return `${card.tier}:${card.set}:${card.slug}:${card.imagePath}`;
   if (card.asset.prefix === 'a') {
-    return `${card.tier}:${card.slug}:a-${card.asset.value}`;
+    return `${card.tier}:${card.set}:${card.slug}:a-${card.asset.value}`;
   }
   if (card.asset.prefix === 's') {
     const pairStart = card.asset.value % 2 === 0 ? card.asset.value - 1 : card.asset.value;
-    return `${card.tier}:${card.slug}:s-${pairStart}`;
+    return `${card.tier}:${card.set}:${card.slug}:s-${pairStart}`;
   }
-  return `${card.tier}:${card.slug}:${card.asset.prefix}-${card.asset.value}`;
+  return `${card.tier}:${card.set}:${card.slug}:${card.asset.prefix}-${card.asset.value}`;
 }
 
 function buildCards(entries) {
@@ -88,11 +121,11 @@ function buildCards(entries) {
 
   for (const entry of entries) {
     if (!entry || typeof entry.image !== 'string') continue;
-    const match = entry.image.match(/^classes\/rove\/(base|prime|apex)\/core\/([^/]+)\/.+$/);
+    const match = entry.image.match(/^classes\/rove\/(base|prime|apex)\/(core|xulc)\/([^/]+)\/.+$/);
     if (!match) continue;
 
-    const [, tier, slug] = match;
-    const classKey = `${tier}:${slug}`;
+    const [, tier, set, slug] = match;
+    const classKey = `${tier}:${set}:${slug}`;
     if (!TARGET_CLASS_KEYS.has(classKey)) continue;
     if (seen.has(entry.image)) continue;
     seen.add(entry.image);
@@ -104,6 +137,7 @@ function buildCards(entries) {
 
     cards.push({
       tier,
+      set,
       slug,
       classKey,
       imagePath: entry.image,

@@ -134,6 +134,11 @@ body {
 
 .cards-header {
   margin-bottom: 0.9rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: end;
+  gap: 1rem;
+  flex-wrap: wrap;
 }
 
 .cards-header h2 {
@@ -145,6 +150,24 @@ body {
 .cards-header p {
   margin: 0.2rem 0 0;
   color: var(--muted);
+}
+
+.path-control {
+  display: grid;
+  gap: 0.35rem;
+  font-size: 0.82rem;
+  color: var(--muted);
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+}
+
+#evolution-path-select {
+  border: 1px solid rgba(107, 78, 46, 0.3);
+  border-radius: 9px;
+  background: rgba(255, 255, 255, 0.75);
+  color: var(--ink);
+  padding: 0.35rem 0.55rem;
+  font-size: 0.9rem;
 }
 
 .evolution-control {
