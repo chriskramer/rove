@@ -20,6 +20,7 @@
 }
 
 body {
+  position: relative;
   margin: 0;
   min-height: 100vh;
   color: var(--ink);
@@ -27,6 +28,19 @@ body {
     radial-gradient(circle at 5% 10%, rgba(231, 220, 198, 0.24), transparent 30%),
     radial-gradient(circle at 90% 0%, rgba(106, 78, 46, 0.2), transparent 35%),
     var(--bg);
+}
+
+body::before {
+  content: '';
+  position: fixed;
+  inset: 0;
+  background-image: var(--desktop-bg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  opacity: 0.14;
+  pointer-events: none;
+  z-index: -1;
 }
 
 .app-header {
@@ -121,6 +135,25 @@ body {
 
 .class-link-name {
   font-weight: 600;
+}
+
+.name-with-icon {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.38rem;
+}
+
+.class-icon {
+  width: 1rem;
+  height: 1rem;
+  object-fit: contain;
+  flex: 0 0 1rem;
+}
+
+.title-icon .class-icon {
+  width: 1.15rem;
+  height: 1.15rem;
+  flex-basis: 1.15rem;
 }
 
 .class-link-meta {

@@ -3,6 +3,11 @@ const classMetadataUrl = '../data/class-card-metadata.json';
 const profileBoardsDataUrl = '../data/profile-boards.js';
 const abilitiesDataUrl = '../data/abilities.js';
 const traitsDataUrl = '../data/traits.js';
+const desktopBackgroundImages = [
+  '../images/art/rove/other/pictures/desktop/rv-desktop-silky-village.png',
+  '../images/art/rove/other/pictures/desktop/rv-desktop-starling-sanctum.png',
+  '../images/art/rove/other/pictures/desktop/rv-desktop-river-market.png',
+];
 
 const EVOLUTION_CONFIG = [
   {
@@ -123,6 +128,12 @@ let classesBySlug = new Map();
 let activeClassSlug = null;
 let activeTab = 'cards';
 
+function applyRandomDesktopBackground() {
+  const choice =
+    desktopBackgroundImages[Math.floor(Math.random() * desktopBackgroundImages.length)];
+  document.body.style.setProperty('--desktop-bg', `url("${choice}")`);
+}
+
 function canonicalName(value) {
   return String(value || '')
     .toLowerCase()
@@ -138,6 +149,30 @@ function formatCardName(fileName) {
     .split('-')
     .map((part) => part.charAt(0).toUpperCase() + part.slice(1))
     .join(' ');
+}
+
+function classIconUrl(tier, set, slug) {
+  return `../images/art/rove/${tier}/${set}/icons/classes/rv-${slug}-class-icon.png`;
+}
+
+function buildNameWithIcon(name, tier, set, slug, extraClass = '') {
+  const wrapper = document.createElement('span');
+  wrapper.className = `name-with-icon${extraClass ? ` ${extraClass}` : ''}`;
+
+  const icon = document.createElement('img');
+  icon.className = 'class-icon';
+  icon.src = classIconUrl(tier, set, slug);
+  icon.alt = `${name} icon`;
+  icon.loading = 'lazy';
+  icon.addEventListener('error', () => {
+    icon.remove();
+  });
+  wrapper.append(icon);
+
+  const text = document.createElement('span');
+  text.textContent = name;
+  wrapper.append(text);
+  return wrapper;
 }
 
 function parseAssetNumber(assetno) {
@@ -414,7 +449,9 @@ function renderClassLinks(activeSlug) {
 
     link.href = `#${classInfo.slug}`;
     link.classList.toggle('is-active', classInfo.slug === activeSlug);
-    link.querySelector('.class-link-name').textContent = classInfo.name;
+    const nameEl = link.querySelector('.class-link-name');
+    nameEl.textContent = '';
+    nameEl.append(buildNameWithIcon(classInfo.name, 'base', 'core', classInfo.slug));
     link.querySelector('.class-link-meta').textContent = `${pathInfo.label}: ${pathInfo.totalCards} cards`;
     classList.append(link);
   });
@@ -434,9 +471,14 @@ function renderPathSelector(classInfo, activePathKey) {
 function renderEvolutionControl(pathInfo, stage) {
   const [base, prime, apex] = pathInfo.tiers;
   evolutionSlider.value = String(stage);
-  evolutionStepBase.textContent = `Base: ${base.name}`;
-  evolutionStepPrime.textContent = `Prime: ${prime.name}`;
-  evolutionStepApex.textContent = `Apex: ${apex.name}`;
+  evolutionStepBase.textContent = '';
+  evolutionStepPrime.textContent = '';
+  evolutionStepApex.textContent = '';
+  evolutionStepBase.append(buildNameWithIcon(`Base: ${base.name}`, base.tier, base.set, base.slug));
+  evolutionStepPrime.append(
+    buildNameWithIcon(`Prime: ${prime.name}`, prime.tier, prime.set, prime.slug)
+  );
+  evolutionStepApex.append(buildNameWithIcon(`Apex: ${apex.name}`, apex.tier, apex.set, apex.slug));
   [evolutionStepBase, evolutionStepPrime, evolutionStepApex].forEach((element, index) => {
     element.classList.toggle('is-active', index <= stage);
   });
@@ -509,7 +551,9 @@ function renderCardsTierSection(tierInfo) {
 
   const heading = document.createElement('h3');
   heading.className = 'card-section-title';
-  heading.textContent = `${tierInfo.label} (${tierInfo.cards.length})`;
+  heading.textContent = '';
+  heading.append(buildNameWithIcon(tierInfo.label, tierInfo.tier, tierInfo.set, tierInfo.slug));
+  heading.append(document.createTextNode(` (${tierInfo.cards.length})`));
   section.append(heading);
 
   const summons = tierInfo.cards.filter((card) => card.isSummons);
@@ -530,7 +574,9 @@ function renderGenericTierSection(tierInfo, tabKey) {
 
   const heading = document.createElement('h3');
   heading.className = 'card-section-title';
-  heading.textContent = `${tierInfo.label} (${items.length})`;
+  heading.textContent = '';
+  heading.append(buildNameWithIcon(tierInfo.label, tierInfo.tier, tierInfo.set, tierInfo.slug));
+  heading.append(document.createTextNode(` (${items.length})`));
   section.append(heading);
 
   if (!items.length) {
@@ -561,7 +607,8 @@ function renderActiveClass() {
     return total + (tierInfo[activeTab] || []).length;
   }, 0);
 
-  classTitle.textContent = classInfo.name;
+  classTitle.textContent = '';
+  classTitle.append(buildNameWithIcon(classInfo.name, 'base', 'core', classInfo.slug, 'title-icon'));
   classMeta.textContent = `${pathInfo.label}: ${visibleCount} visible ${TAB_LABELS[activeTab].toLowerCase()} images`;
   renderClassLinks(classInfo.slug);
   renderPathSelector(classInfo, activePathKey);
@@ -599,6 +646,8 @@ function resolveActiveSlug() {
 }
 
 async function init() {
+  applyRandomDesktopBackground();
+
   const [classEntries, metadata, profileBoardsEntries, abilitiesEntries, traitsEntries] =
     await Promise.all([
       loadJson(classesDataUrl),
