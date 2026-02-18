@@ -185,6 +185,38 @@ body {
   color: var(--muted);
 }
 
+.tab-bar {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin-bottom: 1rem;
+}
+
+.tab-btn {
+  border: 1px solid rgba(107, 78, 46, 0.25);
+  background: rgba(255, 255, 255, 0.45);
+  color: var(--ink);
+  border-radius: 999px;
+  padding: 0.45rem 0.85rem;
+  font-size: 0.9rem;
+  cursor: pointer;
+  transition: background-color 0.12s ease, border-color 0.12s ease, transform 0.12s ease;
+}
+
+.tab-btn:hover,
+.tab-btn:focus-visible {
+  background: rgba(63, 109, 84, 0.13);
+  border-color: rgba(63, 109, 84, 0.45);
+  transform: translateY(-1px);
+  outline: none;
+}
+
+.tab-btn.is-active {
+  background: rgba(63, 109, 84, 0.22);
+  border-color: var(--accent);
+  font-weight: 600;
+}
+
 .cards-sections {
   display: grid;
   gap: 1rem;
@@ -251,6 +283,23 @@ body {
   font-size: 0.86rem;
   text-align: center;
   color: var(--muted);
+}
+
+.cards-sections[data-tab='profileBoards'] .pair-grid {
+  grid-template-columns: repeat(auto-fill, minmax(460px, 1fr));
+}
+
+.cards-sections[data-tab='profileBoards'] .card-pair {
+  padding: 0.75rem;
+}
+
+.cards-sections[data-tab='profileBoards'] .card {
+  padding: 0.75rem;
+}
+
+.cards-sections[data-tab='profileBoards'] .card img {
+  min-height: 300px;
+  object-fit: contain;
 }
 
 .empty-state {

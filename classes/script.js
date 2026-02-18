@@ -1,5 +1,8 @@
 const classesDataUrl = '../data/classes.js';
 const classMetadataUrl = '../data/class-card-metadata.json';
+const profileBoardsDataUrl = '../data/profile-boards.js';
+const abilitiesDataUrl = '../data/abilities.js';
+const traitsDataUrl = '../data/traits.js';
 
 const EVOLUTION_CHAINS = [
   {
@@ -46,6 +49,13 @@ const EVOLUTION_CHAINS = [
 
 const TIERS = ['base', 'prime', 'apex'];
 const TIER_LEVEL = { base: 'lvl 1', prime: 'lvl 4', apex: 'lvl 7' };
+const TAB_KEYS = ['cards', 'profileBoards', 'abilities', 'traits'];
+const TAB_LABELS = {
+  cards: 'Cards',
+  profileBoards: 'Profile Board',
+  abilities: 'Abilities',
+  traits: 'Traits',
+};
 
 const classList = document.getElementById('class-list');
 const classCount = document.getElementById('class-count');
@@ -57,6 +67,7 @@ const evolutionStepBase = document.getElementById('evolution-step-base');
 const evolutionStepPrime = document.getElementById('evolution-step-prime');
 const evolutionStepApex = document.getElementById('evolution-step-apex');
 const evolutionMeta = document.getElementById('evolution-meta');
+const tabButtons = Array.from(document.querySelectorAll('.tab-btn'));
 const classLinkTemplate = document.getElementById('class-link-template');
 const cardTemplate = document.getElementById('card-template');
 
@@ -64,6 +75,15 @@ const evolutionState = new Map();
 let classes = [];
 let classesBySlug = new Map();
 let activeClassSlug = null;
+let activeTab = 'cards';
+
+function canonicalName(value) {
+  return String(value || '')
+    .toLowerCase()
+    .replace(/[^a-z0-9 ]+/g, ' ')
+    .replace(/\s+/g, ' ')
+    .trim();
+}
 
 function formatCardName(fileName) {
   return fileName
@@ -91,6 +111,17 @@ function fallbackPairKey(card) {
   return `${card.tier}:${card.slug}:${card.asset.prefix}-${card.asset.value}`;
 }
 
+function genericPairKey(card) {
+  const base = card.fileName
+    .replace(/\.[^.]+$/, '')
+    .replace(/^rv-/, '')
+    .replace(/-(ability|trait)-back$/, '')
+    .replace(/-(ability|trait)-front$/, '')
+    .replace(/-back$/, '')
+    .replace(/-front$/, '');
+  return `${card.tier}:${card.slug}:${card.kind}:${base}`;
+}
+
 async function loadJson(url) {
   const response = await fetch(url);
   if (!response.ok) {
@@ -99,7 +130,24 @@ async function loadJson(url) {
   return response.json();
 }
 
-function buildCardIndex(entries, metadata) {
+function makeBaseCard(entry, tier, slug, kind) {
+  const fileName = entry.image.split('/').pop() || entry.image;
+  return {
+    kind,
+    tier,
+    slug,
+    imagePath: entry.image,
+    fileName,
+    name: entry.name,
+    assetno: entry.assetno,
+    asset: parseAssetNumber(entry.assetno),
+    isSummons: false,
+    isLevelUp: false,
+    pairKey: '',
+  };
+}
+
+function buildCardsIndex(entries, metadata) {
   const index = new Map();
   const seen = new Set();
   const metadataCards = metadata?.cards || {};
@@ -115,50 +163,88 @@ function buildCardIndex(entries, metadata) {
     const key = `${tier}:${slug}`;
     if (!index.has(key)) index.set(key, []);
 
-    const fileName = entry.image.split('/').pop() || entry.image;
-    const asset = parseAssetNumber(entry.assetno);
+    const card = makeBaseCard(entry, tier, slug, 'cards');
     const metadataRow = metadataCards[entry.image] || {};
+    card.isSummons =
+      typeof metadataRow.isSummons === 'boolean'
+        ? metadataRow.isSummons
+        : card.fileName.includes('-front') || card.fileName.includes('-back');
+    card.isLevelUp = Boolean(metadataRow.isLevelUp);
+    card.pairKey = metadataRow.pairKey || fallbackPairKey(card);
 
-    const card = {
-      tier,
-      slug,
-      imagePath: entry.image,
-      fileName,
-      name: entry.name,
-      assetno: entry.assetno,
-      asset,
-      isSummons:
-        typeof metadataRow.isSummons === 'boolean'
-          ? metadataRow.isSummons
-          : fileName.includes('-front') || fileName.includes('-back'),
-      isLevelUp: Boolean(metadataRow.isLevelUp),
-      pairKey: metadataRow.pairKey || '',
-    };
-
-    if (!card.pairKey) card.pairKey = fallbackPairKey(card);
     index.get(key).push(card);
   });
 
   for (const cards of index.values()) {
     cards.sort((a, b) => a.imagePath.localeCompare(b.imagePath));
   }
-
   return index;
 }
 
-function buildClassDefinitions(cardIndex) {
+function buildPathIndex(entries, kind) {
+  const index = new Map();
+  const seen = new Set();
+
+  entries.forEach((entry) => {
+    if (!entry || typeof entry.image !== 'string') return;
+    let tier = '';
+    let slug = '';
+
+    if (kind === 'profileBoards') {
+      const profileMatch = entry.image.match(/^profile-boards\/rove\/(base|prime|apex)\/core\/.+$/);
+      if (!profileMatch) return;
+      tier = profileMatch[1];
+      slug = slugFromTierName(tier, entry.name);
+      if (!slug) return;
+    } else {
+      const match = entry.image.match(/^(abilities|traits)\/rove\/(base|prime|apex)\/core\/([^/]+)\/.+$/);
+      if (!match) return;
+      tier = match[2];
+      slug = match[3];
+    }
+
+    const dedupeKey = `${kind}:${entry.image}`;
+    if (seen.has(dedupeKey)) return;
+    seen.add(dedupeKey);
+
+    const key = `${tier}:${slug}`;
+    if (!index.has(key)) index.set(key, []);
+    const card = makeBaseCard(entry, tier, slug, kind);
+    card.pairKey = genericPairKey(card);
+    index.get(key).push(card);
+  });
+
+  for (const cards of index.values()) {
+    cards.sort((a, b) => a.imagePath.localeCompare(b.imagePath));
+  }
+  return index;
+}
+
+function slugFromTierName(tier, nameValue) {
+  const target = canonicalName(nameValue);
+  for (const chain of EVOLUTION_CHAINS) {
+    const slug = chain[`${tier}Slug`];
+    const pretty = canonicalName(chain[`${tier}Name`]);
+    if (pretty === target) return slug;
+  }
+  return null;
+}
+
+function buildClassDefinitions(indices) {
   return EVOLUTION_CHAINS.map((chain) => {
     const tiers = TIERS.map((tier) => {
       const slug = chain[`${tier}Slug`];
       const name = chain[`${tier}Name`];
       const key = `${tier}:${slug}`;
-      const cards = [...(cardIndex.get(key) || [])];
       return {
         tier,
         slug,
         name,
         label: `${tier.charAt(0).toUpperCase() + tier.slice(1)} - ${TIER_LEVEL[tier]} ${name}`,
-        cards,
+        cards: [...(indices.cards.get(key) || [])],
+        profileBoards: [...(indices.profileBoards.get(key) || [])],
+        abilities: [...(indices.abilities.get(key) || [])],
+        traits: [...(indices.traits.get(key) || [])],
       };
     });
 
@@ -179,6 +265,14 @@ function getEvolutionStage(classSlug) {
 function setEvolutionStage(classSlug, stage) {
   const safeStage = Math.max(0, Math.min(2, Number(stage) || 0));
   evolutionState.set(classSlug, safeStage);
+}
+
+function setActiveTab(tabKey) {
+  if (!TAB_KEYS.includes(tabKey)) return;
+  activeTab = tabKey;
+  tabButtons.forEach((button) => {
+    button.classList.toggle('is-active', button.dataset.tab === activeTab);
+  });
 }
 
 function renderClassLinks(activeSlug) {
@@ -267,7 +361,7 @@ function createGroupSection(title, cards) {
   return section;
 }
 
-function renderTierSection(tierInfo) {
+function renderCardsTierSection(tierInfo) {
   const section = document.createElement('section');
   section.className = 'card-section';
 
@@ -287,26 +381,62 @@ function renderTierSection(tierInfo) {
   return section;
 }
 
+function renderGenericTierSection(tierInfo, tabKey) {
+  const items = tierInfo[tabKey] || [];
+  const section = document.createElement('section');
+  section.className = 'card-section';
+
+  const heading = document.createElement('h3');
+  heading.className = 'card-section-title';
+  heading.textContent = `${tierInfo.label} (${items.length})`;
+  section.append(heading);
+
+  if (!items.length) {
+    const empty = document.createElement('p');
+    empty.className = 'empty-state';
+    empty.textContent =
+      tabKey === 'traits' && tierInfo.tier === 'base'
+        ? 'Traits start at Prime evolution.'
+        : 'No images found for this tier.';
+    section.append(empty);
+    return section;
+  }
+
+  section.append(createPairGrid(items));
+  return section;
+}
+
 function renderActiveClass() {
   if (!activeClassSlug || !classesBySlug.has(activeClassSlug)) return;
 
   const classInfo = classesBySlug.get(activeClassSlug);
   const stage = getEvolutionStage(classInfo.slug);
   const visibleTiers = classInfo.tiers.slice(0, stage + 1);
-  const visibleCount = visibleTiers.reduce((total, tier) => total + tier.cards.length, 0);
+  const visibleCount = visibleTiers.reduce((total, tierInfo) => {
+    if (activeTab === 'cards') return total + tierInfo.cards.length;
+    return total + (tierInfo[activeTab] || []).length;
+  }, 0);
 
   classTitle.textContent = classInfo.name;
-  classMeta.textContent = `${visibleCount} visible cards`;
+  classMeta.textContent = `${visibleCount} visible ${TAB_LABELS[activeTab].toLowerCase()} images`;
   renderClassLinks(classInfo.slug);
   renderEvolutionControl(classInfo, stage);
+  cardsSections.dataset.tab = activeTab;
   cardsSections.innerHTML = '';
-  visibleTiers.forEach((tierInfo) => cardsSections.append(renderTierSection(tierInfo)));
+
+  visibleTiers.forEach((tierInfo) => {
+    const section =
+      activeTab === 'cards'
+        ? renderCardsTierSection(tierInfo)
+        : renderGenericTierSection(tierInfo, activeTab);
+    cardsSections.append(section);
+  });
 }
 
 function renderError(message) {
   classTitle.textContent = 'Unable to load classes';
   classMeta.textContent = '';
-  cardsSections.innerHTML = `<p class=\"empty-state\">${message}</p>`;
+  cardsSections.innerHTML = `<p class="empty-state">${message}</p>`;
   classList.innerHTML = '';
   classCount.textContent = '';
 }
@@ -324,13 +454,23 @@ function resolveActiveSlug() {
 }
 
 async function init() {
-  const [classEntries, metadata] = await Promise.all([
-    loadJson(classesDataUrl),
-    loadJson(classMetadataUrl).catch(() => ({})),
-  ]);
+  const [classEntries, metadata, profileBoardsEntries, abilitiesEntries, traitsEntries] =
+    await Promise.all([
+      loadJson(classesDataUrl),
+      loadJson(classMetadataUrl).catch(() => ({})),
+      loadJson(profileBoardsDataUrl),
+      loadJson(abilitiesDataUrl),
+      loadJson(traitsDataUrl),
+    ]);
 
-  const cardIndex = buildCardIndex(classEntries, metadata);
-  classes = buildClassDefinitions(cardIndex);
+  const indices = {
+    cards: buildCardsIndex(classEntries, metadata),
+    profileBoards: buildPathIndex(profileBoardsEntries, 'profileBoards'),
+    abilities: buildPathIndex(abilitiesEntries, 'abilities'),
+    traits: buildPathIndex(traitsEntries, 'traits'),
+  };
+
+  classes = buildClassDefinitions(indices);
   if (!classes.length) throw new Error('No class evolution data found.');
   classesBySlug = new Map(classes.map((classInfo) => [classInfo.slug, classInfo]));
 
@@ -347,6 +487,14 @@ async function init() {
     renderActiveClass();
   });
 
+  tabButtons.forEach((button) => {
+    button.addEventListener('click', () => {
+      setActiveTab(button.dataset.tab);
+      renderActiveClass();
+    });
+  });
+
+  setActiveTab(activeTab);
   window.addEventListener('hashchange', renderFromLocation);
   renderFromLocation();
 }
