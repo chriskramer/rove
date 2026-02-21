@@ -275,7 +275,7 @@ function buildCardsIndex(entries, metadata) {
     card.isSummons =
       typeof metadataRow.isSummons === 'boolean'
         ? metadataRow.isSummons
-        : card.fileName.includes('-front') || card.fileName.includes('-back');
+        : Boolean(card.asset && card.asset.prefix === 'a');
     card.isLevelUp = Boolean(metadataRow.isLevelUp);
     card.pairKey = metadataRow.pairKey || fallbackPairKey(card);
 
@@ -557,8 +557,8 @@ function renderCardsTierSection(tierInfo) {
   section.append(heading);
 
   const summons = tierInfo.cards.filter((card) => card.isSummons);
-  const levelUp = tierInfo.cards.filter((card) => !card.isSummons && !card.isLevelUp);
-  const starting = tierInfo.cards.filter((card) => !card.isSummons && card.isLevelUp);
+  const levelUp = tierInfo.cards.filter((card) => !card.isSummons && card.isLevelUp);
+  const starting = tierInfo.cards.filter((card) => !card.isSummons && !card.isLevelUp);
 
   section.append(createGroupSection('Starting', starting));
   section.append(createGroupSection('Level Up', levelUp));

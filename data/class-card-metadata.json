@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-02-18T01:22:10.089Z",
+  "generatedAt": "2026-02-18T07:08:55.292Z",
   "source": "scripts/build-class-card-metadata.js",
   "cards": {
     "classes/rove/apex/core/aster/rv-bulk-interactions.png": {
@@ -10,7 +10,7 @@
       "assetno": "s-092",
       "isSummons": false,
       "isLevelUp": false,
-      "pairKey": "apex:core:aster:ocr:bulk interactions::warm bodies",
+      "pairKey": "apex:core:aster:s-91",
       "ocr": {
         "text": "2 Cll —r      | ©",
         "canonical": "2 cll r",
@@ -26,7 +26,7 @@
       "assetno": "s-097",
       "isSummons": false,
       "isLevelUp": false,
-      "pairKey": "apex:core:aster:ocr:coronal loop::heat transfer",
+      "pairKey": "apex:core:aster:s-97",
       "ocr": {
         "text": "AN e | \"Heat Transfer  ©",
         "canonical": "an e heat transfer",
@@ -42,7 +42,7 @@
       "assetno": "s-094",
       "isSummons": false,
       "isLevelUp": false,
-      "pairKey": "apex:core:aster:ocr:coronal mass ejection::solar flare",
+      "pairKey": "apex:core:aster:s-93",
       "ocr": {
         "text": "Nay",
         "canonical": "nay",
@@ -58,7 +58,7 @@
       "assetno": "s-098",
       "isSummons": false,
       "isLevelUp": false,
-      "pairKey": "apex:core:aster:ocr:coronal loop::heat transfer",
+      "pairKey": "apex:core:aster:s-97",
       "ocr": {
         "text": "AN A © .   Coro IooD!   | T",
         "canonical": "an a coro iood t",
@@ -138,7 +138,7 @@
       "assetno": "s-093",
       "isSummons": false,
       "isLevelUp": false,
-      "pairKey": "apex:core:aster:ocr:coronal mass ejection::solar flare",
+      "pairKey": "apex:core:aster:s-93",
       "ocr": {
         "text": "AN \\ Ot   Coronal Mass Ejection  | cx",
         "canonical": "an ot coronal mass ejection cx",
@@ -170,7 +170,7 @@
       "assetno": "s-103",
       "isSummons": false,
       "isLevelUp": false,
-      "pairKey": "apex:core:aster:ocr:thermal conduit::thermal dynamism",
+      "pairKey": "apex:core:aster:s-103",
       "ocr": {
         "text": "AN   T   ” TROTTED TCT   | .",
         "canonical": "an t trotted tct",
@@ -186,7 +186,7 @@
       "assetno": "s-104",
       "isSummons": false,
       "isLevelUp": false,
-      "pairKey": "apex:core:aster:ocr:thermal conduit::thermal dynamism",
+      "pairKey": "apex:core:aster:s-103",
       "ocr": {
         "text": "SEN \\   Thermal Conduit  ©",
         "canonical": "sen thermal conduit",
@@ -202,7 +202,7 @@
       "assetno": "s-091",
       "isSummons": false,
       "isLevelUp": false,
-      "pairKey": "apex:core:aster:ocr:bulk interactions::warm bodies",
+      "pairKey": "apex:core:aster:s-91",
       "ocr": {
         "text": "AN 3  & | Bulk Interactions   | T",
         "canonical": "an 3 bulk interactions t",
@@ -216,7 +216,7 @@
       "classKey": "apex:core:aster",
       "name": "warm front",
       "assetno": "s-101",
-      "isSummons": true,
+      "isSummons": false,
       "isLevelUp": false,
       "pairKey": "apex:core:aster:s-101",
       "ocr": {
@@ -234,7 +234,7 @@
       "assetno": "s-046",
       "isSummons": false,
       "isLevelUp": false,
-      "pairKey": "apex:core:canyon-temper:ocr:beak and claw and sword::sand plume",
+      "pairKey": "apex:core:canyon-temper:s-45",
       "ocr": {
         "text": "",
         "canonical": "",
@@ -250,7 +250,7 @@
       "assetno": "s-051",
       "isSummons": false,
       "isLevelUp": false,
-      "pairKey": "apex:core:canyon-temper:ocr:boulder clad::wrought from clay",
+      "pairKey": "apex:core:canyon-temper:s-51",
       "ocr": {
         "text": "¢ Tw          ‘Wrought From| Clay”  ali El",
         "canonical": "tw wrought from clay ali el",
@@ -282,7 +282,7 @@
       "assetno": "s-040",
       "isSummons": false,
       "isLevelUp": true,
-      "pairKey": "apex:core:canyon-temper:ocr:mighty gust::oasis sanctuary",
+      "pairKey": "apex:core:canyon-temper:s-39",
       "ocr": {
         "text": "AC   rm Te",
         "canonical": "ac rm te",
@@ -298,7 +298,7 @@
       "assetno": "s-039",
       "isSummons": false,
       "isLevelUp": true,
-      "pairKey": "apex:core:canyon-temper:ocr:mighty gust::oasis sanctuary",
+      "pairKey": "apex:core:canyon-temper:s-39",
       "ocr": {
         "text": "¢ \\ kd -   Mighty Gust   Te",
         "canonical": "kd mighty gust te",
@@ -330,7 +330,7 @@
       "assetno": "a-004",
       "isSummons": true,
       "isLevelUp": false,
-      "pairKey": "apex:core:canyon-temper:a-4",
+      "pairKey": "apex:core:canyon-temper:summon:ravenous drako",
       "ocr": {
         "text": "RV",
         "canonical": "rv",
@@ -346,7 +346,7 @@
       "assetno": "a-004",
       "isSummons": true,
       "isLevelUp": false,
-      "pairKey": "apex:core:canyon-temper:a-4",
+      "pairKey": "apex:core:canyon-temper:summon:ravenous drako",
       "ocr": {
         "text": "",
         "canonical": "",
@@ -394,7 +394,7 @@
       "assetno": "s-045",
       "isSummons": false,
       "isLevelUp": false,
-      "pairKey": "apex:core:canyon-temper:ocr:beak and claw and sword::sand plume",
+      "pairKey": "apex:core:canyon-temper:s-45",
       "ocr": {
         "text": "¢ TE      Beak and Claw and Sword. To",
         "canonical": "te beak and claw and sword to",
@@ -474,7 +474,7 @@
       "assetno": "s-052",
       "isSummons": false,
       "isLevelUp": false,
-      "pairKey": "apex:core:canyon-temper:ocr:boulder clad::wrought from clay",
+      "pairKey": "apex:core:canyon-temper:s-51",
       "ocr": {
         "text": "",
         "canonical": "",
@@ -506,7 +506,7 @@
       "assetno": "s-256",
       "isSummons": false,
       "isLevelUp": false,
-      "pairKey": "apex:core:invisible-hand:ocr:burning pocket::signal noise",
+      "pairKey": "apex:core:invisible-hand:s-255",
       "ocr": {
         "text": "V3   N iC »            Signal Noise         Te",
         "canonical": "v3 n ic signal noise te",
@@ -522,7 +522,7 @@
       "assetno": "s-260",
       "isSummons": false,
       "isLevelUp": false,
-      "pairKey": "apex:core:invisible-hand:ocr:direct control::resource management",
+      "pairKey": "apex:core:invisible-hand:s-259",
       "ocr": {
         "text": "V3 Ter  Resource Management  | \"",
         "canonical": "v3 ter resource management",
@@ -586,7 +586,7 @@
       "assetno": "s-259",
       "isSummons": false,
       "isLevelUp": false,
-      "pairKey": "apex:core:invisible-hand:ocr:direct control::resource management",
+      "pairKey": "apex:core:invisible-hand:s-259",
       "ocr": {
         "text": "V3   \\ . kd »          Direct Control       Te",
         "canonical": "v3 kd direct control te",
@@ -602,7 +602,7 @@
       "assetno": "s-248",
       "isSummons": false,
       "isLevelUp": true,
-      "pairKey": "apex:core:invisible-hand:ocr:risk aversion::spread wealth",
+      "pairKey": "apex:core:invisible-hand:s-247",
       "ocr": {
         "text": "oY  N Cll - —     Tw",
         "canonical": "oy n cll tw",
@@ -618,7 +618,7 @@
       "assetno": "s-255",
       "isSummons": false,
       "isLevelUp": false,
-      "pairKey": "apex:core:invisible-hand:ocr:burning pocket::signal noise",
+      "pairKey": "apex:core:invisible-hand:s-255",
       "ocr": {
         "text": "V3  Ter      Burning Pocket      |  vi",
         "canonical": "v3 ter burning pocket vi",
@@ -634,7 +634,7 @@
       "assetno": "s-247",
       "isSummons": false,
       "isLevelUp": true,
-      "pairKey": "apex:core:invisible-hand:ocr:risk aversion::spread wealth",
+      "pairKey": "apex:core:invisible-hand:s-247",
       "ocr": {
         "text": "V3 N er     Risk Aversion    Te",
         "canonical": "v3 n er risk aversion te",
@@ -682,7 +682,7 @@
       "assetno": "s-251",
       "isSummons": false,
       "isLevelUp": true,
-      "pairKey": "apex:core:invisible-hand:ocr:we the arbiters::we the beholders",
+      "pairKey": "apex:core:invisible-hand:s-251",
       "ocr": {
         "text": "st | oT We, the Beholders   Tw",
         "canonical": "st ot we the beholders tw",
@@ -698,7 +698,7 @@
       "assetno": "s-252",
       "isSummons": false,
       "isLevelUp": true,
-      "pairKey": "apex:core:invisible-hand:ocr:we the arbiters::we the beholders",
+      "pairKey": "apex:core:invisible-hand:s-251",
       "ocr": {
         "text": "V3 \\ Ral    We, the Arbiters    Ci",
         "canonical": "v3 ral we the arbiters ci",
@@ -730,7 +730,7 @@
       "assetno": "a-011",
       "isSummons": true,
       "isLevelUp": false,
-      "pairKey": "apex:core:maximist:a-11",
+      "pairKey": "apex:core:maximist:summon:alluring thureoll",
       "ocr": {
         "text": "374",
         "canonical": "374",
@@ -746,7 +746,7 @@
       "assetno": "a-011",
       "isSummons": true,
       "isLevelUp": false,
-      "pairKey": "apex:core:maximist:a-11",
+      "pairKey": "apex:core:maximist:summon:alluring thureoll",
       "ocr": {
         "text": "Quy A033 91  i",
         "canonical": "quy a033 91 i",
@@ -778,7 +778,7 @@
       "assetno": "s-201",
       "isSummons": false,
       "isLevelUp": false,
-      "pairKey": "apex:core:maximist:ocr:convincing argument::foundational pillars",
+      "pairKey": "apex:core:maximist:s-201",
       "ocr": {
         "text": "7 \\ Kd    Foundational Pillars    | v",
         "canonical": "7 kd foundational pillars v",
@@ -794,7 +794,7 @@
       "assetno": "s-208",
       "isSummons": false,
       "isLevelUp": false,
-      "pairKey": "apex:core:maximist:ocr:escape psychology::substitute reality",
+      "pairKey": "apex:core:maximist:s-207",
       "ocr": {
         "text": "Z\\ kl   Substitute Reality   di ol",
         "canonical": "z kl substitute reality di ol",
@@ -826,7 +826,7 @@
       "assetno": "s-202",
       "isSummons": false,
       "isLevelUp": false,
-      "pairKey": "apex:core:maximist:ocr:convincing argument::foundational pillars",
+      "pairKey": "apex:core:maximist:s-201",
       "ocr": {
         "text": "PAY Cl  Convincing Argument  Me",
         "canonical": "pay cl convincing argument me",
@@ -842,7 +842,7 @@
       "assetno": "s-196",
       "isSummons": false,
       "isLevelUp": true,
-      "pairKey": "apex:core:maximist:ocr:impenetrable position::spread the word",
+      "pairKey": "apex:core:maximist:s-195",
       "ocr": {
         "text": "7  % \\ Cl       Spread the Word       | cl",
         "canonical": "7 cl spread the word cl",
@@ -858,7 +858,7 @@
       "assetno": "a-010",
       "isSummons": true,
       "isLevelUp": false,
-      "pairKey": "apex:core:maximist:a-10",
+      "pairKey": "apex:core:maximist:summon:luminescent quartic",
       "ocr": {
         "text": "374",
         "canonical": "374",
@@ -874,7 +874,7 @@
       "assetno": "a-010",
       "isSummons": true,
       "isLevelUp": false,
-      "pairKey": "apex:core:maximist:a-10",
+      "pairKey": "apex:core:maximist:summon:luminescent quartic",
       "ocr": {
         "text": "< 7 2 i  A-01(",
         "canonical": "7 2 i a 01",
@@ -906,7 +906,7 @@
       "assetno": "s-206",
       "isSummons": false,
       "isLevelUp": false,
-      "pairKey": "apex:core:maximist:ocr:self assurance::sheer confidence",
+      "pairKey": "apex:core:maximist:s-205",
       "ocr": {
         "text": "p, % \\ Cl    Sheer Confidence    | ]",
         "canonical": "p cl sheer confidence",
@@ -922,7 +922,7 @@
       "assetno": "s-205",
       "isSummons": false,
       "isLevelUp": false,
-      "pairKey": "apex:core:maximist:ocr:self assurance::sheer confidence",
+      "pairKey": "apex:core:maximist:s-205",
       "ocr": {
         "text": "Z\\ Cl  \"self Assurance    rv",
         "canonical": "z cl self assurance rv",
@@ -938,7 +938,7 @@
       "assetno": "s-195",
       "isSummons": false,
       "isLevelUp": true,
-      "pairKey": "apex:core:maximist:ocr:impenetrable position::spread the word",
+      "pairKey": "apex:core:maximist:s-195",
       "ocr": {
         "text": "Zz \\ Cl   ————   | co",
         "canonical": "zz cl co",
@@ -954,7 +954,7 @@
       "assetno": "s-207",
       "isSummons": false,
       "isLevelUp": false,
-      "pairKey": "apex:core:maximist:ocr:escape psychology::substitute reality",
+      "pairKey": "apex:core:maximist:s-207",
       "ocr": {
         "text": "Z\\   ad  : Eocap TPR thology   | cl",
         "canonical": "z ad eocap tpr thology cl",
@@ -1018,7 +1018,7 @@
       "assetno": "s-155",
       "isSummons": false,
       "isLevelUp": false,
-      "pairKey": "apex:core:nocturne-hoarfrost:ocr:blood boil::growing tempo",
+      "pairKey": "apex:core:nocturne-hoarfrost:s-155",
       "ocr": {
         "text": "a\\  ad      Growing Tempo      |  7",
         "canonical": "a ad growing tempo 7",
@@ -1034,7 +1034,7 @@
       "assetno": "s-150",
       "isSummons": false,
       "isLevelUp": false,
-      "pairKey": "apex:core:nocturne-hoarfrost:ocr:blood echo::chilling cadence",
+      "pairKey": "apex:core:nocturne-hoarfrost:s-149",
       "ocr": {
         "text": "TTT Tr",
         "canonical": "ttt tr",
@@ -1050,7 +1050,7 @@
       "assetno": "s-149",
       "isSummons": false,
       "isLevelUp": false,
-      "pairKey": "apex:core:nocturne-hoarfrost:ocr:blood echo::chilling cadence",
+      "pairKey": "apex:core:nocturne-hoarfrost:s-149",
       "ocr": {
         "text": "mo) \\   |      — Echo         | +",
         "canonical": "mo echo",
@@ -1066,7 +1066,7 @@
       "assetno": "s-151",
       "isSummons": false,
       "isLevelUp": false,
-      "pairKey": "apex:core:nocturne-hoarfrost:ocr:cut time::pursuit predation",
+      "pairKey": "apex:core:nocturne-hoarfrost:s-151",
       "ocr": {
         "text": "a \\ OS 1        Pursuit Predation        | co",
         "canonical": "a os 1 pursuit predation co",
@@ -1082,7 +1082,7 @@
       "assetno": "s-147",
       "isSummons": false,
       "isLevelUp": true,
-      "pairKey": "apex:core:nocturne-hoarfrost:ocr:deeper wounds::dirge percussion",
+      "pairKey": "apex:core:nocturne-hoarfrost:s-147",
       "ocr": {
         "text": "a\\ a        Dirge Percussion       |  +",
         "canonical": "a a dirge percussion",
@@ -1098,7 +1098,7 @@
       "assetno": "s-148",
       "isSummons": false,
       "isLevelUp": true,
-      "pairKey": "apex:core:nocturne-hoarfrost:ocr:deeper wounds::dirge percussion",
+      "pairKey": "apex:core:nocturne-hoarfrost:s-147",
       "ocr": {
         "text": "a \\ aa      Deeper Wounds      | ce",
         "canonical": "a aa deeper wounds ce",
@@ -1114,7 +1114,7 @@
       "assetno": "s-154",
       "isSummons": false,
       "isLevelUp": false,
-      "pairKey": "apex:core:nocturne-hoarfrost:ocr:fury s end::scent trail",
+      "pairKey": "apex:core:nocturne-hoarfrost:s-153",
       "ocr": {
         "text": "a\\ st \\ © T          Scent Trail        | ce",
         "canonical": "a st t scent trail ce",
@@ -1146,7 +1146,7 @@
       "assetno": "s-156",
       "isSummons": false,
       "isLevelUp": false,
-      "pairKey": "apex:core:nocturne-hoarfrost:ocr:blood boil::growing tempo",
+      "pairKey": "apex:core:nocturne-hoarfrost:s-155",
       "ocr": {
         "text": "a\\ al  Blood Boil rF",
         "canonical": "a al blood boil rf",
@@ -1162,7 +1162,7 @@
       "assetno": "s-152",
       "isSummons": false,
       "isLevelUp": false,
-      "pairKey": "apex:core:nocturne-hoarfrost:ocr:cut time::pursuit predation",
+      "pairKey": "apex:core:nocturne-hoarfrost:s-151",
       "ocr": {
         "text": "TT Tr",
         "canonical": "tt tr",
@@ -1194,7 +1194,7 @@
       "assetno": "s-153",
       "isSummons": false,
       "isLevelUp": false,
-      "pairKey": "apex:core:nocturne-hoarfrost:ocr:fury s end::scent trail",
+      "pairKey": "apex:core:nocturne-hoarfrost:s-153",
       "ocr": {
         "text": "a\\      Ot L    »       Fury's End oe         | cs",
         "canonical": "a ot l fury s end oe cs",
@@ -1226,7 +1226,7 @@
       "assetno": "s-368",
       "isSummons": false,
       "isLevelUp": false,
-      "pairKey": "apex:xulc:kataphatist:ocr:before you speak::memetic hazard",
+      "pairKey": "apex:xulc:kataphatist:s-367",
       "ocr": {
         "text": "RB     O3 Ll             Memetic Hazard            [",
         "canonical": "rb o3 ll memetic hazard",
@@ -1241,8 +1241,8 @@
       "name": "cheat sheet",
       "assetno": "s-366",
       "isSummons": false,
-      "isLevelUp": false,
-      "pairKey": "apex:xulc:kataphatist:ocr:cheat sheet::whispered thoughts",
+      "isLevelUp": true,
+      "pairKey": "apex:xulc:kataphatist:s-365",
       "ocr": {
         "text": "B\\ Q] Whispered Thoughts I",
         "canonical": "b q whispered thoughts i",
@@ -1274,7 +1274,7 @@
       "assetno": "a-023",
       "isSummons": true,
       "isLevelUp": false,
-      "pairKey": "apex:xulc:kataphatist:a-23",
+      "pairKey": "apex:xulc:kataphatist:summon:divine incomprehensibility",
       "ocr": {
         "text": "| *]",
         "canonical": "",
@@ -1290,7 +1290,7 @@
       "assetno": "a-023",
       "isSummons": true,
       "isLevelUp": false,
-      "pairKey": "apex:xulc:kataphatist:a-23",
+      "pairKey": "apex:xulc:kataphatist:summon:divine incomprehensibility",
       "ocr": {
         "text": "Balt",
         "canonical": "balt",
@@ -1306,7 +1306,7 @@
       "assetno": "s-359",
       "isSummons": false,
       "isLevelUp": true,
-      "pairKey": "apex:xulc:kataphatist:ocr:dominant balance::pointed interjection",
+      "pairKey": "apex:xulc:kataphatist:s-359",
       "ocr": {
         "text": "Bm   ad       Pointed NeTneton       I",
         "canonical": "bm ad pointed netneton i",
@@ -1322,7 +1322,7 @@
       "assetno": "s-361",
       "isSummons": false,
       "isLevelUp": true,
-      "pairKey": "apex:xulc:kataphatist:ocr:ego dissolution::stolen momentum",
+      "pairKey": "apex:xulc:kataphatist:s-361",
       "ocr": {
         "text": "RB    ka i           Stolen Momentum           iv",
         "canonical": "rb ka i stolen momentum iv",
@@ -1338,7 +1338,7 @@
       "assetno": "s-364",
       "isSummons": false,
       "isLevelUp": false,
-      "pairKey": "apex:xulc:kataphatist:ocr:empirical paradox::uncovered clue",
+      "pairKey": "apex:xulc:kataphatist:s-363",
       "ocr": {
         "text": "Bm   Q]           Uncovered Clue.          [",
         "canonical": "bm q uncovered clue",
@@ -1354,7 +1354,7 @@
       "assetno": "s-367",
       "isSummons": false,
       "isLevelUp": false,
-      "pairKey": "apex:xulc:kataphatist:ocr:before you speak::memetic hazard",
+      "pairKey": "apex:xulc:kataphatist:s-367",
       "ocr": {
         "text": "Bm \\  Ki            Before You Speak            3",
         "canonical": "bm ki before you speak 3",
@@ -1370,7 +1370,7 @@
       "assetno": "a-022",
       "isSummons": true,
       "isLevelUp": false,
-      "pairKey": "apex:xulc:kataphatist:a-22",
+      "pairKey": "apex:xulc:kataphatist:summon:numinous synchronicity",
       "ocr": {
         "text": "|x)",
         "canonical": "x",
@@ -1386,7 +1386,7 @@
       "assetno": "a-022",
       "isSummons": true,
       "isLevelUp": false,
-      "pairKey": "apex:xulc:kataphatist:a-22",
+      "pairKey": "apex:xulc:kataphatist:summon:numinous synchronicity",
       "ocr": {
         "text": "",
         "canonical": "",
@@ -1401,8 +1401,8 @@
       "name": "pointed interjection",
       "assetno": "s-360",
       "isSummons": false,
-      "isLevelUp": false,
-      "pairKey": "apex:xulc:kataphatist:ocr:dominant balance::pointed interjection",
+      "isLevelUp": true,
+      "pairKey": "apex:xulc:kataphatist:s-359",
       "ocr": {
         "text": "B\\ Cl       Dominant Balance       3",
         "canonical": "b cl dominant balance 3",
@@ -1433,8 +1433,8 @@
       "name": "stolen momentum",
       "assetno": "s-362",
       "isSummons": false,
-      "isLevelUp": false,
-      "pairKey": "apex:xulc:kataphatist:ocr:ego dissolution::stolen momentum",
+      "isLevelUp": true,
+      "pairKey": "apex:xulc:kataphatist:s-361",
       "ocr": {
         "text": "I   wl          Ego Dissolution         I",
         "canonical": "i wl ego dissolution i",
@@ -1450,7 +1450,7 @@
       "assetno": "s-363",
       "isSummons": false,
       "isLevelUp": false,
-      "pairKey": "apex:xulc:kataphatist:ocr:empirical paradox::uncovered clue",
+      "pairKey": "apex:xulc:kataphatist:s-363",
       "ocr": {
         "text": "ING al Empirical Paradox se",
         "canonical": "ing al empirical paradox se",
@@ -1498,7 +1498,7 @@
       "assetno": "s-365",
       "isSummons": false,
       "isLevelUp": true,
-      "pairKey": "apex:xulc:kataphatist:ocr:cheat sheet::whispered thoughts",
+      "pairKey": "apex:xulc:kataphatist:s-365",
       "ocr": {
         "text": "B\\  a          CheatSheet        [",
         "canonical": "b a cheatsheet",
@@ -1514,7 +1514,7 @@
       "assetno": "s-312",
       "isSummons": false,
       "isLevelUp": false,
-      "pairKey": "apex:xulc:tempest:ocr:chain lightning::electric flow",
+      "pairKey": "apex:xulc:tempest:s-311",
       "ocr": {
         "text": "PET Te",
         "canonical": "pet te",
@@ -1530,7 +1530,7 @@
       "assetno": "s-310",
       "isSummons": false,
       "isLevelUp": false,
-      "pairKey": "apex:xulc:tempest:ocr:cyclonic separation::least resistance",
+      "pairKey": "apex:xulc:tempest:s-309",
       "ocr": {
         "text": "#\\  Q]  * LeastResistance    I",
         "canonical": "q leastresistance i",
@@ -1546,7 +1546,7 @@
       "assetno": "s-307",
       "isSummons": false,
       "isLevelUp": true,
-      "pairKey": "apex:xulc:tempest:ocr:electric displacement::unstable conduit",
+      "pairKey": "apex:xulc:tempest:s-307",
       "ocr": {
         "text": "#\\    Ra i             Unstable Conduit            i T",
         "canonical": "ra i unstable conduit i t",
@@ -1562,7 +1562,7 @@
       "assetno": "s-311",
       "isSummons": false,
       "isLevelUp": false,
-      "pairKey": "apex:xulc:tempest:ocr:chain lightning::electric flow",
+      "pairKey": "apex:xulc:tempest:s-311",
       "ocr": {
         "text": "#\\   I) 1        Chain Lightning       0",
         "canonical": "i 1 chain lightning 0",
@@ -1578,7 +1578,7 @@
       "assetno": "s-316",
       "isSummons": false,
       "isLevelUp": false,
-      "pairKey": "apex:xulc:tempest:ocr:electrical stimulation::electro dynamism",
+      "pairKey": "apex:xulc:tempest:s-315",
       "ocr": {
         "text": "PE  AN  ad     Electro Dynamism     ©",
         "canonical": "pe an ad electro dynamism",
@@ -1594,7 +1594,7 @@
       "assetno": "s-315",
       "isSummons": false,
       "isLevelUp": false,
-      "pairKey": "apex:xulc:tempest:ocr:electrical stimulation::electro dynamism",
+      "pairKey": "apex:xulc:tempest:s-315",
       "ocr": {
         "text": "#\\ Ri Electrical Stimulation ©",
         "canonical": "ri electrical stimulation",
@@ -1610,7 +1610,7 @@
       "assetno": "s-303",
       "isSummons": false,
       "isLevelUp": true,
-      "pairKey": "apex:xulc:tempest:ocr:funneling winds::wind tunnel",
+      "pairKey": "apex:xulc:tempest:s-303",
       "ocr": {
         "text": "#\\ wd      Wind Tunnel     ©",
         "canonical": "wd wind tunnel",
@@ -1626,7 +1626,7 @@
       "assetno": "s-309",
       "isSummons": false,
       "isLevelUp": false,
-      "pairKey": "apex:xulc:tempest:ocr:cyclonic separation::least resistance",
+      "pairKey": "apex:xulc:tempest:s-309",
       "ocr": {
         "text": "AN  ® 1       Cyclonic Separation       ©",
         "canonical": "an 1 cyclonic separation",
@@ -1690,7 +1690,7 @@
       "assetno": "s-308",
       "isSummons": false,
       "isLevelUp": true,
-      "pairKey": "apex:xulc:tempest:ocr:electric displacement::unstable conduit",
+      "pairKey": "apex:xulc:tempest:s-307",
       "ocr": {
         "text": "#\\ aa   Electric Displacement   ©",
         "canonical": "aa electric displacement",
@@ -1722,7 +1722,7 @@
       "assetno": "s-304",
       "isSummons": false,
       "isLevelUp": true,
-      "pairKey": "apex:xulc:tempest:ocr:funneling winds::wind tunnel",
+      "pairKey": "apex:xulc:tempest:s-303",
       "ocr": {
         "text": "re \\ cll —   ©",
         "canonical": "re cll",
@@ -1738,7 +1738,7 @@
       "assetno": "s-339",
       "isSummons": false,
       "isLevelUp": false,
-      "pairKey": "apex:xulc:vesper-sharpshot:ocr:accumulated frost::peak form",
+      "pairKey": "apex:xulc:vesper-sharpshot:s-339",
       "ocr": {
         "text": "FR =     Peak Form    ; Is",
         "canonical": "fr peak form is",
@@ -1754,7 +1754,7 @@
       "assetno": "s-334",
       "isSummons": false,
       "isLevelUp": false,
-      "pairKey": "apex:xulc:vesper-sharpshot:ocr:apex hunter::ground blizzard",
+      "pairKey": "apex:xulc:vesper-sharpshot:s-333",
       "ocr": {
         "text": "AX   \\ cl  ~ ——      's",
         "canonical": "ax cl s",
@@ -1770,7 +1770,7 @@
       "assetno": "s-342",
       "isSummons": false,
       "isLevelUp": false,
-      "pairKey": "apex:xulc:vesper-sharpshot:ocr:avalanche bolt::enveloping flurry",
+      "pairKey": "apex:xulc:vesper-sharpshot:s-341",
       "ocr": {
         "text": "AX     \\ \"  Cll  ~ — or        I's",
         "canonical": "ax cll or i s",
@@ -1786,7 +1786,7 @@
       "assetno": "s-336",
       "isSummons": false,
       "isLevelUp": false,
-      "pairKey": "apex:xulc:vesper-sharpshot:ocr:battle chant::nightfall arrow",
+      "pairKey": "apex:xulc:vesper-sharpshot:s-335",
       "ocr": {
         "text": "FR  \\ T 1   Nightfall Arrow   0",
         "canonical": "fr t 1 nightfall arrow 0",
@@ -1802,7 +1802,7 @@
       "assetno": "s-343",
       "isSummons": false,
       "isLevelUp": false,
-      "pairKey": "apex:xulc:vesper-sharpshot:ocr:cloud song::shrieking hail",
+      "pairKey": "apex:xulc:vesper-sharpshot:s-343",
       "ocr": {
         "text": "FR    e |  :  Shrieking Hail   SE",
         "canonical": "fr e shrieking hail se",
@@ -1818,7 +1818,7 @@
       "assetno": "s-341",
       "isSummons": false,
       "isLevelUp": false,
-      "pairKey": "apex:xulc:vesper-sharpshot:ocr:avalanche bolt::enveloping flurry",
+      "pairKey": "apex:xulc:vesper-sharpshot:s-341",
       "ocr": {
         "text": "FR       \\ © 1            ‘Avalanche Bolt          T :",
         "canonical": "fr 1 avalanche bolt t",
@@ -1834,7 +1834,7 @@
       "assetno": "s-333",
       "isSummons": false,
       "isLevelUp": false,
-      "pairKey": "apex:xulc:vesper-sharpshot:ocr:apex hunter::ground blizzard",
+      "pairKey": "apex:xulc:vesper-sharpshot:s-333",
       "ocr": {
         "text": "FR =        Ot 1     © Apex Hunter            § 7",
         "canonical": "fr ot 1 apex hunter 7",
@@ -1850,7 +1850,7 @@
       "assetno": "s-331",
       "isSummons": false,
       "isLevelUp": false,
-      "pairKey": "apex:xulc:vesper-sharpshot:ocr:hundred paces::relentless hailstorm",
+      "pairKey": "apex:xulc:vesper-sharpshot:s-331",
       "ocr": {
         "text": "&\\ >      e |     Relentless Hailstorm     i +",
         "canonical": "e relentless hailstorm i",
@@ -1866,7 +1866,7 @@
       "assetno": "s-335",
       "isSummons": false,
       "isLevelUp": false,
-      "pairKey": "apex:xulc:vesper-sharpshot:ocr:battle chant::nightfall arrow",
+      "pairKey": "apex:xulc:vesper-sharpshot:s-335",
       "ocr": {
         "text": "",
         "canonical": "",
@@ -1882,7 +1882,7 @@
       "assetno": "s-340",
       "isSummons": false,
       "isLevelUp": false,
-      "pairKey": "apex:xulc:vesper-sharpshot:ocr:accumulated frost::peak form",
+      "pairKey": "apex:xulc:vesper-sharpshot:s-339",
       "ocr": {
         "text": "aN 2 Cli TAC TIo   TE",
         "canonical": "an 2 cli tac tio te",
@@ -1898,7 +1898,7 @@
       "assetno": "s-337",
       "isSummons": false,
       "isLevelUp": false,
-      "pairKey": "apex:xulc:vesper-sharpshot:ocr:quickshot draw::snapfrozen hide",
+      "pairKey": "apex:xulc:vesper-sharpshot:s-337",
       "ocr": {
         "text": "AX    ad  ;  Snapfrozen Hide    E3",
         "canonical": "ax ad snapfrozen hide e3",
@@ -1914,7 +1914,7 @@
       "assetno": "s-332",
       "isSummons": false,
       "isLevelUp": false,
-      "pairKey": "apex:xulc:vesper-sharpshot:ocr:hundred paces::relentless hailstorm",
+      "pairKey": "apex:xulc:vesper-sharpshot:s-331",
       "ocr": {
         "text": "ONC tary",
         "canonical": "onc tary",
@@ -1930,7 +1930,7 @@
       "assetno": "s-344",
       "isSummons": false,
       "isLevelUp": false,
-      "pairKey": "apex:xulc:vesper-sharpshot:ocr:cloud song::shrieking hail",
+      "pairKey": "apex:xulc:vesper-sharpshot:s-343",
       "ocr": {
         "text": "ONC ry",
         "canonical": "onc ry",
@@ -1946,7 +1946,7 @@
       "assetno": "s-338",
       "isSummons": false,
       "isLevelUp": false,
-      "pairKey": "apex:xulc:vesper-sharpshot:ocr:quickshot draw::snapfrozen hide",
+      "pairKey": "apex:xulc:vesper-sharpshot:s-337",
       "ocr": {
         "text": "FR 3  ad  * Quickshot Draw   I's",
         "canonical": "fr 3 ad quickshot draw i s",
@@ -1962,7 +1962,7 @@
       "assetno": "s-288",
       "isSummons": false,
       "isLevelUp": false,
-      "pairKey": "apex:xulc:wellspring-ewer:ocr:ewer of courage::ewer of power",
+      "pairKey": "apex:xulc:wellspring-ewer:s-287",
       "ocr": {
         "text": "[<)   \\  Ri |           Ewer of Power           i oi",
         "canonical": "ri ewer of power i oi",
@@ -1978,7 +1978,7 @@
       "assetno": "s-287",
       "isSummons": false,
       "isLevelUp": false,
-      "pairKey": "apex:xulc:wellspring-ewer:ocr:ewer of courage::ewer of power",
+      "pairKey": "apex:xulc:wellspring-ewer:s-287",
       "ocr": {
         "text": "[)   N  Rs x         Ewer of Courage         i ‘",
         "canonical": "n rs x ewer of courage i",
@@ -1994,7 +1994,7 @@
       "assetno": "s-275",
       "isSummons": false,
       "isLevelUp": true,
-      "pairKey": "apex:xulc:wellspring-ewer:ocr:flock together::raging whirlpool",
+      "pairKey": "apex:xulc:wellspring-ewer:s-275",
       "ocr": {
         "text": "[<)   \\ ® A       Raging Whirlpool    >",
         "canonical": "a raging whirlpool",
@@ -2010,7 +2010,7 @@
       "assetno": "s-278",
       "isSummons": false,
       "isLevelUp": true,
-      "pairKey": "apex:xulc:wellspring-ewer:ocr:friends of a feather::frost line",
+      "pairKey": "apex:xulc:wellspring-ewer:s-277",
       "ocr": {
         "text": "[)  X  Cl          Frost Line       Si",
         "canonical": "x cl frost line si",
@@ -2026,7 +2026,7 @@
       "assetno": "s-277",
       "isSummons": false,
       "isLevelUp": true,
-      "pairKey": "apex:xulc:wellspring-ewer:ocr:friends of a feather::frost line",
+      "pairKey": "apex:xulc:wellspring-ewer:s-277",
       "ocr": {
         "text": "[<)    N  kd |         Friends of a Feather        i ‘",
         "canonical": "n kd friends of a feather i",
@@ -2042,7 +2042,7 @@
       "assetno": "s-282",
       "isSummons": false,
       "isLevelUp": false,
-      "pairKey": "apex:xulc:wellspring-ewer:ocr:fruits of the earth::miracles of the sky",
+      "pairKey": "apex:xulc:wellspring-ewer:s-281",
       "ocr": {
         "text": "[)    N  © |         Miracles of the Sky        £2",
         "canonical": "n miracles of the sky 2",
@@ -2058,7 +2058,7 @@
       "assetno": "s-281",
       "isSummons": false,
       "isLevelUp": false,
-      "pairKey": "apex:xulc:wellspring-ewer:ocr:fruits of the earth::miracles of the sky",
+      "pairKey": "apex:xulc:wellspring-ewer:s-281",
       "ocr": {
         "text": "[<)    \\  ® A         Fruits of the Earth         i ‘",
         "canonical": "a fruits of the earth i",
@@ -2074,7 +2074,7 @@
       "assetno": "a-018",
       "isSummons": true,
       "isLevelUp": false,
-      "pairKey": "apex:xulc:wellspring-ewer:a-18",
+      "pairKey": "apex:xulc:wellspring-ewer:summon:radiant ardorok",
       "ocr": {
         "text": "\\&)",
         "canonical": "",
@@ -2090,7 +2090,7 @@
       "assetno": "a-018",
       "isSummons": true,
       "isLevelUp": false,
-      "pairKey": "apex:xulc:wellspring-ewer:a-18",
+      "pairKey": "apex:xulc:wellspring-ewer:summon:radiant ardorok",
       "ocr": {
         "text": "RECESS",
         "canonical": "recess",
@@ -2106,7 +2106,7 @@
       "assetno": "s-276",
       "isSummons": false,
       "isLevelUp": true,
-      "pairKey": "apex:xulc:wellspring-ewer:ocr:flock together::raging whirlpool",
+      "pairKey": "apex:xulc:wellspring-ewer:s-275",
       "ocr": {
         "text": "PAC ary",
         "canonical": "pac ary",
@@ -2122,7 +2122,7 @@
       "assetno": "s-284",
       "isSummons": false,
       "isLevelUp": false,
-      "pairKey": "apex:xulc:wellspring-ewer:ocr:rushing hail::team huddle",
+      "pairKey": "apex:xulc:wellspring-ewer:s-283",
       "ocr": {
         "text": "[)   \\ ’ cl         Team Huddle      SE)",
         "canonical": "cl team huddle se",
@@ -2138,7 +2138,7 @@
       "assetno": "s-286",
       "isSummons": false,
       "isLevelUp": false,
-      "pairKey": "apex:xulc:wellspring-ewer:ocr:silver storm::slipstream flurry",
+      "pairKey": "apex:xulc:wellspring-ewer:s-285",
       "ocr": {
         "text": "[)  N | _   Te",
         "canonical": "n te",
@@ -2154,7 +2154,7 @@
       "assetno": "s-280",
       "isSummons": false,
       "isLevelUp": true,
-      "pairKey": "apex:xulc:wellspring-ewer:ocr:sing along::sound off",
+      "pairKey": "apex:xulc:wellspring-ewer:s-279",
       "ocr": {
         "text": "[<)  \\  Ra        Sound Off     To",
         "canonical": "ra sound off to",
@@ -2170,7 +2170,7 @@
       "assetno": "s-285",
       "isSummons": false,
       "isLevelUp": false,
-      "pairKey": "apex:xulc:wellspring-ewer:ocr:silver storm::slipstream flurry",
+      "pairKey": "apex:xulc:wellspring-ewer:s-285",
       "ocr": {
         "text": "[)  N |      Silver Storm    \"wy",
         "canonical": "n silver storm wy",
@@ -2186,7 +2186,7 @@
       "assetno": "s-279",
       "isSummons": false,
       "isLevelUp": true,
-      "pairKey": "apex:xulc:wellspring-ewer:ocr:sing along::sound off",
+      "pairKey": "apex:xulc:wellspring-ewer:s-279",
       "ocr": {
         "text": "[<)  N Ra       Sing Along     SE)",
         "canonical": "n ra sing along se",
@@ -2202,7 +2202,7 @@
       "assetno": "a-019",
       "isSummons": true,
       "isLevelUp": false,
-      "pairKey": "apex:xulc:wellspring-ewer:a-19",
+      "pairKey": "apex:xulc:wellspring-ewer:summon:sunburst zokolati",
       "ocr": {
         "text": "O",
         "canonical": "o",
@@ -2218,7 +2218,7 @@
       "assetno": "a-019",
       "isSummons": true,
       "isLevelUp": false,
-      "pairKey": "apex:xulc:wellspring-ewer:a-19",
+      "pairKey": "apex:xulc:wellspring-ewer:summon:sunburst zokolati",
       "ocr": {
         "text": "",
         "canonical": "",
@@ -2234,7 +2234,7 @@
       "assetno": "s-283",
       "isSummons": false,
       "isLevelUp": false,
-      "pairKey": "apex:xulc:wellspring-ewer:ocr:rushing hail::team huddle",
+      "pairKey": "apex:xulc:wellspring-ewer:s-283",
       "ocr": {
         "text": "FAN Cl    Rushing Hail   To",
         "canonical": "fan cl rushing hail to",
@@ -2298,7 +2298,7 @@
       "assetno": "s-388",
       "isSummons": false,
       "isLevelUp": true,
-      "pairKey": "apex:xulc:zero-sum:ocr:catch release::payoff matrix",
+      "pairKey": "apex:xulc:zero-sum:s-387",
       "ocr": {
         "text": "BET Te",
         "canonical": "bet te",
@@ -2330,7 +2330,7 @@
       "assetno": "s-390",
       "isSummons": false,
       "isLevelUp": true,
-      "pairKey": "apex:xulc:zero-sum:ocr:overwhelm overpower::supply chain",
+      "pairKey": "apex:xulc:zero-sum:s-389",
       "ocr": {
         "text": "[A   \\ . ©]             Supply Chain         Tw",
         "canonical": "a supply chain tw",
@@ -2346,7 +2346,7 @@
       "assetno": "s-387",
       "isSummons": false,
       "isLevelUp": true,
-      "pairKey": "apex:xulc:zero-sum:ocr:catch release::payoff matrix",
+      "pairKey": "apex:xulc:zero-sum:s-387",
       "ocr": {
         "text": "[A \\ |    Catch [Release   Tw",
         "canonical": "a catch release tw",
@@ -2394,7 +2394,7 @@
       "assetno": "s-389",
       "isSummons": false,
       "isLevelUp": true,
-      "pairKey": "apex:xulc:zero-sum:ocr:overwhelm overpower::supply chain",
+      "pairKey": "apex:xulc:zero-sum:s-389",
       "ocr": {
         "text": "[A \\ ol TT w",
         "canonical": "a ol tt w",
@@ -2410,7 +2410,7 @@
       "assetno": "s-393",
       "isSummons": false,
       "isLevelUp": false,
-      "pairKey": "apex:xulc:zero-sum:ocr:they bring famine::they bring flame",
+      "pairKey": "apex:xulc:zero-sum:s-393",
       "ocr": {
         "text": "[A  N Ra      They Bring Flame   Tw",
         "canonical": "a n ra they bring flame tw",
@@ -2426,7 +2426,7 @@
       "assetno": "s-394",
       "isSummons": false,
       "isLevelUp": false,
-      "pairKey": "apex:xulc:zero-sum:ocr:they bring famine::they bring flame",
+      "pairKey": "apex:xulc:zero-sum:s-393",
       "ocr": {
         "text": "[A TT   They Bring Famine Tw",
         "canonical": "a tt they bring famine tw",
@@ -2442,7 +2442,7 @@
       "assetno": "s-392",
       "isSummons": false,
       "isLevelUp": true,
-      "pairKey": "apex:xulc:zero-sum:ocr:they bring strife::they bring succor",
+      "pairKey": "apex:xulc:zero-sum:s-391",
       "ocr": {
         "text": "[A N Ra  —_   Cl",
         "canonical": "a n ra cl",
@@ -2458,7 +2458,7 @@
       "assetno": "s-391",
       "isSummons": false,
       "isLevelUp": true,
-      "pairKey": "apex:xulc:zero-sum:ocr:they bring strife::they bring succor",
+      "pairKey": "apex:xulc:zero-sum:s-391",
       "ocr": {
         "text": "[A  \\  ha 1     They Bring Strife   Tw",
         "canonical": "a ha 1 they bring strife tw",
@@ -2474,7 +2474,7 @@
       "assetno": "s-005",
       "isSummons": false,
       "isLevelUp": true,
-      "pairKey": "base:core:dune-dancer:ocr:calm rivers::suffocating spray",
+      "pairKey": "base:core:dune-dancer:s-5",
       "ocr": {
         "text": "& =]    Suffocating Spray  i",
         "canonical": "suffocating spray i",
@@ -2490,7 +2490,7 @@
       "assetno": "s-023",
       "isSummons": false,
       "isLevelUp": false,
-      "pairKey": "base:core:dune-dancer:ocr:camaraderie::enchant body",
+      "pairKey": "base:core:dune-dancer:s-23",
       "ocr": {
         "text": "&   N . » )              Enchant Body         SE :",
         "canonical": "n enchant body se",
@@ -2506,7 +2506,7 @@
       "assetno": "s-020",
       "isSummons": false,
       "isLevelUp": false,
-      "pairKey": "base:core:dune-dancer:ocr:chill touch::flow of floes",
+      "pairKey": "base:core:dune-dancer:s-19",
       "ocr": {
         "text": "& \\ |       Flow of Floes    \"7",
         "canonical": "flow of floes 7",
@@ -2522,7 +2522,7 @@
       "assetno": "s-001",
       "isSummons": false,
       "isLevelUp": true,
-      "pairKey": "base:core:dune-dancer:ocr:clay grasp::desiccating blast",
+      "pairKey": "base:core:dune-dancer:s-1",
       "ocr": {
         "text": "& N ©]     Desiccating Blast  vy",
         "canonical": "n desiccating blast vy",
@@ -2554,7 +2554,7 @@
       "assetno": "a-001",
       "isSummons": true,
       "isLevelUp": false,
-      "pairKey": "base:core:dune-dancer:a-1",
+      "pairKey": "base:core:dune-dancer:summon:curious ardorok",
       "ocr": {
         "text": "A,",
         "canonical": "a",
@@ -2570,7 +2570,7 @@
       "assetno": "a-001",
       "isSummons": true,
       "isLevelUp": false,
-      "pairKey": "base:core:dune-dancer:a-1",
+      "pairKey": "base:core:dune-dancer:summon:curious ardorok",
       "ocr": {
         "text": "",
         "canonical": "",
@@ -2586,7 +2586,7 @@
       "assetno": "s-004",
       "isSummons": false,
       "isLevelUp": true,
-      "pairKey": "base:core:dune-dancer:ocr:dearest friend::gift of the oasis",
+      "pairKey": "base:core:dune-dancer:s-3",
       "ocr": {
         "text": "ACH Gift of the Oasis \"7g",
         "canonical": "ach gift of the oasis 7g",
@@ -2634,7 +2634,7 @@
       "assetno": "s-002",
       "isSummons": false,
       "isLevelUp": true,
-      "pairKey": "base:core:dune-dancer:ocr:clay grasp::desiccating blast",
+      "pairKey": "base:core:dune-dancer:s-1",
       "ocr": {
         "text": "",
         "canonical": "",
@@ -2650,7 +2650,7 @@
       "assetno": "s-010",
       "isSummons": false,
       "isLevelUp": true,
-      "pairKey": "base:core:dune-dancer:ocr:dual assault::granite phalanx",
+      "pairKey": "base:core:dune-dancer:s-9",
       "ocr": {
         "text": "& \\ ©   ——  Te",
         "canonical": "te",
@@ -2666,7 +2666,7 @@
       "assetno": "s-013",
       "isSummons": false,
       "isLevelUp": true,
-      "pairKey": "base:core:dune-dancer:ocr:earthen shield::healing surge",
+      "pairKey": "base:core:dune-dancer:s-13",
       "ocr": {
         "text": "& N ad    Healing Surge    | ’",
         "canonical": "n ad healing surge",
@@ -2682,7 +2682,7 @@
       "assetno": "s-024",
       "isSummons": false,
       "isLevelUp": false,
-      "pairKey": "base:core:dune-dancer:ocr:camaraderie::enchant body",
+      "pairKey": "base:core:dune-dancer:s-23",
       "ocr": {
         "text": "& \\ ad    Camaraderie   Te",
         "canonical": "ad camaraderie te",
@@ -2698,7 +2698,7 @@
       "assetno": "s-019",
       "isSummons": false,
       "isLevelUp": false,
-      "pairKey": "base:core:dune-dancer:ocr:chill touch::flow of floes",
+      "pairKey": "base:core:dune-dancer:s-19",
       "ocr": {
         "text": "& \\ Cl —~—    rg",
         "canonical": "cl rg",
@@ -2714,7 +2714,7 @@
       "assetno": "s-003",
       "isSummons": false,
       "isLevelUp": true,
-      "pairKey": "base:core:dune-dancer:ocr:dearest friend::gift of the oasis",
+      "pairKey": "base:core:dune-dancer:s-3",
       "ocr": {
         "text": "&  \\ |       Dearest Friend    Te",
         "canonical": "dearest friend te",
@@ -2730,7 +2730,7 @@
       "assetno": "s-009",
       "isSummons": false,
       "isLevelUp": true,
-      "pairKey": "base:core:dune-dancer:ocr:dual assault::granite phalanx",
+      "pairKey": "base:core:dune-dancer:s-9",
       "ocr": {
         "text": "&  Ue 1            Dual Assault        To",
         "canonical": "ue 1 dual assault to",
@@ -2746,7 +2746,7 @@
       "assetno": "s-014",
       "isSummons": false,
       "isLevelUp": true,
-      "pairKey": "base:core:dune-dancer:ocr:earthen shield::healing surge",
+      "pairKey": "base:core:dune-dancer:s-13",
       "ocr": {
         "text": "&\\ OT arthenshield   Te",
         "canonical": "ot arthenshield te",
@@ -2778,7 +2778,7 @@
       "assetno": "s-017",
       "isSummons": false,
       "isLevelUp": false,
-      "pairKey": "base:core:dune-dancer:ocr:oasis reprieve::sand wedge",
+      "pairKey": "base:core:dune-dancer:s-17",
       "ocr": {
         "text": "ACES Te",
         "canonical": "aces te",
@@ -2794,7 +2794,7 @@
       "assetno": "a-002",
       "isSummons": true,
       "isLevelUp": false,
-      "pairKey": "base:core:dune-dancer:a-2",
+      "pairKey": "base:core:dune-dancer:summon:pouncing borejaw",
       "ocr": {
         "text": "A,",
         "canonical": "a",
@@ -2810,7 +2810,7 @@
       "assetno": "a-002",
       "isSummons": true,
       "isLevelUp": false,
-      "pairKey": "base:core:dune-dancer:a-2",
+      "pairKey": "base:core:dune-dancer:summon:pouncing borejaw",
       "ocr": {
         "text": "| C@, cain 135.  FS",
         "canonical": "c cain 135 fs",
@@ -2826,7 +2826,7 @@
       "assetno": "s-012",
       "isSummons": false,
       "isLevelUp": true,
-      "pairKey": "base:core:dune-dancer:ocr:quickening sand::rallying cry",
+      "pairKey": "base:core:dune-dancer:s-11",
       "ocr": {
         "text": "&  N ha        Rallying Cry      To",
         "canonical": "n ha rallying cry to",
@@ -2842,7 +2842,7 @@
       "assetno": "s-011",
       "isSummons": false,
       "isLevelUp": true,
-      "pairKey": "base:core:dune-dancer:ocr:quickening sand::rallying cry",
+      "pairKey": "base:core:dune-dancer:s-11",
       "ocr": {
         "text": "47 N ad    Quickening Sand    | ‘",
         "canonical": "47 n ad quickening sand",
@@ -2858,7 +2858,7 @@
       "assetno": "s-022",
       "isSummons": false,
       "isLevelUp": false,
-      "pairKey": "base:core:dune-dancer:ocr:revitalizing clay::war beast",
+      "pairKey": "base:core:dune-dancer:s-21",
       "ocr": {
         "text": "&  \\ |         War Beast      Te",
         "canonical": "war beast te",
@@ -2874,7 +2874,7 @@
       "assetno": "s-018",
       "isSummons": false,
       "isLevelUp": false,
-      "pairKey": "base:core:dune-dancer:ocr:oasis reprieve::sand wedge",
+      "pairKey": "base:core:dune-dancer:s-17",
       "ocr": {
         "text": "&  \\ Cl       Oasis Reprieve    SE)",
         "canonical": "cl oasis reprieve se",
@@ -2890,7 +2890,7 @@
       "assetno": "s-006",
       "isSummons": false,
       "isLevelUp": true,
-      "pairKey": "base:core:dune-dancer:ocr:calm rivers::suffocating spray",
+      "pairKey": "base:core:dune-dancer:s-5",
       "ocr": {
         "text": "&  N ©]          Calm Rivers       \"y",
         "canonical": "n calm rivers y",
@@ -2906,7 +2906,7 @@
       "assetno": "s-021",
       "isSummons": false,
       "isLevelUp": false,
-      "pairKey": "base:core:dune-dancer:ocr:revitalizing clay::war beast",
+      "pairKey": "base:core:dune-dancer:s-21",
       "ocr": {
         "text": "& \\ ©] _  To",
         "canonical": "to",
@@ -2953,8 +2953,8 @@
       "name": "blast",
       "assetno": "s-058",
       "isSummons": false,
-      "isLevelUp": false,
-      "pairKey": "base:core:flash:ocr:blast::transcend",
+      "isLevelUp": true,
+      "pairKey": "base:core:flash:s-57",
       "ocr": {
         "text": "PAN \\ ©       Transcend     | ©",
         "canonical": "pan transcend",
@@ -3209,7 +3209,7 @@
       "name": "suffuse",
       "assetno": "s-053",
       "isSummons": false,
-      "isLevelUp": false,
+      "isLevelUp": true,
       "pairKey": "base:core:flash:s-53",
       "ocr": {
         "text": "",
@@ -3225,7 +3225,7 @@
       "name": "swell",
       "assetno": "s-054",
       "isSummons": false,
-      "isLevelUp": false,
+      "isLevelUp": true,
       "pairKey": "base:core:flash:s-53",
       "ocr": {
         "text": "PAN ou £3",
@@ -3257,8 +3257,8 @@
       "name": "transcend",
       "assetno": "s-057",
       "isSummons": false,
-      "isLevelUp": false,
-      "pairKey": "base:core:flash:ocr:blast::transcend",
+      "isLevelUp": true,
+      "pairKey": "base:core:flash:s-57",
       "ocr": {
         "text": "",
         "canonical": "",
@@ -3322,7 +3322,7 @@
       "assetno": "s-109",
       "isSummons": false,
       "isLevelUp": true,
-      "pairKey": "base:core:shadow-piercer:ocr:careful aim::devour prey",
+      "pairKey": "base:core:shadow-piercer:s-109",
       "ocr": {
         "text": "TT",
         "canonical": "tt",
@@ -3338,7 +3338,7 @@
       "assetno": "s-116",
       "isSummons": false,
       "isLevelUp": true,
-      "pairKey": "base:core:shadow-piercer:ocr:consume vitality::draw from blood",
+      "pairKey": "base:core:shadow-piercer:s-115",
       "ocr": {
         "text": "Wr N ka i  Draw from Blood   rF",
         "canonical": "wr n ka i draw from blood rf",
@@ -3354,7 +3354,7 @@
       "assetno": "s-121",
       "isSummons": false,
       "isLevelUp": false,
-      "pairKey": "base:core:shadow-piercer:ocr:crimson curse::ebony blessing",
+      "pairKey": "base:core:shadow-piercer:s-121",
       "ocr": {
         "text": "ANC i Ebony Blessing  rF",
         "canonical": "anc i ebony blessing rf",
@@ -3370,7 +3370,7 @@
       "assetno": "s-110",
       "isSummons": false,
       "isLevelUp": true,
-      "pairKey": "base:core:shadow-piercer:ocr:careful aim::devour prey",
+      "pairKey": "base:core:shadow-piercer:s-109",
       "ocr": {
         "text": "Wr wr \"Careful Aim  \"TF",
         "canonical": "wr wr careful aim tf",
@@ -3418,7 +3418,7 @@
       "assetno": "s-123",
       "isSummons": false,
       "isLevelUp": false,
-      "pairKey": "base:core:shadow-piercer:ocr:drain essence::keen bolter",
+      "pairKey": "base:core:shadow-piercer:s-123",
       "ocr": {
         "text": "Wt \\ ™ fh   Keen Bolter   ry",
         "canonical": "wt fh keen bolter ry",
@@ -3434,7 +3434,7 @@
       "assetno": "s-115",
       "isSummons": false,
       "isLevelUp": true,
-      "pairKey": "base:core:shadow-piercer:ocr:consume vitality::draw from blood",
+      "pairKey": "base:core:shadow-piercer:s-115",
       "ocr": {
         "text": "st N ka -  Consume Vitality   Ski",
         "canonical": "st n ka consume vitality ski",
@@ -3450,7 +3450,7 @@
       "assetno": "s-122",
       "isSummons": false,
       "isLevelUp": false,
-      "pairKey": "base:core:shadow-piercer:ocr:crimson curse::ebony blessing",
+      "pairKey": "base:core:shadow-piercer:s-121",
       "ocr": {
         "text": "TT",
         "canonical": "tt",
@@ -3466,7 +3466,7 @@
       "assetno": "s-108",
       "isSummons": false,
       "isLevelUp": true,
-      "pairKey": "base:core:shadow-piercer:ocr:eviscerate::passing knell",
+      "pairKey": "base:core:shadow-piercer:s-107",
       "ocr": {
         "text": "AC) | -    Passing Knell    ry",
         "canonical": "ac passing knell ry",
@@ -3514,7 +3514,7 @@
       "assetno": "s-125",
       "isSummons": false,
       "isLevelUp": false,
-      "pairKey": "base:core:shadow-piercer:ocr:grace note::umbral howl",
+      "pairKey": "base:core:shadow-piercer:s-125",
       "ocr": {
         "text": "Wt \\ | -   Umbral Howl    ac |",
         "canonical": "wt umbral howl ac",
@@ -3546,7 +3546,7 @@
       "assetno": "s-114",
       "isSummons": false,
       "isLevelUp": true,
-      "pairKey": "base:core:shadow-piercer:ocr:invigorate::miasmic arrow",
+      "pairKey": "base:core:shadow-piercer:s-113",
       "ocr": {
         "text": "eT  Miasmic Arrow  rE",
         "canonical": "et miasmic arrow re",
@@ -3562,7 +3562,7 @@
       "assetno": "s-124",
       "isSummons": false,
       "isLevelUp": false,
-      "pairKey": "base:core:shadow-piercer:ocr:drain essence::keen bolter",
+      "pairKey": "base:core:shadow-piercer:s-123",
       "ocr": {
         "text": "Wt \\ Cl Drain Essence Te",
         "canonical": "wt cl drain essence te",
@@ -3610,7 +3610,7 @@
       "assetno": "s-113",
       "isSummons": false,
       "isLevelUp": true,
-      "pairKey": "base:core:shadow-piercer:ocr:invigorate::miasmic arrow",
+      "pairKey": "base:core:shadow-piercer:s-113",
       "ocr": {
         "text": "mn \\  ©]          tt      ry",
         "canonical": "mn tt ry",
@@ -3626,7 +3626,7 @@
       "assetno": "s-107",
       "isSummons": false,
       "isLevelUp": true,
-      "pairKey": "base:core:shadow-piercer:ocr:eviscerate::passing knell",
+      "pairKey": "base:core:shadow-piercer:s-107",
       "ocr": {
         "text": "",
         "canonical": "",
@@ -3674,7 +3674,7 @@
       "assetno": "s-126",
       "isSummons": false,
       "isLevelUp": false,
-      "pairKey": "base:core:shadow-piercer:ocr:grace note::umbral howl",
+      "pairKey": "base:core:shadow-piercer:s-125",
       "ocr": {
         "text": "ET Te",
         "canonical": "et te",
@@ -3690,7 +3690,7 @@
       "assetno": "a-006",
       "isSummons": true,
       "isLevelUp": false,
-      "pairKey": "base:core:sophist:a-6",
+      "pairKey": "base:core:sophist:summon:alluring armoroll",
       "ocr": {
         "text": "ne",
         "canonical": "ne",
@@ -3706,7 +3706,7 @@
       "assetno": "a-006",
       "isSummons": true,
       "isLevelUp": false,
-      "pairKey": "base:core:sophist:a-6",
+      "pairKey": "base:core:sophist:summon:alluring armoroll",
       "ocr": {
         "text": "",
         "canonical": "",
@@ -3738,7 +3738,7 @@
       "assetno": "s-172",
       "isSummons": false,
       "isLevelUp": true,
-      "pairKey": "base:core:sophist:ocr:bitter realization::ready in mind",
+      "pairKey": "base:core:sophist:s-171",
       "ocr": {
         "text": "A   Cll    —        | co",
         "canonical": "a cll co",
@@ -3754,7 +3754,7 @@
       "assetno": "s-157",
       "isSummons": false,
       "isLevelUp": true,
-      "pairKey": "base:core:sophist:ocr:blustery rebuke::echo chamber",
+      "pairKey": "base:core:sophist:s-157",
       "ocr": {
         "text": "\\  e |      Echo Chamber     4 v",
         "canonical": "e echo chamber 4 v",
@@ -3770,7 +3770,7 @@
       "assetno": "s-177",
       "isSummons": false,
       "isLevelUp": true,
-      "pairKey": "base:core:sophist:ocr:conceptualism::second wind",
+      "pairKey": "base:core:sophist:s-177",
       "ocr": {
         "text": "aN  cl        Second Wind        | co",
         "canonical": "an cl second wind co",
@@ -3786,7 +3786,7 @@
       "assetno": "s-169",
       "isSummons": false,
       "isLevelUp": false,
-      "pairKey": "base:core:sophist:ocr:confound::dance of rays",
+      "pairKey": "base:core:sophist:s-169",
       "ocr": {
         "text": "\\  al      Dance of Rays     1 ]",
         "canonical": "al dance of rays 1",
@@ -3817,8 +3817,8 @@
       "name": "dance of rays",
       "assetno": "s-170",
       "isSummons": false,
-      "isLevelUp": true,
-      "pairKey": "base:core:sophist:ocr:confound::dance of rays",
+      "isLevelUp": false,
+      "pairKey": "base:core:sophist:s-169",
       "ocr": {
         "text": "\\  Tl       i     4 ]",
         "canonical": "tl i 4",
@@ -3834,7 +3834,7 @@
       "assetno": "s-160",
       "isSummons": false,
       "isLevelUp": false,
-      "pairKey": "base:core:sophist:ocr:dazzling strike::moment s respite",
+      "pairKey": "base:core:sophist:s-159",
       "ocr": {
         "text": "\\ di \\ Ci i OmENTIRespie   4 ]",
         "canonical": "di ci i omentirespie 4",
@@ -3849,8 +3849,8 @@
       "name": "echo chamber",
       "assetno": "s-158",
       "isSummons": false,
-      "isLevelUp": false,
-      "pairKey": "base:core:sophist:ocr:blustery rebuke::echo chamber",
+      "isLevelUp": true,
+      "pairKey": "base:core:sophist:s-157",
       "ocr": {
         "text": "\\ Cl    Blustery Rebuke    £3",
         "canonical": "cl blustery rebuke 3",
@@ -3866,7 +3866,7 @@
       "assetno": "s-176",
       "isSummons": false,
       "isLevelUp": false,
-      "pairKey": "base:core:sophist:ocr:essentialism::pure sophistry",
+      "pairKey": "base:core:sophist:s-175",
       "ocr": {
         "text": "\\    Tl           Pure Sophistry          di  co)",
         "canonical": "tl pure sophistry di co",
@@ -3882,7 +3882,7 @@
       "assetno": "s-179",
       "isSummons": false,
       "isLevelUp": true,
-      "pairKey": "base:core:sophist:ocr:intense curiosity::isolation agitation",
+      "pairKey": "base:core:sophist:s-179",
       "ocr": {
         "text": "\\  e |    Isolation ‘Agitation    | v",
         "canonical": "e isolation agitation v",
@@ -3898,7 +3898,7 @@
       "assetno": "s-180",
       "isSummons": false,
       "isLevelUp": true,
-      "pairKey": "base:core:sophist:ocr:intense curiosity::isolation agitation",
+      "pairKey": "base:core:sophist:s-179",
       "ocr": {
         "text": "\\  e |     J ca ttn    | ]",
         "canonical": "e j ca ttn",
@@ -3914,7 +3914,7 @@
       "assetno": "a-005",
       "isSummons": true,
       "isLevelUp": false,
-      "pairKey": "base:core:sophist:a-5",
+      "pairKey": "base:core:sophist:summon:luminescent hyperbola",
       "ocr": {
         "text": "he",
         "canonical": "he",
@@ -3930,7 +3930,7 @@
       "assetno": "a-005",
       "isSummons": true,
       "isLevelUp": false,
-      "pairKey": "base:core:sophist:a-5",
+      "pairKey": "base:core:sophist:summon:luminescent hyperbola",
       "ocr": {
         "text": "oat",
         "canonical": "oat",
@@ -3946,7 +3946,7 @@
       "assetno": "s-166",
       "isSummons": false,
       "isLevelUp": false,
-      "pairKey": "base:core:sophist:ocr:lustrous flare::unnatural defenses",
+      "pairKey": "base:core:sophist:s-165",
       "ocr": {
         "text": "\\ e |  Unnatural Defenses  3",
         "canonical": "e unnatural defenses 3",
@@ -3962,7 +3962,7 @@
       "assetno": "s-159",
       "isSummons": false,
       "isLevelUp": false,
-      "pairKey": "base:core:sophist:ocr:dazzling strike::moment s respite",
+      "pairKey": "base:core:sophist:s-159",
       "ocr": {
         "text": "\\  |     Dazzling Strike     di co",
         "canonical": "dazzling strike di co",
@@ -3978,7 +3978,7 @@
       "assetno": "s-175",
       "isSummons": false,
       "isLevelUp": false,
-      "pairKey": "base:core:sophist:ocr:essentialism::pure sophistry",
+      "pairKey": "base:core:sophist:s-175",
       "ocr": {
         "text": "\\    ad     \"       Essentialism        Tw",
         "canonical": "ad essentialism tw",
@@ -3994,7 +3994,7 @@
       "assetno": "a-007",
       "isSummons": true,
       "isLevelUp": false,
-      "pairKey": "base:core:sophist:a-7",
+      "pairKey": "base:core:sophist:summon:radiant aerios",
       "ocr": {
         "text": "he",
         "canonical": "he",
@@ -4010,7 +4010,7 @@
       "assetno": "a-007",
       "isSummons": true,
       "isLevelUp": false,
-      "pairKey": "base:core:sophist:a-7",
+      "pairKey": "base:core:sophist:summon:radiant aerios",
       "ocr": {
         "text": "",
         "canonical": "",
@@ -4025,8 +4025,8 @@
       "name": "ready in mind",
       "assetno": "s-171",
       "isSummons": false,
-      "isLevelUp": false,
-      "pairKey": "base:core:sophist:ocr:bitter realization::ready in mind",
+      "isLevelUp": true,
+      "pairKey": "base:core:sophist:s-171",
       "ocr": {
         "text": "\\   e |       Bitter Realization      |  w",
         "canonical": "e bitter realization w",
@@ -4042,7 +4042,7 @@
       "assetno": "s-173",
       "isSummons": false,
       "isLevelUp": true,
-      "pairKey": "base:core:sophist:ocr:scintillating darts::sudden debate",
+      "pairKey": "base:core:sophist:s-173",
       "ocr": {
         "text": "7 e |  \"Sudden Debate    3",
         "canonical": "7 e sudden debate 3",
@@ -4057,8 +4057,8 @@
       "name": "second wind",
       "assetno": "s-178",
       "isSummons": false,
-      "isLevelUp": false,
-      "pairKey": "base:core:sophist:ocr:conceptualism::second wind",
+      "isLevelUp": true,
+      "pairKey": "base:core:sophist:s-177",
       "ocr": {
         "text": "\\  \\ Cl 2a Connon   4 ca",
         "canonical": "cl 2a connon 4 ca",
@@ -4074,7 +4074,7 @@
       "assetno": "s-161",
       "isSummons": false,
       "isLevelUp": false,
-      "pairKey": "base:core:sophist:ocr:shifts in the wind::trick of the light",
+      "pairKey": "base:core:sophist:s-161",
       "ocr": {
         "text": "\\ |  Trick of the Light  I",
         "canonical": "trick of the light i",
@@ -4090,7 +4090,7 @@
       "assetno": "s-168",
       "isSummons": false,
       "isLevelUp": true,
-      "pairKey": "base:core:sophist:ocr:sound barrier::watch your step",
+      "pairKey": "base:core:sophist:s-167",
       "ocr": {
         "text": "\\ 1 : Watch Your Step  oe",
         "canonical": "1 watch your step oe",
@@ -4106,7 +4106,7 @@
       "assetno": "s-174",
       "isSummons": false,
       "isLevelUp": true,
-      "pairKey": "base:core:sophist:ocr:scintillating darts::sudden debate",
+      "pairKey": "base:core:sophist:s-173",
       "ocr": {
         "text": "\\ i.  Cl   —    | ]",
         "canonical": "i cl",
@@ -4122,7 +4122,7 @@
       "assetno": "s-162",
       "isSummons": false,
       "isLevelUp": false,
-      "pairKey": "base:core:sophist:ocr:shifts in the wind::trick of the light",
+      "pairKey": "base:core:sophist:s-161",
       "ocr": {
         "text": "\\ Cl — £3",
         "canonical": "cl 3",
@@ -4138,7 +4138,7 @@
       "assetno": "s-165",
       "isSummons": false,
       "isLevelUp": false,
-      "pairKey": "base:core:sophist:ocr:lustrous flare::unnatural defenses",
+      "pairKey": "base:core:sophist:s-165",
       "ocr": {
         "text": "TTT Te",
         "canonical": "ttt te",
@@ -4154,7 +4154,7 @@
       "assetno": "s-167",
       "isSummons": false,
       "isLevelUp": true,
-      "pairKey": "base:core:sophist:ocr:sound barrier::watch your step",
+      "pairKey": "base:core:sophist:s-167",
       "ocr": {
         "text": "\\ ad * Sound Barrier   £3",
         "canonical": "ad sound barrier 3",
@@ -4202,7 +4202,7 @@
       "assetno": "s-217",
       "isSummons": false,
       "isLevelUp": false,
-      "pairKey": "base:core:true-scale:ocr:blast step::traitorous thoughts",
+      "pairKey": "base:core:true-scale:s-217",
       "ocr": {
         "text": "OX e | Traitorous Thoughts Tw",
         "canonical": "ox e traitorous thoughts tw",
@@ -4218,7 +4218,7 @@
       "assetno": "s-214",
       "isSummons": false,
       "isLevelUp": false,
-      "pairKey": "base:core:true-scale:ocr:coordinated assault::settling groundwork",
+      "pairKey": "base:core:true-scale:s-213",
       "ocr": {
         "text": "o\\ i. \\ ©   Settling Groundwork   I",
         "canonical": "o i settling groundwork i",
@@ -4234,7 +4234,7 @@
       "assetno": "s-231",
       "isSummons": false,
       "isLevelUp": false,
-      "pairKey": "base:core:true-scale:ocr:credit::toll bearer",
+      "pairKey": "base:core:true-scale:s-231",
       "ocr": {
         "text": "o\\  \\ al    Toll Bearer   rw",
         "canonical": "o al toll bearer rw",
@@ -4250,7 +4250,7 @@
       "assetno": "s-228",
       "isSummons": false,
       "isLevelUp": false,
-      "pairKey": "base:core:true-scale:ocr:divesting thoughts::safe cracker",
+      "pairKey": "base:core:true-scale:s-227",
       "ocr": {
         "text": "",
         "canonical": "",
@@ -4266,7 +4266,7 @@
       "assetno": "s-229",
       "isSummons": false,
       "isLevelUp": false,
-      "pairKey": "base:core:true-scale:ocr:embezzle::fierce ransomer",
+      "pairKey": "base:core:true-scale:s-229",
       "ocr": {
         "text": "OX e | \"Fierce Ransomer  Te",
         "canonical": "ox e fierce ransomer te",
@@ -4282,7 +4282,7 @@
       "assetno": "s-230",
       "isSummons": false,
       "isLevelUp": false,
-      "pairKey": "base:core:true-scale:ocr:embezzle::fierce ransomer",
+      "pairKey": "base:core:true-scale:s-229",
       "ocr": {
         "text": "NTT Ty",
         "canonical": "ntt ty",
@@ -4298,7 +4298,7 @@
       "assetno": "s-226",
       "isSummons": false,
       "isLevelUp": false,
-      "pairKey": "base:core:true-scale:ocr:initial investment::psychic scars",
+      "pairKey": "base:core:true-scale:s-225",
       "ocr": {
         "text": "o\\     Ell  \"    Pavehic aaa      4) w",
         "canonical": "o ell pavehic aaa 4 w",
@@ -4314,7 +4314,7 @@
       "assetno": "s-215",
       "isSummons": false,
       "isLevelUp": false,
-      "pairKey": "base:core:true-scale:ocr:intrusive thoughts::ruthless assault",
+      "pairKey": "base:core:true-scale:s-215",
       "ocr": {
         "text": "o\\    e |  © Ruthless Assault    | vi",
         "canonical": "o e ruthless assault vi",
@@ -4330,7 +4330,7 @@
       "assetno": "s-210",
       "isSummons": false,
       "isLevelUp": false,
-      "pairKey": "base:core:true-scale:ocr:knock senseless::shell games",
+      "pairKey": "base:core:true-scale:s-209",
       "ocr": {
         "text": "o\\  \\ or     Shell Games     rw",
         "canonical": "o or shell games rw",
@@ -4362,7 +4362,7 @@
       "assetno": "s-225",
       "isSummons": false,
       "isLevelUp": false,
-      "pairKey": "base:core:true-scale:ocr:initial investment::psychic scars",
+      "pairKey": "base:core:true-scale:s-225",
       "ocr": {
         "text": "oN Q]   Initial Investment   | vi",
         "canonical": "on q initial investment vi",
@@ -4378,7 +4378,7 @@
       "assetno": "s-216",
       "isSummons": false,
       "isLevelUp": false,
-      "pairKey": "base:core:true-scale:ocr:intrusive thoughts::ruthless assault",
+      "pairKey": "base:core:true-scale:s-215",
       "ocr": {
         "text": "o\\ iis Cl      Intrusive Thoughts      | w",
         "canonical": "o iis cl intrusive thoughts w",
@@ -4394,7 +4394,7 @@
       "assetno": "s-227",
       "isSummons": false,
       "isLevelUp": false,
-      "pairKey": "base:core:true-scale:ocr:divesting thoughts::safe cracker",
+      "pairKey": "base:core:true-scale:s-227",
       "ocr": {
         "text": "OX  e |    Divesting Thoughts    di w",
         "canonical": "ox e divesting thoughts di w",
@@ -4410,7 +4410,7 @@
       "assetno": "s-213",
       "isSummons": false,
       "isLevelUp": false,
-      "pairKey": "base:core:true-scale:ocr:coordinated assault::settling groundwork",
+      "pairKey": "base:core:true-scale:s-213",
       "ocr": {
         "text": "o\\ cl Coordinated Assault i 7]",
         "canonical": "o cl coordinated assault i 7",
@@ -4426,7 +4426,7 @@
       "assetno": "s-209",
       "isSummons": false,
       "isLevelUp": false,
-      "pairKey": "base:core:true-scale:ocr:knock senseless::shell games",
+      "pairKey": "base:core:true-scale:s-209",
       "ocr": {
         "text": "o\\ Cli  \"Knock Senseless   Te",
         "canonical": "o cli knock senseless te",
@@ -4490,7 +4490,7 @@
       "assetno": "s-232",
       "isSummons": false,
       "isLevelUp": false,
-      "pairKey": "base:core:true-scale:ocr:credit::toll bearer",
+      "pairKey": "base:core:true-scale:s-231",
       "ocr": {
         "text": "oC  Ge a Te",
         "canonical": "oc ge a te",
@@ -4506,7 +4506,7 @@
       "assetno": "s-218",
       "isSummons": false,
       "isLevelUp": false,
-      "pairKey": "base:core:true-scale:ocr:blast step::traitorous thoughts",
+      "pairKey": "base:core:true-scale:s-217",
       "ocr": {
         "text": "",
         "canonical": "",
@@ -4536,7 +4536,7 @@
       "classKey": "base:core:true-scale",
       "name": "watch the back",
       "assetno": "s-219",
-      "isSummons": true,
+      "isSummons": false,
       "isLevelUp": false,
       "pairKey": "base:core:true-scale:s-219",
       "ocr": {
@@ -4554,7 +4554,7 @@
       "assetno": "s-188",
       "isSummons": false,
       "isLevelUp": false,
-      "pairKey": "prime:core:conceptualist:ocr:balance the equation::simple refraction",
+      "pairKey": "prime:core:conceptualist:s-187",
       "ocr": {
         "text": "AC i Simple Refraction Tw",
         "canonical": "ac i simple refraction tw",
@@ -4570,7 +4570,7 @@
       "assetno": "s-192",
       "isSummons": false,
       "isLevelUp": false,
-      "pairKey": "prime:core:conceptualist:ocr:coefficient value::two step method",
+      "pairKey": "prime:core:conceptualist:s-191",
       "ocr": {
         "text": "2 Cl - Two-Step Method  Tw",
         "canonical": "2 cl two step method tw",
@@ -4586,7 +4586,7 @@
       "assetno": "s-183",
       "isSummons": false,
       "isLevelUp": true,
-      "pairKey": "prime:core:conceptualist:ocr:guiding the discussion::point of pursuit",
+      "pairKey": "prime:core:conceptualist:s-183",
       "ocr": {
         "text": "2% i —_— ry",
         "canonical": "2 i ry",
@@ -4618,7 +4618,7 @@
       "assetno": "s-181",
       "isSummons": false,
       "isLevelUp": true,
-      "pairKey": "prime:core:conceptualist:ocr:inner monologue::radiant spinaerios",
+      "pairKey": "prime:core:conceptualist:s-181",
       "ocr": {
         "text": "27% — Radiant Spinaerios  \"7H",
         "canonical": "27 radiant spinaerios 7h",
@@ -4650,7 +4650,7 @@
       "assetno": "a-008",
       "isSummons": true,
       "isLevelUp": false,
-      "pairKey": "prime:core:conceptualist:a-8",
+      "pairKey": "prime:core:conceptualist:summon:luminescent quartic",
       "ocr": {
         "text": "Ocd",
         "canonical": "ocd",
@@ -4666,7 +4666,7 @@
       "assetno": "a-008",
       "isSummons": true,
       "isLevelUp": false,
-      "pairKey": "prime:core:conceptualist:a-8",
+      "pairKey": "prime:core:conceptualist:summon:luminescent quartic",
       "ocr": {
         "text": "< i ha K  A-00¢",
         "canonical": "i ha k a 00",
@@ -4682,7 +4682,7 @@
       "assetno": "s-190",
       "isSummons": false,
       "isLevelUp": false,
-      "pairKey": "prime:core:conceptualist:ocr:motivational speeches::the oldest trick",
+      "pairKey": "prime:core:conceptualist:s-189",
       "ocr": {
         "text": "2 7% i  The Oldest Trick   Tw",
         "canonical": "2 7 i the oldest trick tw",
@@ -4730,7 +4730,7 @@
       "assetno": "s-184",
       "isSummons": false,
       "isLevelUp": true,
-      "pairKey": "prime:core:conceptualist:ocr:guiding the discussion::point of pursuit",
+      "pairKey": "prime:core:conceptualist:s-183",
       "ocr": {
         "text": "27%  . Guiding the Discussion Tw",
         "canonical": "27 guiding the discussion tw",
@@ -4746,7 +4746,7 @@
       "assetno": "a-009",
       "isSummons": true,
       "isLevelUp": false,
-      "pairKey": "prime:core:conceptualist:a-9",
+      "pairKey": "prime:core:conceptualist:summon:radiant spinaerios",
       "ocr": {
         "text": "Ocd",
         "canonical": "ocd",
@@ -4762,7 +4762,7 @@
       "assetno": "a-009",
       "isSummons": true,
       "isLevelUp": false,
-      "pairKey": "prime:core:conceptualist:a-9",
+      "pairKey": "prime:core:conceptualist:summon:radiant spinaerios",
       "ocr": {
         "text": "©   7 ”   hd       A-00¢",
         "canonical": "7 hd a 00",
@@ -4778,7 +4778,7 @@
       "assetno": "s-182",
       "isSummons": false,
       "isLevelUp": true,
-      "pairKey": "prime:core:conceptualist:ocr:inner monologue::radiant spinaerios",
+      "pairKey": "prime:core:conceptualist:s-181",
       "ocr": {
         "text": "2 Cl - Inner Monologue  ry",
         "canonical": "2 cl inner monologue ry",
@@ -4794,7 +4794,7 @@
       "assetno": "s-187",
       "isSummons": false,
       "isLevelUp": false,
-      "pairKey": "prime:core:conceptualist:ocr:balance the equation::simple refraction",
+      "pairKey": "prime:core:conceptualist:s-187",
       "ocr": {
         "text": "27%    cal Balance the Equation  ig",
         "canonical": "27 cal balance the equation ig",
@@ -4810,7 +4810,7 @@
       "assetno": "s-189",
       "isSummons": false,
       "isLevelUp": false,
-      "pairKey": "prime:core:conceptualist:ocr:motivational speeches::the oldest trick",
+      "pairKey": "prime:core:conceptualist:s-189",
       "ocr": {
         "text": "2% Motivational Speeches £3",
         "canonical": "2 motivational speeches 3",
@@ -4826,7 +4826,7 @@
       "assetno": "s-191",
       "isSummons": false,
       "isLevelUp": false,
-      "pairKey": "prime:core:conceptualist:ocr:coefficient value::two step method",
+      "pairKey": "prime:core:conceptualist:s-191",
       "ocr": {
         "text": "2 Ter Coefficient Value  ry",
         "canonical": "2 ter coefficient value ry",
@@ -4842,7 +4842,7 @@
       "assetno": "s-079",
       "isSummons": false,
       "isLevelUp": true,
-      "pairKey": "prime:core:helion:ocr:blazing trail::fire volley",
+      "pairKey": "prime:core:helion:s-79",
       "ocr": {
         "text": "YY  \\  kd 1       Fire Volley    \"gy",
         "canonical": "yy kd 1 fire volley gy",
@@ -4888,8 +4888,8 @@
       "classKey": "prime:core:helion",
       "name": "controlled backdraft",
       "assetno": "s-078",
-      "isSummons": true,
-      "isLevelUp": false,
+      "isSummons": false,
+      "isLevelUp": true,
       "pairKey": "prime:core:helion:s-77",
       "ocr": {
         "text": "¥ \\ iC rT   | ®",
@@ -4922,7 +4922,7 @@
       "assetno": "s-080",
       "isSummons": false,
       "isLevelUp": true,
-      "pairKey": "prime:core:helion:ocr:blazing trail::fire volley",
+      "pairKey": "prime:core:helion:s-79",
       "ocr": {
         "text": "AG |  — oo Te",
         "canonical": "ag oo te",
@@ -4938,7 +4938,7 @@
       "assetno": "s-081",
       "isSummons": false,
       "isLevelUp": true,
-      "pairKey": "prime:core:helion:ocr:fueled fire::spontaneous combustion",
+      "pairKey": "prime:core:helion:s-81",
       "ocr": {
         "text": "YY N ad * Spontaneous Combustion ©",
         "canonical": "yy n ad spontaneous combustion",
@@ -4954,7 +4954,7 @@
       "assetno": "s-089",
       "isSummons": false,
       "isLevelUp": false,
-      "pairKey": "prime:core:helion:ocr:hot air::smoldering embers",
+      "pairKey": "prime:core:helion:s-89",
       "ocr": {
         "text": "YY \\ <P \"  * Smoldering Embers   | v",
         "canonical": "yy p smoldering embers v",
@@ -4968,7 +4968,7 @@
       "classKey": "prime:core:helion",
       "name": "shifting fronts",
       "assetno": "s-087",
-      "isSummons": true,
+      "isSummons": false,
       "isLevelUp": false,
       "pairKey": "prime:core:helion:s-87",
       "ocr": {
@@ -4986,7 +4986,7 @@
       "assetno": "s-090",
       "isSummons": false,
       "isLevelUp": false,
-      "pairKey": "prime:core:helion:ocr:hot air::smoldering embers",
+      "pairKey": "prime:core:helion:s-89",
       "ocr": {
         "text": "A Ta To",
         "canonical": "a ta to",
@@ -5002,7 +5002,7 @@
       "assetno": "s-082",
       "isSummons": false,
       "isLevelUp": true,
-      "pairKey": "prime:core:helion:ocr:fueled fire::spontaneous combustion",
+      "pairKey": "prime:core:helion:s-81",
       "ocr": {
         "text": "YY N ha il    Fueled Fire   To",
         "canonical": "yy n ha il fueled fire to",
@@ -5018,7 +5018,7 @@
       "assetno": "s-083",
       "isSummons": false,
       "isLevelUp": false,
-      "pairKey": "prime:core:helion:ocr:sudden bellows::wind barrier",
+      "pairKey": "prime:core:helion:s-83",
       "ocr": {
         "text": "YY N kd | i   Wind Barrier   To",
         "canonical": "yy n kd i wind barrier to",
@@ -5050,7 +5050,7 @@
       "assetno": "s-084",
       "isSummons": false,
       "isLevelUp": false,
-      "pairKey": "prime:core:helion:ocr:sudden bellows::wind barrier",
+      "pairKey": "prime:core:helion:s-83",
       "ocr": {
         "text": "YY N @ -  Sudden Bellows  wy",
         "canonical": "yy n sudden bellows wy",
@@ -5066,7 +5066,7 @@
       "assetno": "a-003",
       "isSummons": true,
       "isLevelUp": false,
-      "pairKey": "prime:core:ridge-striker:a-3",
+      "pairKey": "prime:core:ridge-striker:summon:adamant ardorok",
       "ocr": {
         "text": "4",
         "canonical": "4",
@@ -5082,7 +5082,7 @@
       "assetno": "a-003",
       "isSummons": true,
       "isLevelUp": false,
-      "pairKey": "prime:core:ridge-striker:a-3",
+      "pairKey": "prime:core:ridge-striker:summon:adamant ardorok",
       "ocr": {
         "text": "A-00:",
         "canonical": "a 00",
@@ -5098,7 +5098,7 @@
       "assetno": "s-033",
       "isSummons": false,
       "isLevelUp": false,
-      "pairKey": "prime:core:ridge-striker:ocr:arid valley::enduring valley",
+      "pairKey": "prime:core:ridge-striker:s-33",
       "ocr": {
         "text": "4 N ©]     Enduring Valley   Te",
         "canonical": "4 n enduring valley te",
@@ -5114,7 +5114,7 @@
       "assetno": "s-025",
       "isSummons": false,
       "isLevelUp": true,
-      "pairKey": "prime:core:ridge-striker:ocr:clay cage::tectonic clash",
+      "pairKey": "prime:core:ridge-striker:s-25",
       "ocr": {
         "text": "7 : \\\" OF 1           Tectonic Clash       Te",
         "canonical": "7 of 1 tectonic clash te",
@@ -5130,7 +5130,7 @@
       "assetno": "s-035",
       "isSummons": false,
       "isLevelUp": false,
-      "pairKey": "prime:core:ridge-striker:ocr:desert night::sand storm",
+      "pairKey": "prime:core:ridge-striker:s-35",
       "ocr": {
         "text": "7 \\  e |       Sand Storm     To",
         "canonical": "7 e sand storm to",
@@ -5146,7 +5146,7 @@
       "assetno": "s-032",
       "isSummons": false,
       "isLevelUp": false,
-      "pairKey": "prime:core:ridge-striker:ocr:dual talons::oasis clemency",
+      "pairKey": "prime:core:ridge-striker:s-31",
       "ocr": {
         "text": "> N cl     Oasis Clemency   Te",
         "canonical": "n cl oasis clemency te",
@@ -5162,7 +5162,7 @@
       "assetno": "s-037",
       "isSummons": false,
       "isLevelUp": false,
-      "pairKey": "prime:core:ridge-striker:ocr:earthen armor::shifted sands",
+      "pairKey": "prime:core:ridge-striker:s-37",
       "ocr": {
         "text": "#\\  \\ S| shifeea Sands | ©",
         "canonical": "s shifeea sands",
@@ -5178,7 +5178,7 @@
       "assetno": "s-034",
       "isSummons": false,
       "isLevelUp": false,
-      "pairKey": "prime:core:ridge-striker:ocr:arid valley::enduring valley",
+      "pairKey": "prime:core:ridge-striker:s-33",
       "ocr": {
         "text": "Ba Cl          Arid Valley       SF)",
         "canonical": "ba cl arid valley sf",
@@ -5194,7 +5194,7 @@
       "assetno": "s-030",
       "isSummons": false,
       "isLevelUp": true,
-      "pairKey": "prime:core:ridge-striker:ocr:lent patience::lent strength",
+      "pairKey": "prime:core:ridge-striker:s-29",
       "ocr": {
         "text": "4 N Ra    Lent Strength   Te",
         "canonical": "4 n ra lent strength te",
@@ -5210,7 +5210,7 @@
       "assetno": "s-029",
       "isSummons": false,
       "isLevelUp": true,
-      "pairKey": "prime:core:ridge-striker:ocr:lent patience::lent strength",
+      "pairKey": "prime:core:ridge-striker:s-29",
       "ocr": {
         "text": "7 x \\® 1           Lent Patience       SF)",
         "canonical": "7 x 1 lent patience sf",
@@ -5226,7 +5226,7 @@
       "assetno": "s-031",
       "isSummons": false,
       "isLevelUp": false,
-      "pairKey": "prime:core:ridge-striker:ocr:dual talons::oasis clemency",
+      "pairKey": "prime:core:ridge-striker:s-31",
       "ocr": {
         "text": "> AN er       Dual Talons    Te",
         "canonical": "an er dual talons te",
@@ -5242,7 +5242,7 @@
       "assetno": "s-036",
       "isSummons": false,
       "isLevelUp": false,
-      "pairKey": "prime:core:ridge-striker:ocr:desert night::sand storm",
+      "pairKey": "prime:core:ridge-striker:s-35",
       "ocr": {
         "text": "4 \\ ©] —  SE)",
         "canonical": "4 se",
@@ -5258,7 +5258,7 @@
       "assetno": "s-027",
       "isSummons": false,
       "isLevelUp": true,
-      "pairKey": "prime:core:ridge-striker:ocr:searching sands::venerated friend",
+      "pairKey": "prime:core:ridge-striker:s-27",
       "ocr": {
         "text": "> \\ |    Venerated Friend  Te",
         "canonical": "venerated friend te",
@@ -5274,7 +5274,7 @@
       "assetno": "s-038",
       "isSummons": false,
       "isLevelUp": false,
-      "pairKey": "prime:core:ridge-striker:ocr:earthen armor::shifted sands",
+      "pairKey": "prime:core:ridge-striker:s-37",
       "ocr": {
         "text": "> \\ Ra      Earthen Armor    Te",
         "canonical": "ra earthen armor te",
@@ -5290,7 +5290,7 @@
       "assetno": "s-026",
       "isSummons": false,
       "isLevelUp": true,
-      "pairKey": "prime:core:ridge-striker:ocr:clay cage::tectonic clash",
+      "pairKey": "prime:core:ridge-striker:s-25",
       "ocr": {
         "text": "ET Ts",
         "canonical": "et ts",
@@ -5306,7 +5306,7 @@
       "assetno": "s-028",
       "isSummons": false,
       "isLevelUp": true,
-      "pairKey": "prime:core:ridge-striker:ocr:searching sands::venerated friend",
+      "pairKey": "prime:core:ridge-striker:s-27",
       "ocr": {
         "text": "7 \\ ©]   —  To",
         "canonical": "7 to",
@@ -5338,7 +5338,7 @@
       "assetno": "s-237",
       "isSummons": false,
       "isLevelUp": true,
-      "pairKey": "prime:core:toll-bearer:ocr:call the cavalry::strain the nerve",
+      "pairKey": "prime:core:toll-bearer:s-237",
       "ocr": {
         "text": "o\\        <P 1         Strain the Nerve         |  w",
         "canonical": "o p 1 strain the nerve w",
@@ -5354,7 +5354,7 @@
       "assetno": "s-234",
       "isSummons": false,
       "isLevelUp": true,
-      "pairKey": "prime:core:toll-bearer:ocr:collected dividends::siege position",
+      "pairKey": "prime:core:toll-bearer:s-233",
       "ocr": {
         "text": "o\\ cll —    Cl",
         "canonical": "o cll cl",
@@ -5370,7 +5370,7 @@
       "assetno": "s-241",
       "isSummons": false,
       "isLevelUp": false,
-      "pairKey": "prime:core:toll-bearer:ocr:defensive formula::fire arum grit",
+      "pairKey": "prime:core:toll-bearer:s-241",
       "ocr": {
         "text": "oN ©]  * Fire-Arum Grit   |",
         "canonical": "on fire arum grit",
@@ -5386,7 +5386,7 @@
       "assetno": "s-246",
       "isSummons": false,
       "isLevelUp": false,
-      "pairKey": "prime:core:toll-bearer:ocr:devastating charge::stolen valor",
+      "pairKey": "prime:core:toll-bearer:s-245",
       "ocr": {
         "text": "o\\  i     Cl   * StolenValor      | w",
         "canonical": "o i cl stolenvalor w",
@@ -5401,7 +5401,7 @@
       "name": "even the odds",
       "assetno": "s-239",
       "isSummons": false,
-      "isLevelUp": false,
+      "isLevelUp": true,
       "pairKey": "prime:core:toll-bearer:s-239",
       "ocr": {
         "text": "o\\  3  ad  ; Govt aha   | vi",
@@ -5418,7 +5418,7 @@
       "assetno": "s-242",
       "isSummons": false,
       "isLevelUp": false,
-      "pairKey": "prime:core:toll-bearer:ocr:defensive formula::fire arum grit",
+      "pairKey": "prime:core:toll-bearer:s-241",
       "ocr": {
         "text": "o\\ \" Cl      Defensive Formula      | \"",
         "canonical": "o cl defensive formula",
@@ -5466,7 +5466,7 @@
       "assetno": "s-235",
       "isSummons": false,
       "isLevelUp": true,
-      "pairKey": "prime:core:toll-bearer:ocr:recoup losses::short leash",
+      "pairKey": "prime:core:toll-bearer:s-235",
       "ocr": {
         "text": "o\\  Cl —    | v |",
         "canonical": "o cl v",
@@ -5482,7 +5482,7 @@
       "assetno": "s-236",
       "isSummons": false,
       "isLevelUp": true,
-      "pairKey": "prime:core:toll-bearer:ocr:recoup losses::short leash",
+      "pairKey": "prime:core:toll-bearer:s-235",
       "ocr": {
         "text": "o\\  x  \\ Cl      Recoup Losses     | \"",
         "canonical": "o x cl recoup losses",
@@ -5498,7 +5498,7 @@
       "assetno": "s-233",
       "isSummons": false,
       "isLevelUp": true,
-      "pairKey": "prime:core:toll-bearer:ocr:collected dividends::siege position",
+      "pairKey": "prime:core:toll-bearer:s-233",
       "ocr": {
         "text": "o\\  \\ e |  Collected Dividends  rv",
         "canonical": "o e collected dividends rv",
@@ -5514,7 +5514,7 @@
       "assetno": "s-245",
       "isSummons": false,
       "isLevelUp": false,
-      "pairKey": "prime:core:toll-bearer:ocr:devastating charge::stolen valor",
+      "pairKey": "prime:core:toll-bearer:s-245",
       "ocr": {
         "text": "o\\           Ot 1       Devastating Charge      |  vi",
         "canonical": "o ot 1 devastating charge vi",
@@ -5530,7 +5530,7 @@
       "assetno": "s-238",
       "isSummons": false,
       "isLevelUp": true,
-      "pairKey": "prime:core:toll-bearer:ocr:call the cavalry::strain the nerve",
+      "pairKey": "prime:core:toll-bearer:s-237",
       "ocr": {
         "text": "o\\     \\  ad      Callthe Cavalry      |  vi",
         "canonical": "o ad callthe cavalry vi",
@@ -5594,7 +5594,7 @@
       "assetno": "s-139",
       "isSummons": false,
       "isLevelUp": false,
-      "pairKey": "prime:core:umbral-howl:ocr:meditative trance::tapered reverb",
+      "pairKey": "prime:core:umbral-howl:s-139",
       "ocr": {
         "text": "W N el Tapered Reverb  rE",
         "canonical": "w n el tapered reverb re",
@@ -5626,7 +5626,7 @@
       "assetno": "s-133",
       "isSummons": false,
       "isLevelUp": true,
-      "pairKey": "prime:core:umbral-howl:ocr:out for blood::renewed vitality",
+      "pairKey": "prime:core:umbral-howl:s-133",
       "ocr": {
         "text": "WwW \\ hal ” Renewed Vitality ry",
         "canonical": "www hal renewed vitality ry",
@@ -5658,7 +5658,7 @@
       "assetno": "s-134",
       "isSummons": false,
       "isLevelUp": true,
-      "pairKey": "prime:core:umbral-howl:ocr:out for blood::renewed vitality",
+      "pairKey": "prime:core:umbral-howl:s-133",
       "ocr": {
         "text": "Ww  \\  ha -    outforBlood    rE",
         "canonical": "ww ha outforblood re",
@@ -5706,7 +5706,7 @@
       "assetno": "s-140",
       "isSummons": false,
       "isLevelUp": false,
-      "pairKey": "prime:core:umbral-howl:ocr:meditative trance::tapered reverb",
+      "pairKey": "prime:core:umbral-howl:s-139",
       "ocr": {
         "text": "We al rr Te",
         "canonical": "we al rr te",
@@ -5770,7 +5770,7 @@
       "assetno": "s-348",
       "isSummons": false,
       "isLevelUp": true,
-      "pairKey": "prime:xulc:essentialist:ocr:agree to disagree::strawman fallacy",
+      "pairKey": "prime:xulc:essentialist:s-347",
       "ocr": {
         "text": "N N iC) - Strawman Fallacy Tw",
         "canonical": "n n ic strawman fallacy tw",
@@ -5818,7 +5818,7 @@
       "assetno": "s-345",
       "isSummons": false,
       "isLevelUp": true,
-      "pairKey": "prime:xulc:essentialist:ocr:heads up::sleight of hand",
+      "pairKey": "prime:xulc:essentialist:s-345",
       "ocr": {
         "text": "By X |    Sleight of Hand  Tw",
         "canonical": "by x sleight of hand tw",
@@ -5834,7 +5834,7 @@
       "assetno": "s-353",
       "isSummons": false,
       "isLevelUp": false,
-      "pairKey": "prime:xulc:essentialist:ocr:leading term::power function",
+      "pairKey": "prime:xulc:essentialist:s-353",
       "ocr": {
         "text": "By \\ ll -  Power Function  Tw",
         "canonical": "by ll power function tw",
@@ -5850,7 +5850,7 @@
       "assetno": "s-355",
       "isSummons": false,
       "isLevelUp": false,
-      "pairKey": "prime:xulc:essentialist:ocr:lessened lessons::press gang",
+      "pairKey": "prime:xulc:essentialist:s-355",
       "ocr": {
         "text": "I'S eT    Press Gang \"  Tw",
         "canonical": "i s et press gang tw",
@@ -5866,7 +5866,7 @@
       "assetno": "a-020",
       "isSummons": true,
       "isLevelUp": false,
-      "pairKey": "prime:xulc:essentialist:a-20",
+      "pairKey": "prime:xulc:essentialist:summon:luminescent hyperbola",
       "ocr": {
         "text": "&",
         "canonical": "",
@@ -5882,7 +5882,7 @@
       "assetno": "a-020",
       "isSummons": true,
       "isLevelUp": false,
-      "pairKey": "prime:xulc:essentialist:a-20",
+      "pairKey": "prime:xulc:essentialist:summon:luminescent hyperbola",
       "ocr": {
         "text": "| ca pe 7  px",
         "canonical": "ca pe 7 px",
@@ -5946,7 +5946,7 @@
       "assetno": "s-354",
       "isSummons": false,
       "isLevelUp": false,
-      "pairKey": "prime:xulc:essentialist:ocr:leading term::power function",
+      "pairKey": "prime:xulc:essentialist:s-353",
       "ocr": {
         "text": "TOT Leatmgtem Tw",
         "canonical": "tot leatmgtem tw",
@@ -5962,7 +5962,7 @@
       "assetno": "s-356",
       "isSummons": false,
       "isLevelUp": false,
-      "pairKey": "prime:xulc:essentialist:ocr:lessened lessons::press gang",
+      "pairKey": "prime:xulc:essentialist:s-355",
       "ocr": {
         "text": "ToT i —— Tw",
         "canonical": "tot i tw",
@@ -5978,7 +5978,7 @@
       "assetno": "a-021",
       "isSummons": true,
       "isLevelUp": false,
-      "pairKey": "prime:xulc:essentialist:a-21",
+      "pairKey": "prime:xulc:essentialist:summon:prestidigitation",
       "ocr": {
         "text": "&",
         "canonical": "",
@@ -5994,7 +5994,7 @@
       "assetno": "a-021",
       "isSummons": true,
       "isLevelUp": false,
-      "pairKey": "prime:xulc:essentialist:a-21",
+      "pairKey": "prime:xulc:essentialist:summon:prestidigitation",
       "ocr": {
         "text": "",
         "canonical": "",
@@ -6026,7 +6026,7 @@
       "assetno": "s-346",
       "isSummons": false,
       "isLevelUp": true,
-      "pairKey": "prime:xulc:essentialist:ocr:heads up::sleight of hand",
+      "pairKey": "prime:xulc:essentialist:s-345",
       "ocr": {
         "text": "I'S  N cl        Heads Up      Tw",
         "canonical": "i s n cl heads up tw",
@@ -6042,7 +6042,7 @@
       "assetno": "s-347",
       "isSummons": false,
       "isLevelUp": true,
-      "pairKey": "prime:xulc:essentialist:ocr:agree to disagree::strawman fallacy",
+      "pairKey": "prime:xulc:essentialist:s-347",
       "ocr": {
         "text": "I'S N | -  Agree to Disagree  Te",
         "canonical": "i s n agree to disagree te",
@@ -6058,7 +6058,7 @@
       "assetno": "s-376",
       "isSummons": false,
       "isLevelUp": true,
-      "pairKey": "prime:xulc:fierce-ransomer:ocr:breach clear::confuse disorient",
+      "pairKey": "prime:xulc:fierce-ransomer:s-375",
       "ocr": {
         "text": "No \\ ©]  Confuse—Disorient Tw",
         "canonical": "no confuse disorient tw",
@@ -6074,7 +6074,7 @@
       "assetno": "s-386",
       "isSummons": false,
       "isLevelUp": false,
-      "pairKey": "prime:xulc:fierce-ransomer:ocr:collect dispose::shipping handling",
+      "pairKey": "prime:xulc:fierce-ransomer:s-385",
       "ocr": {
         "text": "No Cl   Shipping—Handling Tw",
         "canonical": "no cl shipping handling tw",
@@ -6090,7 +6090,7 @@
       "assetno": "s-375",
       "isSummons": false,
       "isLevelUp": true,
-      "pairKey": "prime:xulc:fierce-ransomer:ocr:breach clear::confuse disorient",
+      "pairKey": "prime:xulc:fierce-ransomer:s-375",
       "ocr": {
         "text": "No \\ |    —   Tw",
         "canonical": "no tw",
@@ -6106,7 +6106,7 @@
       "assetno": "s-373",
       "isSummons": false,
       "isLevelUp": true,
-      "pairKey": "prime:xulc:fierce-ransomer:ocr:control sweep::seek clarify",
+      "pairKey": "prime:xulc:fierce-ransomer:s-373",
       "ocr": {
         "text": "No   N al          ——        Tw",
         "canonical": "no n al tw",
@@ -6122,7 +6122,7 @@
       "assetno": "s-383",
       "isSummons": false,
       "isLevelUp": false,
-      "pairKey": "prime:xulc:fierce-ransomer:ocr:organize facilitate::reconcile redistribute",
+      "pairKey": "prime:xulc:fierce-ransomer:s-383",
       "ocr": {
         "text": "No \\ | rr Ll",
         "canonical": "no rr ll",
@@ -6138,7 +6138,7 @@
       "assetno": "s-380",
       "isSummons": false,
       "isLevelUp": false,
-      "pairKey": "prime:xulc:fierce-ransomer:ocr:pierce the veil::stoke the flames",
+      "pairKey": "prime:xulc:fierce-ransomer:s-379",
       "ocr": {
         "text": "No  \\ Ra      Stoke the Flames    Tw",
         "canonical": "no ra stoke the flames tw",
@@ -6154,7 +6154,7 @@
       "assetno": "s-377",
       "isSummons": false,
       "isLevelUp": true,
-      "pairKey": "prime:xulc:fierce-ransomer:ocr:push the luck::resist the thought",
+      "pairKey": "prime:xulc:fierce-ransomer:s-377",
       "ocr": {
         "text": "No N Ra   Resist the Thought Tw",
         "canonical": "no n ra resist the thought tw",
@@ -6186,7 +6186,7 @@
       "assetno": "s-384",
       "isSummons": false,
       "isLevelUp": false,
-      "pairKey": "prime:xulc:fierce-ransomer:ocr:organize facilitate::reconcile redistribute",
+      "pairKey": "prime:xulc:fierce-ransomer:s-383",
       "ocr": {
         "text": "No eT  Organize—Facilitate Tw",
         "canonical": "no et organize facilitate tw",
@@ -6202,7 +6202,7 @@
       "assetno": "s-378",
       "isSummons": false,
       "isLevelUp": true,
-      "pairKey": "prime:xulc:fierce-ransomer:ocr:push the luck::resist the thought",
+      "pairKey": "prime:xulc:fierce-ransomer:s-377",
       "ocr": {
         "text": "No   a            Pushthe Luck        Tw",
         "canonical": "no a pushthe luck tw",
@@ -6234,7 +6234,7 @@
       "assetno": "s-374",
       "isSummons": false,
       "isLevelUp": true,
-      "pairKey": "prime:xulc:fierce-ransomer:ocr:control sweep::seek clarify",
+      "pairKey": "prime:xulc:fierce-ransomer:s-373",
       "ocr": {
         "text": "No N ©]    Control —Sweep  Tw",
         "canonical": "no n control sweep tw",
@@ -6250,7 +6250,7 @@
       "assetno": "s-385",
       "isSummons": false,
       "isLevelUp": false,
-      "pairKey": "prime:xulc:fierce-ransomer:ocr:collect dispose::shipping handling",
+      "pairKey": "prime:xulc:fierce-ransomer:s-385",
       "ocr": {
         "text": "No \\ ol   ——  Tw",
         "canonical": "no ol tw",
@@ -6266,7 +6266,7 @@
       "assetno": "s-379",
       "isSummons": false,
       "isLevelUp": false,
-      "pairKey": "prime:xulc:fierce-ransomer:ocr:pierce the veil::stoke the flames",
+      "pairKey": "prime:xulc:fierce-ransomer:s-379",
       "ocr": {
         "text": "No  \\ hd       Pierce the Veil       Ci",
         "canonical": "no hd pierce the veil ci",
@@ -6282,7 +6282,7 @@
       "assetno": "s-273",
       "isSummons": false,
       "isLevelUp": true,
-      "pairKey": "prime:xulc:fountain-caller:ocr:biting cold::refreshing chill",
+      "pairKey": "prime:xulc:fountain-caller:s-273",
       "ocr": {
         "text": "D\\ al    Refreshing Chill    § ‘",
         "canonical": "d al refreshing chill",
@@ -6298,7 +6298,7 @@
       "assetno": "s-270",
       "isSummons": false,
       "isLevelUp": false,
-      "pairKey": "prime:xulc:fountain-caller:ocr:call and response::chilling reminder",
+      "pairKey": "prime:xulc:fountain-caller:s-269",
       "ocr": {
         "text": "@\\ Cll Chilling Reminder Te",
         "canonical": "cll chilling reminder te",
@@ -6314,7 +6314,7 @@
       "assetno": "s-264",
       "isSummons": false,
       "isLevelUp": false,
-      "pairKey": "prime:xulc:fountain-caller:ocr:cherished friend::freezing spiral",
+      "pairKey": "prime:xulc:fountain-caller:s-263",
       "ocr": {
         "text": "@\\        .  cll          Freezing Spiral          B",
         "canonical": "cll freezing spiral b",
@@ -6330,7 +6330,7 @@
       "assetno": "s-269",
       "isSummons": false,
       "isLevelUp": false,
-      "pairKey": "prime:xulc:fountain-caller:ocr:call and response::chilling reminder",
+      "pairKey": "prime:xulc:fountain-caller:s-269",
       "ocr": {
         "text": "\\           @ 1           Call and Response           o",
         "canonical": "1 call and response o",
@@ -6346,7 +6346,7 @@
       "assetno": "s-271",
       "isSummons": false,
       "isLevelUp": false,
-      "pairKey": "prime:xulc:fountain-caller:ocr:cold shoulder::surging tides",
+      "pairKey": "prime:xulc:fountain-caller:s-271",
       "ocr": {
         "text": "@\\  e |  :   Surging Tides     I",
         "canonical": "e surging tides i",
@@ -6378,7 +6378,7 @@
       "assetno": "s-263",
       "isSummons": false,
       "isLevelUp": false,
-      "pairKey": "prime:xulc:fountain-caller:ocr:cherished friend::freezing spiral",
+      "pairKey": "prime:xulc:fountain-caller:s-263",
       "ocr": {
         "text": "@\\ | \"Cherished Friend  I",
         "canonical": "cherished friend i",
@@ -6410,7 +6410,7 @@
       "assetno": "a-017",
       "isSummons": true,
       "isLevelUp": false,
-      "pairKey": "prime:xulc:fountain-caller:a-17",
+      "pairKey": "prime:xulc:fountain-caller:summon:growing typhon",
       "ocr": {
         "text": "a",
         "canonical": "a",
@@ -6426,7 +6426,7 @@
       "assetno": "a-017",
       "isSummons": true,
       "isLevelUp": false,
-      "pairKey": "prime:xulc:fountain-caller:a-17",
+      "pairKey": "prime:xulc:fountain-caller:summon:growing typhon",
       "ocr": {
         "text": "=                        2 A-01",
         "canonical": "2 a 01",
@@ -6441,7 +6441,7 @@
       "name": "oasis revival",
       "assetno": "s-261",
       "isSummons": false,
-      "isLevelUp": false,
+      "isLevelUp": true,
       "pairKey": "prime:xulc:fountain-caller:s-261",
       "ocr": {
         "text": "",
@@ -6457,7 +6457,7 @@
       "name": "pure fluids",
       "assetno": "s-266",
       "isSummons": false,
-      "isLevelUp": false,
+      "isLevelUp": true,
       "pairKey": "prime:xulc:fountain-caller:s-265",
       "ocr": {
         "text": "@\\    Tl             DesertBlood            ©",
@@ -6473,8 +6473,8 @@
       "name": "refreshing chill",
       "assetno": "s-274",
       "isSummons": false,
-      "isLevelUp": false,
-      "pairKey": "prime:xulc:fountain-caller:ocr:biting cold::refreshing chill",
+      "isLevelUp": true,
+      "pairKey": "prime:xulc:fountain-caller:s-273",
       "ocr": {
         "text": "ANG      al »               Biting Cold  N               i ‘",
         "canonical": "ang al biting cold n i",
@@ -6490,7 +6490,7 @@
       "assetno": "a-016",
       "isSummons": true,
       "isLevelUp": false,
-      "pairKey": "prime:xulc:fountain-caller:a-16",
+      "pairKey": "prime:xulc:fountain-caller:summon:resplendent ardorok",
       "ocr": {
         "text": "NS",
         "canonical": "ns",
@@ -6506,7 +6506,7 @@
       "assetno": "a-016",
       "isSummons": true,
       "isLevelUp": false,
-      "pairKey": "prime:xulc:fountain-caller:a-16",
+      "pairKey": "prime:xulc:fountain-caller:summon:resplendent ardorok",
       "ocr": {
         "text": "© A-01",
         "canonical": "a 01",
@@ -6537,7 +6537,7 @@
       "name": "sunlit basking",
       "assetno": "s-267",
       "isSummons": false,
-      "isLevelUp": false,
+      "isLevelUp": true,
       "pairKey": "prime:xulc:fountain-caller:s-267",
       "ocr": {
         "text": "\\     Ot bh)          Subdued uit         i ‘",
@@ -6554,7 +6554,7 @@
       "assetno": "s-272",
       "isSummons": false,
       "isLevelUp": false,
-      "pairKey": "prime:xulc:fountain-caller:ocr:cold shoulder::surging tides",
+      "pairKey": "prime:xulc:fountain-caller:s-271",
       "ocr": {
         "text": "@\\  \\ Q] —    I",
         "canonical": "q i",
@@ -6569,7 +6569,7 @@
       "name": "biting cold",
       "assetno": "s-321",
       "isSummons": false,
-      "isLevelUp": false,
+      "isLevelUp": true,
       "pairKey": "prime:xulc:keening-bolt:s-321",
       "ocr": {
         "text": "",
@@ -6794,7 +6794,7 @@
       "assetno": "s-294",
       "isSummons": false,
       "isLevelUp": true,
-      "pairKey": "prime:xulc:mistral:ocr:calm skies::charged air",
+      "pairKey": "prime:xulc:mistral:s-293",
       "ocr": {
         "text": "e\\  \\ a        Charged Air       BE",
         "canonical": "e a charged air be",
@@ -6810,7 +6810,7 @@
       "assetno": "s-293",
       "isSummons": false,
       "isLevelUp": true,
-      "pairKey": "prime:xulc:mistral:ocr:calm skies::charged air",
+      "pairKey": "prime:xulc:mistral:s-293",
       "ocr": {
         "text": "e\\ k a    Calm Skies    ©",
         "canonical": "e k a calm skies",
@@ -6826,7 +6826,7 @@
       "assetno": "s-291",
       "isSummons": false,
       "isLevelUp": true,
-      "pairKey": "prime:xulc:mistral:ocr:cloud burst::rolling thunderstorm",
+      "pairKey": "prime:xulc:mistral:s-291",
       "ocr": {
         "text": "e\\ |   Rolling Thunderstorm To",
         "canonical": "e rolling thunderstorm to",
@@ -6842,7 +6842,7 @@
       "assetno": "s-300",
       "isSummons": false,
       "isLevelUp": false,
-      "pairKey": "prime:xulc:mistral:ocr:controlled gusts::weather control",
+      "pairKey": "prime:xulc:mistral:s-299",
       "ocr": {
         "text": "€  \\  ©]  ~ a     ©",
         "canonical": "a",
@@ -6858,7 +6858,7 @@
       "assetno": "s-302",
       "isSummons": false,
       "isLevelUp": false,
-      "pairKey": "prime:xulc:mistral:ocr:lightning strike::wind break",
+      "pairKey": "prime:xulc:mistral:s-301",
       "ocr": {
         "text": "e\\  a |               Wind Break               ©",
         "canonical": "e a wind break",
@@ -6874,7 +6874,7 @@
       "assetno": "s-295",
       "isSummons": false,
       "isLevelUp": false,
-      "pairKey": "prime:xulc:mistral:ocr:pressure shift::wind wall",
+      "pairKey": "prime:xulc:mistral:s-295",
       "ocr": {
         "text": "e\\  To 1          Wind Wall       To |",
         "canonical": "e to 1 wind wall to",
@@ -6890,7 +6890,7 @@
       "assetno": "s-292",
       "isSummons": false,
       "isLevelUp": true,
-      "pairKey": "prime:xulc:mistral:ocr:cloud burst::rolling thunderstorm",
+      "pairKey": "prime:xulc:mistral:s-291",
       "ocr": {
         "text": "€ \\ Cl ——   To",
         "canonical": "cl to",
@@ -6922,7 +6922,7 @@
       "assetno": "s-289",
       "isSummons": false,
       "isLevelUp": true,
-      "pairKey": "prime:xulc:mistral:ocr:tempering updraft::violent hurricane",
+      "pairKey": "prime:xulc:mistral:s-289",
       "ocr": {
         "text": "€ \\ |   Violent Hurricane  To",
         "canonical": "violent hurricane to",
@@ -6938,7 +6938,7 @@
       "assetno": "s-290",
       "isSummons": false,
       "isLevelUp": true,
-      "pairKey": "prime:xulc:mistral:ocr:tempering updraft::violent hurricane",
+      "pairKey": "prime:xulc:mistral:s-289",
       "ocr": {
         "text": "€ \\ Cll _   ©",
         "canonical": "cll",
@@ -6954,7 +6954,7 @@
       "assetno": "s-299",
       "isSummons": false,
       "isLevelUp": false,
-      "pairKey": "prime:xulc:mistral:ocr:controlled gusts::weather control",
+      "pairKey": "prime:xulc:mistral:s-299",
       "ocr": {
         "text": "€ % \\  © |         Controlled Gusts         ©",
         "canonical": "controlled gusts",
@@ -6970,7 +6970,7 @@
       "assetno": "s-301",
       "isSummons": false,
       "isLevelUp": false,
-      "pairKey": "prime:xulc:mistral:ocr:lightning strike::wind break",
+      "pairKey": "prime:xulc:mistral:s-301",
       "ocr": {
         "text": "e\\   \\  Ra       Lightning Strike       i 7",
         "canonical": "e ra lightning strike i 7",
@@ -7002,7 +7002,7 @@
       "assetno": "s-296",
       "isSummons": false,
       "isLevelUp": false,
-      "pairKey": "prime:xulc:mistral:ocr:pressure shift::wind wall",
+      "pairKey": "prime:xulc:mistral:s-295",
       "ocr": {
         "text": "e\\    @ L              Pressure Shift              0",
         "canonical": "e l pressure shift 0",
@@ -7012,29 +7012,29 @@
     }
   },
   "pairings": {
-    "apex:core:aster:ocr:bulk interactions::warm bodies": {
+    "apex:core:aster:s-91": {
       "cards": [
         "classes/rove/apex/core/aster/rv-bulk-interactions.png",
         "classes/rove/apex/core/aster/rv-warm-bodies.png"
       ],
       "classKey": "apex:core:aster",
-      "inferredBy": "ocr"
+      "inferredBy": "fallback"
     },
-    "apex:core:aster:ocr:coronal loop::heat transfer": {
+    "apex:core:aster:s-97": {
       "cards": [
         "classes/rove/apex/core/aster/rv-coronal-loop.png",
         "classes/rove/apex/core/aster/rv-heat-transfer.png"
       ],
       "classKey": "apex:core:aster",
-      "inferredBy": "ocr"
+      "inferredBy": "fallback"
     },
-    "apex:core:aster:ocr:coronal mass ejection::solar flare": {
+    "apex:core:aster:s-93": {
       "cards": [
         "classes/rove/apex/core/aster/rv-coronal-mass-ejection.png",
         "classes/rove/apex/core/aster/rv-solar-flare.png"
       ],
       "classKey": "apex:core:aster",
-      "inferredBy": "ocr"
+      "inferredBy": "fallback"
     },
     "apex:core:aster:s-95": {
       "cards": [
@@ -7060,29 +7060,29 @@
       "classKey": "apex:core:aster",
       "inferredBy": "fallback"
     },
-    "apex:core:aster:ocr:thermal conduit::thermal dynamism": {
+    "apex:core:aster:s-103": {
       "cards": [
         "classes/rove/apex/core/aster/rv-thermal-conduit.png",
         "classes/rove/apex/core/aster/rv-thermal-dynamism.png"
       ],
       "classKey": "apex:core:aster",
-      "inferredBy": "ocr"
+      "inferredBy": "fallback"
     },
-    "apex:core:canyon-temper:ocr:beak and claw and sword::sand plume": {
+    "apex:core:canyon-temper:s-45": {
       "cards": [
         "classes/rove/apex/core/canyon-temper/rv-beak-and-claw-and-sword.png",
         "classes/rove/apex/core/canyon-temper/rv-sand-plume.png"
       ],
       "classKey": "apex:core:canyon-temper",
-      "inferredBy": "ocr"
+      "inferredBy": "fallback"
     },
-    "apex:core:canyon-temper:ocr:boulder clad::wrought from clay": {
+    "apex:core:canyon-temper:s-51": {
       "cards": [
         "classes/rove/apex/core/canyon-temper/rv-boulder-clad.png",
         "classes/rove/apex/core/canyon-temper/rv-wrought-from-clay.png"
       ],
       "classKey": "apex:core:canyon-temper",
-      "inferredBy": "ocr"
+      "inferredBy": "fallback"
     },
     "apex:core:canyon-temper:s-43": {
       "cards": [
@@ -7092,13 +7092,13 @@
       "classKey": "apex:core:canyon-temper",
       "inferredBy": "fallback"
     },
-    "apex:core:canyon-temper:ocr:mighty gust::oasis sanctuary": {
+    "apex:core:canyon-temper:s-39": {
       "cards": [
         "classes/rove/apex/core/canyon-temper/rv-mighty-gust.png",
         "classes/rove/apex/core/canyon-temper/rv-oasis-sanctuary.png"
       ],
       "classKey": "apex:core:canyon-temper",
-      "inferredBy": "ocr"
+      "inferredBy": "fallback"
     },
     "apex:core:canyon-temper:s-49": {
       "cards": [
@@ -7108,7 +7108,7 @@
       "classKey": "apex:core:canyon-temper",
       "inferredBy": "fallback"
     },
-    "apex:core:canyon-temper:a-4": {
+    "apex:core:canyon-temper:summon:ravenous drako": {
       "cards": [
         "classes/rove/apex/core/canyon-temper/rv-ravenous-drako-back.png",
         "classes/rove/apex/core/canyon-temper/rv-ravenous-drako-front.png"
@@ -7140,21 +7140,21 @@
       "classKey": "apex:core:invisible-hand",
       "inferredBy": "fallback"
     },
-    "apex:core:invisible-hand:ocr:burning pocket::signal noise": {
+    "apex:core:invisible-hand:s-255": {
       "cards": [
         "classes/rove/apex/core/invisible-hand/rv-burning-pocket.png",
         "classes/rove/apex/core/invisible-hand/rv-signal-noise.png"
       ],
       "classKey": "apex:core:invisible-hand",
-      "inferredBy": "ocr"
+      "inferredBy": "fallback"
     },
-    "apex:core:invisible-hand:ocr:direct control::resource management": {
+    "apex:core:invisible-hand:s-259": {
       "cards": [
         "classes/rove/apex/core/invisible-hand/rv-direct-control.png",
         "classes/rove/apex/core/invisible-hand/rv-resource-management.png"
       ],
       "classKey": "apex:core:invisible-hand",
-      "inferredBy": "ocr"
+      "inferredBy": "fallback"
     },
     "apex:core:invisible-hand:s-249": {
       "cards": [
@@ -7164,13 +7164,13 @@
       "classKey": "apex:core:invisible-hand",
       "inferredBy": "fallback"
     },
-    "apex:core:invisible-hand:ocr:risk aversion::spread wealth": {
+    "apex:core:invisible-hand:s-247": {
       "cards": [
         "classes/rove/apex/core/invisible-hand/rv-risk-aversion.png",
         "classes/rove/apex/core/invisible-hand/rv-spread-wealth.png"
       ],
       "classKey": "apex:core:invisible-hand",
-      "inferredBy": "ocr"
+      "inferredBy": "fallback"
     },
     "apex:core:invisible-hand:s-257": {
       "cards": [
@@ -7180,13 +7180,13 @@
       "classKey": "apex:core:invisible-hand",
       "inferredBy": "fallback"
     },
-    "apex:core:invisible-hand:ocr:we the arbiters::we the beholders": {
+    "apex:core:invisible-hand:s-251": {
       "cards": [
         "classes/rove/apex/core/invisible-hand/rv-we-the-arbiters.png",
         "classes/rove/apex/core/invisible-hand/rv-we-the-beholders.png"
       ],
       "classKey": "apex:core:invisible-hand",
-      "inferredBy": "ocr"
+      "inferredBy": "fallback"
     },
     "apex:core:maximist:s-203": {
       "cards": [
@@ -7196,7 +7196,7 @@
       "classKey": "apex:core:maximist",
       "inferredBy": "fallback"
     },
-    "apex:core:maximist:a-11": {
+    "apex:core:maximist:summon:alluring thureoll": {
       "cards": [
         "classes/rove/apex/core/maximist/rv-alluring-thureoll-back.png",
         "classes/rove/apex/core/maximist/rv-alluring-thureoll-front.png"
@@ -7212,21 +7212,21 @@
       "classKey": "apex:core:maximist",
       "inferredBy": "fallback"
     },
-    "apex:core:maximist:ocr:convincing argument::foundational pillars": {
+    "apex:core:maximist:s-201": {
       "cards": [
         "classes/rove/apex/core/maximist/rv-convincing-argument.png",
         "classes/rove/apex/core/maximist/rv-foundational-pillars.png"
       ],
       "classKey": "apex:core:maximist",
-      "inferredBy": "ocr"
+      "inferredBy": "fallback"
     },
-    "apex:core:maximist:ocr:escape psychology::substitute reality": {
+    "apex:core:maximist:s-207": {
       "cards": [
         "classes/rove/apex/core/maximist/rv-escape-psychology.png",
         "classes/rove/apex/core/maximist/rv-substitute-reality.png"
       ],
       "classKey": "apex:core:maximist",
-      "inferredBy": "ocr"
+      "inferredBy": "fallback"
     },
     "apex:core:maximist:s-199": {
       "cards": [
@@ -7236,15 +7236,15 @@
       "classKey": "apex:core:maximist",
       "inferredBy": "fallback"
     },
-    "apex:core:maximist:ocr:impenetrable position::spread the word": {
+    "apex:core:maximist:s-195": {
       "cards": [
         "classes/rove/apex/core/maximist/rv-impenetrable-position.png",
         "classes/rove/apex/core/maximist/rv-spread-the-word.png"
       ],
       "classKey": "apex:core:maximist",
-      "inferredBy": "ocr"
+      "inferredBy": "fallback"
     },
-    "apex:core:maximist:a-10": {
+    "apex:core:maximist:summon:luminescent quartic": {
       "cards": [
         "classes/rove/apex/core/maximist/rv-luminescent-quartic-back.png",
         "classes/rove/apex/core/maximist/rv-luminescent-quartic-front.png"
@@ -7252,13 +7252,13 @@
       "classKey": "apex:core:maximist",
       "inferredBy": "fallback"
     },
-    "apex:core:maximist:ocr:self assurance::sheer confidence": {
+    "apex:core:maximist:s-205": {
       "cards": [
         "classes/rove/apex/core/maximist/rv-self-assurance.png",
         "classes/rove/apex/core/maximist/rv-sheer-confidence.png"
       ],
       "classKey": "apex:core:maximist",
-      "inferredBy": "ocr"
+      "inferredBy": "fallback"
     },
     "apex:core:nocturne-hoarfrost:s-145": {
       "cards": [
@@ -7268,45 +7268,45 @@
       "classKey": "apex:core:nocturne-hoarfrost",
       "inferredBy": "fallback"
     },
-    "apex:core:nocturne-hoarfrost:ocr:blood boil::growing tempo": {
+    "apex:core:nocturne-hoarfrost:s-155": {
       "cards": [
         "classes/rove/apex/core/nocturne-hoarfrost/rv-blood-boil.png",
         "classes/rove/apex/core/nocturne-hoarfrost/rv-growing-tempo.png"
       ],
       "classKey": "apex:core:nocturne-hoarfrost",
-      "inferredBy": "ocr"
+      "inferredBy": "fallback"
     },
-    "apex:core:nocturne-hoarfrost:ocr:blood echo::chilling cadence": {
+    "apex:core:nocturne-hoarfrost:s-149": {
       "cards": [
         "classes/rove/apex/core/nocturne-hoarfrost/rv-blood-echo.png",
         "classes/rove/apex/core/nocturne-hoarfrost/rv-chilling-cadence.png"
       ],
       "classKey": "apex:core:nocturne-hoarfrost",
-      "inferredBy": "ocr"
+      "inferredBy": "fallback"
     },
-    "apex:core:nocturne-hoarfrost:ocr:cut time::pursuit predation": {
+    "apex:core:nocturne-hoarfrost:s-151": {
       "cards": [
         "classes/rove/apex/core/nocturne-hoarfrost/rv-cut-time.png",
         "classes/rove/apex/core/nocturne-hoarfrost/rv-pursuit-predation.png"
       ],
       "classKey": "apex:core:nocturne-hoarfrost",
-      "inferredBy": "ocr"
+      "inferredBy": "fallback"
     },
-    "apex:core:nocturne-hoarfrost:ocr:deeper wounds::dirge percussion": {
+    "apex:core:nocturne-hoarfrost:s-147": {
       "cards": [
         "classes/rove/apex/core/nocturne-hoarfrost/rv-deeper-wounds.png",
         "classes/rove/apex/core/nocturne-hoarfrost/rv-dirge-percussion.png"
       ],
       "classKey": "apex:core:nocturne-hoarfrost",
-      "inferredBy": "ocr"
+      "inferredBy": "fallback"
     },
-    "apex:core:nocturne-hoarfrost:ocr:fury s end::scent trail": {
+    "apex:core:nocturne-hoarfrost:s-153": {
       "cards": [
         "classes/rove/apex/core/nocturne-hoarfrost/rv-furys-end.png",
         "classes/rove/apex/core/nocturne-hoarfrost/rv-scent-trail.png"
       ],
       "classKey": "apex:core:nocturne-hoarfrost",
-      "inferredBy": "ocr"
+      "inferredBy": "fallback"
     },
     "apex:core:nocturne-hoarfrost:s-143": {
       "cards": [
@@ -7316,21 +7316,21 @@
       "classKey": "apex:core:nocturne-hoarfrost",
       "inferredBy": "fallback"
     },
-    "apex:xulc:kataphatist:ocr:before you speak::memetic hazard": {
+    "apex:xulc:kataphatist:s-367": {
       "cards": [
         "classes/rove/apex/xulc/kataphatist/rv-before-you-speak.png",
         "classes/rove/apex/xulc/kataphatist/rv-memetic-hazard.png"
       ],
       "classKey": "apex:xulc:kataphatist",
-      "inferredBy": "ocr"
+      "inferredBy": "fallback"
     },
-    "apex:xulc:kataphatist:ocr:cheat sheet::whispered thoughts": {
+    "apex:xulc:kataphatist:s-365": {
       "cards": [
         "classes/rove/apex/xulc/kataphatist/rv-cheat-sheet.png",
         "classes/rove/apex/xulc/kataphatist/rv-whispered-thoughts.png"
       ],
       "classKey": "apex:xulc:kataphatist",
-      "inferredBy": "ocr"
+      "inferredBy": "fallback"
     },
     "apex:xulc:kataphatist:s-369": {
       "cards": [
@@ -7340,7 +7340,7 @@
       "classKey": "apex:xulc:kataphatist",
       "inferredBy": "fallback"
     },
-    "apex:xulc:kataphatist:a-23": {
+    "apex:xulc:kataphatist:summon:divine incomprehensibility": {
       "cards": [
         "classes/rove/apex/xulc/kataphatist/rv-divine-incomprehensibility-back.png",
         "classes/rove/apex/xulc/kataphatist/rv-divine-incomprehensibility-front.png"
@@ -7348,31 +7348,31 @@
       "classKey": "apex:xulc:kataphatist",
       "inferredBy": "fallback"
     },
-    "apex:xulc:kataphatist:ocr:dominant balance::pointed interjection": {
+    "apex:xulc:kataphatist:s-359": {
       "cards": [
         "classes/rove/apex/xulc/kataphatist/rv-dominant-balance.png",
         "classes/rove/apex/xulc/kataphatist/rv-pointed-interjection.png"
       ],
       "classKey": "apex:xulc:kataphatist",
-      "inferredBy": "ocr"
+      "inferredBy": "fallback"
     },
-    "apex:xulc:kataphatist:ocr:ego dissolution::stolen momentum": {
+    "apex:xulc:kataphatist:s-361": {
       "cards": [
         "classes/rove/apex/xulc/kataphatist/rv-ego-dissolution.png",
         "classes/rove/apex/xulc/kataphatist/rv-stolen-momentum.png"
       ],
       "classKey": "apex:xulc:kataphatist",
-      "inferredBy": "ocr"
+      "inferredBy": "fallback"
     },
-    "apex:xulc:kataphatist:ocr:empirical paradox::uncovered clue": {
+    "apex:xulc:kataphatist:s-363": {
       "cards": [
         "classes/rove/apex/xulc/kataphatist/rv-empirical-paradox.png",
         "classes/rove/apex/xulc/kataphatist/rv-uncovered-clue.png"
       ],
       "classKey": "apex:xulc:kataphatist",
-      "inferredBy": "ocr"
+      "inferredBy": "fallback"
     },
-    "apex:xulc:kataphatist:a-22": {
+    "apex:xulc:kataphatist:summon:numinous synchronicity": {
       "cards": [
         "classes/rove/apex/xulc/kataphatist/rv-numinous-synchronicity-back.png",
         "classes/rove/apex/xulc/kataphatist/rv-numinous-synchronicity-front.png"
@@ -7388,45 +7388,45 @@
       "classKey": "apex:xulc:kataphatist",
       "inferredBy": "fallback"
     },
-    "apex:xulc:tempest:ocr:chain lightning::electric flow": {
+    "apex:xulc:tempest:s-311": {
       "cards": [
         "classes/rove/apex/xulc/tempest/rv-chain-lightning.png",
         "classes/rove/apex/xulc/tempest/rv-electric-flow.png"
       ],
       "classKey": "apex:xulc:tempest",
-      "inferredBy": "ocr"
+      "inferredBy": "fallback"
     },
-    "apex:xulc:tempest:ocr:cyclonic separation::least resistance": {
+    "apex:xulc:tempest:s-309": {
       "cards": [
         "classes/rove/apex/xulc/tempest/rv-cyclonic-separation.png",
         "classes/rove/apex/xulc/tempest/rv-least-resistance.png"
       ],
       "classKey": "apex:xulc:tempest",
-      "inferredBy": "ocr"
+      "inferredBy": "fallback"
     },
-    "apex:xulc:tempest:ocr:electric displacement::unstable conduit": {
+    "apex:xulc:tempest:s-307": {
       "cards": [
         "classes/rove/apex/xulc/tempest/rv-electric-displacement.png",
         "classes/rove/apex/xulc/tempest/rv-unstable-conduit.png"
       ],
       "classKey": "apex:xulc:tempest",
-      "inferredBy": "ocr"
+      "inferredBy": "fallback"
     },
-    "apex:xulc:tempest:ocr:electrical stimulation::electro dynamism": {
+    "apex:xulc:tempest:s-315": {
       "cards": [
         "classes/rove/apex/xulc/tempest/rv-electrical-stimulation.png",
         "classes/rove/apex/xulc/tempest/rv-electro-dynamism.png"
       ],
       "classKey": "apex:xulc:tempest",
-      "inferredBy": "ocr"
+      "inferredBy": "fallback"
     },
-    "apex:xulc:tempest:ocr:funneling winds::wind tunnel": {
+    "apex:xulc:tempest:s-303": {
       "cards": [
         "classes/rove/apex/xulc/tempest/rv-funneling-winds.png",
         "classes/rove/apex/xulc/tempest/rv-wind-tunnel.png"
       ],
       "classKey": "apex:xulc:tempest",
-      "inferredBy": "ocr"
+      "inferredBy": "fallback"
     },
     "apex:xulc:tempest:s-305": {
       "cards": [
@@ -7444,95 +7444,95 @@
       "classKey": "apex:xulc:tempest",
       "inferredBy": "fallback"
     },
-    "apex:xulc:vesper-sharpshot:ocr:accumulated frost::peak form": {
+    "apex:xulc:vesper-sharpshot:s-339": {
       "cards": [
         "classes/rove/apex/xulc/vesper-sharpshot/rv-accumulated-frost.png",
         "classes/rove/apex/xulc/vesper-sharpshot/rv-peak-form.png"
       ],
       "classKey": "apex:xulc:vesper-sharpshot",
-      "inferredBy": "ocr"
+      "inferredBy": "fallback"
     },
-    "apex:xulc:vesper-sharpshot:ocr:apex hunter::ground blizzard": {
+    "apex:xulc:vesper-sharpshot:s-333": {
       "cards": [
         "classes/rove/apex/xulc/vesper-sharpshot/rv-apex-hunter.png",
         "classes/rove/apex/xulc/vesper-sharpshot/rv-ground-blizzard.png"
       ],
       "classKey": "apex:xulc:vesper-sharpshot",
-      "inferredBy": "ocr"
+      "inferredBy": "fallback"
     },
-    "apex:xulc:vesper-sharpshot:ocr:avalanche bolt::enveloping flurry": {
+    "apex:xulc:vesper-sharpshot:s-341": {
       "cards": [
         "classes/rove/apex/xulc/vesper-sharpshot/rv-avalanche-bolt.png",
         "classes/rove/apex/xulc/vesper-sharpshot/rv-enveloping-flurry.png"
       ],
       "classKey": "apex:xulc:vesper-sharpshot",
-      "inferredBy": "ocr"
+      "inferredBy": "fallback"
     },
-    "apex:xulc:vesper-sharpshot:ocr:battle chant::nightfall arrow": {
+    "apex:xulc:vesper-sharpshot:s-335": {
       "cards": [
         "classes/rove/apex/xulc/vesper-sharpshot/rv-battle-chant.png",
         "classes/rove/apex/xulc/vesper-sharpshot/rv-nightfall-arrow.png"
       ],
       "classKey": "apex:xulc:vesper-sharpshot",
-      "inferredBy": "ocr"
+      "inferredBy": "fallback"
     },
-    "apex:xulc:vesper-sharpshot:ocr:cloud song::shrieking hail": {
+    "apex:xulc:vesper-sharpshot:s-343": {
       "cards": [
         "classes/rove/apex/xulc/vesper-sharpshot/rv-cloud-song.png",
         "classes/rove/apex/xulc/vesper-sharpshot/rv-shrieking-hail.png"
       ],
       "classKey": "apex:xulc:vesper-sharpshot",
-      "inferredBy": "ocr"
+      "inferredBy": "fallback"
     },
-    "apex:xulc:vesper-sharpshot:ocr:hundred paces::relentless hailstorm": {
+    "apex:xulc:vesper-sharpshot:s-331": {
       "cards": [
         "classes/rove/apex/xulc/vesper-sharpshot/rv-hundred-paces.png",
         "classes/rove/apex/xulc/vesper-sharpshot/rv-relentless-hailstorm.png"
       ],
       "classKey": "apex:xulc:vesper-sharpshot",
-      "inferredBy": "ocr"
+      "inferredBy": "fallback"
     },
-    "apex:xulc:vesper-sharpshot:ocr:quickshot draw::snapfrozen hide": {
+    "apex:xulc:vesper-sharpshot:s-337": {
       "cards": [
         "classes/rove/apex/xulc/vesper-sharpshot/rv-quickshot-draw.png",
         "classes/rove/apex/xulc/vesper-sharpshot/rv-snapfrozen-hide.png"
       ],
       "classKey": "apex:xulc:vesper-sharpshot",
-      "inferredBy": "ocr"
+      "inferredBy": "fallback"
     },
-    "apex:xulc:wellspring-ewer:ocr:ewer of courage::ewer of power": {
+    "apex:xulc:wellspring-ewer:s-287": {
       "cards": [
         "classes/rove/apex/xulc/wellspring-ewer/rv-ewer-of-courage.png",
         "classes/rove/apex/xulc/wellspring-ewer/rv-ewer-of-power.png"
       ],
       "classKey": "apex:xulc:wellspring-ewer",
-      "inferredBy": "ocr"
+      "inferredBy": "fallback"
     },
-    "apex:xulc:wellspring-ewer:ocr:flock together::raging whirlpool": {
+    "apex:xulc:wellspring-ewer:s-275": {
       "cards": [
         "classes/rove/apex/xulc/wellspring-ewer/rv-flock-together.png",
         "classes/rove/apex/xulc/wellspring-ewer/rv-raging-whirlpool.png"
       ],
       "classKey": "apex:xulc:wellspring-ewer",
-      "inferredBy": "ocr"
+      "inferredBy": "fallback"
     },
-    "apex:xulc:wellspring-ewer:ocr:friends of a feather::frost line": {
+    "apex:xulc:wellspring-ewer:s-277": {
       "cards": [
         "classes/rove/apex/xulc/wellspring-ewer/rv-friends-of-a-feather.png",
         "classes/rove/apex/xulc/wellspring-ewer/rv-frost-line.png"
       ],
       "classKey": "apex:xulc:wellspring-ewer",
-      "inferredBy": "ocr"
+      "inferredBy": "fallback"
     },
-    "apex:xulc:wellspring-ewer:ocr:fruits of the earth::miracles of the sky": {
+    "apex:xulc:wellspring-ewer:s-281": {
       "cards": [
         "classes/rove/apex/xulc/wellspring-ewer/rv-fruits-of-the-earth.png",
         "classes/rove/apex/xulc/wellspring-ewer/rv-miracles-of-the-sky.png"
       ],
       "classKey": "apex:xulc:wellspring-ewer",
-      "inferredBy": "ocr"
+      "inferredBy": "fallback"
     },
-    "apex:xulc:wellspring-ewer:a-18": {
+    "apex:xulc:wellspring-ewer:summon:radiant ardorok": {
       "cards": [
         "classes/rove/apex/xulc/wellspring-ewer/rv-radiant-ardorok-back.png",
         "classes/rove/apex/xulc/wellspring-ewer/rv-radiant-ardorok-front.png"
@@ -7540,31 +7540,31 @@
       "classKey": "apex:xulc:wellspring-ewer",
       "inferredBy": "fallback"
     },
-    "apex:xulc:wellspring-ewer:ocr:rushing hail::team huddle": {
+    "apex:xulc:wellspring-ewer:s-283": {
       "cards": [
         "classes/rove/apex/xulc/wellspring-ewer/rv-rushing-hail.png",
         "classes/rove/apex/xulc/wellspring-ewer/rv-team-huddle.png"
       ],
       "classKey": "apex:xulc:wellspring-ewer",
-      "inferredBy": "ocr"
+      "inferredBy": "fallback"
     },
-    "apex:xulc:wellspring-ewer:ocr:silver storm::slipstream flurry": {
+    "apex:xulc:wellspring-ewer:s-285": {
       "cards": [
         "classes/rove/apex/xulc/wellspring-ewer/rv-silver-storm.png",
         "classes/rove/apex/xulc/wellspring-ewer/rv-slipstream-flurry.png"
       ],
       "classKey": "apex:xulc:wellspring-ewer",
-      "inferredBy": "ocr"
+      "inferredBy": "fallback"
     },
-    "apex:xulc:wellspring-ewer:ocr:sing along::sound off": {
+    "apex:xulc:wellspring-ewer:s-279": {
       "cards": [
         "classes/rove/apex/xulc/wellspring-ewer/rv-sing-along.png",
         "classes/rove/apex/xulc/wellspring-ewer/rv-sound-off.png"
       ],
       "classKey": "apex:xulc:wellspring-ewer",
-      "inferredBy": "ocr"
+      "inferredBy": "fallback"
     },
-    "apex:xulc:wellspring-ewer:a-19": {
+    "apex:xulc:wellspring-ewer:summon:sunburst zokolati": {
       "cards": [
         "classes/rove/apex/xulc/wellspring-ewer/rv-sunburst-zokolati-back.png",
         "classes/rove/apex/xulc/wellspring-ewer/rv-sunburst-zokolati-front.png"
@@ -7588,13 +7588,13 @@
       "classKey": "apex:xulc:zero-sum",
       "inferredBy": "fallback"
     },
-    "apex:xulc:zero-sum:ocr:catch release::payoff matrix": {
+    "apex:xulc:zero-sum:s-387": {
       "cards": [
         "classes/rove/apex/xulc/zero-sum/rv-catch-release.png",
         "classes/rove/apex/xulc/zero-sum/rv-payoff-matrix.png"
       ],
       "classKey": "apex:xulc:zero-sum",
-      "inferredBy": "ocr"
+      "inferredBy": "fallback"
     },
     "apex:xulc:zero-sum:s-397": {
       "cards": [
@@ -7604,61 +7604,61 @@
       "classKey": "apex:xulc:zero-sum",
       "inferredBy": "fallback"
     },
-    "apex:xulc:zero-sum:ocr:overwhelm overpower::supply chain": {
+    "apex:xulc:zero-sum:s-389": {
       "cards": [
         "classes/rove/apex/xulc/zero-sum/rv-overwhelm-overpower.png",
         "classes/rove/apex/xulc/zero-sum/rv-supply-chain.png"
       ],
       "classKey": "apex:xulc:zero-sum",
-      "inferredBy": "ocr"
+      "inferredBy": "fallback"
     },
-    "apex:xulc:zero-sum:ocr:they bring famine::they bring flame": {
+    "apex:xulc:zero-sum:s-393": {
       "cards": [
         "classes/rove/apex/xulc/zero-sum/rv-they-bring-famine.png",
         "classes/rove/apex/xulc/zero-sum/rv-they-bring-flame.png"
       ],
       "classKey": "apex:xulc:zero-sum",
-      "inferredBy": "ocr"
+      "inferredBy": "fallback"
     },
-    "apex:xulc:zero-sum:ocr:they bring strife::they bring succor": {
+    "apex:xulc:zero-sum:s-391": {
       "cards": [
         "classes/rove/apex/xulc/zero-sum/rv-they-bring-strife.png",
         "classes/rove/apex/xulc/zero-sum/rv-they-bring-succor.png"
       ],
       "classKey": "apex:xulc:zero-sum",
-      "inferredBy": "ocr"
+      "inferredBy": "fallback"
     },
-    "base:core:dune-dancer:ocr:calm rivers::suffocating spray": {
+    "base:core:dune-dancer:s-5": {
       "cards": [
         "classes/rove/base/core/dune-dancer/rv-calm-rivers.png",
         "classes/rove/base/core/dune-dancer/rv-suffocating-spray.png"
       ],
       "classKey": "base:core:dune-dancer",
-      "inferredBy": "ocr"
+      "inferredBy": "fallback"
     },
-    "base:core:dune-dancer:ocr:camaraderie::enchant body": {
+    "base:core:dune-dancer:s-23": {
       "cards": [
         "classes/rove/base/core/dune-dancer/rv-camaraderie.png",
         "classes/rove/base/core/dune-dancer/rv-enchant-body.png"
       ],
       "classKey": "base:core:dune-dancer",
-      "inferredBy": "ocr"
+      "inferredBy": "fallback"
     },
-    "base:core:dune-dancer:ocr:chill touch::flow of floes": {
+    "base:core:dune-dancer:s-19": {
       "cards": [
         "classes/rove/base/core/dune-dancer/rv-chill-touch.png",
         "classes/rove/base/core/dune-dancer/rv-flow-of-floes.png"
       ],
       "classKey": "base:core:dune-dancer",
-      "inferredBy": "ocr"
+      "inferredBy": "fallback"
     },
-    "base:core:dune-dancer:ocr:clay grasp::desiccating blast": {
+    "base:core:dune-dancer:s-1": {
       "cards": [
         "classes/rove/base/core/dune-dancer/rv-clay-grasp.png",
         "classes/rove/base/core/dune-dancer/rv-desiccating-blast.png"
       ],
       "classKey": "base:core:dune-dancer",
-      "inferredBy": "ocr"
+      "inferredBy": "fallback"
     },
     "base:core:dune-dancer:s-7": {
       "cards": [
@@ -7668,7 +7668,7 @@
       "classKey": "base:core:dune-dancer",
       "inferredBy": "fallback"
     },
-    "base:core:dune-dancer:a-1": {
+    "base:core:dune-dancer:summon:curious ardorok": {
       "cards": [
         "classes/rove/base/core/dune-dancer/rv-curious-ardorok-back.png",
         "classes/rove/base/core/dune-dancer/rv-curious-ardorok-front.png"
@@ -7676,13 +7676,13 @@
       "classKey": "base:core:dune-dancer",
       "inferredBy": "fallback"
     },
-    "base:core:dune-dancer:ocr:dearest friend::gift of the oasis": {
+    "base:core:dune-dancer:s-3": {
       "cards": [
         "classes/rove/base/core/dune-dancer/rv-dearest-friend.png",
         "classes/rove/base/core/dune-dancer/rv-gift-of-the-oasis.png"
       ],
       "classKey": "base:core:dune-dancer",
-      "inferredBy": "ocr"
+      "inferredBy": "fallback"
     },
     "base:core:dune-dancer:s-15": {
       "cards": [
@@ -7692,31 +7692,31 @@
       "classKey": "base:core:dune-dancer",
       "inferredBy": "fallback"
     },
-    "base:core:dune-dancer:ocr:dual assault::granite phalanx": {
+    "base:core:dune-dancer:s-9": {
       "cards": [
         "classes/rove/base/core/dune-dancer/rv-dual-assault.png",
         "classes/rove/base/core/dune-dancer/rv-granite-phalanx.png"
       ],
       "classKey": "base:core:dune-dancer",
-      "inferredBy": "ocr"
+      "inferredBy": "fallback"
     },
-    "base:core:dune-dancer:ocr:earthen shield::healing surge": {
+    "base:core:dune-dancer:s-13": {
       "cards": [
         "classes/rove/base/core/dune-dancer/rv-earthen-shield.png",
         "classes/rove/base/core/dune-dancer/rv-healing-surge.png"
       ],
       "classKey": "base:core:dune-dancer",
-      "inferredBy": "ocr"
+      "inferredBy": "fallback"
     },
-    "base:core:dune-dancer:ocr:oasis reprieve::sand wedge": {
+    "base:core:dune-dancer:s-17": {
       "cards": [
         "classes/rove/base/core/dune-dancer/rv-oasis-reprieve.png",
         "classes/rove/base/core/dune-dancer/rv-sand-wedge.png"
       ],
       "classKey": "base:core:dune-dancer",
-      "inferredBy": "ocr"
+      "inferredBy": "fallback"
     },
-    "base:core:dune-dancer:a-2": {
+    "base:core:dune-dancer:summon:pouncing borejaw": {
       "cards": [
         "classes/rove/base/core/dune-dancer/rv-pouncing-borejaw-back.png",
         "classes/rove/base/core/dune-dancer/rv-pouncing-borejaw-front.png"
@@ -7724,21 +7724,21 @@
       "classKey": "base:core:dune-dancer",
       "inferredBy": "fallback"
     },
-    "base:core:dune-dancer:ocr:quickening sand::rallying cry": {
+    "base:core:dune-dancer:s-11": {
       "cards": [
         "classes/rove/base/core/dune-dancer/rv-quickening-sand.png",
         "classes/rove/base/core/dune-dancer/rv-rallying-cry.png"
       ],
       "classKey": "base:core:dune-dancer",
-      "inferredBy": "ocr"
+      "inferredBy": "fallback"
     },
-    "base:core:dune-dancer:ocr:revitalizing clay::war beast": {
+    "base:core:dune-dancer:s-21": {
       "cards": [
         "classes/rove/base/core/dune-dancer/rv-revitalizing-clay.png",
         "classes/rove/base/core/dune-dancer/rv-war-beast.png"
       ],
       "classKey": "base:core:dune-dancer",
-      "inferredBy": "ocr"
+      "inferredBy": "fallback"
     },
     "base:core:flash:s-55": {
       "cards": [
@@ -7756,13 +7756,13 @@
       "classKey": "base:core:flash",
       "inferredBy": "fallback"
     },
-    "base:core:flash:ocr:blast::transcend": {
+    "base:core:flash:s-57": {
       "cards": [
         "classes/rove/base/core/flash/rv-blast.png",
         "classes/rove/base/core/flash/rv-transcend.png"
       ],
       "classKey": "base:core:flash",
-      "inferredBy": "ocr"
+      "inferredBy": "fallback"
     },
     "base:core:flash:s-69": {
       "cards": [
@@ -7844,29 +7844,29 @@
       "classKey": "base:core:shadow-piercer",
       "inferredBy": "fallback"
     },
-    "base:core:shadow-piercer:ocr:careful aim::devour prey": {
+    "base:core:shadow-piercer:s-109": {
       "cards": [
         "classes/rove/base/core/shadow-piercer/rv-careful-aim.png",
         "classes/rove/base/core/shadow-piercer/rv-devour-prey.png"
       ],
       "classKey": "base:core:shadow-piercer",
-      "inferredBy": "ocr"
+      "inferredBy": "fallback"
     },
-    "base:core:shadow-piercer:ocr:consume vitality::draw from blood": {
+    "base:core:shadow-piercer:s-115": {
       "cards": [
         "classes/rove/base/core/shadow-piercer/rv-consume-vitality.png",
         "classes/rove/base/core/shadow-piercer/rv-draw-from-blood.png"
       ],
       "classKey": "base:core:shadow-piercer",
-      "inferredBy": "ocr"
+      "inferredBy": "fallback"
     },
-    "base:core:shadow-piercer:ocr:crimson curse::ebony blessing": {
+    "base:core:shadow-piercer:s-121": {
       "cards": [
         "classes/rove/base/core/shadow-piercer/rv-crimson-curse.png",
         "classes/rove/base/core/shadow-piercer/rv-ebony-blessing.png"
       ],
       "classKey": "base:core:shadow-piercer",
-      "inferredBy": "ocr"
+      "inferredBy": "fallback"
     },
     "base:core:shadow-piercer:s-117": {
       "cards": [
@@ -7884,21 +7884,21 @@
       "classKey": "base:core:shadow-piercer",
       "inferredBy": "fallback"
     },
-    "base:core:shadow-piercer:ocr:drain essence::keen bolter": {
+    "base:core:shadow-piercer:s-123": {
       "cards": [
         "classes/rove/base/core/shadow-piercer/rv-drain-essence.png",
         "classes/rove/base/core/shadow-piercer/rv-keen-bolter.png"
       ],
       "classKey": "base:core:shadow-piercer",
-      "inferredBy": "ocr"
+      "inferredBy": "fallback"
     },
-    "base:core:shadow-piercer:ocr:eviscerate::passing knell": {
+    "base:core:shadow-piercer:s-107": {
       "cards": [
         "classes/rove/base/core/shadow-piercer/rv-eviscerate.png",
         "classes/rove/base/core/shadow-piercer/rv-passing-knell.png"
       ],
       "classKey": "base:core:shadow-piercer",
-      "inferredBy": "ocr"
+      "inferredBy": "fallback"
     },
     "base:core:shadow-piercer:s-127": {
       "cards": [
@@ -7908,21 +7908,21 @@
       "classKey": "base:core:shadow-piercer",
       "inferredBy": "fallback"
     },
-    "base:core:shadow-piercer:ocr:grace note::umbral howl": {
+    "base:core:shadow-piercer:s-125": {
       "cards": [
         "classes/rove/base/core/shadow-piercer/rv-grace-note.png",
         "classes/rove/base/core/shadow-piercer/rv-umbral-howl.png"
       ],
       "classKey": "base:core:shadow-piercer",
-      "inferredBy": "ocr"
+      "inferredBy": "fallback"
     },
-    "base:core:shadow-piercer:ocr:invigorate::miasmic arrow": {
+    "base:core:shadow-piercer:s-113": {
       "cards": [
         "classes/rove/base/core/shadow-piercer/rv-invigorate.png",
         "classes/rove/base/core/shadow-piercer/rv-miasmic-arrow.png"
       ],
       "classKey": "base:core:shadow-piercer",
-      "inferredBy": "ocr"
+      "inferredBy": "fallback"
     },
     "base:core:shadow-piercer:s-119": {
       "cards": [
@@ -7932,7 +7932,7 @@
       "classKey": "base:core:shadow-piercer",
       "inferredBy": "fallback"
     },
-    "base:core:sophist:a-6": {
+    "base:core:sophist:summon:alluring armoroll": {
       "cards": [
         "classes/rove/base/core/sophist/rv-alluring-armoroll-back.png",
         "classes/rove/base/core/sophist/rv-alluring-armoroll-front.png"
@@ -7948,63 +7948,63 @@
       "classKey": "base:core:sophist",
       "inferredBy": "fallback"
     },
-    "base:core:sophist:ocr:bitter realization::ready in mind": {
+    "base:core:sophist:s-171": {
       "cards": [
         "classes/rove/base/core/sophist/rv-bitter-realization.png",
         "classes/rove/base/core/sophist/rv-ready-in-mind.png"
       ],
       "classKey": "base:core:sophist",
-      "inferredBy": "ocr"
+      "inferredBy": "fallback"
     },
-    "base:core:sophist:ocr:blustery rebuke::echo chamber": {
+    "base:core:sophist:s-157": {
       "cards": [
         "classes/rove/base/core/sophist/rv-blustery-rebuke.png",
         "classes/rove/base/core/sophist/rv-echo-chamber.png"
       ],
       "classKey": "base:core:sophist",
-      "inferredBy": "ocr"
+      "inferredBy": "fallback"
     },
-    "base:core:sophist:ocr:conceptualism::second wind": {
+    "base:core:sophist:s-177": {
       "cards": [
         "classes/rove/base/core/sophist/rv-conceptualism.png",
         "classes/rove/base/core/sophist/rv-second-wind.png"
       ],
       "classKey": "base:core:sophist",
-      "inferredBy": "ocr"
+      "inferredBy": "fallback"
     },
-    "base:core:sophist:ocr:confound::dance of rays": {
+    "base:core:sophist:s-169": {
       "cards": [
         "classes/rove/base/core/sophist/rv-confound.png",
         "classes/rove/base/core/sophist/rv-dance-of-rays.png"
       ],
       "classKey": "base:core:sophist",
-      "inferredBy": "ocr"
+      "inferredBy": "fallback"
     },
-    "base:core:sophist:ocr:dazzling strike::moment s respite": {
+    "base:core:sophist:s-159": {
       "cards": [
         "classes/rove/base/core/sophist/rv-dazzling-strike.png",
         "classes/rove/base/core/sophist/rv-moments-respite.png"
       ],
       "classKey": "base:core:sophist",
-      "inferredBy": "ocr"
+      "inferredBy": "fallback"
     },
-    "base:core:sophist:ocr:essentialism::pure sophistry": {
+    "base:core:sophist:s-175": {
       "cards": [
         "classes/rove/base/core/sophist/rv-essentialism.png",
         "classes/rove/base/core/sophist/rv-pure-sophistry.png"
       ],
       "classKey": "base:core:sophist",
-      "inferredBy": "ocr"
+      "inferredBy": "fallback"
     },
-    "base:core:sophist:ocr:intense curiosity::isolation agitation": {
+    "base:core:sophist:s-179": {
       "cards": [
         "classes/rove/base/core/sophist/rv-intense-curiosity.png",
         "classes/rove/base/core/sophist/rv-isolation-agitation.png"
       ],
       "classKey": "base:core:sophist",
-      "inferredBy": "ocr"
+      "inferredBy": "fallback"
     },
-    "base:core:sophist:a-5": {
+    "base:core:sophist:summon:luminescent hyperbola": {
       "cards": [
         "classes/rove/base/core/sophist/rv-luminescent-hyperbola-back.png",
         "classes/rove/base/core/sophist/rv-luminescent-hyperbola-front.png"
@@ -8012,15 +8012,15 @@
       "classKey": "base:core:sophist",
       "inferredBy": "fallback"
     },
-    "base:core:sophist:ocr:lustrous flare::unnatural defenses": {
+    "base:core:sophist:s-165": {
       "cards": [
         "classes/rove/base/core/sophist/rv-lustrous-flare.png",
         "classes/rove/base/core/sophist/rv-unnatural-defenses.png"
       ],
       "classKey": "base:core:sophist",
-      "inferredBy": "ocr"
+      "inferredBy": "fallback"
     },
-    "base:core:sophist:a-7": {
+    "base:core:sophist:summon:radiant aerios": {
       "cards": [
         "classes/rove/base/core/sophist/rv-radiant-aerios-back.png",
         "classes/rove/base/core/sophist/rv-radiant-aerios-front.png"
@@ -8028,29 +8028,29 @@
       "classKey": "base:core:sophist",
       "inferredBy": "fallback"
     },
-    "base:core:sophist:ocr:scintillating darts::sudden debate": {
+    "base:core:sophist:s-173": {
       "cards": [
         "classes/rove/base/core/sophist/rv-scintillating-darts.png",
         "classes/rove/base/core/sophist/rv-sudden-debate.png"
       ],
       "classKey": "base:core:sophist",
-      "inferredBy": "ocr"
+      "inferredBy": "fallback"
     },
-    "base:core:sophist:ocr:shifts in the wind::trick of the light": {
+    "base:core:sophist:s-161": {
       "cards": [
         "classes/rove/base/core/sophist/rv-shifts-in-the-wind.png",
         "classes/rove/base/core/sophist/rv-trick-of-the-light.png"
       ],
       "classKey": "base:core:sophist",
-      "inferredBy": "ocr"
+      "inferredBy": "fallback"
     },
-    "base:core:sophist:ocr:sound barrier::watch your step": {
+    "base:core:sophist:s-167": {
       "cards": [
         "classes/rove/base/core/sophist/rv-sound-barrier.png",
         "classes/rove/base/core/sophist/rv-watch-your-step.png"
       ],
       "classKey": "base:core:sophist",
-      "inferredBy": "ocr"
+      "inferredBy": "fallback"
     },
     "base:core:true-scale:s-221": {
       "cards": [
@@ -8068,69 +8068,69 @@
       "classKey": "base:core:true-scale",
       "inferredBy": "fallback"
     },
-    "base:core:true-scale:ocr:blast step::traitorous thoughts": {
+    "base:core:true-scale:s-217": {
       "cards": [
         "classes/rove/base/core/true-scale/rv-blast-step.png",
         "classes/rove/base/core/true-scale/rv-traitorous-thoughts.png"
       ],
       "classKey": "base:core:true-scale",
-      "inferredBy": "ocr"
+      "inferredBy": "fallback"
     },
-    "base:core:true-scale:ocr:coordinated assault::settling groundwork": {
+    "base:core:true-scale:s-213": {
       "cards": [
         "classes/rove/base/core/true-scale/rv-coordinated-assault.png",
         "classes/rove/base/core/true-scale/rv-settling-groundwork.png"
       ],
       "classKey": "base:core:true-scale",
-      "inferredBy": "ocr"
+      "inferredBy": "fallback"
     },
-    "base:core:true-scale:ocr:credit::toll bearer": {
+    "base:core:true-scale:s-231": {
       "cards": [
         "classes/rove/base/core/true-scale/rv-credit.png",
         "classes/rove/base/core/true-scale/rv-toll-bearer.png"
       ],
       "classKey": "base:core:true-scale",
-      "inferredBy": "ocr"
+      "inferredBy": "fallback"
     },
-    "base:core:true-scale:ocr:divesting thoughts::safe cracker": {
+    "base:core:true-scale:s-227": {
       "cards": [
         "classes/rove/base/core/true-scale/rv-divesting-thoughts.png",
         "classes/rove/base/core/true-scale/rv-safe-cracker.png"
       ],
       "classKey": "base:core:true-scale",
-      "inferredBy": "ocr"
+      "inferredBy": "fallback"
     },
-    "base:core:true-scale:ocr:embezzle::fierce ransomer": {
+    "base:core:true-scale:s-229": {
       "cards": [
         "classes/rove/base/core/true-scale/rv-embezzle.png",
         "classes/rove/base/core/true-scale/rv-fierce-ransomer.png"
       ],
       "classKey": "base:core:true-scale",
-      "inferredBy": "ocr"
+      "inferredBy": "fallback"
     },
-    "base:core:true-scale:ocr:initial investment::psychic scars": {
+    "base:core:true-scale:s-225": {
       "cards": [
         "classes/rove/base/core/true-scale/rv-initial-investment.png",
         "classes/rove/base/core/true-scale/rv-psychic-scars.png"
       ],
       "classKey": "base:core:true-scale",
-      "inferredBy": "ocr"
+      "inferredBy": "fallback"
     },
-    "base:core:true-scale:ocr:intrusive thoughts::ruthless assault": {
+    "base:core:true-scale:s-215": {
       "cards": [
         "classes/rove/base/core/true-scale/rv-intrusive-thoughts.png",
         "classes/rove/base/core/true-scale/rv-ruthless-assault.png"
       ],
       "classKey": "base:core:true-scale",
-      "inferredBy": "ocr"
+      "inferredBy": "fallback"
     },
-    "base:core:true-scale:ocr:knock senseless::shell games": {
+    "base:core:true-scale:s-209": {
       "cards": [
         "classes/rove/base/core/true-scale/rv-knock-senseless.png",
         "classes/rove/base/core/true-scale/rv-shell-games.png"
       ],
       "classKey": "base:core:true-scale",
-      "inferredBy": "ocr"
+      "inferredBy": "fallback"
     },
     "base:core:true-scale:s-223": {
       "cards": [
@@ -8148,29 +8148,29 @@
       "classKey": "base:core:true-scale",
       "inferredBy": "fallback"
     },
-    "prime:core:conceptualist:ocr:balance the equation::simple refraction": {
+    "prime:core:conceptualist:s-187": {
       "cards": [
         "classes/rove/prime/core/conceptualist/rv-balance-the-equation.png",
         "classes/rove/prime/core/conceptualist/rv-simple-refraction.png"
       ],
       "classKey": "prime:core:conceptualist",
-      "inferredBy": "ocr"
+      "inferredBy": "fallback"
     },
-    "prime:core:conceptualist:ocr:coefficient value::two step method": {
+    "prime:core:conceptualist:s-191": {
       "cards": [
         "classes/rove/prime/core/conceptualist/rv-coefficient-value.png",
         "classes/rove/prime/core/conceptualist/rv-two-step-method.png"
       ],
       "classKey": "prime:core:conceptualist",
-      "inferredBy": "ocr"
+      "inferredBy": "fallback"
     },
-    "prime:core:conceptualist:ocr:guiding the discussion::point of pursuit": {
+    "prime:core:conceptualist:s-183": {
       "cards": [
         "classes/rove/prime/core/conceptualist/rv-guiding-the-discussion.png",
         "classes/rove/prime/core/conceptualist/rv-point-of-pursuit.png"
       ],
       "classKey": "prime:core:conceptualist",
-      "inferredBy": "ocr"
+      "inferredBy": "fallback"
     },
     "prime:core:conceptualist:s-193": {
       "cards": [
@@ -8180,13 +8180,13 @@
       "classKey": "prime:core:conceptualist",
       "inferredBy": "fallback"
     },
-    "prime:core:conceptualist:ocr:inner monologue::radiant spinaerios": {
+    "prime:core:conceptualist:s-181": {
       "cards": [
         "classes/rove/prime/core/conceptualist/rv-inner-monologue.png",
         "classes/rove/prime/core/conceptualist/rv-radiant-spinaerios.png"
       ],
       "classKey": "prime:core:conceptualist",
-      "inferredBy": "ocr"
+      "inferredBy": "fallback"
     },
     "prime:core:conceptualist:s-185": {
       "cards": [
@@ -8196,7 +8196,7 @@
       "classKey": "prime:core:conceptualist",
       "inferredBy": "fallback"
     },
-    "prime:core:conceptualist:a-8": {
+    "prime:core:conceptualist:summon:luminescent quartic": {
       "cards": [
         "classes/rove/prime/core/conceptualist/rv-luminescent-quartic-back.png",
         "classes/rove/prime/core/conceptualist/rv-luminescent-quartic-front.png"
@@ -8204,15 +8204,15 @@
       "classKey": "prime:core:conceptualist",
       "inferredBy": "fallback"
     },
-    "prime:core:conceptualist:ocr:motivational speeches::the oldest trick": {
+    "prime:core:conceptualist:s-189": {
       "cards": [
         "classes/rove/prime/core/conceptualist/rv-motivational-speeches.png",
         "classes/rove/prime/core/conceptualist/rv-the-oldest-trick.png"
       ],
       "classKey": "prime:core:conceptualist",
-      "inferredBy": "ocr"
+      "inferredBy": "fallback"
     },
-    "prime:core:conceptualist:a-9": {
+    "prime:core:conceptualist:summon:radiant spinaerios": {
       "cards": [
         "classes/rove/prime/core/conceptualist/rv-radiant-spinaerios-back.png",
         "classes/rove/prime/core/conceptualist/rv-radiant-spinaerios-front.png"
@@ -8220,13 +8220,13 @@
       "classKey": "prime:core:conceptualist",
       "inferredBy": "fallback"
     },
-    "prime:core:helion:ocr:blazing trail::fire volley": {
+    "prime:core:helion:s-79": {
       "cards": [
         "classes/rove/prime/core/helion/rv-blazing-trail.png",
         "classes/rove/prime/core/helion/rv-fire-volley.png"
       ],
       "classKey": "prime:core:helion",
-      "inferredBy": "ocr"
+      "inferredBy": "fallback"
     },
     "prime:core:helion:s-87": {
       "cards": [
@@ -8252,31 +8252,31 @@
       "classKey": "prime:core:helion",
       "inferredBy": "fallback"
     },
-    "prime:core:helion:ocr:fueled fire::spontaneous combustion": {
+    "prime:core:helion:s-81": {
       "cards": [
         "classes/rove/prime/core/helion/rv-fueled-fire.png",
         "classes/rove/prime/core/helion/rv-spontaneous-combustion.png"
       ],
       "classKey": "prime:core:helion",
-      "inferredBy": "ocr"
+      "inferredBy": "fallback"
     },
-    "prime:core:helion:ocr:hot air::smoldering embers": {
+    "prime:core:helion:s-89": {
       "cards": [
         "classes/rove/prime/core/helion/rv-hot-air.png",
         "classes/rove/prime/core/helion/rv-smoldering-embers.png"
       ],
       "classKey": "prime:core:helion",
-      "inferredBy": "ocr"
+      "inferredBy": "fallback"
     },
-    "prime:core:helion:ocr:sudden bellows::wind barrier": {
+    "prime:core:helion:s-83": {
       "cards": [
         "classes/rove/prime/core/helion/rv-sudden-bellows.png",
         "classes/rove/prime/core/helion/rv-wind-barrier.png"
       ],
       "classKey": "prime:core:helion",
-      "inferredBy": "ocr"
+      "inferredBy": "fallback"
     },
-    "prime:core:ridge-striker:a-3": {
+    "prime:core:ridge-striker:summon:adamant ardorok": {
       "cards": [
         "classes/rove/prime/core/ridge-striker/rv-adamant-ardorok-back.png",
         "classes/rove/prime/core/ridge-striker/rv-adamant-ardorok-front.png"
@@ -8284,61 +8284,61 @@
       "classKey": "prime:core:ridge-striker",
       "inferredBy": "fallback"
     },
-    "prime:core:ridge-striker:ocr:arid valley::enduring valley": {
+    "prime:core:ridge-striker:s-33": {
       "cards": [
         "classes/rove/prime/core/ridge-striker/rv-arid-valley.png",
         "classes/rove/prime/core/ridge-striker/rv-enduring-valley.png"
       ],
       "classKey": "prime:core:ridge-striker",
-      "inferredBy": "ocr"
+      "inferredBy": "fallback"
     },
-    "prime:core:ridge-striker:ocr:clay cage::tectonic clash": {
+    "prime:core:ridge-striker:s-25": {
       "cards": [
         "classes/rove/prime/core/ridge-striker/rv-clay-cage.png",
         "classes/rove/prime/core/ridge-striker/rv-tectonic-clash.png"
       ],
       "classKey": "prime:core:ridge-striker",
-      "inferredBy": "ocr"
+      "inferredBy": "fallback"
     },
-    "prime:core:ridge-striker:ocr:desert night::sand storm": {
+    "prime:core:ridge-striker:s-35": {
       "cards": [
         "classes/rove/prime/core/ridge-striker/rv-desert-night.png",
         "classes/rove/prime/core/ridge-striker/rv-sand-storm.png"
       ],
       "classKey": "prime:core:ridge-striker",
-      "inferredBy": "ocr"
+      "inferredBy": "fallback"
     },
-    "prime:core:ridge-striker:ocr:dual talons::oasis clemency": {
+    "prime:core:ridge-striker:s-31": {
       "cards": [
         "classes/rove/prime/core/ridge-striker/rv-dual-talons.png",
         "classes/rove/prime/core/ridge-striker/rv-oasis-clemency.png"
       ],
       "classKey": "prime:core:ridge-striker",
-      "inferredBy": "ocr"
+      "inferredBy": "fallback"
     },
-    "prime:core:ridge-striker:ocr:earthen armor::shifted sands": {
+    "prime:core:ridge-striker:s-37": {
       "cards": [
         "classes/rove/prime/core/ridge-striker/rv-earthen-armor.png",
         "classes/rove/prime/core/ridge-striker/rv-shifted-sands.png"
       ],
       "classKey": "prime:core:ridge-striker",
-      "inferredBy": "ocr"
+      "inferredBy": "fallback"
     },
-    "prime:core:ridge-striker:ocr:lent patience::lent strength": {
+    "prime:core:ridge-striker:s-29": {
       "cards": [
         "classes/rove/prime/core/ridge-striker/rv-lent-patience.png",
         "classes/rove/prime/core/ridge-striker/rv-lent-strength.png"
       ],
       "classKey": "prime:core:ridge-striker",
-      "inferredBy": "ocr"
+      "inferredBy": "fallback"
     },
-    "prime:core:ridge-striker:ocr:searching sands::venerated friend": {
+    "prime:core:ridge-striker:s-27": {
       "cards": [
         "classes/rove/prime/core/ridge-striker/rv-searching-sands.png",
         "classes/rove/prime/core/ridge-striker/rv-venerated-friend.png"
       ],
       "classKey": "prime:core:ridge-striker",
-      "inferredBy": "ocr"
+      "inferredBy": "fallback"
     },
     "prime:core:toll-bearer:s-239": {
       "cards": [
@@ -8348,37 +8348,37 @@
       "classKey": "prime:core:toll-bearer",
       "inferredBy": "fallback"
     },
-    "prime:core:toll-bearer:ocr:call the cavalry::strain the nerve": {
+    "prime:core:toll-bearer:s-237": {
       "cards": [
         "classes/rove/prime/core/toll-bearer/rv-call-the-cavalry.png",
         "classes/rove/prime/core/toll-bearer/rv-strain-the-nerve.png"
       ],
       "classKey": "prime:core:toll-bearer",
-      "inferredBy": "ocr"
+      "inferredBy": "fallback"
     },
-    "prime:core:toll-bearer:ocr:collected dividends::siege position": {
+    "prime:core:toll-bearer:s-233": {
       "cards": [
         "classes/rove/prime/core/toll-bearer/rv-collected-dividends.png",
         "classes/rove/prime/core/toll-bearer/rv-siege-position.png"
       ],
       "classKey": "prime:core:toll-bearer",
-      "inferredBy": "ocr"
+      "inferredBy": "fallback"
     },
-    "prime:core:toll-bearer:ocr:defensive formula::fire arum grit": {
+    "prime:core:toll-bearer:s-241": {
       "cards": [
         "classes/rove/prime/core/toll-bearer/rv-defensive-formula.png",
         "classes/rove/prime/core/toll-bearer/rv-fire-arum-grit.png"
       ],
       "classKey": "prime:core:toll-bearer",
-      "inferredBy": "ocr"
+      "inferredBy": "fallback"
     },
-    "prime:core:toll-bearer:ocr:devastating charge::stolen valor": {
+    "prime:core:toll-bearer:s-245": {
       "cards": [
         "classes/rove/prime/core/toll-bearer/rv-devastating-charge.png",
         "classes/rove/prime/core/toll-bearer/rv-stolen-valor.png"
       ],
       "classKey": "prime:core:toll-bearer",
-      "inferredBy": "ocr"
+      "inferredBy": "fallback"
     },
     "prime:core:toll-bearer:s-243": {
       "cards": [
@@ -8388,13 +8388,13 @@
       "classKey": "prime:core:toll-bearer",
       "inferredBy": "fallback"
     },
-    "prime:core:toll-bearer:ocr:recoup losses::short leash": {
+    "prime:core:toll-bearer:s-235": {
       "cards": [
         "classes/rove/prime/core/toll-bearer/rv-recoup-losses.png",
         "classes/rove/prime/core/toll-bearer/rv-short-leash.png"
       ],
       "classKey": "prime:core:toll-bearer",
-      "inferredBy": "ocr"
+      "inferredBy": "fallback"
     },
     "prime:core:umbral-howl:s-135": {
       "cards": [
@@ -8412,13 +8412,13 @@
       "classKey": "prime:core:umbral-howl",
       "inferredBy": "fallback"
     },
-    "prime:core:umbral-howl:ocr:meditative trance::tapered reverb": {
+    "prime:core:umbral-howl:s-139": {
       "cards": [
         "classes/rove/prime/core/umbral-howl/rv-meditative-trance.png",
         "classes/rove/prime/core/umbral-howl/rv-tapered-reverb.png"
       ],
       "classKey": "prime:core:umbral-howl",
-      "inferredBy": "ocr"
+      "inferredBy": "fallback"
     },
     "prime:core:umbral-howl:s-137": {
       "cards": [
@@ -8428,13 +8428,13 @@
       "classKey": "prime:core:umbral-howl",
       "inferredBy": "fallback"
     },
-    "prime:core:umbral-howl:ocr:out for blood::renewed vitality": {
+    "prime:core:umbral-howl:s-133": {
       "cards": [
         "classes/rove/prime/core/umbral-howl/rv-out-for-blood.png",
         "classes/rove/prime/core/umbral-howl/rv-renewed-vitality.png"
       ],
       "classKey": "prime:core:umbral-howl",
-      "inferredBy": "ocr"
+      "inferredBy": "fallback"
     },
     "prime:core:umbral-howl:s-131": {
       "cards": [
@@ -8452,13 +8452,13 @@
       "classKey": "prime:core:umbral-howl",
       "inferredBy": "fallback"
     },
-    "prime:xulc:essentialist:ocr:agree to disagree::strawman fallacy": {
+    "prime:xulc:essentialist:s-347": {
       "cards": [
         "classes/rove/prime/xulc/essentialist/rv-agree-to-disagree.png",
         "classes/rove/prime/xulc/essentialist/rv-strawman-fallacy.png"
       ],
       "classKey": "prime:xulc:essentialist",
-      "inferredBy": "ocr"
+      "inferredBy": "fallback"
     },
     "prime:xulc:essentialist:s-351": {
       "cards": [
@@ -8476,31 +8476,31 @@
       "classKey": "prime:xulc:essentialist",
       "inferredBy": "fallback"
     },
-    "prime:xulc:essentialist:ocr:heads up::sleight of hand": {
+    "prime:xulc:essentialist:s-345": {
       "cards": [
         "classes/rove/prime/xulc/essentialist/rv-heads-up.png",
         "classes/rove/prime/xulc/essentialist/rv-sleight-of-hand.png"
       ],
       "classKey": "prime:xulc:essentialist",
-      "inferredBy": "ocr"
+      "inferredBy": "fallback"
     },
-    "prime:xulc:essentialist:ocr:leading term::power function": {
+    "prime:xulc:essentialist:s-353": {
       "cards": [
         "classes/rove/prime/xulc/essentialist/rv-leading-term.png",
         "classes/rove/prime/xulc/essentialist/rv-power-function.png"
       ],
       "classKey": "prime:xulc:essentialist",
-      "inferredBy": "ocr"
+      "inferredBy": "fallback"
     },
-    "prime:xulc:essentialist:ocr:lessened lessons::press gang": {
+    "prime:xulc:essentialist:s-355": {
       "cards": [
         "classes/rove/prime/xulc/essentialist/rv-lessened-lessons.png",
         "classes/rove/prime/xulc/essentialist/rv-press-gang.png"
       ],
       "classKey": "prime:xulc:essentialist",
-      "inferredBy": "ocr"
+      "inferredBy": "fallback"
     },
-    "prime:xulc:essentialist:a-20": {
+    "prime:xulc:essentialist:summon:luminescent hyperbola": {
       "cards": [
         "classes/rove/prime/xulc/essentialist/rv-luminescent-hyperbola-back.png",
         "classes/rove/prime/xulc/essentialist/rv-luminescent-hyperbola-front.png"
@@ -8516,7 +8516,7 @@
       "classKey": "prime:xulc:essentialist",
       "inferredBy": "fallback"
     },
-    "prime:xulc:essentialist:a-21": {
+    "prime:xulc:essentialist:summon:prestidigitation": {
       "cards": [
         "classes/rove/prime/xulc/essentialist/rv-prestidigitation-back.png",
         "classes/rove/prime/xulc/essentialist/rv-prestidigitation-front.png"
@@ -8524,53 +8524,53 @@
       "classKey": "prime:xulc:essentialist",
       "inferredBy": "fallback"
     },
-    "prime:xulc:fierce-ransomer:ocr:breach clear::confuse disorient": {
+    "prime:xulc:fierce-ransomer:s-375": {
       "cards": [
         "classes/rove/prime/xulc/fierce-ransomer/rv-breach-clear.png",
         "classes/rove/prime/xulc/fierce-ransomer/rv-confuse-disorient.png"
       ],
       "classKey": "prime:xulc:fierce-ransomer",
-      "inferredBy": "ocr"
+      "inferredBy": "fallback"
     },
-    "prime:xulc:fierce-ransomer:ocr:collect dispose::shipping handling": {
+    "prime:xulc:fierce-ransomer:s-385": {
       "cards": [
         "classes/rove/prime/xulc/fierce-ransomer/rv-collect-dispose.png",
         "classes/rove/prime/xulc/fierce-ransomer/rv-shipping-handling.png"
       ],
       "classKey": "prime:xulc:fierce-ransomer",
-      "inferredBy": "ocr"
+      "inferredBy": "fallback"
     },
-    "prime:xulc:fierce-ransomer:ocr:control sweep::seek clarify": {
+    "prime:xulc:fierce-ransomer:s-373": {
       "cards": [
         "classes/rove/prime/xulc/fierce-ransomer/rv-control-sweep.png",
         "classes/rove/prime/xulc/fierce-ransomer/rv-seek-clarify.png"
       ],
       "classKey": "prime:xulc:fierce-ransomer",
-      "inferredBy": "ocr"
+      "inferredBy": "fallback"
     },
-    "prime:xulc:fierce-ransomer:ocr:organize facilitate::reconcile redistribute": {
+    "prime:xulc:fierce-ransomer:s-383": {
       "cards": [
         "classes/rove/prime/xulc/fierce-ransomer/rv-organize-facilitate.png",
         "classes/rove/prime/xulc/fierce-ransomer/rv-reconcile-redistribute.png"
       ],
       "classKey": "prime:xulc:fierce-ransomer",
-      "inferredBy": "ocr"
+      "inferredBy": "fallback"
     },
-    "prime:xulc:fierce-ransomer:ocr:pierce the veil::stoke the flames": {
+    "prime:xulc:fierce-ransomer:s-379": {
       "cards": [
         "classes/rove/prime/xulc/fierce-ransomer/rv-pierce-the-veil.png",
         "classes/rove/prime/xulc/fierce-ransomer/rv-stoke-the-flames.png"
       ],
       "classKey": "prime:xulc:fierce-ransomer",
-      "inferredBy": "ocr"
+      "inferredBy": "fallback"
     },
-    "prime:xulc:fierce-ransomer:ocr:push the luck::resist the thought": {
+    "prime:xulc:fierce-ransomer:s-377": {
       "cards": [
         "classes/rove/prime/xulc/fierce-ransomer/rv-push-the-luck.png",
         "classes/rove/prime/xulc/fierce-ransomer/rv-resist-the-thought.png"
       ],
       "classKey": "prime:xulc:fierce-ransomer",
-      "inferredBy": "ocr"
+      "inferredBy": "fallback"
     },
     "prime:xulc:fierce-ransomer:s-381": {
       "cards": [
@@ -8580,37 +8580,37 @@
       "classKey": "prime:xulc:fierce-ransomer",
       "inferredBy": "fallback"
     },
-    "prime:xulc:fountain-caller:ocr:biting cold::refreshing chill": {
+    "prime:xulc:fountain-caller:s-273": {
       "cards": [
         "classes/rove/prime/xulc/fountain-caller/rv-biting-cold.png",
         "classes/rove/prime/xulc/fountain-caller/rv-refreshing-chill.png"
       ],
       "classKey": "prime:xulc:fountain-caller",
-      "inferredBy": "ocr"
+      "inferredBy": "fallback"
     },
-    "prime:xulc:fountain-caller:ocr:call and response::chilling reminder": {
+    "prime:xulc:fountain-caller:s-269": {
       "cards": [
         "classes/rove/prime/xulc/fountain-caller/rv-call-and-response.png",
         "classes/rove/prime/xulc/fountain-caller/rv-chilling-reminder.png"
       ],
       "classKey": "prime:xulc:fountain-caller",
-      "inferredBy": "ocr"
+      "inferredBy": "fallback"
     },
-    "prime:xulc:fountain-caller:ocr:cherished friend::freezing spiral": {
+    "prime:xulc:fountain-caller:s-263": {
       "cards": [
         "classes/rove/prime/xulc/fountain-caller/rv-cherished-friend.png",
         "classes/rove/prime/xulc/fountain-caller/rv-freezing-spiral.png"
       ],
       "classKey": "prime:xulc:fountain-caller",
-      "inferredBy": "ocr"
+      "inferredBy": "fallback"
     },
-    "prime:xulc:fountain-caller:ocr:cold shoulder::surging tides": {
+    "prime:xulc:fountain-caller:s-271": {
       "cards": [
         "classes/rove/prime/xulc/fountain-caller/rv-cold-shoulder.png",
         "classes/rove/prime/xulc/fountain-caller/rv-surging-tides.png"
       ],
       "classKey": "prime:xulc:fountain-caller",
-      "inferredBy": "ocr"
+      "inferredBy": "fallback"
     },
     "prime:xulc:fountain-caller:s-265": {
       "cards": [
@@ -8628,7 +8628,7 @@
       "classKey": "prime:xulc:fountain-caller",
       "inferredBy": "fallback"
     },
-    "prime:xulc:fountain-caller:a-17": {
+    "prime:xulc:fountain-caller:summon:growing typhon": {
       "cards": [
         "classes/rove/prime/xulc/fountain-caller/rv-growing-typhon-back.png",
         "classes/rove/prime/xulc/fountain-caller/rv-growing-typhon-front.png"
@@ -8636,7 +8636,7 @@
       "classKey": "prime:xulc:fountain-caller",
       "inferredBy": "fallback"
     },
-    "prime:xulc:fountain-caller:a-16": {
+    "prime:xulc:fountain-caller:summon:resplendent ardorok": {
       "cards": [
         "classes/rove/prime/xulc/fountain-caller/rv-resplendent-ardorok-back.png",
         "classes/rove/prime/xulc/fountain-caller/rv-resplendent-ardorok-front.png"
@@ -8708,45 +8708,45 @@
       "classKey": "prime:xulc:keening-bolt",
       "inferredBy": "fallback"
     },
-    "prime:xulc:mistral:ocr:calm skies::charged air": {
+    "prime:xulc:mistral:s-293": {
       "cards": [
         "classes/rove/prime/xulc/mistral/rv-calm-skies.png",
         "classes/rove/prime/xulc/mistral/rv-charged-air.png"
       ],
       "classKey": "prime:xulc:mistral",
-      "inferredBy": "ocr"
+      "inferredBy": "fallback"
     },
-    "prime:xulc:mistral:ocr:cloud burst::rolling thunderstorm": {
+    "prime:xulc:mistral:s-291": {
       "cards": [
         "classes/rove/prime/xulc/mistral/rv-cloud-burst.png",
         "classes/rove/prime/xulc/mistral/rv-rolling-thunderstorm.png"
       ],
       "classKey": "prime:xulc:mistral",
-      "inferredBy": "ocr"
+      "inferredBy": "fallback"
     },
-    "prime:xulc:mistral:ocr:controlled gusts::weather control": {
+    "prime:xulc:mistral:s-299": {
       "cards": [
         "classes/rove/prime/xulc/mistral/rv-controlled-gusts.png",
         "classes/rove/prime/xulc/mistral/rv-weather-control.png"
       ],
       "classKey": "prime:xulc:mistral",
-      "inferredBy": "ocr"
+      "inferredBy": "fallback"
     },
-    "prime:xulc:mistral:ocr:lightning strike::wind break": {
+    "prime:xulc:mistral:s-301": {
       "cards": [
         "classes/rove/prime/xulc/mistral/rv-lightning-strike.png",
         "classes/rove/prime/xulc/mistral/rv-wind-break.png"
       ],
       "classKey": "prime:xulc:mistral",
-      "inferredBy": "ocr"
+      "inferredBy": "fallback"
     },
-    "prime:xulc:mistral:ocr:pressure shift::wind wall": {
+    "prime:xulc:mistral:s-295": {
       "cards": [
         "classes/rove/prime/xulc/mistral/rv-pressure-shift.png",
         "classes/rove/prime/xulc/mistral/rv-wind-wall.png"
       ],
       "classKey": "prime:xulc:mistral",
-      "inferredBy": "ocr"
+      "inferredBy": "fallback"
     },
     "prime:xulc:mistral:s-297": {
       "cards": [
@@ -8756,13 +8756,13 @@
       "classKey": "prime:xulc:mistral",
       "inferredBy": "fallback"
     },
-    "prime:xulc:mistral:ocr:tempering updraft::violent hurricane": {
+    "prime:xulc:mistral:s-289": {
       "cards": [
         "classes/rove/prime/xulc/mistral/rv-tempering-updraft.png",
         "classes/rove/prime/xulc/mistral/rv-violent-hurricane.png"
       ],
       "classKey": "prime:xulc:mistral",
-      "inferredBy": "ocr"
+      "inferredBy": "fallback"
     }
   }
 }

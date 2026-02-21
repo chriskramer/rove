@@ -75,6 +75,13 @@ const TARGET_CLASS_KEYS = new Set(
   ])
 );
 
+const LEVEL_UP_PAIR_OVERRIDES = {
+  forceStarting: new Set([
+    'base:core:sophist:s-169', // confound <-> dance of rays
+  ]),
+  forceLevelUp: new Set([]),
+};
+
 function canonicalName(value) {
   return String(value || '')
     .toLowerCase()
@@ -132,8 +139,7 @@ function buildCards(entries) {
 
     const fileName = entry.image.split('/').pop() || entry.image;
     const asset = parseAssetNumber(entry.assetno);
-    const summonFlag =
-      fileName.includes('-front') || fileName.includes('-back') || (asset && asset.prefix === 'a');
+    const summonFlag = Boolean(asset && asset.prefix === 'a');
 
     cards.push({
       tier,
@@ -161,22 +167,56 @@ function buildCards(entries) {
   return cards;
 }
 
+function pairKeyFromSummonName(card) {
+  const canonical = canonicalName(card.name)
+    .replace(/\bfront\b/g, '')
+    .replace(/\bback\b/g, '')
+    .replace(/\s+/g, ' ')
+    .trim();
+  const keyPart = canonical || card.fileName.replace(/\.[^.]+$/, '').replace(/-(front|back)$/i, '');
+  return `${card.classKey}:summon:${keyPart}`;
+}
+
+function pairKeyFromAsset(card) {
+  if (!card.asset || card.asset.prefix !== 's') return '';
+  const pairStart = card.asset.value % 2 === 0 ? card.asset.value - 1 : card.asset.value;
+  return `${card.classKey}:s-${pairStart}`;
+}
+
+function assignDeterministicPairKeys(cards) {
+  for (const card of cards) {
+    if (card.isSummons) {
+      card.pairKey = pairKeyFromSummonName(card);
+      continue;
+    }
+    const assetKey = pairKeyFromAsset(card);
+    if (assetKey) card.pairKey = assetKey;
+  }
+}
+
 function classifyLevelUpWithinClass(cards) {
   const byClass = new Map();
   for (const card of cards) {
     if (card.isSummons) continue;
-    if (!byClass.has(card.classKey)) byClass.set(card.classKey, []);
-    byClass.get(card.classKey).push(card);
+    if (!byClass.has(card.classKey)) byClass.set(card.classKey, new Map());
+    const classPairs = byClass.get(card.classKey);
+    const key = card.pairKey || fallbackPairKey(card);
+    if (!classPairs.has(key)) classPairs.set(key, []);
+    classPairs.get(key).push(card);
   }
 
-  for (const classCards of byClass.values()) {
-    if (classCards.length < 4) continue;
-    const sorted = [...classCards].sort((a, b) => a.levelUpScore - b.levelUpScore);
+  for (const classPairs of byClass.values()) {
+    const pairEntries = Array.from(classPairs.values()).map((pairCards) => ({
+      pairCards,
+      score: Math.max(...pairCards.map((card) => card.levelUpScore)),
+    }));
+    if (pairEntries.length < 2) continue;
+    const sorted = [...pairEntries].sort((a, b) => a.score - b.score);
 
     let bestGap = 0;
     let splitIndex = -1;
     for (let i = 0; i < sorted.length - 1; i += 1) {
-      const gap = sorted[i + 1].levelUpScore - sorted[i].levelUpScore;
+      const gap = sorted[i + 1].score - sorted[i].score;
       if (gap > bestGap) {
         bestGap = gap;
         splitIndex = i;
@@ -186,13 +226,35 @@ function classifyLevelUpWithinClass(cards) {
     if (splitIndex < 0 || bestGap < 0.018) continue;
 
     const levelUpCandidates = sorted.slice(splitIndex + 1);
-    if (levelUpCandidates.length < 2 || levelUpCandidates.length > Math.ceil(sorted.length * 0.6)) {
+    if (levelUpCandidates.length < 1 || levelUpCandidates.length > Math.ceil(sorted.length * 0.6)) {
       continue;
     }
 
     for (const candidate of levelUpCandidates) {
-      candidate.isLevelUp = true;
+      candidate.pairCards.forEach((card) => {
+        card.isLevelUp = true;
+      });
     }
+  }
+}
+
+function applyLevelUpOverrides(cards) {
+  const byPair = new Map();
+  cards.forEach((card) => {
+    if (!byPair.has(card.pairKey)) byPair.set(card.pairKey, []);
+    byPair.get(card.pairKey).push(card);
+  });
+
+  for (const key of LEVEL_UP_PAIR_OVERRIDES.forceStarting) {
+    (byPair.get(key) || []).forEach((card) => {
+      if (!card.isSummons) card.isLevelUp = false;
+    });
+  }
+
+  for (const key of LEVEL_UP_PAIR_OVERRIDES.forceLevelUp) {
+    (byPair.get(key) || []).forEach((card) => {
+      if (!card.isSummons) card.isLevelUp = true;
+    });
   }
 }
 
@@ -209,6 +271,7 @@ function inferPairingFromOCR(cards) {
   const byClass = buildNameIndex(cards);
 
   for (const card of cards) {
+    if (card.pairKey) continue;
     const classCards = byClass.get(card.classKey) || [];
     if (!card.ocrText) continue;
 
@@ -216,6 +279,7 @@ function inferPairingFromOCR(cards) {
     let bestScore = 0;
     for (const candidate of classCards) {
       if (candidate.imagePath === card.imagePath) continue;
+      if (candidate.pairKey) continue;
       if (candidate.isSummons !== card.isSummons) continue;
       const score = scoreSimilarity(card.ocrText, candidate.nameCanonical);
       if (score > bestScore) {
@@ -347,8 +411,10 @@ async function buildMetadata() {
     await worker.terminate();
   }
 
-  classifyLevelUpWithinClass(cards);
+  assignDeterministicPairKeys(cards);
   inferPairingFromOCR(cards);
+  classifyLevelUpWithinClass(cards);
+  applyLevelUpOverrides(cards);
   const pairings = finalizePairGroups(cards);
 
   const metadata = {
