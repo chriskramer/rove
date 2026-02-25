@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-02-18T07:08:55.292Z",
+  "generatedAt": "2026-02-21T23:10:31.594Z",
   "source": "scripts/build-class-card-metadata.js",
   "cards": {
     "classes/rove/apex/core/aster/rv-bulk-interactions.png": {
@@ -25,7 +25,7 @@
       "name": "coronal loop",
       "assetno": "s-097",
       "isSummons": false,
-      "isLevelUp": false,
+      "isLevelUp": true,
       "pairKey": "apex:core:aster:s-97",
       "ocr": {
         "text": "AN e | \"Heat Transfer  ©",
@@ -57,7 +57,7 @@
       "name": "heat transfer",
       "assetno": "s-098",
       "isSummons": false,
-      "isLevelUp": false,
+      "isLevelUp": true,
       "pairKey": "apex:core:aster:s-97",
       "ocr": {
         "text": "AN A © .   Coro IooD!   | T",
@@ -105,7 +105,7 @@
       "name": "meteor shower",
       "assetno": "s-102",
       "isSummons": false,
-      "isLevelUp": false,
+      "isLevelUp": true,
       "pairKey": "apex:core:aster:s-101",
       "ocr": {
         "text": "AN TT  ©",
@@ -121,7 +121,7 @@
       "name": "scorching ray",
       "assetno": "s-100",
       "isSummons": false,
-      "isLevelUp": false,
+      "isLevelUp": true,
       "pairKey": "apex:core:aster:s-99",
       "ocr": {
         "text": "Nay",
@@ -153,7 +153,7 @@
       "name": "sun spots",
       "assetno": "s-099",
       "isSummons": false,
-      "isLevelUp": false,
+      "isLevelUp": true,
       "pairKey": "apex:core:aster:s-99",
       "ocr": {
         "text": "AN \\ © |   SCOTTO RAY.   4 cy",
@@ -169,7 +169,7 @@
       "name": "thermal conduit",
       "assetno": "s-103",
       "isSummons": false,
-      "isLevelUp": false,
+      "isLevelUp": true,
       "pairKey": "apex:core:aster:s-103",
       "ocr": {
         "text": "AN   T   ” TROTTED TCT   | .",
@@ -185,7 +185,7 @@
       "name": "thermal dynamism",
       "assetno": "s-104",
       "isSummons": false,
-      "isLevelUp": false,
+      "isLevelUp": true,
       "pairKey": "apex:core:aster:s-103",
       "ocr": {
         "text": "SEN \\   Thermal Conduit  ©",
@@ -217,7 +217,7 @@
       "name": "warm front",
       "assetno": "s-101",
       "isSummons": false,
-      "isLevelUp": false,
+      "isLevelUp": true,
       "pairKey": "apex:core:aster:s-101",
       "ocr": {
         "text": "3E\\      Gi       Meteor Shower     di) ry :",
@@ -233,7 +233,7 @@
       "name": "beak and claw and sword",
       "assetno": "s-046",
       "isSummons": false,
-      "isLevelUp": false,
+      "isLevelUp": true,
       "pairKey": "apex:core:canyon-temper:s-45",
       "ocr": {
         "text": "",
@@ -249,7 +249,7 @@
       "name": "boulder clad",
       "assetno": "s-051",
       "isSummons": false,
-      "isLevelUp": false,
+      "isLevelUp": true,
       "pairKey": "apex:core:canyon-temper:s-51",
       "ocr": {
         "text": "¢ Tw          ‘Wrought From| Clay”  ali El",
@@ -265,7 +265,7 @@
       "name": "frost depth",
       "assetno": "s-044",
       "isSummons": false,
-      "isLevelUp": true,
+      "isLevelUp": false,
       "pairKey": "apex:core:canyon-temper:s-43",
       "ocr": {
         "text": "¢ TIT Te",
@@ -281,7 +281,7 @@
       "name": "mighty gust",
       "assetno": "s-040",
       "isSummons": false,
-      "isLevelUp": true,
+      "isLevelUp": false,
       "pairKey": "apex:core:canyon-temper:s-39",
       "ocr": {
         "text": "AC   rm Te",
@@ -297,7 +297,7 @@
       "name": "oasis sanctuary",
       "assetno": "s-039",
       "isSummons": false,
-      "isLevelUp": true,
+      "isLevelUp": false,
       "pairKey": "apex:core:canyon-temper:s-39",
       "ocr": {
         "text": "¢ \\ kd -   Mighty Gust   Te",
@@ -313,7 +313,7 @@
       "name": "quake zone",
       "assetno": "s-049",
       "isSummons": false,
-      "isLevelUp": false,
+      "isLevelUp": true,
       "pairKey": "apex:core:canyon-temper:s-49",
       "ocr": {
         "text": "",
@@ -361,7 +361,7 @@
       "name": "razor pinion",
       "assetno": "s-047",
       "isSummons": false,
-      "isLevelUp": false,
+      "isLevelUp": true,
       "pairKey": "apex:core:canyon-temper:s-47",
       "ocr": {
         "text": "¢ ETE Ts",
@@ -377,7 +377,7 @@
       "name": "red blitz",
       "assetno": "s-050",
       "isSummons": false,
-      "isLevelUp": false,
+      "isLevelUp": true,
       "pairKey": "apex:core:canyon-temper:s-49",
       "ocr": {
         "text": "¢ TE — -— ©",
@@ -393,7 +393,7 @@
       "name": "sand plume",
       "assetno": "s-045",
       "isSummons": false,
-      "isLevelUp": false,
+      "isLevelUp": true,
       "pairKey": "apex:core:canyon-temper:s-45",
       "ocr": {
         "text": "¢ TE      Beak and Claw and Sword. To",
@@ -409,7 +409,7 @@
       "name": "scorching maws",
       "assetno": "s-042",
       "isSummons": false,
-      "isLevelUp": true,
+      "isLevelUp": false,
       "pairKey": "apex:core:canyon-temper:s-41",
       "ocr": {
         "text": "© ToT Tem Te ©",
@@ -425,7 +425,7 @@
       "name": "silicate shield",
       "assetno": "s-048",
       "isSummons": false,
-      "isLevelUp": false,
+      "isLevelUp": true,
       "pairKey": "apex:core:canyon-temper:s-47",
       "ocr": {
         "text": "",
@@ -441,7 +441,7 @@
       "name": "take flight",
       "assetno": "s-041",
       "isSummons": false,
-      "isLevelUp": true,
+      "isLevelUp": false,
       "pairKey": "apex:core:canyon-temper:s-41",
       "ocr": {
         "text": "¢ TE         Scorching Mas  To",
@@ -457,7 +457,7 @@
       "name": "uplifting aid",
       "assetno": "s-043",
       "isSummons": false,
-      "isLevelUp": true,
+      "isLevelUp": false,
       "pairKey": "apex:core:canyon-temper:s-43",
       "ocr": {
         "text": "’ \\ TT  sy  SE's |",
@@ -473,7 +473,7 @@
       "name": "wrought from clay",
       "assetno": "s-052",
       "isSummons": false,
-      "isLevelUp": false,
+      "isLevelUp": true,
       "pairKey": "apex:core:canyon-temper:s-51",
       "ocr": {
         "text": "",
@@ -1513,7 +1513,7 @@
       "name": "chain lightning",
       "assetno": "s-312",
       "isSummons": false,
-      "isLevelUp": false,
+      "isLevelUp": true,
       "pairKey": "apex:xulc:tempest:s-311",
       "ocr": {
         "text": "PET Te",
@@ -1529,7 +1529,7 @@
       "name": "cyclonic separation",
       "assetno": "s-310",
       "isSummons": false,
-      "isLevelUp": false,
+      "isLevelUp": true,
       "pairKey": "apex:xulc:tempest:s-309",
       "ocr": {
         "text": "#\\  Q]  * LeastResistance    I",
@@ -1545,7 +1545,7 @@
       "name": "electric displacement",
       "assetno": "s-307",
       "isSummons": false,
-      "isLevelUp": true,
+      "isLevelUp": false,
       "pairKey": "apex:xulc:tempest:s-307",
       "ocr": {
         "text": "#\\    Ra i             Unstable Conduit            i T",
@@ -1561,7 +1561,7 @@
       "name": "electric flow",
       "assetno": "s-311",
       "isSummons": false,
-      "isLevelUp": false,
+      "isLevelUp": true,
       "pairKey": "apex:xulc:tempest:s-311",
       "ocr": {
         "text": "#\\   I) 1        Chain Lightning       0",
@@ -1577,7 +1577,7 @@
       "name": "electrical stimulation",
       "assetno": "s-316",
       "isSummons": false,
-      "isLevelUp": false,
+      "isLevelUp": true,
       "pairKey": "apex:xulc:tempest:s-315",
       "ocr": {
         "text": "PE  AN  ad     Electro Dynamism     ©",
@@ -1593,7 +1593,7 @@
       "name": "electro dynamism",
       "assetno": "s-315",
       "isSummons": false,
-      "isLevelUp": false,
+      "isLevelUp": true,
       "pairKey": "apex:xulc:tempest:s-315",
       "ocr": {
         "text": "#\\ Ri Electrical Stimulation ©",
@@ -1609,7 +1609,7 @@
       "name": "funneling winds",
       "assetno": "s-303",
       "isSummons": false,
-      "isLevelUp": true,
+      "isLevelUp": false,
       "pairKey": "apex:xulc:tempest:s-303",
       "ocr": {
         "text": "#\\ wd      Wind Tunnel     ©",
@@ -1625,7 +1625,7 @@
       "name": "least resistance",
       "assetno": "s-309",
       "isSummons": false,
-      "isLevelUp": false,
+      "isLevelUp": true,
       "pairKey": "apex:xulc:tempest:s-309",
       "ocr": {
         "text": "AN  ® 1       Cyclonic Separation       ©",
@@ -1641,7 +1641,7 @@
       "name": "sky splitter",
       "assetno": "s-306",
       "isSummons": false,
-      "isLevelUp": true,
+      "isLevelUp": false,
       "pairKey": "apex:xulc:tempest:s-305",
       "ocr": {
         "text": "TTT Te",
@@ -1657,7 +1657,7 @@
       "name": "sonic boom",
       "assetno": "s-314",
       "isSummons": false,
-      "isLevelUp": false,
+      "isLevelUp": true,
       "pairKey": "apex:xulc:tempest:s-313",
       "ocr": {
         "text": "pe \\ Cll —    ©",
@@ -1673,7 +1673,7 @@
       "name": "static charge",
       "assetno": "s-305",
       "isSummons": false,
-      "isLevelUp": true,
+      "isLevelUp": false,
       "pairKey": "apex:xulc:tempest:s-305",
       "ocr": {
         "text": "#\\C CAR 1",
@@ -1689,7 +1689,7 @@
       "name": "unstable conduit",
       "assetno": "s-308",
       "isSummons": false,
-      "isLevelUp": true,
+      "isLevelUp": false,
       "pairKey": "apex:xulc:tempest:s-307",
       "ocr": {
         "text": "#\\ aa   Electric Displacement   ©",
@@ -1705,7 +1705,7 @@
       "name": "weather diversion",
       "assetno": "s-313",
       "isSummons": false,
-      "isLevelUp": false,
+      "isLevelUp": true,
       "pairKey": "apex:xulc:tempest:s-313",
       "ocr": {
         "text": "",
@@ -1721,7 +1721,7 @@
       "name": "wind tunnel",
       "assetno": "s-304",
       "isSummons": false,
-      "isLevelUp": true,
+      "isLevelUp": false,
       "pairKey": "apex:xulc:tempest:s-303",
       "ocr": {
         "text": "re \\ cll —   ©",
@@ -1961,7 +1961,7 @@
       "name": "ewer of courage",
       "assetno": "s-288",
       "isSummons": false,
-      "isLevelUp": false,
+      "isLevelUp": true,
       "pairKey": "apex:xulc:wellspring-ewer:s-287",
       "ocr": {
         "text": "[<)   \\  Ri |           Ewer of Power           i oi",
@@ -1977,7 +1977,7 @@
       "name": "ewer of power",
       "assetno": "s-287",
       "isSummons": false,
-      "isLevelUp": false,
+      "isLevelUp": true,
       "pairKey": "apex:xulc:wellspring-ewer:s-287",
       "ocr": {
         "text": "[)   N  Rs x         Ewer of Courage         i ‘",
@@ -1993,7 +1993,7 @@
       "name": "flock together",
       "assetno": "s-275",
       "isSummons": false,
-      "isLevelUp": true,
+      "isLevelUp": false,
       "pairKey": "apex:xulc:wellspring-ewer:s-275",
       "ocr": {
         "text": "[<)   \\ ® A       Raging Whirlpool    >",
@@ -2009,7 +2009,7 @@
       "name": "friends of a feather",
       "assetno": "s-278",
       "isSummons": false,
-      "isLevelUp": true,
+      "isLevelUp": false,
       "pairKey": "apex:xulc:wellspring-ewer:s-277",
       "ocr": {
         "text": "[)  X  Cl          Frost Line       Si",
@@ -2025,7 +2025,7 @@
       "name": "frost line",
       "assetno": "s-277",
       "isSummons": false,
-      "isLevelUp": true,
+      "isLevelUp": false,
       "pairKey": "apex:xulc:wellspring-ewer:s-277",
       "ocr": {
         "text": "[<)    N  kd |         Friends of a Feather        i ‘",
@@ -2041,7 +2041,7 @@
       "name": "fruits of the earth",
       "assetno": "s-282",
       "isSummons": false,
-      "isLevelUp": false,
+      "isLevelUp": true,
       "pairKey": "apex:xulc:wellspring-ewer:s-281",
       "ocr": {
         "text": "[)    N  © |         Miracles of the Sky        £2",
@@ -2057,7 +2057,7 @@
       "name": "miracles of the sky",
       "assetno": "s-281",
       "isSummons": false,
-      "isLevelUp": false,
+      "isLevelUp": true,
       "pairKey": "apex:xulc:wellspring-ewer:s-281",
       "ocr": {
         "text": "[<)    \\  ® A         Fruits of the Earth         i ‘",
@@ -2105,7 +2105,7 @@
       "name": "raging whirlpool",
       "assetno": "s-276",
       "isSummons": false,
-      "isLevelUp": true,
+      "isLevelUp": false,
       "pairKey": "apex:xulc:wellspring-ewer:s-275",
       "ocr": {
         "text": "PAC ary",
@@ -2121,7 +2121,7 @@
       "name": "rushing hail",
       "assetno": "s-284",
       "isSummons": false,
-      "isLevelUp": false,
+      "isLevelUp": true,
       "pairKey": "apex:xulc:wellspring-ewer:s-283",
       "ocr": {
         "text": "[)   \\ ’ cl         Team Huddle      SE)",
@@ -2137,7 +2137,7 @@
       "name": "silver storm",
       "assetno": "s-286",
       "isSummons": false,
-      "isLevelUp": false,
+      "isLevelUp": true,
       "pairKey": "apex:xulc:wellspring-ewer:s-285",
       "ocr": {
         "text": "[)  N | _   Te",
@@ -2153,7 +2153,7 @@
       "name": "sing along",
       "assetno": "s-280",
       "isSummons": false,
-      "isLevelUp": true,
+      "isLevelUp": false,
       "pairKey": "apex:xulc:wellspring-ewer:s-279",
       "ocr": {
         "text": "[<)  \\  Ra        Sound Off     To",
@@ -2169,7 +2169,7 @@
       "name": "slipstream flurry",
       "assetno": "s-285",
       "isSummons": false,
-      "isLevelUp": false,
+      "isLevelUp": true,
       "pairKey": "apex:xulc:wellspring-ewer:s-285",
       "ocr": {
         "text": "[)  N |      Silver Storm    \"wy",
@@ -2185,7 +2185,7 @@
       "name": "sound off",
       "assetno": "s-279",
       "isSummons": false,
-      "isLevelUp": true,
+      "isLevelUp": false,
       "pairKey": "apex:xulc:wellspring-ewer:s-279",
       "ocr": {
         "text": "[<)  N Ra       Sing Along     SE)",
@@ -2233,7 +2233,7 @@
       "name": "team huddle",
       "assetno": "s-283",
       "isSummons": false,
-      "isLevelUp": false,
+      "isLevelUp": true,
       "pairKey": "apex:xulc:wellspring-ewer:s-283",
       "ocr": {
         "text": "FAN Cl    Rushing Hail   To",
@@ -2473,7 +2473,7 @@
       "name": "calm rivers",
       "assetno": "s-005",
       "isSummons": false,
-      "isLevelUp": true,
+      "isLevelUp": false,
       "pairKey": "base:core:dune-dancer:s-5",
       "ocr": {
         "text": "& =]    Suffocating Spray  i",
@@ -2489,7 +2489,7 @@
       "name": "camaraderie",
       "assetno": "s-023",
       "isSummons": false,
-      "isLevelUp": false,
+      "isLevelUp": true,
       "pairKey": "base:core:dune-dancer:s-23",
       "ocr": {
         "text": "&   N . » )              Enchant Body         SE :",
@@ -2505,7 +2505,7 @@
       "name": "chill touch",
       "assetno": "s-020",
       "isSummons": false,
-      "isLevelUp": false,
+      "isLevelUp": true,
       "pairKey": "base:core:dune-dancer:s-19",
       "ocr": {
         "text": "& \\ |       Flow of Floes    \"7",
@@ -2521,7 +2521,7 @@
       "name": "clay grasp",
       "assetno": "s-001",
       "isSummons": false,
-      "isLevelUp": true,
+      "isLevelUp": false,
       "pairKey": "base:core:dune-dancer:s-1",
       "ocr": {
         "text": "& N ©]     Desiccating Blast  vy",
@@ -2537,7 +2537,7 @@
       "name": "crag smash",
       "assetno": "s-007",
       "isSummons": false,
-      "isLevelUp": true,
+      "isLevelUp": false,
       "pairKey": "base:core:dune-dancer:s-7",
       "ocr": {
         "text": "ETT Ts",
@@ -2585,7 +2585,7 @@
       "name": "dearest friend",
       "assetno": "s-004",
       "isSummons": false,
-      "isLevelUp": true,
+      "isLevelUp": false,
       "pairKey": "base:core:dune-dancer:s-3",
       "ocr": {
         "text": "ACH Gift of the Oasis \"7g",
@@ -2601,7 +2601,7 @@
       "name": "deep freeze",
       "assetno": "s-016",
       "isSummons": false,
-      "isLevelUp": false,
+      "isLevelUp": true,
       "pairKey": "base:core:dune-dancer:s-15",
       "ocr": {
         "text": "(47  \\  Cl        Deserts Gift      To",
@@ -2617,7 +2617,7 @@
       "name": "desert's gift",
       "assetno": "s-015",
       "isSummons": false,
-      "isLevelUp": false,
+      "isLevelUp": true,
       "pairKey": "base:core:dune-dancer:s-15",
       "ocr": {
         "text": "© Ue]      DeepFreeze    vy",
@@ -2633,7 +2633,7 @@
       "name": "desiccating blast",
       "assetno": "s-002",
       "isSummons": false,
-      "isLevelUp": true,
+      "isLevelUp": false,
       "pairKey": "base:core:dune-dancer:s-1",
       "ocr": {
         "text": "",
@@ -2649,7 +2649,7 @@
       "name": "dual assault",
       "assetno": "s-010",
       "isSummons": false,
-      "isLevelUp": true,
+      "isLevelUp": false,
       "pairKey": "base:core:dune-dancer:s-9",
       "ocr": {
         "text": "& \\ ©   ——  Te",
@@ -2665,7 +2665,7 @@
       "name": "earthen shield",
       "assetno": "s-013",
       "isSummons": false,
-      "isLevelUp": true,
+      "isLevelUp": false,
       "pairKey": "base:core:dune-dancer:s-13",
       "ocr": {
         "text": "& N ad    Healing Surge    | ’",
@@ -2681,7 +2681,7 @@
       "name": "enchant body",
       "assetno": "s-024",
       "isSummons": false,
-      "isLevelUp": false,
+      "isLevelUp": true,
       "pairKey": "base:core:dune-dancer:s-23",
       "ocr": {
         "text": "& \\ ad    Camaraderie   Te",
@@ -2697,7 +2697,7 @@
       "name": "flow of floes",
       "assetno": "s-019",
       "isSummons": false,
-      "isLevelUp": false,
+      "isLevelUp": true,
       "pairKey": "base:core:dune-dancer:s-19",
       "ocr": {
         "text": "& \\ Cl —~—    rg",
@@ -2713,7 +2713,7 @@
       "name": "gift of the oasis",
       "assetno": "s-003",
       "isSummons": false,
-      "isLevelUp": true,
+      "isLevelUp": false,
       "pairKey": "base:core:dune-dancer:s-3",
       "ocr": {
         "text": "&  \\ |       Dearest Friend    Te",
@@ -2729,7 +2729,7 @@
       "name": "granite phalanx",
       "assetno": "s-009",
       "isSummons": false,
-      "isLevelUp": true,
+      "isLevelUp": false,
       "pairKey": "base:core:dune-dancer:s-9",
       "ocr": {
         "text": "&  Ue 1            Dual Assault        To",
@@ -2745,7 +2745,7 @@
       "name": "healing surge",
       "assetno": "s-014",
       "isSummons": false,
-      "isLevelUp": true,
+      "isLevelUp": false,
       "pairKey": "base:core:dune-dancer:s-13",
       "ocr": {
         "text": "&\\ OT arthenshield   Te",
@@ -2761,7 +2761,7 @@
       "name": "ice blast",
       "assetno": "s-008",
       "isSummons": false,
-      "isLevelUp": true,
+      "isLevelUp": false,
       "pairKey": "base:core:dune-dancer:s-7",
       "ocr": {
         "text": "STE Ts",
@@ -2777,7 +2777,7 @@
       "name": "oasis reprieve",
       "assetno": "s-017",
       "isSummons": false,
-      "isLevelUp": false,
+      "isLevelUp": true,
       "pairKey": "base:core:dune-dancer:s-17",
       "ocr": {
         "text": "ACES Te",
@@ -2825,7 +2825,7 @@
       "name": "quickening sand",
       "assetno": "s-012",
       "isSummons": false,
-      "isLevelUp": true,
+      "isLevelUp": false,
       "pairKey": "base:core:dune-dancer:s-11",
       "ocr": {
         "text": "&  N ha        Rallying Cry      To",
@@ -2841,7 +2841,7 @@
       "name": "rallying cry",
       "assetno": "s-011",
       "isSummons": false,
-      "isLevelUp": true,
+      "isLevelUp": false,
       "pairKey": "base:core:dune-dancer:s-11",
       "ocr": {
         "text": "47 N ad    Quickening Sand    | ‘",
@@ -2857,7 +2857,7 @@
       "name": "revitalizing clay",
       "assetno": "s-022",
       "isSummons": false,
-      "isLevelUp": false,
+      "isLevelUp": true,
       "pairKey": "base:core:dune-dancer:s-21",
       "ocr": {
         "text": "&  \\ |         War Beast      Te",
@@ -2873,7 +2873,7 @@
       "name": "sand wedge",
       "assetno": "s-018",
       "isSummons": false,
-      "isLevelUp": false,
+      "isLevelUp": true,
       "pairKey": "base:core:dune-dancer:s-17",
       "ocr": {
         "text": "&  \\ Cl       Oasis Reprieve    SE)",
@@ -2889,7 +2889,7 @@
       "name": "suffocating spray",
       "assetno": "s-006",
       "isSummons": false,
-      "isLevelUp": true,
+      "isLevelUp": false,
       "pairKey": "base:core:dune-dancer:s-5",
       "ocr": {
         "text": "&  N ©]          Calm Rivers       \"y",
@@ -2905,7 +2905,7 @@
       "name": "war beast",
       "assetno": "s-021",
       "isSummons": false,
-      "isLevelUp": false,
+      "isLevelUp": true,
       "pairKey": "base:core:dune-dancer:s-21",
       "ocr": {
         "text": "& \\ ©] _  To",
@@ -2953,7 +2953,7 @@
       "name": "blast",
       "assetno": "s-058",
       "isSummons": false,
-      "isLevelUp": true,
+      "isLevelUp": false,
       "pairKey": "base:core:flash:s-57",
       "ocr": {
         "text": "PAN \\ ©       Transcend     | ©",
@@ -2985,7 +2985,7 @@
       "name": "buffet",
       "assetno": "s-069",
       "isSummons": false,
-      "isLevelUp": false,
+      "isLevelUp": true,
       "pairKey": "base:core:flash:s-69",
       "ocr": {
         "text": "",
@@ -3033,7 +3033,7 @@
       "name": "flare",
       "assetno": "s-070",
       "isSummons": false,
-      "isLevelUp": false,
+      "isLevelUp": true,
       "pairKey": "base:core:flash:s-69",
       "ocr": {
         "text": "PAY  Q] \"   Buffet  To",
@@ -3049,7 +3049,7 @@
       "name": "galvanize",
       "assetno": "s-076",
       "isSummons": false,
-      "isLevelUp": false,
+      "isLevelUp": true,
       "pairKey": "base:core:flash:s-75",
       "ocr": {
         "text": "TTI Te",
@@ -3065,7 +3065,7 @@
       "name": "helion",
       "assetno": "s-074",
       "isSummons": false,
-      "isLevelUp": false,
+      "isLevelUp": true,
       "pairKey": "base:core:flash:s-73",
       "ocr": {
         "text": "NCI",
@@ -3097,7 +3097,7 @@
       "name": "link",
       "assetno": "s-075",
       "isSummons": false,
-      "isLevelUp": false,
+      "isLevelUp": true,
       "pairKey": "base:core:flash:s-75",
       "ocr": {
         "text": "AY ‘ or a    vy",
@@ -3113,7 +3113,7 @@
       "name": "mistral",
       "assetno": "s-071",
       "isSummons": false,
-      "isLevelUp": false,
+      "isLevelUp": true,
       "pairKey": "base:core:flash:s-71",
       "ocr": {
         "text": "",
@@ -3145,7 +3145,7 @@
       "name": "scorch",
       "assetno": "s-073",
       "isSummons": false,
-      "isLevelUp": false,
+      "isLevelUp": true,
       "pairKey": "base:core:flash:s-73",
       "ocr": {
         "text": "",
@@ -3161,7 +3161,7 @@
       "name": "singe",
       "assetno": "s-067",
       "isSummons": false,
-      "isLevelUp": false,
+      "isLevelUp": true,
       "pairKey": "base:core:flash:s-67",
       "ocr": {
         "text": "NO To",
@@ -3209,7 +3209,7 @@
       "name": "suffuse",
       "assetno": "s-053",
       "isSummons": false,
-      "isLevelUp": true,
+      "isLevelUp": false,
       "pairKey": "base:core:flash:s-53",
       "ocr": {
         "text": "",
@@ -3225,7 +3225,7 @@
       "name": "swell",
       "assetno": "s-054",
       "isSummons": false,
-      "isLevelUp": true,
+      "isLevelUp": false,
       "pairKey": "base:core:flash:s-53",
       "ocr": {
         "text": "PAN ou £3",
@@ -3257,7 +3257,7 @@
       "name": "transcend",
       "assetno": "s-057",
       "isSummons": false,
-      "isLevelUp": true,
+      "isLevelUp": false,
       "pairKey": "base:core:flash:s-57",
       "ocr": {
         "text": "",
@@ -3273,7 +3273,7 @@
       "name": "vacuum",
       "assetno": "s-068",
       "isSummons": false,
-      "isLevelUp": false,
+      "isLevelUp": true,
       "pairKey": "base:core:flash:s-67",
       "ocr": {
         "text": "NCA ry",
@@ -3289,7 +3289,7 @@
       "name": "zephyr",
       "assetno": "s-072",
       "isSummons": false,
-      "isLevelUp": false,
+      "isLevelUp": true,
       "pairKey": "base:core:flash:s-71",
       "ocr": {
         "text": "TT Te",
@@ -4841,7 +4841,7 @@
       "name": "blazing trail",
       "assetno": "s-079",
       "isSummons": false,
-      "isLevelUp": true,
+      "isLevelUp": false,
       "pairKey": "prime:core:helion:s-79",
       "ocr": {
         "text": "YY  \\  kd 1       Fire Volley    \"gy",
@@ -4857,7 +4857,7 @@
       "name": "catalyzing explosion",
       "assetno": "s-088",
       "isSummons": false,
-      "isLevelUp": false,
+      "isLevelUp": true,
       "pairKey": "prime:core:helion:s-87",
       "ocr": {
         "text": "AC] —   Te ©",
@@ -4873,7 +4873,7 @@
       "name": "cleansing flames",
       "assetno": "s-077",
       "isSummons": false,
-      "isLevelUp": true,
+      "isLevelUp": false,
       "pairKey": "prime:core:helion:s-77",
       "ocr": {
         "text": "YY  \\ To ai Controlled Backdraft    | T",
@@ -4889,7 +4889,7 @@
       "name": "controlled backdraft",
       "assetno": "s-078",
       "isSummons": false,
-      "isLevelUp": true,
+      "isLevelUp": false,
       "pairKey": "prime:core:helion:s-77",
       "ocr": {
         "text": "¥ \\ iC rT   | ®",
@@ -4905,7 +4905,7 @@
       "name": "detonate",
       "assetno": "s-086",
       "isSummons": false,
-      "isLevelUp": false,
+      "isLevelUp": true,
       "pairKey": "prime:core:helion:s-85",
       "ocr": {
         "text": "ETT Ts",
@@ -4921,7 +4921,7 @@
       "name": "fire volley",
       "assetno": "s-080",
       "isSummons": false,
-      "isLevelUp": true,
+      "isLevelUp": false,
       "pairKey": "prime:core:helion:s-79",
       "ocr": {
         "text": "AG |  — oo Te",
@@ -4937,7 +4937,7 @@
       "name": "fueled fire",
       "assetno": "s-081",
       "isSummons": false,
-      "isLevelUp": true,
+      "isLevelUp": false,
       "pairKey": "prime:core:helion:s-81",
       "ocr": {
         "text": "YY N ad * Spontaneous Combustion ©",
@@ -4953,7 +4953,7 @@
       "name": "hot air",
       "assetno": "s-089",
       "isSummons": false,
-      "isLevelUp": false,
+      "isLevelUp": true,
       "pairKey": "prime:core:helion:s-89",
       "ocr": {
         "text": "YY \\ <P \"  * Smoldering Embers   | v",
@@ -4969,7 +4969,7 @@
       "name": "shifting fronts",
       "assetno": "s-087",
       "isSummons": false,
-      "isLevelUp": false,
+      "isLevelUp": true,
       "pairKey": "prime:core:helion:s-87",
       "ocr": {
         "text": "AL  cal Catalyzing Explosion    | T",
@@ -4985,7 +4985,7 @@
       "name": "smoldering embers",
       "assetno": "s-090",
       "isSummons": false,
-      "isLevelUp": false,
+      "isLevelUp": true,
       "pairKey": "prime:core:helion:s-89",
       "ocr": {
         "text": "A Ta To",
@@ -5001,7 +5001,7 @@
       "name": "spontaneous combustion",
       "assetno": "s-082",
       "isSummons": false,
-      "isLevelUp": true,
+      "isLevelUp": false,
       "pairKey": "prime:core:helion:s-81",
       "ocr": {
         "text": "YY N ha il    Fueled Fire   To",
@@ -5017,7 +5017,7 @@
       "name": "sudden bellows",
       "assetno": "s-083",
       "isSummons": false,
-      "isLevelUp": false,
+      "isLevelUp": true,
       "pairKey": "prime:core:helion:s-83",
       "ocr": {
         "text": "YY N kd | i   Wind Barrier   To",
@@ -5033,7 +5033,7 @@
       "name": "torching spray",
       "assetno": "s-085",
       "isSummons": false,
-      "isLevelUp": false,
+      "isLevelUp": true,
       "pairKey": "prime:core:helion:s-85",
       "ocr": {
         "text": "YY Ni    Detonate   \"5 |",
@@ -5049,7 +5049,7 @@
       "name": "wind barrier",
       "assetno": "s-084",
       "isSummons": false,
-      "isLevelUp": false,
+      "isLevelUp": true,
       "pairKey": "prime:core:helion:s-83",
       "ocr": {
         "text": "YY N @ -  Sudden Bellows  wy",
@@ -5097,7 +5097,7 @@
       "name": "arid valley",
       "assetno": "s-033",
       "isSummons": false,
-      "isLevelUp": false,
+      "isLevelUp": true,
       "pairKey": "prime:core:ridge-striker:s-33",
       "ocr": {
         "text": "4 N ©]     Enduring Valley   Te",
@@ -5113,7 +5113,7 @@
       "name": "clay cage",
       "assetno": "s-025",
       "isSummons": false,
-      "isLevelUp": true,
+      "isLevelUp": false,
       "pairKey": "prime:core:ridge-striker:s-25",
       "ocr": {
         "text": "7 : \\\" OF 1           Tectonic Clash       Te",
@@ -5129,7 +5129,7 @@
       "name": "desert night",
       "assetno": "s-035",
       "isSummons": false,
-      "isLevelUp": false,
+      "isLevelUp": true,
       "pairKey": "prime:core:ridge-striker:s-35",
       "ocr": {
         "text": "7 \\  e |       Sand Storm     To",
@@ -5145,7 +5145,7 @@
       "name": "dual talons",
       "assetno": "s-032",
       "isSummons": false,
-      "isLevelUp": false,
+      "isLevelUp": true,
       "pairKey": "prime:core:ridge-striker:s-31",
       "ocr": {
         "text": "> N cl     Oasis Clemency   Te",
@@ -5161,7 +5161,7 @@
       "name": "earthen armor",
       "assetno": "s-037",
       "isSummons": false,
-      "isLevelUp": false,
+      "isLevelUp": true,
       "pairKey": "prime:core:ridge-striker:s-37",
       "ocr": {
         "text": "#\\  \\ S| shifeea Sands | ©",
@@ -5177,7 +5177,7 @@
       "name": "enduring valley",
       "assetno": "s-034",
       "isSummons": false,
-      "isLevelUp": false,
+      "isLevelUp": true,
       "pairKey": "prime:core:ridge-striker:s-33",
       "ocr": {
         "text": "Ba Cl          Arid Valley       SF)",
@@ -5193,7 +5193,7 @@
       "name": "lent patience",
       "assetno": "s-030",
       "isSummons": false,
-      "isLevelUp": true,
+      "isLevelUp": false,
       "pairKey": "prime:core:ridge-striker:s-29",
       "ocr": {
         "text": "4 N Ra    Lent Strength   Te",
@@ -5209,7 +5209,7 @@
       "name": "lent strength",
       "assetno": "s-029",
       "isSummons": false,
-      "isLevelUp": true,
+      "isLevelUp": false,
       "pairKey": "prime:core:ridge-striker:s-29",
       "ocr": {
         "text": "7 x \\® 1           Lent Patience       SF)",
@@ -5225,7 +5225,7 @@
       "name": "oasis clemency",
       "assetno": "s-031",
       "isSummons": false,
-      "isLevelUp": false,
+      "isLevelUp": true,
       "pairKey": "prime:core:ridge-striker:s-31",
       "ocr": {
         "text": "> AN er       Dual Talons    Te",
@@ -5241,7 +5241,7 @@
       "name": "sand storm",
       "assetno": "s-036",
       "isSummons": false,
-      "isLevelUp": false,
+      "isLevelUp": true,
       "pairKey": "prime:core:ridge-striker:s-35",
       "ocr": {
         "text": "4 \\ ©] —  SE)",
@@ -5257,7 +5257,7 @@
       "name": "searching sands",
       "assetno": "s-027",
       "isSummons": false,
-      "isLevelUp": true,
+      "isLevelUp": false,
       "pairKey": "prime:core:ridge-striker:s-27",
       "ocr": {
         "text": "> \\ |    Venerated Friend  Te",
@@ -5273,7 +5273,7 @@
       "name": "shifted sands",
       "assetno": "s-038",
       "isSummons": false,
-      "isLevelUp": false,
+      "isLevelUp": true,
       "pairKey": "prime:core:ridge-striker:s-37",
       "ocr": {
         "text": "> \\ Ra      Earthen Armor    Te",
@@ -5289,7 +5289,7 @@
       "name": "tectonic clash",
       "assetno": "s-026",
       "isSummons": false,
-      "isLevelUp": true,
+      "isLevelUp": false,
       "pairKey": "prime:core:ridge-striker:s-25",
       "ocr": {
         "text": "ET Ts",
@@ -5305,7 +5305,7 @@
       "name": "venerated friend",
       "assetno": "s-028",
       "isSummons": false,
-      "isLevelUp": true,
+      "isLevelUp": false,
       "pairKey": "prime:core:ridge-striker:s-27",
       "ocr": {
         "text": "7 \\ ©]   —  To",
@@ -6281,7 +6281,7 @@
       "name": "biting cold",
       "assetno": "s-273",
       "isSummons": false,
-      "isLevelUp": true,
+      "isLevelUp": false,
       "pairKey": "prime:xulc:fountain-caller:s-273",
       "ocr": {
         "text": "D\\ al    Refreshing Chill    § ‘",
@@ -6297,7 +6297,7 @@
       "name": "call and response",
       "assetno": "s-270",
       "isSummons": false,
-      "isLevelUp": false,
+      "isLevelUp": true,
       "pairKey": "prime:xulc:fountain-caller:s-269",
       "ocr": {
         "text": "@\\ Cll Chilling Reminder Te",
@@ -6313,7 +6313,7 @@
       "name": "cherished friend",
       "assetno": "s-264",
       "isSummons": false,
-      "isLevelUp": false,
+      "isLevelUp": true,
       "pairKey": "prime:xulc:fountain-caller:s-263",
       "ocr": {
         "text": "@\\        .  cll          Freezing Spiral          B",
@@ -6329,7 +6329,7 @@
       "name": "chilling reminder",
       "assetno": "s-269",
       "isSummons": false,
-      "isLevelUp": false,
+      "isLevelUp": true,
       "pairKey": "prime:xulc:fountain-caller:s-269",
       "ocr": {
         "text": "\\           @ 1           Call and Response           o",
@@ -6345,7 +6345,7 @@
       "name": "cold shoulder",
       "assetno": "s-271",
       "isSummons": false,
-      "isLevelUp": false,
+      "isLevelUp": true,
       "pairKey": "prime:xulc:fountain-caller:s-271",
       "ocr": {
         "text": "@\\  e |  :   Surging Tides     I",
@@ -6361,7 +6361,7 @@
       "name": "desert blood",
       "assetno": "s-265",
       "isSummons": false,
-      "isLevelUp": true,
+      "isLevelUp": false,
       "pairKey": "prime:xulc:fountain-caller:s-265",
       "ocr": {
         "text": "\\ 71 Pure TIuids  I",
@@ -6377,7 +6377,7 @@
       "name": "freezing spiral",
       "assetno": "s-263",
       "isSummons": false,
-      "isLevelUp": false,
+      "isLevelUp": true,
       "pairKey": "prime:xulc:fountain-caller:s-263",
       "ocr": {
         "text": "@\\ | \"Cherished Friend  I",
@@ -6393,7 +6393,7 @@
       "name": "frozen wave",
       "assetno": "s-262",
       "isSummons": false,
-      "isLevelUp": true,
+      "isLevelUp": false,
       "pairKey": "prime:xulc:fountain-caller:s-261",
       "ocr": {
         "text": "Nar",
@@ -6441,7 +6441,7 @@
       "name": "oasis revival",
       "assetno": "s-261",
       "isSummons": false,
-      "isLevelUp": true,
+      "isLevelUp": false,
       "pairKey": "prime:xulc:fountain-caller:s-261",
       "ocr": {
         "text": "",
@@ -6457,7 +6457,7 @@
       "name": "pure fluids",
       "assetno": "s-266",
       "isSummons": false,
-      "isLevelUp": true,
+      "isLevelUp": false,
       "pairKey": "prime:xulc:fountain-caller:s-265",
       "ocr": {
         "text": "@\\    Tl             DesertBlood            ©",
@@ -6473,7 +6473,7 @@
       "name": "refreshing chill",
       "assetno": "s-274",
       "isSummons": false,
-      "isLevelUp": true,
+      "isLevelUp": false,
       "pairKey": "prime:xulc:fountain-caller:s-273",
       "ocr": {
         "text": "ANG      al »               Biting Cold  N               i ‘",
@@ -6521,7 +6521,7 @@
       "name": "subdued acrimony",
       "assetno": "s-268",
       "isSummons": false,
-      "isLevelUp": true,
+      "isLevelUp": false,
       "pairKey": "prime:xulc:fountain-caller:s-267",
       "ocr": {
         "text": "",
@@ -6537,7 +6537,7 @@
       "name": "sunlit basking",
       "assetno": "s-267",
       "isSummons": false,
-      "isLevelUp": true,
+      "isLevelUp": false,
       "pairKey": "prime:xulc:fountain-caller:s-267",
       "ocr": {
         "text": "\\     Ot bh)          Subdued uit         i ‘",
@@ -6553,7 +6553,7 @@
       "name": "surging tides",
       "assetno": "s-272",
       "isSummons": false,
-      "isLevelUp": false,
+      "isLevelUp": true,
       "pairKey": "prime:xulc:fountain-caller:s-271",
       "ocr": {
         "text": "@\\  \\ Q] —    I",
@@ -6793,7 +6793,7 @@
       "name": "calm skies",
       "assetno": "s-294",
       "isSummons": false,
-      "isLevelUp": true,
+      "isLevelUp": false,
       "pairKey": "prime:xulc:mistral:s-293",
       "ocr": {
         "text": "e\\  \\ a        Charged Air       BE",
@@ -6809,7 +6809,7 @@
       "name": "charged air",
       "assetno": "s-293",
       "isSummons": false,
-      "isLevelUp": true,
+      "isLevelUp": false,
       "pairKey": "prime:xulc:mistral:s-293",
       "ocr": {
         "text": "e\\ k a    Calm Skies    ©",
@@ -6825,7 +6825,7 @@
       "name": "cloud burst",
       "assetno": "s-291",
       "isSummons": false,
-      "isLevelUp": true,
+      "isLevelUp": false,
       "pairKey": "prime:xulc:mistral:s-291",
       "ocr": {
         "text": "e\\ |   Rolling Thunderstorm To",
@@ -6841,7 +6841,7 @@
       "name": "controlled gusts",
       "assetno": "s-300",
       "isSummons": false,
-      "isLevelUp": false,
+      "isLevelUp": true,
       "pairKey": "prime:xulc:mistral:s-299",
       "ocr": {
         "text": "€  \\  ©]  ~ a     ©",
@@ -6857,7 +6857,7 @@
       "name": "lightning strike",
       "assetno": "s-302",
       "isSummons": false,
-      "isLevelUp": false,
+      "isLevelUp": true,
       "pairKey": "prime:xulc:mistral:s-301",
       "ocr": {
         "text": "e\\  a |               Wind Break               ©",
@@ -6873,7 +6873,7 @@
       "name": "pressure shift",
       "assetno": "s-295",
       "isSummons": false,
-      "isLevelUp": false,
+      "isLevelUp": true,
       "pairKey": "prime:xulc:mistral:s-295",
       "ocr": {
         "text": "e\\  To 1          Wind Wall       To |",
@@ -6889,7 +6889,7 @@
       "name": "rolling thunderstorm",
       "assetno": "s-292",
       "isSummons": false,
-      "isLevelUp": true,
+      "isLevelUp": false,
       "pairKey": "prime:xulc:mistral:s-291",
       "ocr": {
         "text": "€ \\ Cl ——   To",
@@ -6905,7 +6905,7 @@
       "name": "sky soaring",
       "assetno": "s-297",
       "isSummons": false,
-      "isLevelUp": false,
+      "isLevelUp": true,
       "pairKey": "prime:xulc:mistral:s-297",
       "ocr": {
         "text": "e\\ © | * WindShear SE",
@@ -6921,7 +6921,7 @@
       "name": "tempering updraft",
       "assetno": "s-289",
       "isSummons": false,
-      "isLevelUp": true,
+      "isLevelUp": false,
       "pairKey": "prime:xulc:mistral:s-289",
       "ocr": {
         "text": "€ \\ |   Violent Hurricane  To",
@@ -6937,7 +6937,7 @@
       "name": "violent hurricane",
       "assetno": "s-290",
       "isSummons": false,
-      "isLevelUp": true,
+      "isLevelUp": false,
       "pairKey": "prime:xulc:mistral:s-289",
       "ocr": {
         "text": "€ \\ Cll _   ©",
@@ -6953,7 +6953,7 @@
       "name": "weather control",
       "assetno": "s-299",
       "isSummons": false,
-      "isLevelUp": false,
+      "isLevelUp": true,
       "pairKey": "prime:xulc:mistral:s-299",
       "ocr": {
         "text": "€ % \\  © |         Controlled Gusts         ©",
@@ -6969,7 +6969,7 @@
       "name": "wind break",
       "assetno": "s-301",
       "isSummons": false,
-      "isLevelUp": false,
+      "isLevelUp": true,
       "pairKey": "prime:xulc:mistral:s-301",
       "ocr": {
         "text": "e\\   \\  Ra       Lightning Strike       i 7",
@@ -6985,7 +6985,7 @@
       "name": "wind shear",
       "assetno": "s-298",
       "isSummons": false,
-      "isLevelUp": false,
+      "isLevelUp": true,
       "pairKey": "prime:xulc:mistral:s-297",
       "ocr": {
         "text": "NCI rary",
@@ -7001,7 +7001,7 @@
       "name": "wind wall",
       "assetno": "s-296",
       "isSummons": false,
-      "isLevelUp": false,
+      "isLevelUp": true,
       "pairKey": "prime:xulc:mistral:s-295",
       "ocr": {
         "text": "e\\    @ L              Pressure Shift              0",

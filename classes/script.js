@@ -106,6 +106,21 @@ const TAB_LABELS = {
   traits: 'Traits',
 };
 
+const FORCE_STARTING_PAIR_KEYS = new Set([
+  'base:core:sophist:s-169',
+  'base:core:flash:s-55',
+  'base:core:flash:s-59',
+  'base:core:flash:s-61',
+  'base:core:flash:s-63',
+  'base:core:flash:s-65',
+  'apex:core:aster:s-91',
+  'apex:core:aster:s-93',
+  'apex:core:aster:s-95',
+]);
+
+const FORCE_LEVELUP_PAIR_KEYS = new Set([
+]);
+
 const classList = document.getElementById('class-list');
 const classCount = document.getElementById('class-count');
 const classTitle = document.getElementById('class-title');
@@ -127,6 +142,7 @@ let classes = [];
 let classesBySlug = new Map();
 let activeClassSlug = null;
 let activeTab = 'cards';
+let pairOverlay = null;
 
 function applyRandomDesktopBackground() {
   const choice =
@@ -263,7 +279,8 @@ function buildCardsIndex(entries, metadata) {
     if (!match) return;
 
     const [, tier, set, slug] = match;
-    const dedupeKey = `${tier}:${set}:${slug}:${entry.image}`;
+    const classKey = `${tier}:${set}:${slug}`;
+    const dedupeKey = `${classKey}:${entry.image}`;
     if (seen.has(dedupeKey)) return;
     seen.add(dedupeKey);
 
@@ -278,6 +295,8 @@ function buildCardsIndex(entries, metadata) {
         : Boolean(card.asset && card.asset.prefix === 'a');
     card.isLevelUp = Boolean(metadataRow.isLevelUp);
     card.pairKey = metadataRow.pairKey || fallbackPairKey(card);
+    if (FORCE_STARTING_PAIR_KEYS.has(card.pairKey)) card.isLevelUp = false;
+    if (FORCE_LEVELUP_PAIR_KEYS.has(card.pairKey)) card.isLevelUp = true;
 
     index.get(key).push(card);
   });
@@ -498,6 +517,88 @@ function createCardFigure(card) {
   return node;
 }
 
+function ensurePairOverlay() {
+  if (pairOverlay) return pairOverlay;
+
+  const overlay = document.createElement('div');
+  overlay.className = 'pair-popover';
+  overlay.hidden = true;
+
+  const dialog = document.createElement('div');
+  dialog.className = 'pair-popover-dialog';
+
+  const header = document.createElement('div');
+  header.className = 'pair-popover-header';
+
+  const title = document.createElement('div');
+  title.className = 'pair-popover-title';
+  title.textContent = 'Front / Back';
+
+  const closeButton = document.createElement('button');
+  closeButton.type = 'button';
+  closeButton.className = 'pair-popover-close';
+  closeButton.textContent = 'Close';
+
+  const grid = document.createElement('div');
+  grid.className = 'pair-popover-grid';
+
+  header.append(title, closeButton);
+  dialog.append(header, grid);
+  overlay.append(dialog);
+  document.body.append(overlay);
+
+  const close = () => {
+    overlay.hidden = true;
+    document.body.classList.remove('pair-popover-open');
+    grid.innerHTML = '';
+  };
+
+  closeButton.addEventListener('click', close);
+  overlay.addEventListener('click', (event) => {
+    if (event.target === overlay) close();
+  });
+  document.addEventListener('keydown', (event) => {
+    if (event.key === 'Escape' && !overlay.hidden) close();
+  });
+
+  pairOverlay = { overlay, grid, close };
+  return pairOverlay;
+}
+
+function openPairOverlay(pairCards) {
+  const { overlay, grid } = ensurePairOverlay();
+  grid.innerHTML = '';
+
+  pairCards.forEach((card) => {
+    const item = document.createElement('figure');
+    item.className = 'pair-popover-item';
+    const img = document.createElement('img');
+    img.src = `../images/${card.imagePath}`;
+    img.alt = formatCardName(card.fileName);
+    img.loading = 'lazy';
+    const cap = document.createElement('figcaption');
+    cap.textContent = formatCardName(card.fileName);
+    item.append(img, cap);
+    grid.append(item);
+  });
+
+  overlay.hidden = false;
+  document.body.classList.add('pair-popover-open');
+}
+
+function attachPairPopover(pairNode, pairCards) {
+  if (pairCards.length !== 2) return;
+  if (!['cards', 'profileBoards'].includes(activeTab)) return;
+
+  pairNode.querySelectorAll('.card').forEach((cardNode) => {
+    cardNode.style.cursor = 'pointer';
+    cardNode.addEventListener('click', (event) => {
+      event.preventDefault();
+      openPairOverlay(pairCards);
+    });
+  });
+}
+
 function createPairGrid(cards) {
   const pairMap = new Map();
   cards.forEach((card) => {
@@ -518,6 +619,7 @@ function createPairGrid(cards) {
     const pair = document.createElement('div');
     pair.className = 'card-pair';
     pairCards.forEach((card) => pair.append(createCardFigure(card)));
+    attachPairPopover(pair, pairCards);
     grid.append(pair);
   });
 

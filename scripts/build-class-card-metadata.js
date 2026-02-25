@@ -78,9 +78,33 @@ const TARGET_CLASS_KEYS = new Set(
 const LEVEL_UP_PAIR_OVERRIDES = {
   forceStarting: new Set([
     'base:core:sophist:s-169', // confound <-> dance of rays
+    'base:core:flash:s-55', // alar <-> bolt
+    'base:core:flash:s-59', // eruption <-> tempest
+    'base:core:flash:s-61', // charge <-> kindle
+    'base:core:flash:s-63', // pulse <-> smolder
+    'base:core:flash:s-65', // attract <-> stoke
+    'apex:core:aster:s-91', // bulk interactions <-> warm bodies
+    'apex:core:aster:s-93', // coronal mass ejection <-> solar flare
+    'apex:core:aster:s-95', // heliosphere <-> ionization
   ]),
-  forceLevelUp: new Set([]),
+  forceLevelUp: new Set([
+  ]),
 };
+
+const INVERT_LEVELUP_CLASS_KEYS = new Set([
+  'base:core:dune-dancer',
+  'prime:core:ridge-striker',
+  'apex:core:canyon-temper',
+  'prime:xulc:fountain-caller',
+  'apex:xulc:wellspring-ewer',
+  'base:core:flash',
+  'prime:core:helion',
+  'apex:core:aster',
+  'prime:xulc:mistral',
+  'apex:xulc:tempest',
+]);
+
+const CLASS_LEVEL_RULE_OVERRIDES = {};
 
 function canonicalName(value) {
   return String(value || '')
@@ -205,7 +229,8 @@ function classifyLevelUpWithinClass(cards) {
     classPairs.get(key).push(card);
   }
 
-  for (const classPairs of byClass.values()) {
+  for (const [classKey, classPairs] of byClass.entries()) {
+    const classRule = CLASS_LEVEL_RULE_OVERRIDES[classKey] || {};
     const pairEntries = Array.from(classPairs.values()).map((pairCards) => ({
       pairCards,
       score: Math.max(...pairCards.map((card) => card.levelUpScore)),
@@ -223,11 +248,27 @@ function classifyLevelUpWithinClass(cards) {
       }
     }
 
-    if (splitIndex < 0 || bestGap < 0.018) continue;
+    let levelUpCandidates = [];
+    if (splitIndex >= 0 && bestGap >= 0.018) {
+      levelUpCandidates = sorted.slice(splitIndex + 1);
+      if (
+        levelUpCandidates.length < 1 ||
+        levelUpCandidates.length > Math.ceil(sorted.length * 0.6)
+      ) {
+        levelUpCandidates = [];
+      }
+    }
 
-    const levelUpCandidates = sorted.slice(splitIndex + 1);
-    if (levelUpCandidates.length < 1 || levelUpCandidates.length > Math.ceil(sorted.length * 0.6)) {
-      continue;
+    if (!levelUpCandidates.length && classRule.fallbackTopLevelPairs) {
+      const keep = Math.max(1, Math.min(sorted.length - 1, classRule.fallbackTopLevelPairs));
+      levelUpCandidates = sorted.slice(-keep);
+    }
+
+    if (!levelUpCandidates.length) continue;
+
+    if (classRule.invertDetectedCluster) {
+      const selected = new Set(levelUpCandidates);
+      levelUpCandidates = sorted.filter((entry) => !selected.has(entry));
     }
 
     for (const candidate of levelUpCandidates) {
@@ -239,11 +280,20 @@ function classifyLevelUpWithinClass(cards) {
 }
 
 function applyLevelUpOverrides(cards) {
+  const byClass = new Map();
   const byPair = new Map();
   cards.forEach((card) => {
+    if (!byClass.has(card.classKey)) byClass.set(card.classKey, []);
+    byClass.get(card.classKey).push(card);
     if (!byPair.has(card.pairKey)) byPair.set(card.pairKey, []);
     byPair.get(card.pairKey).push(card);
   });
+
+  for (const classKey of INVERT_LEVELUP_CLASS_KEYS) {
+    (byClass.get(classKey) || []).forEach((card) => {
+      if (!card.isSummons) card.isLevelUp = !card.isLevelUp;
+    });
+  }
 
   for (const key of LEVEL_UP_PAIR_OVERRIDES.forceStarting) {
     (byPair.get(key) || []).forEach((card) => {
