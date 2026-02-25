@@ -1,0 +1,151 @@
+:root {
+  color-scheme: dark;
+  font-family: Inter, system-ui, -apple-system, Segoe UI, sans-serif;
+  --bg: #0b1117;
+  --surface: #141b24;
+  --surface-2: #1a2330;
+  --border: #2a3647;
+  --text: #e8edf4;
+  --muted: #9eaec1;
+  --accent: #67b7ff;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  background: var(--bg);
+  color: var(--text);
+}
+
+.page-header {
+  padding: 1.5rem clamp(1rem, 3vw, 2rem);
+  border-bottom: 1px solid var(--border);
+}
+
+.page-header h1 {
+  margin: 0;
+  font-size: clamp(1.5rem, 2.5vw, 2rem);
+}
+
+.page-header p {
+  margin: 0.35rem 0 0;
+  color: var(--muted);
+}
+
+.layout {
+  display: grid;
+  grid-template-columns: 260px 1fr;
+  gap: 1rem;
+  padding: 1rem clamp(1rem, 3vw, 2rem) 2rem;
+}
+
+.class-nav,
+.cards-panel {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: 10px;
+}
+
+.class-nav {
+  padding: 1rem;
+  position: sticky;
+  top: 1rem;
+  align-self: start;
+}
+
+.class-nav h2 {
+  margin: 0 0 0.75rem;
+  font-size: 0.95rem;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: var(--muted);
+}
+
+.class-list {
+  display: grid;
+  gap: 0.45rem;
+}
+
+.class-link {
+  display: block;
+  color: var(--text);
+  text-decoration: none;
+  padding: 0.7rem 0.75rem;
+  border-radius: 8px;
+  border: 1px solid transparent;
+  background: transparent;
+}
+
+.class-link:hover {
+  background: var(--surface-2);
+}
+
+.class-link.active {
+  background: rgba(103, 183, 255, 0.16);
+  border-color: rgba(103, 183, 255, 0.5);
+  color: var(--accent);
+  font-weight: 600;
+}
+
+.cards-panel {
+  padding: 1rem;
+}
+
+.cards-header {
+  margin-bottom: 1rem;
+}
+
+.cards-header h2 {
+  margin: 0;
+}
+
+.cards-header p {
+  margin: 0.25rem 0 0;
+  color: var(--muted);
+}
+
+.cards-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+  gap: 0.85rem;
+}
+
+.card-item {
+  margin: 0;
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  background: var(--surface-2);
+  overflow: hidden;
+}
+
+.card-item img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.card-item p {
+  margin: 0;
+  padding: 0.6rem;
+  text-align: center;
+  font-size: 0.9rem;
+  color: var(--muted);
+}
+
+.error-message {
+  color: #ff9d9d;
+}
+
+@media (max-width: 900px) {
+  .layout {
+    grid-template-columns: 1fr;
+  }
+
+  .class-nav {
+    position: static;
+  }
+}

@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Rove Base Classes</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <header class="page-header">
+      <h1>Rove Base Classes</h1>
+      <p>Choose a class to view all of its cards.</p>
+    </header>
+
+    <main class="layout">
+      <aside class="class-nav" aria-label="Class folders">
+        <h2>Base Folder</h2>
+        <nav id="class-list" class="class-list" aria-label="Base classes"></nav>
+      </aside>
+
+      <section class="cards-panel" aria-live="polite">
+        <div class="cards-header">
+          <h2 id="class-title"></h2>
+          <p id="class-count"></p>
+        </div>
+        <div id="cards-grid" class="cards-grid"></div>
+      </section>
+    </main>
+
+    <template id="class-link-template">
+      <a class="class-link" href="#"></a>
+    </template>
+
+    <template id="card-template">
+      <article class="card-item">
+        <img loading="lazy" alt="" />
+        <p></p>
+      </article>
+    </template>
+
+    <script type="module" src="./script.js"></script>
+  </body>
+</html>
